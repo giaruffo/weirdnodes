@@ -145,7 +145,7 @@ def calculate_precision_at_k(g,top_nodes, k):
 # Test the function
 if __name__ == "__main__":
 
-    # Generate a random directed and weighted graph with NODES nodes
+    # Generate a random directed and weighted graph with Erdos-Renyi model
     g0 = nx.gnm_random_graph(n=num_nodes, m=num_links, directed=True)
 
     for u, v, d in g0.edges(data=True):
