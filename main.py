@@ -4,9 +4,10 @@ import pandas as pd
 from config import *
 from scipy.stats import spearmanr, kendalltau
 import csv
-from temporalNetGenerator import perturb_network_by_nodes, perturb_network_by_links, calculate_precision_at_k
-from createRankings import  plot_ranked_nodes_comparison, rank_nodes_by_centrality
-from concordanceCheck import concordanceCheck
+from net_perturbation import perturb_network_by_nodes, perturb_network_by_links
+from create_rankings import  plot_ranked_nodes_comparison, rank_nodes_by_centrality
+from concordance_check import concordance_check
+from evaluation import precision_at_k, recall_at_k, avg_precision_at_k, mean_average_precision_at_k
 
 # Test the library
 if __name__ == "__main__":
@@ -64,13 +65,13 @@ if __name__ == "__main__":
         correlations[measure]['g1_g2'] = {}
         correlations[measure]['g2_g3'] = {}
 
-        correlations[measure]['g0_g1']['kendallSignal'], correlations[measure]['g0_g1']['kendall'] = concordanceCheck(ranked_nodes[measure]['g0'], ranked_nodes[measure]['g1'])
-        correlations[measure]['g1_g2']['kendallSignal'], correlations[measure]['g1_g2']['kendall'] = concordanceCheck(ranked_nodes[measure]['g1'], ranked_nodes[measure]['g2'])
-        correlations[measure]['g2_g3']['kendallSignal'], correlations[measure]['g2_g3']['kendall'] = concordanceCheck(ranked_nodes[measure]['g2'], ranked_nodes[measure]['g3'])
+        correlations[measure]['g0_g1']['kendallSignal'], correlations[measure]['g0_g1']['kendall'] = concordance_check(ranked_nodes[measure]['g0'], ranked_nodes[measure]['g1'])
+        correlations[measure]['g1_g2']['kendallSignal'], correlations[measure]['g1_g2']['kendall'] = concordance_check(ranked_nodes[measure]['g1'], ranked_nodes[measure]['g2'])
+        correlations[measure]['g2_g3']['kendallSignal'], correlations[measure]['g2_g3']['kendall'] = concordance_check(ranked_nodes[measure]['g2'], ranked_nodes[measure]['g3'])
 
-        correlations[measure]['g0_g1']['spearmanSignal'], correlations[measure]['g0_g1']['spearman'] = concordanceCheck(ranked_nodes[measure]['g0'], ranked_nodes[measure]['g1'], spearmanr)
-        correlations[measure]['g1_g2']['spearmanSignal'], correlations[measure]['g1_g2']['spearman'] = concordanceCheck(ranked_nodes[measure]['g1'], ranked_nodes[measure]['g2'], spearmanr)
-        correlations[measure]['g2_g3']['spearmanSignal'], correlations[measure]['g2_g3']['spearman'] = concordanceCheck(ranked_nodes[measure]['g2'], ranked_nodes[measure]['g3'], spearmanr)
+        correlations[measure]['g0_g1']['spearmanSignal'], correlations[measure]['g0_g1']['spearman'] = concordance_check(ranked_nodes[measure]['g0'], ranked_nodes[measure]['g1'], spearmanr)
+        correlations[measure]['g1_g2']['spearmanSignal'], correlations[measure]['g1_g2']['spearman'] = concordance_check(ranked_nodes[measure]['g1'], ranked_nodes[measure]['g2'], spearmanr)
+        correlations[measure]['g2_g3']['spearmanSignal'], correlations[measure]['g2_g3']['spearman'] = concordance_check(ranked_nodes[measure]['g2'], ranked_nodes[measure]['g3'], spearmanr)
 
         print(f"Correlation coefficients for **{measure}** centrality measure:")
         print(f"Spearman correlation between g0 and g1: {correlations[measure]['g0_g1']['spearman']:.4f}, Signal: {correlations[measure]['g0_g1']['spearmanSignal']}")
@@ -134,13 +135,24 @@ if __name__ == "__main__":
                     residual = abs(g0_ranks.index(node) - g1_ranks.index(node))
                 residuals.append((node, residual))
             residuals.sort(key=lambda x: x[1], reverse=True)
-            top_nodes[f'g{i-1}_g{i}'] = residuals[:10]
-            print(f"Top 10 nodes with the highest residual between ranks in g{i-1} and g{i} for **{measure}**: {top_nodes[f'g{i-1}_g{i}']}")
+            top_nodes[f'g{i-1}_g{i}'] = residuals[:30]
+            print(f"Top 30 nodes with the highest residual between ranks in g{i-1} and g{i} for **{measure}**: {top_nodes[f'g{i-1}_g{i}']}")
 
-            # for each pair of consecutive graphs, and for each centrality measure, calculate the precision@1, precision@2, precision@3, precision@4, precision@5, precision@6, precision@7, precision@8, precision@9, precision@10, considering the type of the nodes, and print the results
-            for j in range(1, 11):
-                precision = calculate_precision_at_k(globals()[f'g{i}'], top_nodes[f'g{i-1}_g{i}'], j)
+            # for each pair of consecutive graphs, and for each centrality measure, calculate the 
+            # precision@1, precision@2, precision@5, precision@10, precision@20, precision@30 
+            # considering the type of the nodes, and print the results
+            for j in (1, 2, 5, 10, 20, 30):
+                precision = precision_at_k(globals()[f'g{i}'], top_nodes[f'g{i-1}_g{i}'], j)
+                recall = recall_at_k(globals()[f'g{i}'], top_nodes[f'g{i-1}_g{i}'], j)
                 print(f"Precision@{j}: {precision}")
+            print()
+
+            # for each pair of consecutive graphs, and for each centrality measure, calculate the 
+            # recall@10, recall@20, recall@30 
+            # considering the type of the nodes, and print the results
+            for j in (10, 20, 30):
+                recall = recall_at_k(globals()[f'g{i}'], top_nodes[f'g{i-1}_g{i}'], j)
+                print(f"Recall@{j}: {precision}")
             print()
     
     # store in a csv file in the working directory the top nodes, using the pair of consecutive graphs as the columns and 
@@ -155,11 +167,17 @@ if __name__ == "__main__":
                     writer.writerow([pair, node, globals()[pair.split('_')[1]].nodes[node]['type'], residual])
         f.close()
         # store in a csv file in the working directory the precision@k values, using the pair of consecutive graphs as the columns and  the k values as the rows    
-        with open(os.path.join(WORKING_DIRECTORY, f'{measure}_precision_at_k.csv'), 'w') as f:
+        with open(os.path.join(WORKING_DIRECTORY, f'{measure}_evaluation.csv'), 'w') as f:
             writer = csv.writer(f)
-            writer.writerow(['Pair of consecutive graphs', 'Precision@1', 'Precision@2', 'Precision@3', 'Precision@4', 'Precision@5', 'Precision@6', 'Precision@7', 'Precision@8', 'Precision@9', 'Precision@10'])
+            writer.writerow(['Pair of consecutive graphs', 
+                             'P@1', 'P@2', 'P@5', 'P@10', 'P@20', 'P@30', 
+                             'avg P@10', 'avg P@20', 'avg P@30',
+                             'R@10', 'R@20', 'R@30', 
+                             ])
             for pair in top_nodes:
-                precisions = [calculate_precision_at_k(globals()[pair.split('_')[1]], top_nodes[pair], k) for k in range(1, 11)]
-                writer.writerow([pair] + precisions)
+                precisions = [precision_at_k(globals()[pair.split('_')[1]], top_nodes[pair], k) for k in (1, 2, 5, 10, 20, 30)]
+                avg_precisions = [avg_precision_at_k(globals()[pair.split('_')[1]], top_nodes[pair], k) for k in (10, 20, 30)]
+                recalls = [recall_at_k(globals()[pair.split('_')[1]], top_nodes[pair], k) for k in (10, 20, 30)]
+                writer.writerow([pair] + precisions+avg_precisions+recalls)
             print(f'Finished writing {measure}_precision_at_k.csv')
         f.close()

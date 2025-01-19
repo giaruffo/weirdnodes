@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import os
 import networkx as nx
 import pandas as pd
+from config import WORKING_DIRECTORY, TOP_K  # Import working_directory and TOP_K from config.py
 
 def rank_nodes_by_centrality(g, centrality_measure):
     """
@@ -56,66 +57,95 @@ def rank_nodes_by_centrality(g, centrality_measure):
     centrality_series = pd.Series(centrality)
 
     # Rank nodes by centrality using pandas rank function
-    ranked_nodes = centrality_series.rank(ascending=False, method='min').sort_values().index.tolist()
-    return ranked_nodes
+    # rank = centrality_series.rank(ascending=False, method='first').sort_values().index.tolist()
+    rank = centrality_series.rank(ascending=False, method='min')
+    return rank
 
 def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     """
-    Plots a comparison of node rankings from two different lists.
-
+    Plots a comparison of ranked nodes from two ranking lists and highlights specific node types.
     Parameters:
-    g (networkx.Graph): The graph containing the nodes to be ranked.
+    g (networkx.Graph): The graph containing the nodes to be plotted.
     ranks1 (list): The first list of node rankings.
     ranks2 (list): The second list of node rankings.
     title (str): The title of the plot.
-
-    The function generates a scatter plot where each node is represented by a point.
-    The x-coordinate of the point corresponds to the node's rank in the first list,
-    and the y-coordinate corresponds to the node's rank in the second list.
-    Nodes of different types ('vulcano', 'black_hole', 'ghost', 'mushroom', 'normal') are colored differently.
-    The size of each point is proportional to the absolute difference between the node's ranks in the two lists.
-    A bisect line is drawn to help visualize the ranking differences.
-    The plot is saved as a PNG file with the given title.
+    Returns:
+    list: A list of tuples containing the top K nodes with the highest absolute residuals and their residual values.
+    The function performs the following steps:
+    1. Initializes lists for x and y coordinates, colors, sizes, texts, markers, and residuals.
+    2. Iterates through the nodes in the graph and assigns coordinates, colors, texts, and markers based on node types.
+    3. Calculates residuals for the nodes and adjusts marker sizes for better visualization.
+    4. Creates a dictionary of nodes and their residuals, sorts it by the absolute value of the residuals, and selects the top K nodes.
+    5. Changes the marker shape for the top K nodes based on the sign of their residuals.
+    6. Plots the 'normal' nodes first, followed by the specific node types on top.
+    7. Adds text labels for non-'normal' nodes.
+    8. Draws a bisect line, sets plot labels and title, and saves the plot as a PNG file.
+    Note:
+    - The variable TOP_K should be defined globally.
+    - The variable WORKING_DIRECTORY should be defined globally.
     """
+    
     plt.clf()
     x = []
     y = []
     colors = []
     sizes = []
     texts = []
+    markers = []
+    residuals = []
 
     for node in g.nodes:
-        x.append(ranks1.index(node) + 1)
-        y.append(ranks2.index(node) + 1)
+        x.append(ranks2[node] + 1)
+        y.append(ranks1[node] + 1)
         node_type = g.nodes[node].get('type', 'normal')
         if node_type == 'vulcano':
             colors.append('red')
-            texts.append((ranks1.index(node) + 1, ranks2.index(node) + 1, str(node)))
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
         elif node_type == 'black_hole':
             colors.append('black')
-            texts.append((ranks1.index(node) + 1, ranks2.index(node) + 1, str(node)))
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
         elif node_type == 'ghost':
             colors.append('blue')
-            texts.append((ranks1.index(node) + 1, ranks2.index(node) + 1, str(node)))
-        elif node_type == 'normal':
-            colors.append('green')
-            texts.append((ranks1.index(node) + 1, ranks2.index(node) + 1, str(node)))
+            texts.append((ranks2[node] + 1, ranks1.index(node) + 1, str(node)))
+        elif node_type == 'mushroom':
+            colors.append('brown')
+            texts.append((ranks2.index(node) + 1, ranks1[node] + 1, str(node)))
         else:
             colors.append('cyan')
-        residual = abs((ranks1.index(node) + 1) - (ranks2.index(node) + 1))
-        sizes.append(residual * 5)  # Adjust the multiplier for better visualization
+
+        # calculate the residuals for the nodes
+        residual = (ranks1[node] + 1) - (ranks2[node] + 1)
+        residuals.append(residual)
+        sizes.append(abs(residual) * 5)  # Adjust the multiplier for better visualization
+        markers.append('o')
+
+    # create a dictionary with the nodes and their residuals
+    residuals_dict = dict(zip(g.nodes, residuals))
+    # sort the dictionary by the absolute value of the residuals
+    nodes_sorted_by_residuals = sorted(residuals_dict.items(), key=lambda x: abs(x[1]), reverse=True)
+
+    # get the TOP_K nodes and their residuals with the highest absolute value of the residuals
+    top_k_nodes = nodes_sorted_by_residuals[:TOP_K]
+
+    # change the marker shape for the top_k_nodes to the triangle up when the residual is positive 
+    # and to the triangle down when the residual is negative
+    for outlier in top_k_nodes:        
+        if outlier[1] > 0:
+            markers[outlier[0]]= '^'
+        else:
+            markers[outlier[0]]= 'v'
 
     # Plot 'normal' nodes first
     for i in range(len(x)):
-        if colors[i] == 'cyan':
-            plt.scatter(x[i], y[i], c=colors[i], s=sizes[i], alpha=0.5)
+        if  markers[i] == 'o':
+            plt.scatter(x[i], y[i], c=colors[i], marker=markers[i], s=sizes[i], alpha=0.3)
 
     # Plot 'black_hole', 'vulcano', 'mushroom', and 'ghost' nodes on top
     for i in range(len(x)):
-        if colors[i] != 'cyan':
-            plt.scatter(x[i], y[i], c=colors[i], s=sizes[i], alpha=0.5)
+        if markers[i] != 'o':
+            plt.scatter(x[i], y[i], c=colors[i], marker=markers[i], s=sizes[i], alpha=0.8)
 
-    # Add text labels for 'black_hole' and 'vulcano' nodes
+    # Add text labels for not 'normal' nodes
     for text in texts:
         plt.text(text[0], text[1], text[2], fontsize=9, ha='right')
 
@@ -124,6 +154,7 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     plt.ylabel('Rank in second list')
     plt.title(title)
     
-    from config import WORKING_DIRECTORY  # Import working_directory from config.py
     plt.savefig(os.path.join(WORKING_DIRECTORY, title + '.png'))
     # plt.show()
+
+    return top_k_nodes

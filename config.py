@@ -26,16 +26,19 @@ CENTRALITY_MEASURES = ["degree", "strength", "betweenness", "closeness", "eigenv
 MIN_WEIGHT = .1
 
 # Set the min and max fractions of outgoing edges to be perturbed
-OUT_EDGE_MIN_FACTOR, OUT_EDGE_MAX_FACTOR = 0.1, 0.5
+OUT_EDGE_MIN_FACTOR, OUT_EDGE_MAX_FACTOR = 0.5, 1
 
 # Set the min and max fractions of incoming edges to be perturbed
-IN_EDGE_MIN_FACTOR, IN_EDGE_MAX_FACTOR = 0.1, 0.5
+IN_EDGE_MIN_FACTOR, IN_EDGE_MAX_FACTOR = 0.5, 1
 
 # set the min and max factors to decrease the links' weights of ghost nodes 
 GHOST_MIN_FACTOR, GHOST_MAX_FACTOR  = 0.5, 1
 
 # set the min and max factors to increase the links' weights of mushroom nodes
 MUSHROOM_MIN_FACTOR, MUSHROOM_MAX_FACTOR = 5, 10
+
+# set the top k nodes to be returned in the outlier identification task 
+TOP_K = 30
 
 # set the categories of an enum type for the strength signal of concordande of two ranks
 class ConcordanceSignal:
@@ -55,5 +58,6 @@ with open(config_file_path, "w") as config_file:
     config_file.write(f"Number of Links: {NUM_LINKS}\n")
     config_file.write(f"Degree Sequence: {DEGREE_SEQUENCE}\n")
     config_file.write(f"Number of Nodes to Perturb: {NUM_NODES_TO_PERTURB}\n")
-
+    config_file.write(f"Top K: {TOP_K}\n")
+    
 print(f"Configuration initialized and saved to {config_file_path}")

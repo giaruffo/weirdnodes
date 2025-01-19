@@ -7,7 +7,7 @@ from scipy.stats import spearmanr, kendalltau
 # Options for the correlation function are: spearman, kendall's tau and custom
 
 from typing import List, Tuple, Callable
-def concordanceCheck(rank1: List[float], rank2: List[float], correlation_func: Callable[[List[float], List[float]], Tuple[float, float]] = kendalltau) -> Tuple[ConcordanceSignal, float]:
+def concordance_check(rank1: List[float], rank2: List[float], correlation_func: Callable[[List[float], List[float]], Tuple[float, float]] = kendalltau) -> Tuple[ConcordanceSignal, float]:
     """
     Checks if the two ranks passed as arguments are 'stable' or not, returning a ConcordanceSignal and a value of the correlation.
     

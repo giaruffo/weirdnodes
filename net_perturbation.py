@@ -30,8 +30,15 @@ def perturb_network_by_nodes(g0, n):
     if n > len(g1.nodes):
         raise ValueError("n is greater than the number of nodes in the graph")
 
-    # Select n random nodes to perturb
-    nodes_to_perturb = random.sample(list(g1.nodes), n)
+    # Select eligible nodes to be perturbed: nodes with indegree > 2 and outdegree > 2
+    eligible_nodes = [node for node in g1.nodes if g1.in_degree(node) > 2 and g1.out_degree(node) > 2]
+    
+    # Ensure there are enough eligible nodes to perturb
+    if len(eligible_nodes) < n:
+        raise ValueError("Not enough nodes with indegree > 2 and outdegree > 2 to perturb")
+    
+    # Select n random nodes to perturb from eligible nodes
+    nodes_to_perturb = random.sample(eligible_nodes, n)
 
     # Initialize nodes' types as 'normal'
     for node in g1.nodes:
@@ -41,6 +48,7 @@ def perturb_network_by_nodes(g0, n):
         if random.random() < 0.5:
             # Rewire outgoing links
             out_edges = list(g1.out_edges(node, data=True))
+
             num_out_edges_to_perturb = int(len(out_edges) * random.uniform(OUT_EDGE_MIN_FACTOR, OUT_EDGE_MAX_FACTOR))
             out_edges_to_perturb = random.sample(out_edges, num_out_edges_to_perturb)
             for edge in out_edges_to_perturb:
@@ -54,6 +62,8 @@ def perturb_network_by_nodes(g0, n):
             # Rewire incoming links
             in_edges = list(g1.in_edges(node, data=True))
             num_in_edges_to_perturb = int(len(in_edges) * random.uniform(IN_EDGE_MIN_FACTOR, IN_EDGE_MAX_FACTOR))
+            if num_in_edges_to_perturb < 1:
+                num_in_edges_to_perturb = 1
             in_edges_to_perturb = random.sample(in_edges, num_in_edges_to_perturb)
             for edge in in_edges_to_perturb:
                 g1.remove_edge(*edge[:2])
@@ -123,30 +133,51 @@ def perturb_network_by_links(g0, n):
             
     return g1
 
-
-def plot_graph(g, title):
-    pos = nx.spring_layout(g)
-    weights = nx.get_edge_attributes(g, 'weight').values()
-    nx.draw(g, pos, with_labels=True, node_size=500, node_color="skyblue", edge_color="gray", width=[weight / max(weights) for weight in weights])
-    plt.title(title)
-    plt.show()
-
-def calculate_precision_at_k(g,top_nodes, k):
+def plot_graphs_comparison(g0, g1):
     """
-    Calculate the precision at k for a given graph and a list of top nodes.
+    Plot the original and perturbed graphs side by side.
 
-    Precision at k is defined as the number of relevant nodes in the top k nodes
-    divided by k. A node is considered relevant if its 'type' attribute is not 'normal'.
+    Parameters:
+    g0 (networkx.Graph): The original graph.
+    g1 (networkx.Graph): The perturbed graph.
 
-    Args:
-        g (networkx.Graph): The graph containing the nodes.
-        top_nodes (list): A list of tuples where each tuple contains a node and its score.
-        k (int): The number of top nodes to consider.
+    The function will plot the two graphs side by side using a spring layout
+    computed from the original graph. Nodes are colored based on their 'type'
+    attribute, with the following color scheme:
+        - 'normal': cyan
+        - 'black_hole': black
+        - 'vulcano': red
+        - 'mushroom': brown
+        - 'ghost': blue
 
-    Returns:
-        float: The precision at k, which is the ratio of relevant nodes in the top k nodes.
+    The resulting plot is saved as 'graph_comparison.png' in the working directory.
     """
-    relevant_nodes = [node for node, _ in top_nodes[:k] if g.nodes[node]['type'] != 'normal']
-    return len(relevant_nodes) / k
+    # Plot the original and perturbed graphs side by side
+    pos = nx.spring_layout(g0)  # Compute layout for g0 and use it for g1
+    pos = nx.circular_layout(g0)  # Compute circular layout for g0 and use it for g1
+    plt.figure(figsize=(12, 6))
 
+    # Define color maps for node types
+    color_map_g1 = []
+    for node in g1.nodes:
+        if g1.nodes[node]['type'] == 'normal':
+            color_map_g1.append('cyan')
+        elif g1.nodes[node]['type'] == 'black_hole':
+            color_map_g1.append('black')
+        elif g1.nodes[node]['type'] == 'vulcano':
+            color_map_g1.append('red')
+        elif g1.nodes[node]['type'] == 'mushroom':
+            color_map_g1.append('brown')
+        elif g1.nodes[node]['type'] == 'ghost':
+            color_map_g1.append('blue')
 
+    plt.subplot(121)
+    nx.draw(g0, pos, with_labels=True, node_size=500, font_size=10, node_color='cyan', edgecolors='black')
+    plt.title('Original Graph')
+
+    plt.subplot(122)
+    nx.draw(g1, pos, with_labels=True, node_size=500, font_size=10, node_color=color_map_g1, edgecolors='black')
+    plt.title('Perturbed Graph')
+
+    plt.savefig(os.path.join(WORKING_DIRECTORY, 'graph_comparison.png'))
+    plt.close()
