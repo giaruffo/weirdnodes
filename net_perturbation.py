@@ -160,6 +160,7 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     if len(centralities0) != len(g0.nodes) or len(centralities1) != len(g1.nodes):
         raise ValueError("Length of centralities tuple does not match the number of nodes in the graphs.")
 
+    plt.clf()
     # Plot the original and perturbed graphs side by side
     pos = nx.spring_layout(g0)  # Compute layout for g0 and use it for g1
 

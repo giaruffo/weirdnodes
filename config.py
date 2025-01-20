@@ -22,7 +22,8 @@ DEGREE_SEQUENCE = [random.randint(1, 10) for _ in range(NUM_NODES)]
 NUM_NODES_TO_PERTURB = 10
 
 # Add a list of centrality measures to be calculated
-CENTRALITY_MEASURES = ["degree"]
+CENTRALITY_MEASURES = ["degree", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
+                       "indegree", "outdegree"]
 # CENTRALITY_MEASURES = ["degree", "strength", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
 #                       "indegree", "outdegree", "instrength", "outstrength"]
 

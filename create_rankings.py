@@ -39,9 +39,9 @@ def rank_nodes_by_centrality(g, centrality_measure):
     elif centrality_measure == 'hits_authorities':
         centrality = nx.hits(g)[1]
     elif centrality_measure == 'indegree':
-        centrality = dict(g.in_degree())
+        centrality = dict(nx.in_degree_centrality(g))
     elif centrality_measure == 'outdegree':
-        centrality = dict(g.out_degree())
+        centrality = dict(nx.out_degree_centrality(g))
     elif centrality_measure == 'instrength':
         centrality = dict(g.in_degree(weight='weight'))
     elif centrality_measure == 'outstrength':
