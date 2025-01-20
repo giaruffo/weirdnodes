@@ -18,7 +18,7 @@ def rank_nodes_by_centrality(g, centrality_measure):
 
     Returns:
     list: A Series object containing the centrality values of the nodes, ranked in descending order.
-    
+
     Raises:
     ValueError: If an unsupported centrality measure is provided.
     """
@@ -49,17 +49,55 @@ def rank_nodes_by_centrality(g, centrality_measure):
     else:
         raise ValueError(f"Unsupported centrality measure: {centrality_measure}")
 
-    # for each node, store the calculated centrality value as a node attribute
-    for node in g.nodes:
-        g.nodes[node][centrality_measure] = centrality[node]
-
     # Convert centrality dictionary to a pandas Series
     centrality_series = pd.Series(centrality)
 
     # Rank nodes by centrality using pandas rank function
     # rank = centrality_series.rank(ascending=False, method='first').sort_values().index.tolist()
     rank = centrality_series.rank(ascending=False, method='min')
+
+    # for each node, store the calculated centrality value as a node attribute
+    for node in g.nodes:
+        g.nodes[node][centrality_measure] = centrality[node]
+        g.nodes[node][centrality_measure + '_rank'] = rank[node]
+
     return rank
+
+# create a function to store in a csv file the nodes' lists, their types, their centrality measures, and for 
+# each centrality measure, the ranks of the nodes in the graph.
+# To be noted that each node in the graph has  
+# - a type attribute, which can be either 'normal' or other types like indicating an anomaly created on purpose
+# - a centrality measure attribute, which can be any of the supported centrality measures
+# - a rank attribute, which is the rank of the node in the graph for the given centrality measure
+def store_nodes_ranks(g, graph_name, centrality_measures):
+    """
+    Store the nodes' lists, their types, their centrality measures, and their ranks in a CSV file.
+    Parameters:
+    g (networkx.Graph): The graph containing the nodes to be ranked.
+    graph_name (str): The name of the graph.
+    centrality_measures (list): A list of centrality measures to be used for ranking.
+    Returns:
+    None
+    """
+    # create a pandas data frame to store the nodes' lists, their types, their centrality measures, and their ranks
+    df = pd.DataFrame(index=g.nodes)
+    df['type'] = [g.nodes[node].get('type', 'normal') for node in g.nodes]
+    df['deg'] = [g.degree(node) for node in g.nodes]
+    df['indeg'] = [g.in_degree(node) for node in g.nodes]
+    df['outdeg'] = [g.out_degree(node) for node in g.nodes]
+    df['stre'] = [g.degree(node, weight='weight') for node in g.nodes]
+    df['instre'] = [g.in_degree(node, weight='weight') for node in g.nodes]
+    df['outstre'] = [g.out_degree(node, weight='weight') for node in g.nodes]
+    
+    for centrality_measure in centrality_measures:
+        # calculate the centrality measure for each node
+        df[centrality_measure] = [g.nodes[node].get(centrality_measure) for node in g.nodes]
+        df[centrality_measure + '_rank'] = [g.nodes[node].get(centrality_measure + '_rank') for node in g.nodes]  
+
+    df.reset_index(inplace=True)
+    df.rename(columns={'index': 'node_id'}, inplace=True)
+    df.to_csv(os.path.join(WORKING_DIRECTORY+'/graphs', f'{graph_name}_attributes.csv'), index=False)
+
 
 def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     """
@@ -154,7 +192,7 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     plt.ylabel('Rank in second list')
     plt.title(title)
     
-    plt.savefig(os.path.join(WORKING_DIRECTORY, title + '.png'))
+    plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', 'rankcomparison_by'+title + '.png'))
     # plt.show()
 
     return top_k_nodes

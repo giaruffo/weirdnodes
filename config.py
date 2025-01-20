@@ -5,7 +5,10 @@ import random
 # Initialize the working directory where output files are stored
 WORKING_DIRECTORY = os.path.join(os.getcwd(), datetime.now().strftime("%Y%m%d_%H%M%S"))
 os.makedirs(WORKING_DIRECTORY, exist_ok=True)
-
+os.makedirs(WORKING_DIRECTORY+'/plots', exist_ok=True)
+os.makedirs(WORKING_DIRECTORY+'/graphs', exist_ok=True)
+os.makedirs(WORKING_DIRECTORY+'/rank_correlations', exist_ok=True)
+os.makedirs(WORKING_DIRECTORY+'/evaluation_results', exist_ok=True)
 # Number of nodes in the original graph
 NUM_NODES = 200
 
@@ -19,8 +22,9 @@ DEGREE_SEQUENCE = [random.randint(1, 10) for _ in range(NUM_NODES)]
 NUM_NODES_TO_PERTURB = 10
 
 # Add a list of centrality measures to be calculated
-CENTRALITY_MEASURES = ["degree", "strength", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
-                       "indegree", "outdegree", "instrength", "outstrength"]
+CENTRALITY_MEASURES = ["degree"]
+# CENTRALITY_MEASURES = ["degree", "strength", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
+#                       "indegree", "outdegree", "instrength", "outstrength"]
 
 # Set the minimum weight for the links
 MIN_WEIGHT = .1

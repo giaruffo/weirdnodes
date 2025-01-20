@@ -7,11 +7,8 @@ import evaluation as ev
 import matplotlib.pyplot as plt
 import os
 import networkx as nx
-import numpy as np
 import random
-import pandas as pd
 import networkx as nx
-import numpy as np
 from scipy.stats import spearmanr
 from config import *
 
@@ -23,59 +20,44 @@ if __name__ == "__main__":
     for u, v, d in g0.edges(data=True):
         d['weight'] = random.gauss(5.0, 2.0)  # Example: Gaussian distribution with mean=5.0 and std=2.0
        
-    # Define perturbation parameters
-    n = NUM_NODES_TO_PERTURB  # Number of nodes to perturb
+    # Create the perturbation by nodes 
+    print("Perturbing the network by nodes...")
+    g1 = nper.perturb_network_by_nodes(g0, NUM_NODES_TO_PERTURB)
+    
+    print("-----------------------------------")
 
-    # Create the perturbation by nodes three times
-    g1 = nper.perturb_network_by_nodes(g0, n)
-    print("First node-based perturbation done.")
+    # set the centrality measures to be calculated
+    centrality_measure = 'degree'
 
     # show the differences between the two graphs
-    print("Graph 0 and Graph 1 differences:")
-    print(nx.difference(g0, g1).edges(data=True))
+    # print("Graph 0 and Graph 1 differences:")
+    # print(nx.difference(g0, g1).edges(data=True))
 
-    # Rank nodes by centrality using the degree measure
-    # and store the results in a dictionary
+    # rank the nodes by the given centrality
+    print(f"Calculating {centrality_measure}, and ranking nodes accordingly...")
+    cr.rank_nodes_by_centrality(g0, centrality_measure)
+    cr.rank_nodes_by_centrality(g1, centrality_measure)
+
+    # store the ranks of the nodes in a dictionary for both graphs
     ranks = {}
-    ranks['g0'] = cr.rank_nodes_by_centrality(g0, 'degree')
-    ranks['g1'] = cr.rank_nodes_by_centrality(g1, 'degree')
+    ranks['g0'] = [g0.nodes[i][f'{centrality_measure}_rank'] for i in g0.nodes()]
+    ranks['g1'] = [g1.nodes[i][f'{centrality_measure}_rank'] for i in g1.nodes()]
 
-    # store the degree sequence of the graphs 
-    degree_g0 = g0.nodes(data='degree')
-    degree_g1 = g1.nodes(data='degree')
+    # store the centrality sequence of the graphs 
+    centralities_g0 = g0.nodes(data=centrality_measure)
+    centralities_g1 = g1.nodes(data=centrality_measure)
 
     # plot graphs with the same layout and save them to files
-    nper.plot_graphs_comparison(g0, g1, degree_g0, degree_g1, 'degree')
-
-    # store graphs in files in the working directory as defined in config.py
-    nx.write_gml(g0, os.path.join(WORKING_DIRECTORY, 'g0.gml'))
-    nx.write_gml(g1, os.path.join(WORKING_DIRECTORY, 'g1.gml'))
-
-    # store nodes ranks in files in the working directory as defined in config.py as csv files
-    # Create a DataFrame to store the centrality measures and their ranks for each node
-    for graph_name in ['g0', 'g1']:
-        df = pd.DataFrame(index=g0.nodes)
-        df['type'] = [globals()[graph_name].nodes[node].get('type', 'normal') for node in globals()[graph_name].nodes]
-        df['degree'] = [globals()[graph_name].degree(node) for node in globals()[graph_name].nodes]
-        df['indegree'] = [globals()[graph_name].in_degree(node) for node in globals()[graph_name].nodes]
-        df['outdegree'] = [globals()[graph_name].out_degree(node) for node in globals()[graph_name].nodes]
-        df['degree_centrality'] = [globals()[graph_name].nodes[node] for node in globals()[graph_name].nodes]
-        df['degree_rank'] = ranks[graph_name]
-        df.reset_index(inplace=True)
-        df.rename(columns={'index': 'node_id'}, inplace=True)
-        df.to_csv(os.path.join(WORKING_DIRECTORY, f'{graph_name}_degree.csv'), index=False)
+    print("Plotting graphs...")
+    nper.plot_graphs_comparison(g0, g1, centralities_g0, centralities_g1, centrality_measure)
 
     # Calculate the concordance between the two rankings
+    print(f"Calculating concordance between the two rankings (by {centrality_measure})...")
     kendallSignal, kendall = cc.concordance_check(ranks['g0'], ranks['g1'])
-    print(kendallSignal)
-    print(kendall)
-
     spearmanSignal, spearman = cc.concordance_check(ranks['g0'], ranks['g1'], spearmanr)
-    print(spearmanSignal)
-    print(spearman)
 
     # store the concordance results in a file in the working directory as defined in config.py
-    concordance_file_path = os.path.join(WORKING_DIRECTORY, "concordance.txt")
+    concordance_file_path = os.path.join(WORKING_DIRECTORY+f'/rank_correlations', f"concordance_by{centrality_measure}.txt")
     with open(concordance_file_path, "w") as f:
         f.write(f"Kendall's tau: {kendall}\n")
         f.write(f"Spearman's rho: {spearman}\n")
@@ -84,10 +66,13 @@ if __name__ == "__main__":
 
     # plot the ranked nodes comparison and get the top k nodes sorted by the 
     # absolute value of the residuals of the ranks
-    top_k_nodes = cr.plot_ranked_nodes_comparison(g1, ranks['g0'], ranks['g1'], 'degree')
+    print(f"Plotting ranked nodes (by {centrality_measure}) comparison...")
+    top_k_nodes = cr.plot_ranked_nodes_comparison(g1, ranks['g0'], ranks['g1'], centrality_measure)
 
     # store the top k nodes in a file in the working directory as defined in config.py
-    top_k_nodes_file_path = os.path.join(WORKING_DIRECTORY, "top_k_nodes.txt")
+    strategy = f'sorting_by{centrality_measure}_rankresiduals'
+    print(f"Storing top k nodes (sorted by {centrality_measure}'s ranks residuals) in a file...")
+    top_k_nodes_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"topknodes_{centrality_measure}based.txt")
     with open(top_k_nodes_file_path, "w") as f:
         f.write(f"Top {TOP_K} nodes sorted by the absolute value of the residuals of the ranks:\n")
         for node in top_k_nodes:
@@ -97,6 +82,7 @@ if __name__ == "__main__":
     
     # calculate precision, recall, average precision and mean average precision at k, for k = 1,..., 30
     # using function in evaluation.py
+    print(f"Calculating evaluation results (strategy: {strategy})...")
     precisions = []
     recalls = []   
     avg_precisions = []
@@ -104,17 +90,18 @@ if __name__ == "__main__":
         precision = ev.precision_at_k(g1, top_k_nodes[:i], i)
         recall = ev.recall_at_k(g1, top_k_nodes[:i], i)
         average_precision = ev.avg_precision_at_k(g1, top_k_nodes[:i], i)
-        print(f"P@{i}: {precision}")
-        print(f"R@{i}: {recall}")
-        print(f"avg P@{i}: {average_precision}")
+        # print(f"P@{i}: {precision}")
+        # print(f"R@{i}: {recall}")
+        # print(f"avg P@{i}: {average_precision}")
         precisions.append(precision)
         recalls.append(recall)
         avg_precisions.append(average_precision)
 
     # store the results in a file in the working directory as defined in config.py
-    precision_at_k_file_path = os.path.join(WORKING_DIRECTORY, "precision_at_k.txt")
-    recall_at_k_file_path = os.path.join(WORKING_DIRECTORY, "recall_at_k.txt")
-    avg_precision_at_k_file_path = os.path.join(WORKING_DIRECTORY, "avg_precision_at_k.txt")
+    print(f"Storing evaluation results (by {centrality_measure}) in files...")
+    precision_at_k_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"precision_at_k_{centrality_measure}based.txt")
+    recall_at_k_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"recall_at_k_{centrality_measure}based.txt")
+    avg_precision_at_k_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"avg_precision_at_k_{centrality_measure}based.txt")
     with open(precision_at_k_file_path, "w") as f:
         f.write("Precision at k:\n")
         for i in range(1, 31):
@@ -135,9 +122,20 @@ if __name__ == "__main__":
     plt.xlabel('k')
     
     plt.legend()
-    plt.savefig(os.path.join(WORKING_DIRECTORY, 'evaluation.png'))
+    plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', f'evaluation_by{centrality_measure}.png'))
     plt.close()
 
+    print("-----------------------------------")
+
+    # store graphs in files in the working directory as defined in config.py
+    print("Storing graphs in gml files...")
+    nx.write_gml(g0, os.path.join(WORKING_DIRECTORY+'/graphs', 'g0.gml'))
+    nx.write_gml(g1, os.path.join(WORKING_DIRECTORY+'/graphs', 'g1.gml'))
+
+    # store nodes ranks and other attributes in files in the working directory as defined in config.py as csv files
+    print("Storing nodes ranks and other attributes in csv files...")
+    for graph_name in ['g0', 'g1']:
+        cr.store_nodes_ranks(globals()[graph_name], graph_name, CENTRALITY_MEASURES)
 
     
 

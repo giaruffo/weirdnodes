@@ -194,5 +194,5 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     nx.draw(g1, pos, with_labels=True, node_size=node_sizes_g1, font_size=10, node_color=color_map_g1, edge_color='lightgray', alpha=0.5)
     plt.title(f'Perturbed Graph - nodes resized by: {centrality_str}')
 
-    plt.savefig(os.path.join(WORKING_DIRECTORY, f'graph_comparison_{centrality_str}.png'))
+    plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', f'graphcomparison_by{centrality_str}.png'))
     plt.close()
