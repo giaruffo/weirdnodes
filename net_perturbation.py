@@ -133,13 +133,16 @@ def perturb_network_by_links(g0, n):
             
     return g1
 
-def plot_graphs_comparison(g0, g1):
+def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str = 'degree'):
     """
     Plot the original and perturbed graphs side by side.
 
     Parameters:
     g0 (networkx.Graph): The original graph.
     g1 (networkx.Graph): The perturbed graph.
+    centralities0 (tuple): A tuple containing the centrality values to use for ranking the nodes in g0.
+    centralities1 (tuple): A tuple containing the centrality values to use for ranking the nodes in g1.
+    centrality_str (str): The name of the centrality measure used for ranking the nodes.
 
     The function will plot the two graphs side by side using a spring layout
     computed from the original graph. Nodes are colored based on their 'type'
@@ -152,9 +155,16 @@ def plot_graphs_comparison(g0, g1):
 
     The resulting plot is saved as 'graph_comparison.png' in the working directory.
     """
+
+    # raise an error if the centralities tuple's length is not equal to number of nodes
+    if len(centralities0) != len(g0.nodes) or len(centralities1) != len(g1.nodes):
+        raise ValueError("Length of centralities tuple does not match the number of nodes in the graphs.")
+
     # Plot the original and perturbed graphs side by side
     pos = nx.spring_layout(g0)  # Compute layout for g0 and use it for g1
-    pos = nx.circular_layout(g0)  # Compute circular layout for g0 and use it for g1
+
+    # Adjust positions to avoid overlapping nodes
+    pos = nx.spring_layout(g0, k=0.15, iterations=20)
     plt.figure(figsize=(12, 6))
 
     # Define color maps for node types
@@ -172,12 +182,17 @@ def plot_graphs_comparison(g0, g1):
             color_map_g1.append('blue')
 
     plt.subplot(121)
-    nx.draw(g0, pos, with_labels=True, node_size=500, font_size=10, node_color='cyan', edgecolors='black')
-    plt.title('Original Graph')
+    # Resize nodes based on centralities
+    node_sizes_g0 = [centralities0[node] * 1000 for node in g0.nodes]
+    node_sizes_g1 = [centralities1[node] * 1000 for node in g1.nodes]
+
+    plt.subplot(121)
+    nx.draw(g0, pos, with_labels=True, node_size=node_sizes_g0, font_size=10, node_color='cyan', edge_color='lightgray', alpha=0.5)
+    plt.title(f'Original Graph - nodes resized by: {centrality_str}')
 
     plt.subplot(122)
-    nx.draw(g1, pos, with_labels=True, node_size=500, font_size=10, node_color=color_map_g1, edgecolors='black')
-    plt.title('Perturbed Graph')
+    nx.draw(g1, pos, with_labels=True, node_size=node_sizes_g1, font_size=10, node_color=color_map_g1, edge_color='lightgray', alpha=0.5)
+    plt.title(f'Perturbed Graph - nodes resized by: {centrality_str}')
 
-    plt.savefig(os.path.join(WORKING_DIRECTORY, 'graph_comparison.png'))
+    plt.savefig(os.path.join(WORKING_DIRECTORY, f'graph_comparison_{centrality_str}.png'))
     plt.close()

@@ -17,8 +17,8 @@ def rank_nodes_by_centrality(g, centrality_measure):
                               'indegree', 'outdegree', 'instrength', and 'outstrength'.
 
     Returns:
-    list: A list of nodes ranked by the specified centrality measure in descending order.
-
+    list: A Series object containing the centrality values of the nodes, ranked in descending order.
+    
     Raises:
     ValueError: If an unsupported centrality measure is provided.
     """

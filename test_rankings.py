@@ -40,19 +40,12 @@ if __name__ == "__main__":
     ranks['g0'] = cr.rank_nodes_by_centrality(g0, 'degree')
     ranks['g1'] = cr.rank_nodes_by_centrality(g1, 'degree')
 
-    # print degree sequences  
-    print("Degree sequence of g0:")
-    print([d for _, d in g0.degree()])
-    print("Degree sequence of g1:")
-    print([d for _, d in g1.degree()])
-
-    # print ranked nodes
-    print("Ranked nodes by degree:")
-    print(ranks['g0'])
-    print(ranks['g1'])
+    # store the degree sequence of the graphs 
+    degree_g0 = g0.nodes(data='degree')
+    degree_g1 = g1.nodes(data='degree')
 
     # plot graphs with the same layout and save them to files
-    nper.plot_graphs_comparison(g0, g1)
+    nper.plot_graphs_comparison(g0, g1, degree_g0, degree_g1, 'degree')
 
     # store graphs in files in the working directory as defined in config.py
     nx.write_gml(g0, os.path.join(WORKING_DIRECTORY, 'g0.gml'))
@@ -96,7 +89,7 @@ if __name__ == "__main__":
     # store the top k nodes in a file in the working directory as defined in config.py
     top_k_nodes_file_path = os.path.join(WORKING_DIRECTORY, "top_k_nodes.txt")
     with open(top_k_nodes_file_path, "w") as f:
-        f.write("Top k nodes sorted by the absolute value of the residuals of the ranks:\n")
+        f.write(f"Top {TOP_K} nodes sorted by the absolute value of the residuals of the ranks:\n")
         for node in top_k_nodes:
             f.write(f"{node}\t")
             # write node type to file
@@ -107,7 +100,7 @@ if __name__ == "__main__":
     precisions = []
     recalls = []   
     avg_precisions = []
-    for i in range(1, 31):
+    for i in range(1, TOP_K+1):
         precision = ev.precision_at_k(g1, top_k_nodes[:i], i)
         recall = ev.recall_at_k(g1, top_k_nodes[:i], i)
         average_precision = ev.avg_precision_at_k(g1, top_k_nodes[:i], i)
@@ -136,9 +129,9 @@ if __name__ == "__main__":
             f.write(f"avg P@{i}: {avg_precisions[i-1]}\n")
     # plot the results
     plt.clf()
-    plt.plot(range(1, 31), precisions, label='Precision at k')
-    plt.plot(range(1, 31), recalls, label='Recall at k')
-    plt.plot(range(1, 31), avg_precisions, label='Average precision at k')
+    plt.plot(range(1, TOP_K+1), precisions, label='Precision at k')
+    plt.plot(range(1, TOP_K+1), recalls, label='Recall at k')
+    plt.plot(range(1, TOP_K+1), avg_precisions, label='Average precision at k')
     plt.xlabel('k')
     
     plt.legend()
