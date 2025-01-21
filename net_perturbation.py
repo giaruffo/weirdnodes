@@ -20,8 +20,10 @@ def perturb_network_by_nodes(g0, n):
     Notes:
     - Each selected node will either have its outgoing or incoming edges rewired.
     - Nodes are assigned a type 'normal', 'black_hole', or 'vulcano' based on the perturbation.
-    - 'black_hole' nodes have their outgoing edges rewired.
-    - 'vulcano' nodes have their incoming edges rewired.
+    - 'black_hole' nodes will have a significant increase in the transaction activity, 
+        and a significant reduction of outgoing transactions.
+    - 'vulcano' nodes will have a significant decrease in the number of incoming transactions, 
+        and a significant increase of outgoing transactions.
     """
     # Create a copy of g0 to perturb
     g1 = g0.copy()
@@ -46,33 +48,53 @@ def perturb_network_by_nodes(g0, n):
 
     for node in nodes_to_perturb:
         if random.random() < 0.5:
-            # Rewire outgoing links
+            # Selected node will be a 'black_hole'
+            g1.nodes[node]['type'] = 'black_hole'
+            # Rewire a significant portion of outgoing links
             out_edges = list(g1.out_edges(node, data=True))
-
-            num_out_edges_to_perturb = int(len(out_edges) * random.uniform(OUT_EDGE_MIN_FACTOR, OUT_EDGE_MAX_FACTOR))
-            out_edges_to_perturb = random.sample(out_edges, num_out_edges_to_perturb)
-            for edge in out_edges_to_perturb:
+            # Perturb a fraction of the outgoing edges
+            num_out_edges_to_rewire = int(len(out_edges) * random.uniform(EDGE_MIN_FRACTION, EDGE_MAX_FRACTION))
+            out_edges_to_rewire = random.sample(out_edges, num_out_edges_to_rewire)
+            for edge in out_edges_to_rewire:
                 g1.remove_edge(*edge[:2])
                 new_source = random.choice(list(g1.nodes))
                 while new_source == node:
                     new_source = random.choice(list(g1.nodes))
                 g1.add_edge(new_source, edge[1], weight=edge[2]['weight'])
+            
+            # Add a significant factor of incoming links
+            in_edges = list(g1.in_edges(node, data=True))
+            num_in_edges_to_add = int(len(in_edges) * random.uniform(EDGE_MIN_FACTOR, EDGE_MAX_FACTOR))
+            for _ in range(num_in_edges_to_add):
+                new_source = random.choice(list(g1.nodes))
+                while new_source == node:
+                    new_source = random.choice(list(g1.nodes))
+                g1.add_edge(new_source, node, weight=abs(RANDOM_FUNCTION(MEAN, STD_DEV))) # Add a random weight to the new edge 
+       
+            # Set the node type to 'black_hole'
             g1.nodes[node]['type'] = 'black_hole'
         else:
-            # Rewire incoming links
-            in_edges = list(g1.in_edges(node, data=True))
-            num_in_edges_to_perturb = int(len(in_edges) * random.uniform(IN_EDGE_MIN_FACTOR, IN_EDGE_MAX_FACTOR))
-            if num_in_edges_to_perturb < 1:
-                num_in_edges_to_perturb = 1
-            in_edges_to_perturb = random.sample(in_edges, num_in_edges_to_perturb)
-            for edge in in_edges_to_perturb:
-                g1.remove_edge(*edge[:2])
+            # Selected node will be a 'vulcano'
+            g1.nodes[node]['type'] = 'vulcano'
+            # Rewire a significant portion of incoming links
+            if len(list(g1.in_edges(node))) > 0:
+                in_edges = list(g1.in_edges(node, data=True))
+                num_in_edges_to_rewire = int(len(in_edges) * random.uniform(EDGE_MIN_FRACTION, EDGE_MAX_FRACTION))
+                in_edges_to_rewire = random.sample(in_edges, num_in_edges_to_rewire)
+                for edge in in_edges_to_rewire:
+                    g1.remove_edge(*edge[:2])
+                    new_target = random.choice(list(g1.nodes))
+                    while new_target == node:
+                        new_target = random.choice(list(g1.nodes))
+                    g1.add_edge(edge[0], new_target, weight=edge[2]['weight'])
+            # Add a significant factor of outgoing links
+            out_edges = list(g1.out_edges(node, data=True))
+            num_out_edges_to_add = int(len(out_edges) * random.uniform(EDGE_MIN_FACTOR, EDGE_MAX_FACTOR))
+            for _ in range(num_out_edges_to_add):
                 new_target = random.choice(list(g1.nodes))
                 while new_target == node:
                     new_target = random.choice(list(g1.nodes))
-                g1.add_edge(edge[0], new_target, weight=edge[2]['weight'])
-            g1.nodes[node]['type'] = 'vulcano'
-
+                g1.add_edge(node, new_target, weight=abs(RANDOM_FUNCTION(MEAN, STD_DEV))) # Add a random weight to the new edge
     return g1
 
 def perturb_network_by_links(g0, n):

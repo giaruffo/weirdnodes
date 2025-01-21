@@ -10,37 +10,42 @@ os.makedirs(WORKING_DIRECTORY+'/graphs', exist_ok=True)
 os.makedirs(WORKING_DIRECTORY+'/rank_correlations', exist_ok=True)
 os.makedirs(WORKING_DIRECTORY+'/evaluation_results', exist_ok=True)
 # Number of nodes in the original graph
-NUM_NODES = 200
+NUM_NODES = 212
 
 # Number of links in the original graph
-NUM_LINKS = 3000
+NUM_LINKS = 2885
 
 # Degree sequence for setting up the configuration model to create a random graph
 DEGREE_SEQUENCE = [random.randint(1, 10) for _ in range(NUM_NODES)]
+
+# Set the random function to be used for generating the weights of the links
+RANDOM_FUNCTION = random.gauss
+# Set the mean and standard deviation for the random function
+MEAN, STD_DEV = 100, 1000
 
 # Number of nodes to be perturbated
 NUM_NODES_TO_PERTURB = 10
 
 # Add a list of centrality measures to be calculated
-CENTRALITY_MEASURES = ["degree", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
-                       "indegree", "outdegree"]
+CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "betweenness", "closeness", "eigenvector", "hits_hubs", "hits_authorities", "pagerank"]
+# CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities"]
 # CENTRALITY_MEASURES = ["degree", "strength", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
 #                       "indegree", "outdegree", "instrength", "outstrength"]
 
 # Set the minimum weight for the links
 MIN_WEIGHT = .1
 
-# Set the min and max fractions of outgoing edges to be perturbed
-OUT_EDGE_MIN_FACTOR, OUT_EDGE_MAX_FACTOR = 0.5, 1
+# Set the min and max fractions to significantly decrease incoming or outgoing edges of a node to be perturbed
+EDGE_MIN_FRACTION, EDGE_MAX_FRACTION = 0.5, 1
 
-# Set the min and max fractions of incoming edges to be perturbed
-IN_EDGE_MIN_FACTOR, IN_EDGE_MAX_FACTOR = 0.5, 1
+# Set the min and max factors to significantly increase incoming or outgoing edges of a node to be perturbed
+EDGE_MIN_FACTOR, EDGE_MAX_FACTOR = 0.5, 1
 
 # set the min and max factors to decrease the links' weights of ghost nodes 
-GHOST_MIN_FACTOR, GHOST_MAX_FACTOR  = 0.5, 1
+GHOSTING_LINK_MIN_FRACTION, GHOSTING_LINK_MAX_FRACTION  = 0.5, 1
 
 # set the min and max factors to increase the links' weights of mushroom nodes
-MUSHROOM_MIN_FACTOR, MUSHROOM_MAX_FACTOR = 5, 10
+MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR = 5, 10
 
 # set the top k nodes to be returned in the outlier identification task 
 TOP_K = 30
