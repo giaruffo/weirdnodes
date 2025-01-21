@@ -1,3 +1,5 @@
 /.DS_Store
 /__pycache__
 old_main.py
+pickles/bic_degree_weights.pkl
+pickles/country_degree_weights.pkl
