@@ -2,10 +2,10 @@
 """
 This script performs the following tasks:
 1. Generates a random directed and weighted graph using the Erdos-Renyi 
-2. Perturbs some nodes of the generated network, creating 'vulcanoes', and 'black_holes'.
+2. Perturbates some nodes of the generated network, creating 'vulcanoes', and 'black_holes'.
 3. Calculates and ranks nodes by various centrality measures.
 4. Plots and compares the graphs based on centrality measures.
-5. Calculates concordance between the rankings of the original and perturbed graphs.
+5. Calculates concordance between the rankings of the original and perturbated graphs.
 6. Stores the concordance results in a file.
 7. Plots the ranked nodes comparison and identifies the top k nodes based on rank residuals.
 8. Stores the top k nodes in a file.
@@ -30,12 +30,12 @@ Used external modules:
 Configuration:
 - NUM_NODES: Number of nodes in the graph.
 - NUM_LINKS: Number of links in the graph.
-- NUM_NODES_TO_PERTURB: Number of nodes to perturb in the graph.
+- NUM_NODES_TO_PERTURBATE: Number of nodes to perturbate in the graph.
 - CENTRALITY_MEASURES: List of centrality measures to be calculated.
 - WORKING_DIRECTORY: Directory to store the results.
 - TOP_K: Number of top nodes to consider for evaluation.
 Functions:
-- perturb_network_by_nodes: Perturbs the network by nodes.
+- perturbate_network_by_nodes: Perturbates the network by nodes.
 - rank_nodes_by_centrality: Ranks nodes by the given centrality measure.
 - plot_graphs_comparison: Plots and compares the graphs based on centrality measures.
 - concordance_check: Calculates concordance between the rankings.
@@ -66,8 +66,8 @@ if __name__ == "__main__":
         d['weight'] = abs(RANDOM_FUNCTION(MEAN, STD_DEV))  # select random weights from a the distribution set in config.py
        
     # Create the perturbation by nodes 
-    print("Perturbing the network by nodes...")
-    g1 = nper.perturb_network_by_nodes(g0, NUM_NODES_TO_PERTURB)
+    print("Perturbating the network by nodes...")
+    g1 = nper.perturbate_network_by_nodes(g0, NUM_NODES_TO_PERTURBATE)
     
     print("-----------------------------------")
 

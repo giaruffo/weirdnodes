@@ -144,10 +144,19 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
             texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
         elif node_type == 'ghost':
             colors.append('blue')
-            texts.append((ranks2[node] + 1, ranks1.index(node) + 1, str(node)))
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
         elif node_type == 'mushroom':
             colors.append('brown')
-            texts.append((ranks2.index(node) + 1, ranks1[node] + 1, str(node)))
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
+        elif node_type == 'indirect_source':
+            colors.append('orange')
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
+        elif node_type == 'indirect_target':
+            colors.append('green')
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
+        elif node_type == 'intermediary':
+            colors.append('purple')
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
         else:
             colors.append('cyan')
 

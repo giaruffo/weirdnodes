@@ -1,0 +1,23 @@
+Graph 0: Number of nodes: 212, Number of links: 2885
+Graph 1: Number of nodes: 212, Number of links: 2885
+Graph 0: Min, Max, Avg, Std of degree: 17, 40, 27.21698113207547, 4.677333373858446
+Graph 1: Min, Max, Avg, Std of degree: 17, 40, 27.21698113207547, 4.677333373858446
+Graph 0: Min, Max, Avg, Std of in_degree: 5, 23, 13.608490566037736, 3.465806501052992
+Graph 1: Min, Max, Avg, Std of in_degree: 5, 23, 13.608490566037736, 3.465806501052992
+Graph 0: Min, Max, Avg, Std of out_degree: 4, 23, 13.608490566037736, 3.4535357305758154
+Graph 1: Min, Max, Avg, Std of out_degree: 4, 23, 13.608490566037736, 3.4535357305758154
+Graph 0: Min, Max, Avg, Std of strength: 6107.105468982805, 37145.94069281791, 22160.874613805645, 5295.9780414896395
+Graph 1: Min, Max, Avg, Std of strength: 6107.105468982805, 55517.96071723858, 22488.470504582576, 5975.512554060121
+Graph 0: Min, Max, Avg, Std of in_strength: 1946.5716405697779, 22652.40341628465, 11080.437306902817, 3877.99457405143
+Graph 1: Min, Max, Avg, Std of in_strength: 1946.5716405697779, 46276.0344141921, 11244.235252291284, 4561.089626503893
+Graph 0: Min, Max, Avg, Std of out_strength: 2680.9712170336943, 21105.11238900986, 11080.437306902826, 3624.81224167342
+Graph 1: Min, Max, Avg, Std of out_strength: 2680.9712170336943, 45654.20553631839, 11244.235252291293, 4323.956115632607
+Graph 1: Min, Max, Avg, Std of edges' weights: (0.005226569415356153, 38065.46217529978, 826.2661606536408, 936.8335572631108)
+Graph 0: Average clustering: 0.06293225751997975
+Graph 1: Average clustering: 0.06293225751997975
+Graph 0: Average shortest path length: 2.328087275328624
+Graph 1: Average shortest path length: 2.328087275328624
+Graph 0: Diameter: 4
+Graph 1: Diameter: 4
+Graph 0: Density: 0.06449521595278548
+Graph 1: Density: 0.06449521595278548

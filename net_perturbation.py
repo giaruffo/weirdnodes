@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 from config import *
 
-def perturb_network_by_nodes(g0, n):
+def perturbate_network_by_nodes(g0, n):
     """
     Perturbs a given network by rewiring the edges of n randomly selected nodes.
 
@@ -32,27 +32,27 @@ def perturb_network_by_nodes(g0, n):
     if n > len(g1.nodes):
         raise ValueError("n is greater than the number of nodes in the graph")
 
-    # Select eligible nodes to be perturbed: nodes with indegree > 2 and outdegree > 2
+    # Select eligible nodes to be perturbated: nodes with indegree > 2 and outdegree > 2
     eligible_nodes = [node for node in g1.nodes if g1.in_degree(node) > 2 and g1.out_degree(node) > 2]
     
-    # Ensure there are enough eligible nodes to perturb
+    # Ensure there are enough eligible nodes to perturbate
     if len(eligible_nodes) < n:
-        raise ValueError("Not enough nodes with indegree > 2 and outdegree > 2 to perturb")
+        raise ValueError("Not enough nodes with indegree > 2 and outdegree > 2 to perturbate")
     
-    # Select n random nodes to perturb from eligible nodes
-    nodes_to_perturb = random.sample(eligible_nodes, n)
+    # Select n random nodes to perturbate from eligible nodes
+    nodes_to_perturbate = random.sample(eligible_nodes, n)
 
     # Initialize nodes' types as 'normal'
     for node in g1.nodes:
         g1.nodes[node]['type'] = 'normal'
 
-    for node in nodes_to_perturb:
+    for node in nodes_to_perturbate:
         if random.random() < 0.5:
             # Selected node will be a 'black_hole'
             g1.nodes[node]['type'] = 'black_hole'
             # Rewire a significant portion of outgoing links
             out_edges = list(g1.out_edges(node, data=True))
-            # Perturb a fraction of the outgoing edges
+            # Perturbate a fraction of the outgoing edges
             num_out_edges_to_rewire = int(len(out_edges) * random.uniform(EDGE_MIN_FRACTION, EDGE_MAX_FRACTION))
             out_edges_to_rewire = random.sample(out_edges, num_out_edges_to_rewire)
             for edge in out_edges_to_rewire:
@@ -97,21 +97,23 @@ def perturb_network_by_nodes(g0, n):
                 g1.add_edge(node, new_target, weight=abs(RANDOM_FUNCTION(MEAN, STD_DEV))) # Add a random weight to the new edge
     return g1
 
-def perturb_network_by_links(g0, n):
+def perturbate_network_by_links(g0, n):
     """
-    Perturbs a given network by modifying the weights of a specified number of edges.
+    Perturbates a given network by modifying the weights of a specified number of edges.
     Parameters:
-    g0 (networkx.Graph): The original graph to be perturbed.
-    n (int): The number of edges to perturb.
+    g0 (networkx.Graph): The original graph to be perturbated.
+    n (int): The number of edges to perturbate.
     Returns:
-    networkx.Graph: A new graph with perturbed edges.
+    networkx.Graph: A new graph with perturbated edges.
     Raises:
     ValueError: If n is greater than the number of edges in the graph.
     Notes:
     - Each node in the graph is initialized with a 'type' attribute set to 'normal'.
-    - For each selected edge, there is a 50% chance to perturb it as a 'ghost' link or a 'mushroom' link.
-    - 'Ghost' link: The weight of the edge is reduced by a random factor between 0.5 and 1, and the source and target nodes' types are set to 'ghost'.
-    - 'Mushroom' link: The weight of the edge is increased by a random factor between 5 and 10, and the source and target nodes' types are set to 'mushroom'.
+    - For each selected edge, there is a 50% chance to perturbate it as a 'ghost' link or a 'mushroom' link.
+    - 'Ghost' link: The weight of the edge is reduced of a random fraction between GHOSTING_LINK_MIN_FRACTION and 
+        GHOSTING_LINK_MAX_FRACTION, and the source and target nodes' types are set to 'ghost'.
+    - 'Mushroom' link: The weight of the edge is increased by a random factor between MUSHROOM_LINK_MIN_FACTOR and 
+        MUSHROOM_LINK_MAX_FACTOR, and the source and target nodes' types are set to 'mushroom'.
     - If an edge's weight is non-positive, it is either replaced with another random edge or set to a minimum weight value of 0.1.
     """
     g1 = g0.copy()
@@ -120,48 +122,97 @@ def perturb_network_by_links(g0, n):
     if n > len(g1.edges):
         raise ValueError("n is greater than the number of edges in the graph")
     
-    # Select n random links to perturb
-    edges_to_perturb = random.sample(list(g1.edges), n)
+    # Select n random links to perturbate
+    edges_to_perturbate = random.sample(list(g1.edges), n)
 
     # Initialize nodes' types as 'normal'
     for node in g1.nodes:
         g1.nodes[node]['type'] = 'normal'
 
-    for edge in edges_to_perturb:
+    for edge in edges_to_perturbate:
         if random.random() < 0.5:
-            # Our link perturbation strategy is to simulating a ghost link
+            # Our link perturbation strategy is to simulating a GHOST link
             # Change  source and the target nodes' types 
-            if g1[edge[0]][edge[1]]['weight'] <= 0:
-                # add another random edge to edges_to_perturb and continue
-                new_edge = random.choice(list(g1.edges))   
-                while new_edge in edges_to_perturb:
-                    new_edge = random.choice(list(g1.edges))
-                edges_to_perturb.append(new_edge)
-                edges_to_perturb.remove(edge)
-                continue
-            # Perturb the weight of the edge, reducing it by a random factor between GHOST_MIN_FACTOR and GHOST_MAX_FACTOR
-            g1[edge[0]][edge[1]]['weight'] *= random.uniform(GHOST_MIN_FACTOR, GHOST_MAX_FACTOR)
             g1.nodes[edge[0]]['type'] = 'ghost'
             g1.nodes[edge[1]]['type'] = 'ghost'
+            # Check if the edge's weight is non-positive
+            if g1[edge[0]][edge[1]]['weight'] <= 0:
+                # add another random edge to edges_to_perturbate and continue
+                new_edge = random.choice(list(g1.edges))   
+                while new_edge in edges_to_perturbate:
+                    new_edge = random.choice(list(g1.edges))
+                edges_to_perturbate.append(new_edge)
+                edges_to_perturbate.remove(edge)
+                continue
+            # Perturbates the weight of the edge, multiplying it by a random fraction between 
+            # GHOSTING_LINK_MIN_FRACTION and GHOSTING_LINK_MAX_FRACTION
+            g1[edge[0]][edge[1]]['weight'] *= random.uniform(GHOSTING_LINK_MIN_FRACTION, GHOSTING_LINK_MAX_FRACTION)
+
         else:
-            # Our link perturbation strategy is to simulating a mushroom link
+            # Our link perturbation strategy is to simulating a MUSHROOM link
             # Change  source and the target nodes' types
             if g1[edge[0]][edge[1]]['weight'] <= 0:
                 g1[edge[0]][edge[1]]['weight'] = MIN_WEIGHT  # Set a minimum weight value
-            # Perturb the weight of the edge, increasing it by a random factor between MUSHROOM_MIN_FACTOR and MUSHROOM_MAX_FACTOR
+            # Perturbate the weight of the edge, increasing it by a random factor between 
+            # MUSHROOM_LINK_MIN_FACTOR and MUSHROOM_LINK_MAX_FACTOR
             g1.nodes[edge[0]]['type'] = 'mushroom'
             g1.nodes[edge[1]]['type'] = 'mushroom'
-            g1[edge[0]][edge[1]]['weight'] *= random.uniform(MUSHROOM_MIN_FACTOR, MUSHROOM_MAX_FACTOR)
-            
+            g1[edge[0]][edge[1]]['weight'] *= random.uniform(MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR)         
+    return g1
+
+# Create a function to perturbate the network selecting a random number of links to remove, 
+# and for each removed link, we select a random number of nodes to be used as new intermediary nodes between 
+# the source and target nodes.
+def perturbate_network_with_intermediary_nodes(g, num_links_to_remove, num_intermediary_nodes):
+    """
+    Perturbates a given network by removing a specified number of links and adding intermediary nodes between the source and target nodes.
+    Parameters:
+    g (networkx.Graph): The input graph to be perturbated.
+    num_links_to_remove (int): The number of links to remove from the graph.
+    num_intermediary_nodes (int): The number of intermediary nodes to add between the source and target nodes of the removed links.
+    Returns:
+    networkx.Graph: A new graph with the specified perturbations applied.
+    Raises:
+    ValueError: If the number of links to remove is greater than the number of edges in the graph.
+    ValueError: If the number of intermediary nodes is greater than the number of nodes in the graph minus 2.
+    """
+    # Raise an error if the number of links to remove is greater than the number of edges in the graph
+    if num_links_to_remove > len(g.edges()):
+        raise ValueError('The number of links to remove is greater than the number of edges in the graph')
+    # Raise an error if the number of intermediary nodes is greater than the number of nodes in the graph minus 2
+    if num_intermediary_nodes > len(g.nodes()) - 2:
+        raise ValueError('The number of intermediary nodes is greater than the number of nodes in the graph minus 2')
+    # Create a copy of the graph
+    g1 = g.copy()
+    # Initialize nodes' types as 'normal'
+    for node in g1.nodes:
+        g1.nodes[node]['type'] = 'normal'
+    # Get a list of edges and shuffle it
+    edges = list(g.edges())
+    random.shuffle(edges)
+    # Select the first num_links_to_remove edges to remove
+    edges_to_remove = edges[:num_links_to_remove]
+    # Remove the selected edges and add intermediary nodes between the source and target nodes
+    for edge in edges_to_remove:
+        g1.remove_edge(edge[0], edge[1])
+        intermediary_nodes = random.sample([node for node in g.nodes() if node not in edge], num_intermediary_nodes)
+        for node in intermediary_nodes:
+            g1.add_edge(edge[0], node, weight=RANDOM_FUNCTION(MEAN, STD_DEV))
+            g1.add_edge(node, edge[1], weight=RANDOM_FUNCTION(MEAN, STD_DEV))
+            # Set the type of the intermediary nodes to 'intermediary'
+            g1.nodes[node]['type'] = 'intermediary'
+            # Set the type of the source and target nodes to 'indirect_source' and 'indirect_target'
+            g1.nodes[edge[0]]['type'] = 'indirect_source'
+            g1.nodes[edge[1]]['type'] = 'indirect_target'
     return g1
 
 def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str = 'degree'):
     """
-    Plot the original and perturbed graphs side by side.
+    Plot the original and perturbated graphs side by side.
 
     Parameters:
     g0 (networkx.Graph): The original graph.
-    g1 (networkx.Graph): The perturbed graph.
+    g1 (networkx.Graph): The perturbated graph.
     centralities0 (tuple): A tuple containing the centrality values to use for ranking the nodes in g0.
     centralities1 (tuple): A tuple containing the centrality values to use for ranking the nodes in g1.
     centrality_str (str): The name of the centrality measure used for ranking the nodes.
@@ -183,7 +234,7 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
         raise ValueError("Length of centralities tuple does not match the number of nodes in the graphs.")
 
     plt.clf()
-    # Plot the original and perturbed graphs side by side
+    # Plot the original and perturbated graphs side by side
     pos = nx.spring_layout(g0)  # Compute layout for g0 and use it for g1
 
     # Adjust positions to avoid overlapping nodes
@@ -193,9 +244,7 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     # Define color maps for node types
     color_map_g1 = []
     for node in g1.nodes:
-        if g1.nodes[node]['type'] == 'normal':
-            color_map_g1.append('cyan')
-        elif g1.nodes[node]['type'] == 'black_hole':
+        if g1.nodes[node]['type'] == 'black_hole':
             color_map_g1.append('black')
         elif g1.nodes[node]['type'] == 'vulcano':
             color_map_g1.append('red')
@@ -203,7 +252,14 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
             color_map_g1.append('brown')
         elif g1.nodes[node]['type'] == 'ghost':
             color_map_g1.append('blue')
-
+        elif g1.nodes[node]['type'] == 'indirect_source':
+            color_map_g1.append('orange')
+        elif g1.nodes[node]['type'] == 'indirect_target':
+            color_map_g1.append('green')
+        elif g1.nodes[node]['type'] == 'intermediary':
+            color_map_g1.append('purple')
+        else: # type is 'normal'
+            color_map_g1.append('cyan')
     plt.subplot(121)
     # Resize nodes based on centralities
     node_sizes_g0 = [centralities0[node] * 1000 for node in g0.nodes]
@@ -215,7 +271,7 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
 
     plt.subplot(122)
     nx.draw(g1, pos, with_labels=True, node_size=node_sizes_g1, font_size=10, node_color=color_map_g1, edge_color='lightgray', alpha=0.5)
-    plt.title(f'Perturbed Graph - nodes resized by: {centrality_str}')
+    plt.title(f'Perturbated Graph - nodes resized by: {centrality_str}')
 
     plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', f'graphcomparison_by{centrality_str}.png'))
     plt.close()

@@ -23,8 +23,14 @@ RANDOM_FUNCTION = random.gauss
 # Set the mean and standard deviation for the random function
 MEAN, STD_DEV = 100, 1000
 
-# Number of nodes to be perturbated
-NUM_NODES_TO_PERTURB = 10
+# Number of nodes to perturbate
+NUM_NODES_TO_PERTURBATE = 10
+
+# Number of links to perturbate
+NUM_LINKS_TO_PERTURBATE = 5
+
+# Number of nodes to add as intermediary nodes
+NUM_INTERMEDIARY_NODES = 5
 
 # Add a list of centrality measures to be calculated
 CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "betweenness", "closeness", "eigenvector", "hits_hubs", "hits_authorities", "pagerank"]
@@ -35,17 +41,17 @@ CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "betweenness", "closen
 # Set the minimum weight for the links
 MIN_WEIGHT = .1
 
-# Set the min and max fractions to significantly decrease incoming or outgoing edges of a node to be perturbed
+# Set the min and max fractions to significantly decrease incoming or outgoing edges of a node to be perturbated
 EDGE_MIN_FRACTION, EDGE_MAX_FRACTION = 0.5, 1
 
-# Set the min and max factors to significantly increase incoming or outgoing edges of a node to be perturbed
+# Set the min and max factors to significantly increase incoming or outgoing edges of a node to be perturbated
 EDGE_MIN_FACTOR, EDGE_MAX_FACTOR = 0.5, 1
 
 # set the min and max factors to decrease the links' weights of ghost nodes 
-GHOSTING_LINK_MIN_FRACTION, GHOSTING_LINK_MAX_FRACTION  = 0.5, 1
+GHOSTING_LINK_MIN_FRACTION, GHOSTING_LINK_MAX_FRACTION  = 0.01, 0.1
 
 # set the min and max factors to increase the links' weights of mushroom nodes
-MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR = 5, 10
+MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR = 10, 100
 
 # set the top k nodes to be returned in the outlier identification task 
 TOP_K = 30
@@ -66,8 +72,17 @@ with open(config_file_path, "w") as config_file:
     config_file.write(f"Working Directory: {WORKING_DIRECTORY}\n")
     config_file.write(f"Number of Nodes: {NUM_NODES}\n")
     config_file.write(f"Number of Links: {NUM_LINKS}\n")
-    config_file.write(f"Degree Sequence: {DEGREE_SEQUENCE}\n")
-    config_file.write(f"Number of Nodes to Perturb: {NUM_NODES_TO_PERTURB}\n")
+    config_file.write(f"Centrality Measures: {CENTRALITY_MEASURES}\n")
+    config_file.write(f"Random Function: {RANDOM_FUNCTION}\n")
+    config_file.write(f"Mean: {MEAN}\n")
+    config_file.write(f"Standard Deviation: {STD_DEV}\n")
+    config_file.write(f"Edges Min and Max Fractions: {EDGE_MIN_FRACTION, EDGE_MAX_FRACTION}\n")
+    config_file.write(f"Edges Min and Max Factors: {EDGE_MIN_FACTOR, EDGE_MAX_FACTOR}\n")
+    config_file.write(f"Mushroom Link Min and Max Factors: {MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR}\n")
+    config_file.write(f"Ghosting Link Min and Max Fractions: {GHOSTING_LINK_MIN_FRACTION, GHOSTING_LINK_MAX_FRACTION}\n")
+    config_file.write(f"Number of Nodes to Perturbate: {NUM_NODES_TO_PERTURBATE}\n")
+    config_file.write(f"Number of Links to Perturbate: {NUM_LINKS_TO_PERTURBATE}\n")
+    config_file.write(f"Number of Nodes to add as intermediary: {NUM_INTERMEDIARY_NODES}\n")
     config_file.write(f"Top K: {TOP_K}\n")
     
 print(f"Configuration initialized and saved to {config_file_path}")
