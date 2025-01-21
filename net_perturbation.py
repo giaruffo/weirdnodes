@@ -1,6 +1,7 @@
 import networkx as nx
 import random
 import matplotlib.pyplot as plt
+import numpy as np
 from config import *
 
 def perturbate_network_by_nodes(g0, n):
@@ -233,7 +234,6 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     if len(centralities0) != len(g0.nodes) or len(centralities1) != len(g1.nodes):
         raise ValueError("Length of centralities tuple does not match the number of nodes in the graphs.")
 
-    plt.clf()
     # Plot the original and perturbated graphs side by side
     pos = nx.spring_layout(g0)  # Compute layout for g0 and use it for g1
 
@@ -274,4 +274,104 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     plt.title(f'Perturbated Graph - nodes resized by: {centrality_str}')
 
     plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', f'graphcomparison_by{centrality_str}.png'))
+    plt.close()
+
+def store_graph_metrics_infile(f, g, graph_name):
+    """
+    Stores various graph metrics into a file.
+    Parameters:
+    f (file object): The file object where the metrics will be written.
+    g (networkx.Graph): The graph for which metrics are calculated.
+    graph_name (str): The name of the graph to be used in the output.
+    Metrics stored:
+    - Number of nodes
+    - Number of links (edges)
+    - Min, Max, Avg, Std of degree, in_degree, out_degree
+    - Min, Max, Avg, Std of strength, in_strength, out_strength
+    - Min, Max, Avg, Std of edges' weights
+    - Average clustering coefficient
+    - Average shortest path length
+    - Diameter
+    - Density
+    The function writes these metrics to the provided file object.
+    """
+
+    f.write(f"Graph {graph_name}: Number of nodes: {g.number_of_nodes()}, Number of links: {g.number_of_edges()}\n")
+    # summary statics (min, max, avg, std, etc.) information on degree, in_degree, out_degree, and link's weights
+    degrees_g, indegrees_g, outdegrees_g = [d for n, d in g.degree()], [d for n, d in g.in_degree()], [d for n, d in g.out_degree()]
+    weights_g = [d['weight'] for u, v, d in g.edges(data=True)]
+    strengths_g, in_strengths_g, out_strengths_g = [d for n, d in g.degree(weight='weight')], [d for n, d in g.in_degree(weight='weight')], [d for n, d in g.out_degree(weight='weight')]
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of degree: {min(degrees_g)}, {max(degrees_g)}, {sum(degrees_g)/len(degrees_g)}, {np.std(degrees_g)}\n")
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of in_degree: {min(indegrees_g)}, {max(indegrees_g)}, {sum(indegrees_g)/len(indegrees_g)}, {np.std(indegrees_g)}\n")
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of out_degree: {min(outdegrees_g)}, {max(outdegrees_g)}, {sum(outdegrees_g)/len(outdegrees_g)}, {np.std(outdegrees_g)}\n")
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of strength: {min(strengths_g)}, {max(strengths_g)}, {sum(strengths_g)/len(strengths_g)}, {np.std(strengths_g)}\n")
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of in_strength: {min(in_strengths_g)}, {max(in_strengths_g)}, {sum(in_strengths_g)/len(in_strengths_g)}, {np.std(in_strengths_g)}\n")
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of out_strength: {min(out_strengths_g)}, {max(out_strengths_g)}, {sum(out_strengths_g)/len(out_strengths_g)}, {np.std(out_strengths_g)}\n")
+    f.write(f"Graph {graph_name}: Min, Max, Avg, Std of edges' weights: {min([d['weight'] for u, v, d in g.edges(data=True)]), max([d['weight'] for u, v, d in g.edges(data=True)]), np.mean([d['weight'] for u, v, d in g.edges(data=True)]), np.std([d['weight'] for u, v, d in g.edges(data=True)])}\n")
+
+    # clustering coefficient, average shortest path length, diameter, and density
+    f.write(f"Graph {graph_name}: Average clustering: {nx.average_clustering(g)}\n")
+    f.write(f"Graph {graph_name}: Average shortest path length: {nx.average_shortest_path_length(g)}\n")
+    f.write(f"Graph {graph_name}: Diameter: {nx.diameter(g)}\n")
+    f.write(f"Graph {graph_name}: Density: {nx.density(g)}\n")
+    f.write("-----------------------------------\n")
+
+def plot_graph_distributions(g, graph_name):
+    """
+    Plots and saves the distributions of various graph properties for a given graph.
+    Parameters:
+    g (networkx.Graph): The input graph for which distributions are to be plotted.
+    graph_name (str): The name of the graph, used for saving the plot.
+    The function calculates and plots the following distributions:
+    - Degree
+    - In-degree
+    - Out-degree
+    - Strength (weighted degree)
+    - In-strength (weighted in-degree)
+    - Out-strength (weighted out-degree)
+    - Edge weights
+    The plots are arranged in a 3x3 grid and saved as a PNG file in the 'plots' directory
+    within the working directory, with the filename format 'distributions_<graph_name>.png'.
+    """
+    
+    degrees = [d for n, d in g.degree()]
+    indegrees = [d for n, d in g.in_degree()]
+    outdegrees = [d for n, d in g.out_degree()]
+    strengths = [s for n, s in g.degree(weight='weight')]
+    in_strengths = [s for n, s in g.in_degree(weight='weight')]
+    out_strengths = [s for n, s in g.out_degree(weight='weight')]
+    weights = [d['weight'] for u, v, d in g.edges(data=True)]
+    
+    fig, axs = plt.subplots(3, 3, figsize=(18, 18))
+    
+    axs[0, 0].hist(degrees, bins=50, alpha=0.5, label='Degree')
+    axs[0, 0].set_title('Degree Distribution')
+    axs[0, 0].legend(loc='upper right')
+    
+    axs[0, 1].hist(indegrees, bins=50, alpha=0.5, label='In-degree')
+    axs[0, 1].set_title('In-degree Distribution')
+    axs[0, 1].legend(loc='upper right')
+    
+    axs[0, 2].hist(outdegrees, bins=50, alpha=0.5, label='Out-degree')
+    axs[0, 2].set_title('Out-degree Distribution')
+    axs[0, 2].legend(loc='upper right')
+    
+    axs[1, 0].hist(strengths, bins=50, alpha=0.5, label='Strength')
+    axs[1, 0].set_title('Strength Distribution')
+    axs[1, 0].legend(loc='upper right')
+    
+    axs[1, 1].hist(in_strengths, bins=50, alpha=0.5, label='In-strength')
+    axs[1, 1].set_title('In-strength Distribution')
+    axs[1, 1].legend(loc='upper right')
+    
+    axs[1, 2].hist(out_strengths, bins=50, alpha=0.5, label='Out-strength')
+    axs[1, 2].set_title('Out-strength Distribution')
+    axs[1, 2].legend(loc='upper right')
+    
+    axs[2, 0].hist(weights, bins=50, alpha=0.5, label='Edge Weights')
+    axs[2, 0].set_title('Edge Weight Distribution')
+    axs[2, 0].legend(loc='upper right')
+    
+    plt.tight_layout()
+    plt.savefig(WORKING_DIRECTORY+f'/plots/distributions_{graph_name}.png')
     plt.close()

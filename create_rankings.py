@@ -123,7 +123,6 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     - The variable WORKING_DIRECTORY should be defined globally.
     """
     
-    plt.clf()
     x = []
     y = []
     colors = []
@@ -202,6 +201,6 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     plt.title(title)
     
     plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', 'rankcomparison_by'+title + '.png'))
-    # plt.show()
+    plt.close()
 
     return top_k_nodes
