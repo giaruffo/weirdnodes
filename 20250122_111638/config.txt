@@ -1,0 +1,15 @@
+Working Directory: /Users/ruffo/Documents/repo git/weirdflows/20250122_111638
+Number of Nodes: 212
+Number of Links: 2885
+Centrality Measures: ['degree', 'indegree', 'outdegree', 'strength', 'instrength', 'outstrength', 'betweenness', 'closeness', 'eigenvector', 'hits_hubs', 'hits_authorities', 'pagerank']
+Random Function: <bound method Random.gauss of <random.Random object at 0x14d07e420>>
+Mean: 100
+Standard Deviation: 1000
+Edges Min and Max Fractions: (0.5, 1)
+Edges Min and Max Factors: (0.5, 1)
+Mushroom Link Min and Max Factors: (10, 100)
+Ghosting Link Min and Max Fractions: (0.01, 0.1)
+Number of Nodes to Perturbate: 10
+Number of Links to Perturbate: 5
+Number of Nodes to add as intermediary: 5
+Top K: 30

@@ -33,7 +33,7 @@ NUM_LINKS_TO_PERTURBATE = 5
 NUM_INTERMEDIARY_NODES = 5
 
 # Add a list of centrality measures to be calculated
-CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "betweenness", "closeness", "eigenvector", "hits_hubs", "hits_authorities", "pagerank"]
+CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "strength", "instrength", "outstrength", "betweenness", "closeness", "eigenvector", "hits_hubs", "hits_authorities", "pagerank"]
 # CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities"]
 # CENTRALITY_MEASURES = ["degree", "strength", "betweenness", "closeness", "eigenvector", "pagerank", "hits_hubs", "hits_authorities",
 #                       "indegree", "outdegree", "instrength", "outstrength"]
