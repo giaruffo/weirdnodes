@@ -150,9 +150,5 @@ To run the code, run one of the test files in the main folder. For example, to r
     The plots are arranged in a 3x3 grid and saved as a PNG file in the 'plots' directory
     within the working directory, with the filename format 'distributions_<graph_name>.png'.
 
-- 
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
