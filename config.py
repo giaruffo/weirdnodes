@@ -3,12 +3,33 @@ from datetime import datetime
 import random
 
 # Initialize the working directory where output files are stored
-WORKING_DIRECTORY = os.path.join(os.getcwd(), datetime.now().strftime("%Y%m%d_%H%M%S"))
+WORKING_DIRECTORY = os.path.join(os.getcwd(), f'experiments/{datetime.now().strftime("%Y%m%d_%H%M%S")}')
 os.makedirs(WORKING_DIRECTORY, exist_ok=True)
 os.makedirs(WORKING_DIRECTORY+'/plots', exist_ok=True)
 os.makedirs(WORKING_DIRECTORY+'/graphs', exist_ok=True)
 os.makedirs(WORKING_DIRECTORY+'/rank_correlations', exist_ok=True)
 os.makedirs(WORKING_DIRECTORY+'/evaluation_results', exist_ok=True)
+
+# set the categories of an enum type for the strength signal of concordande of two ranks
+class ConcordanceSignal:
+    PERFECT = "Perfect"
+    NEGATIVE = "Negative"
+    NEGLIGIBLE = "Negligible"
+    WEAK = "Weak"
+    MODERATE = "Moderate"
+    STRONG = "Strong"
+    VERYSTRONG = "Very Strong"
+
+# set the experiments types as an enum type 
+class ExperimentType:
+    ER_VOLCANOES_AND_BLACKHOLES = "ER_VOLCANOES_AND_BLACKHOLES"
+    ER_GHOSTS_MUSHROOMS = "ER_GHOSTS_MUSHROOMS"
+    ER_INTERMEDIARIES = "ER_INTERMEDIARIES"
+    ER_MIXED_ANOMALIES = "ER_MIXED_ANOMALIES"
+
+# Set the experiment type
+EXPERIMENT_TYPE = ExperimentType.ER_INTERMEDIARIES
+
 # Number of nodes in the original graph
 NUM_NODES = 212
 
@@ -24,10 +45,10 @@ RANDOM_FUNCTION = random.gauss
 MEAN, STD_DEV = 100, 1000
 
 # Number of nodes to perturb
-NUM_NODES_TO_PERTURB = 4
+NUM_NODES_TO_PERTURB = 10
 
 # Number of links to perturb
-NUM_LINKS_TO_PERTURB = 2
+NUM_LINKS_TO_PERTURB = 5
 
 # Number of nodes to add as intermediary nodes
 NUM_INTERMEDIARY_NODES = 5
@@ -56,20 +77,11 @@ MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR = 10, 100
 # set the top k nodes to be returned in the outlier identification task 
 TOP_K = 30
 
-# set the categories of an enum type for the strength signal of concordande of two ranks
-class ConcordanceSignal:
-    PERFECT = "Perfect"
-    NEGATIVE = "Negative"
-    NEGLIGIBLE = "Negligible"
-    WEAK = "Weak"
-    MODERATE = "Moderate"
-    STRONG = "Strong"
-    VERYSTRONG = "Very Strong"
-
 # Save the configuration to a file
 config_file_path = os.path.join(WORKING_DIRECTORY, "config.txt")
 with open(config_file_path, "w") as config_file:
     config_file.write(f"Working Directory: {WORKING_DIRECTORY}\n")
+    config_file.write(f"Expertiment type: {EXPERIMENT_TYPE}\n")
     config_file.write(f"Number of Nodes: {NUM_NODES}\n")
     config_file.write(f"Number of Links: {NUM_LINKS}\n")
     config_file.write(f"Centrality Measures: {CENTRALITY_MEASURES}\n")

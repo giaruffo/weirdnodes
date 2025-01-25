@@ -1,0 +1,20364 @@
+graph [
+  directed 1
+  node [
+    id 0
+    label "0"
+    degree 0.0995260663507109
+    degree_rank 186.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 20831.326927835617
+    strength_rank 122.0
+    instrength 9187.300968863074
+    instrength_rank 147.0
+    outstrength 11644.025958972541
+    outstrength_rank 86.0
+    betweenness 0.00403264203771997
+    betweenness_rank 173.0
+    closeness 0.4049904030710173
+    closeness_rank 181.0
+    eigenvector 0.04410413418480354
+    eigenvector_rank 183.0
+    hits_hubs 0.004866305920762692
+    hits_hubs_rank 89.0
+    hits_authorities 0.0037126119004465214
+    hits_authorities_rank 142.0
+    pagerank 0.00456020550573071
+    pagerank_rank 110.0
+  ]
+  node [
+    id 1
+    label "1"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 19278.792751570818
+    strength_rank 142.0
+    instrength 9146.419981648141
+    instrength_rank 149.0
+    outstrength 10132.372769922677
+    outstrength_rank 117.0
+    betweenness 0.007539250569355502
+    betweenness_rank 64.0
+    closeness 0.44234800838574423
+    closeness_rank 72.0
+    eigenvector 0.07632772772642178
+    eigenvector_rank 59.0
+    hits_hubs 0.003912457677037374
+    hits_hubs_rank 126.0
+    hits_authorities 0.0035705539691261
+    hits_authorities_rank 147.0
+    pagerank 0.004091145067624435
+    pagerank_rank 137.0
+  ]
+  node [
+    id 2
+    label "2"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 23156.992945584083
+    strength_rank 88.0
+    instrength 11552.485144985712
+    instrength_rank 90.0
+    outstrength 11604.507800598372
+    outstrength_rank 89.0
+    betweenness 0.008038273383269895
+    betweenness_rank 49.0
+    closeness 0.42886178861788615
+    closeness_rank 122.0
+    eigenvector 0.06724268540803971
+    eigenvector_rank 103.0
+    hits_hubs 0.004454625194352079
+    hits_hubs_rank 106.0
+    hits_authorities 0.003277990302330918
+    hits_authorities_rank 164.0
+    pagerank 0.005391883830156618
+    pagerank_rank 67.0
+  ]
+  node [
+    id 3
+    label "3"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 16774.65899993483
+    strength_rank 172.0
+    instrength 7423.399348875012
+    instrength_rank 177.0
+    outstrength 9351.259651059818
+    outstrength_rank 138.0
+    betweenness 0.005392342973663075
+    betweenness_rank 130.0
+    closeness 0.41699604743083
+    closeness_rank 159.0
+    eigenvector 0.0549688467451118
+    eigenvector_rank 151.0
+    hits_hubs 0.003846478521497313
+    hits_hubs_rank 130.0
+    hits_authorities 0.004528682665391898
+    hits_authorities_rank 112.0
+    pagerank 0.0031694602644005594
+    pagerank_rank 183.0
+  ]
+  node [
+    id 4
+    label "4"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 23158.17215975702
+    strength_rank 87.0
+    instrength 10168.329704630096
+    instrength_rank 132.0
+    outstrength 12989.842455126927
+    outstrength_rank 54.0
+    betweenness 0.006066101241531929
+    betweenness_rank 116.0
+    closeness 0.40733590733590735
+    closeness_rank 178.0
+    eigenvector 0.04666052858703108
+    eigenvector_rank 177.0
+    hits_hubs 0.004572474533244637
+    hits_hubs_rank 100.0
+    hits_authorities 0.004820694087720879
+    hits_authorities_rank 100.0
+    pagerank 0.0040643023223136355
+    pagerank_rank 141.0
+  ]
+  node [
+    id 5
+    label "5"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 19310.079432722247
+    strength_rank 141.0
+    instrength 8736.59167232295
+    instrength_rank 156.0
+    outstrength 10573.487760399299
+    outstrength_rank 108.0
+    betweenness 0.00486258806655284
+    betweenness_rank 142.0
+    closeness 0.4194831013916501
+    closeness_rank 150.0
+    eigenvector 0.056509369236870305
+    eigenvector_rank 144.0
+    hits_hubs 0.003476776117260381
+    hits_hubs_rank 148.0
+    hits_authorities 0.0039372829201248655
+    hits_authorities_rank 130.0
+    pagerank 0.0034529684327811163
+    pagerank_rank 168.0
+  ]
+  node [
+    id 6
+    label "6"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 21030.895965279007
+    strength_rank 119.0
+    instrength 11586.660747797172
+    instrength_rank 89.0
+    outstrength 9444.235217481835
+    outstrength_rank 135.0
+    betweenness 0.004432405973656514
+    betweenness_rank 159.0
+    closeness 0.42369477911646586
+    closeness_rank 133.0
+    eigenvector 0.059025663272512484
+    eigenvector_rank 138.0
+    hits_hubs 0.0034336725686847196
+    hits_hubs_rank 149.0
+    hits_authorities 0.005839140927299472
+    hits_authorities_rank 49.0
+    pagerank 0.003803512187249178
+    pagerank_rank 152.0
+  ]
+  node [
+    id 7
+    label "7"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 17850.184510327766
+    strength_rank 154.0
+    instrength 9120.44099878219
+    instrength_rank 150.0
+    outstrength 8729.74351154558
+    outstrength_rank 151.0
+    betweenness 0.006423155772198402
+    betweenness_rank 96.0
+    closeness 0.4405010438413361
+    closeness_rank 78.0
+    eigenvector 0.07385185075128257
+    eigenvector_rank 72.0
+    hits_hubs 0.003411294788121758
+    hits_hubs_rank 151.0
+    hits_authorities 0.0033442059818610736
+    hits_authorities_rank 160.0
+    pagerank 0.004516797846195514
+    pagerank_rank 115.0
+  ]
+  node [
+    id 8
+    label "8"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 20754.387176140182
+    strength_rank 123.0
+    instrength 10158.59109924201
+    instrength_rank 133.0
+    outstrength 10595.796076898174
+    outstrength_rank 107.0
+    betweenness 0.009390697048507686
+    betweenness_rank 28.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.07411709931593982
+    eigenvector_rank 71.0
+    hits_hubs 0.004749381812030404
+    hits_hubs_rank 94.0
+    hits_authorities 0.0029433405648173613
+    hits_authorities_rank 175.0
+    pagerank 0.005288052033968554
+    pagerank_rank 72.0
+  ]
+  node [
+    id 9
+    label "9"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 22170.255313105416
+    strength_rank 104.0
+    instrength 15343.900149781693
+    instrength_rank 27.0
+    outstrength 6826.35516332372
+    outstrength_rank 180.0
+    betweenness 0.006143716066700933
+    betweenness_rank 110.0
+    closeness 0.45670995670995673
+    closeness_rank 29.0
+    eigenvector 0.08625682745478175
+    eigenvector_rank 32.0
+    hits_hubs 0.002922192416012941
+    hits_hubs_rank 176.0
+    hits_authorities 0.005913883375052102
+    hits_authorities_rank 46.0
+    pagerank 0.007228042068119158
+    pagerank_rank 13.0
+  ]
+  node [
+    id 10
+    label "10"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 22050.507857653916
+    strength_rank 107.0
+    instrength 8180.837833897508
+    instrength_rank 163.0
+    outstrength 13869.670023756407
+    outstrength_rank 47.0
+    betweenness 0.006465978964932301
+    betweenness_rank 93.0
+    closeness 0.4049904030710173
+    closeness_rank 181.0
+    eigenvector 0.043816268075806644
+    eigenvector_rank 185.0
+    hits_hubs 0.006046450158845124
+    hits_hubs_rank 50.0
+    hits_authorities 0.002719551535335103
+    hits_authorities_rank 178.0
+    pagerank 0.0033113632726597987
+    pagerank_rank 176.0
+  ]
+  node [
+    id 11
+    label "11"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 20061.034543276153
+    strength_rank 131.0
+    instrength 5516.808985724378
+    instrength_rank 195.0
+    outstrength 14544.225557551774
+    outstrength_rank 35.0
+    betweenness 0.005677912569229894
+    betweenness_rank 124.0
+    closeness 0.4203187250996016
+    closeness_rank 145.0
+    eigenvector 0.052302612800723014
+    eigenvector_rank 162.0
+    hits_hubs 0.005254268858776439
+    hits_hubs_rank 71.0
+    hits_authorities 0.003071628695089872
+    hits_authorities_rank 169.0
+    pagerank 0.0023700297177575245
+    pagerank_rank 204.0
+  ]
+  node [
+    id 12
+    label "12"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 16951.9305904243
+    strength_rank 169.0
+    instrength 10428.690858273905
+    instrength_rank 123.0
+    outstrength 6523.239732150394
+    outstrength_rank 189.0
+    betweenness 0.004424012871787675
+    betweenness_rank 160.0
+    closeness 0.4262626262626263
+    closeness_rank 128.0
+    eigenvector 0.06680815483494235
+    eigenvector_rank 106.0
+    hits_hubs 0.0031188043215050723
+    hits_hubs_rank 162.0
+    hits_authorities 0.003726779538693044
+    hits_authorities_rank 141.0
+    pagerank 0.004022413229471301
+    pagerank_rank 144.0
+  ]
+  node [
+    id 13
+    label "13"
+    degree 0.08530805687203792
+    degree_rank 201.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 13793.158883864247
+    strength_rank 201.0
+    instrength 8158.927231044294
+    instrength_rank 164.0
+    outstrength 5634.2316528199535
+    outstrength_rank 199.0
+    betweenness 0.0031094057077516095
+    betweenness_rank 190.0
+    closeness 0.38786764705882354
+    closeness_rank 205.0
+    eigenvector 0.03693691467589519
+    eigenvector_rank 202.0
+    hits_hubs 0.0017286224559713537
+    hits_hubs_rank 207.0
+    hits_authorities 0.0033978244172355107
+    hits_authorities_rank 156.0
+    pagerank 0.003200884425151416
+    pagerank_rank 181.0
+  ]
+  node [
+    id 14
+    label "14"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 22312.180809321
+    strength_rank 102.0
+    instrength 9555.19831453258
+    instrength_rank 139.0
+    outstrength 12756.982494788417
+    outstrength_rank 63.0
+    betweenness 0.0060129441494655945
+    betweenness_rank 117.0
+    closeness 0.422
+    closeness_rank 141.0
+    eigenvector 0.059034013840479856
+    eigenvector_rank 137.0
+    hits_hubs 0.00501391093393656
+    hits_hubs_rank 81.0
+    hits_authorities 0.002692561653339531
+    hits_authorities_rank 179.0
+    pagerank 0.005535535770876225
+    pagerank_rank 62.0
+  ]
+  node [
+    id 15
+    label "15"
+    degree 0.08530805687203792
+    degree_rank 201.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.037914691943127965
+    outdegree_rank 197.0
+    strength 11919.250003341991
+    strength_rank 206.0
+    instrength 4519.024508047912
+    instrength_rank 207.0
+    outstrength 7400.225495294079
+    outstrength_rank 172.0
+    betweenness 0.002502903475404003
+    betweenness_rank 200.0
+    closeness 0.4153543307086614
+    closeness_rank 162.0
+    eigenvector 0.052230680506790236
+    eigenvector_rank 163.0
+    hits_hubs 0.0030385173885030727
+    hits_hubs_rank 168.0
+    hits_authorities 0.0015336682711197447
+    hits_authorities_rank 209.0
+    pagerank 0.0026185605257257067
+    pagerank_rank 197.0
+  ]
+  node [
+    id 16
+    label "16"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 24418.712408315554
+    strength_rank 67.0
+    instrength 10044.95113135207
+    instrength_rank 136.0
+    outstrength 14373.761276963483
+    outstrength_rank 38.0
+    betweenness 0.00675607641146576
+    betweenness_rank 85.0
+    closeness 0.4203187250996016
+    closeness_rank 145.0
+    eigenvector 0.05436519512288553
+    eigenvector_rank 153.0
+    hits_hubs 0.006650566970163366
+    hits_hubs_rank 40.0
+    hits_authorities 0.0049502322840597615
+    hits_authorities_rank 94.0
+    pagerank 0.0035304246939315206
+    pagerank_rank 163.0
+  ]
+  node [
+    id 17
+    label "17"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 26636.777591558588
+    strength_rank 43.0
+    instrength 13852.120139127797
+    instrength_rank 40.0
+    outstrength 12784.65745243079
+    outstrength_rank 62.0
+    betweenness 0.006946469856554885
+    betweenness_rank 80.0
+    closeness 0.4350515463917526
+    closeness_rank 98.0
+    eigenvector 0.07488873773258918
+    eigenvector_rank 67.0
+    hits_hubs 0.005822303582340793
+    hits_hubs_rank 57.0
+    hits_authorities 0.005514097221941863
+    hits_authorities_rank 65.0
+    pagerank 0.005412877353141446
+    pagerank_rank 66.0
+  ]
+  node [
+    id 18
+    label "18"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 21961.167331328994
+    strength_rank 108.0
+    instrength 11497.686596804555
+    instrength_rank 92.0
+    outstrength 10463.48073452444
+    outstrength_rank 109.0
+    betweenness 0.00519721179782256
+    betweenness_rank 134.0
+    closeness 0.43775933609958506
+    closeness_rank 88.0
+    eigenvector 0.06571046876406764
+    eigenvector_rank 112.0
+    hits_hubs 0.005902482101803552
+    hits_hubs_rank 54.0
+    hits_authorities 0.003898987266177998
+    hits_authorities_rank 135.0
+    pagerank 0.005077632135896906
+    pagerank_rank 84.0
+  ]
+  node [
+    id 19
+    label "19"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 12154.94938994575
+    strength_rank 205.0
+    instrength 4820.816463827203
+    instrength_rank 203.0
+    outstrength 7334.132926118547
+    outstrength_rank 174.0
+    betweenness 0.005099892701228733
+    betweenness_rank 137.0
+    closeness 0.41050583657587547
+    closeness_rank 172.0
+    eigenvector 0.04774130686970476
+    eigenvector_rank 174.0
+    hits_hubs 0.0023185012963471354
+    hits_hubs_rank 192.0
+    hits_authorities 0.0017451408207838348
+    hits_authorities_rank 204.0
+    pagerank 0.002265923212871283
+    pagerank_rank 205.0
+  ]
+  node [
+    id 20
+    label "20"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 14643.48741750428
+    strength_rank 196.0
+    instrength 7089.502244790556
+    instrength_rank 182.0
+    outstrength 7553.985172713725
+    outstrength_rank 168.0
+    betweenness 0.004764965825114044
+    betweenness_rank 146.0
+    closeness 0.41865079365079366
+    closeness_rank 153.0
+    eigenvector 0.05708999432334888
+    eigenvector_rank 142.0
+    hits_hubs 0.0026396121391992562
+    hits_hubs_rank 186.0
+    hits_authorities 0.0033630381256954645
+    hits_authorities_rank 158.0
+    pagerank 0.003666761815155656
+    pagerank_rank 159.0
+  ]
+  node [
+    id 21
+    label "21"
+    degree 0.07582938388625593
+    degree_rank 207.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.03317535545023697
+    outdegree_rank 201.0
+    strength 15989.604779684772
+    strength_rank 182.0
+    instrength 9205.17750954891
+    instrength_rank 146.0
+    outstrength 6784.427270135862
+    outstrength_rank 181.0
+    betweenness 0.002070341949399264
+    betweenness_rank 207.0
+    closeness 0.39365671641791045
+    closeness_rank 203.0
+    eigenvector 0.03642673094758728
+    eigenvector_rank 204.0
+    hits_hubs 0.002538648933315892
+    hits_hubs_rank 187.0
+    hits_authorities 0.003288379743655992
+    hits_authorities_rank 163.0
+    pagerank 0.003390147967089455
+    pagerank_rank 172.0
+  ]
+  node [
+    id 22
+    label "22"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 24859.494216458013
+    strength_rank 62.0
+    instrength 15430.51104190318
+    instrength_rank 25.0
+    outstrength 9428.983174554833
+    outstrength_rank 136.0
+    betweenness 0.006209115653327354
+    betweenness_rank 108.0
+    closeness 0.42886178861788615
+    closeness_rank 122.0
+    eigenvector 0.06277906089697696
+    eigenvector_rank 123.0
+    hits_hubs 0.004029729850120218
+    hits_hubs_rank 121.0
+    hits_authorities 0.007635424674976709
+    hits_authorities_rank 23.0
+    pagerank 0.005329395404323962
+    pagerank_rank 69.0
+  ]
+  node [
+    id 23
+    label "23"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.03317535545023697
+    indegree_rank 205.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 16472.26017882587
+    strength_rank 177.0
+    instrength 4943.496872394541
+    instrength_rank 202.0
+    outstrength 11528.763306431329
+    outstrength_rank 90.0
+    betweenness 0.0035494419240437174
+    betweenness_rank 184.0
+    closeness 0.38155515370705245
+    closeness_rank 209.0
+    eigenvector 0.034286558820290844
+    eigenvector_rank 205.0
+    hits_hubs 0.0038601204454678396
+    hits_hubs_rank 128.0
+    hits_authorities 0.0024448599936474458
+    hits_authorities_rank 188.0
+    pagerank 0.002140544475869308
+    pagerank_rank 208.0
+  ]
+  node [
+    id 24
+    label "24"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 18184.844558732024
+    strength_rank 149.0
+    instrength 10650.330388030536
+    instrength_rank 116.0
+    outstrength 7534.514170701489
+    outstrength_rank 169.0
+    betweenness 0.004773704911981737
+    betweenness_rank 145.0
+    closeness 0.4359504132231405
+    closeness_rank 96.0
+    eigenvector 0.06488457831090934
+    eigenvector_rank 116.0
+    hits_hubs 0.0027725723565443627
+    hits_hubs_rank 181.0
+    hits_authorities 0.005161916340133326
+    hits_authorities_rank 84.0
+    pagerank 0.0038766852062096973
+    pagerank_rank 150.0
+  ]
+  node [
+    id 25
+    label "25"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 17640.06260659538
+    strength_rank 158.0
+    instrength 10616.628298437457
+    instrength_rank 117.0
+    outstrength 7023.434308157922
+    outstrength_rank 178.0
+    betweenness 0.0042632087383035165
+    betweenness_rank 167.0
+    closeness 0.40190476190476193
+    closeness_rank 189.0
+    eigenvector 0.04129750845007803
+    eigenvector_rank 194.0
+    hits_hubs 0.003022497044825521
+    hits_hubs_rank 169.0
+    hits_authorities 0.0045558919721314
+    hits_authorities_rank 108.0
+    pagerank 0.004136979262520037
+    pagerank_rank 135.0
+  ]
+  node [
+    id 26
+    label "26"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 18602.321413891674
+    strength_rank 147.0
+    instrength 10751.524421117849
+    instrength_rank 115.0
+    outstrength 7850.796992773823
+    outstrength_rank 164.0
+    betweenness 0.007965528462105435
+    betweenness_rank 50.0
+    closeness 0.4470338983050847
+    closeness_rank 54.0
+    eigenvector 0.07904500949042349
+    eigenvector_rank 50.0
+    hits_hubs 0.0026662111847486993
+    hits_hubs_rank 184.0
+    hits_authorities 0.005100982843424886
+    hits_authorities_rank 87.0
+    pagerank 0.004161956173329416
+    pagerank_rank 133.0
+  ]
+  node [
+    id 27
+    label "27"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 25425.5156669247
+    strength_rank 53.0
+    instrength 10225.805799021162
+    instrength_rank 129.0
+    outstrength 15199.70986790354
+    outstrength_rank 29.0
+    betweenness 0.006996653589088944
+    betweenness_rank 77.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.06947632225771522
+    eigenvector_rank 94.0
+    hits_hubs 0.007612743876946872
+    hits_hubs_rank 16.0
+    hits_authorities 0.002939427365324281
+    hits_authorities_rank 176.0
+    pagerank 0.004985100854592034
+    pagerank_rank 89.0
+  ]
+  node [
+    id 28
+    label "28"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 27381.200570642697
+    strength_rank 39.0
+    instrength 17341.85512915188
+    instrength_rank 11.0
+    outstrength 10039.345441490816
+    outstrength_rank 122.0
+    betweenness 0.009047067303858089
+    betweenness_rank 34.0
+    closeness 0.44989339019189767
+    closeness_rank 43.0
+    eigenvector 0.08576473568050419
+    eigenvector_rank 33.0
+    hits_hubs 0.004393289821688821
+    hits_hubs_rank 109.0
+    hits_authorities 0.00873035159116455
+    hits_authorities_rank 7.0
+    pagerank 0.0069167523317628715
+    pagerank_rank 18.0
+  ]
+  node [
+    id 29
+    label "29"
+    degree 0.17061611374407584
+    degree_rank 9.0
+    indegree 0.0995260663507109
+    indegree_rank 4.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 29187.71950520024
+    strength_rank 26.0
+    instrength 16254.471602766638
+    instrength_rank 23.0
+    outstrength 12933.2479024336
+    outstrength_rank 56.0
+    betweenness 0.010057948652076161
+    betweenness_rank 16.0
+    closeness 0.4668141592920354
+    closeness_rank 10.0
+    eigenvector 0.10716399187825601
+    eigenvector_rank 3.0
+    hits_hubs 0.0054109986751075334
+    hits_hubs_rank 67.0
+    hits_authorities 0.00725890779455326
+    hits_authorities_rank 25.0
+    pagerank 0.006590729814108932
+    pagerank_rank 24.0
+  ]
+  node [
+    id 30
+    label "30"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.09004739336492892
+    indegree_rank 14.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 23078.29331196453
+    strength_rank 90.0
+    instrength 14371.640451091043
+    instrength_rank 33.0
+    outstrength 8706.65286087349
+    outstrength_rank 152.0
+    betweenness 0.007773991396358706
+    betweenness_rank 54.0
+    closeness 0.45869565217391306
+    closeness_rank 25.0
+    eigenvector 0.0903204932114012
+    eigenvector_rank 21.0
+    hits_hubs 0.0039872525496236514
+    hits_hubs_rank 123.0
+    hits_authorities 0.006468444163737852
+    hits_authorities_rank 36.0
+    pagerank 0.0060409121338280735
+    pagerank_rank 35.0
+  ]
+  node [
+    id 31
+    label "31"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.03317535545023697
+    outdegree_rank 201.0
+    strength 19736.929173669712
+    strength_rank 133.0
+    instrength 12157.370953991518
+    instrength_rank 75.0
+    outstrength 7579.558219678194
+    outstrength_rank 167.0
+    betweenness 0.0035042266589314134
+    betweenness_rank 187.0
+    closeness 0.4606986899563319
+    closeness_rank 20.0
+    eigenvector 0.08761171967653046
+    eigenvector_rank 29.0
+    hits_hubs 0.0038760770144492434
+    hits_hubs_rank 127.0
+    hits_authorities 0.00442951572492966
+    hits_authorities_rank 114.0
+    pagerank 0.005549359482296583
+    pagerank_rank 61.0
+  ]
+  node [
+    id 32
+    label "32"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.1042654028436019
+    outdegree_rank 4.0
+    strength 22238.383422897823
+    strength_rank 103.0
+    instrength 4049.3754443217636
+    instrength_rank 210.0
+    outstrength 18189.00797857606
+    outstrength_rank 9.0
+    betweenness 0.00656990104668299
+    betweenness_rank 91.0
+    closeness 0.39811320754716983
+    closeness_rank 195.0
+    eigenvector 0.04143419532123894
+    eigenvector_rank 191.0
+    hits_hubs 0.007915393333527079
+    hits_hubs_rank 11.0
+    hits_authorities 0.0013094623953027983
+    hits_authorities_rank 210.0
+    pagerank 0.0025110797200065694
+    pagerank_rank 200.0
+  ]
+  node [
+    id 33
+    label "33"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.1137440758293839
+    indegree_rank 1.0
+    outdegree 0.03317535545023697
+    outdegree_rank 201.0
+    strength 17906.03798703243
+    strength_rank 152.0
+    instrength 13885.987435249855
+    instrength_rank 39.0
+    outstrength 4020.050551782574
+    outstrength_rank 209.0
+    betweenness 0.004902465403414166
+    betweenness_rank 141.0
+    closeness 0.4953051643192488
+    closeness_rank 1.0
+    eigenvector 0.12114862906045468
+    eigenvector_rank 1.0
+    hits_hubs 0.002246221317644172
+    hits_hubs_rank 193.0
+    hits_authorities 0.006139667099243152
+    hits_authorities_rank 43.0
+    pagerank 0.0056706550617577275
+    pagerank_rank 52.0
+  ]
+  node [
+    id 34
+    label "34"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 25891.54078899183
+    strength_rank 49.0
+    instrength 6738.705341555181
+    instrength_rank 187.0
+    outstrength 19152.83544743665
+    outstrength_rank 7.0
+    betweenness 0.00636112304552702
+    betweenness_rank 100.0
+    closeness 0.41453831041257366
+    closeness_rank 164.0
+    eigenvector 0.05284819612365732
+    eigenvector_rank 160.0
+    hits_hubs 0.008577823020174317
+    hits_hubs_rank 9.0
+    hits_authorities 0.0023543540533601786
+    hits_authorities_rank 191.0
+    pagerank 0.0038085627868561095
+    pagerank_rank 151.0
+  ]
+  node [
+    id 35
+    label "35"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 20712.206219701966
+    strength_rank 124.0
+    instrength 5824.398937705138
+    instrength_rank 192.0
+    outstrength 14887.807281996827
+    outstrength_rank 32.0
+    betweenness 0.004553562019466941
+    betweenness_rank 153.0
+    closeness 0.3988657844990548
+    closeness_rank 193.0
+    eigenvector 0.042332946512715096
+    eigenvector_rank 187.0
+    hits_hubs 0.0066975027436462
+    hits_hubs_rank 38.0
+    hits_authorities 0.002363319629341265
+    hits_authorities_rank 190.0
+    pagerank 0.002968282180588231
+    pagerank_rank 187.0
+  ]
+  node [
+    id 36
+    label "36"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 14960.019701083416
+    strength_rank 189.0
+    instrength 5651.838865015166
+    instrength_rank 193.0
+    outstrength 9308.18083606825
+    outstrength_rank 140.0
+    betweenness 0.005373647087583493
+    betweenness_rank 131.0
+    closeness 0.4279918864097363
+    closeness_rank 126.0
+    eigenvector 0.055427171448758
+    eigenvector_rank 149.0
+    hits_hubs 0.0036712290496819155
+    hits_hubs_rank 146.0
+    hits_authorities 0.0016185885344071626
+    hits_authorities_rank 207.0
+    pagerank 0.0030554799276112255
+    pagerank_rank 186.0
+  ]
+  node [
+    id 37
+    label "37"
+    degree 0.09478672985781991
+    degree_rank 190.0
+    indegree 0.03317535545023697
+    indegree_rank 205.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 14850.572220624255
+    strength_rank 191.0
+    instrength 5317.928382086984
+    instrength_rank 198.0
+    outstrength 9532.643838537271
+    outstrength_rank 133.0
+    betweenness 0.0025611866217443865
+    betweenness_rank 198.0
+    closeness 0.3951310861423221
+    closeness_rank 199.0
+    eigenvector 0.03418482939151012
+    eigenvector_rank 206.0
+    hits_hubs 0.0045354553984677595
+    hits_hubs_rank 103.0
+    hits_authorities 0.0020950621575143583
+    hits_authorities_rank 196.0
+    pagerank 0.0026264854750541935
+    pagerank_rank 196.0
+  ]
+  node [
+    id 38
+    label "38"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.028436018957345974
+    indegree_rank 208.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 16581.465097518274
+    strength_rank 174.0
+    instrength 6398.829137393747
+    instrength_rank 189.0
+    outstrength 10182.635960124526
+    outstrength_rank 115.0
+    betweenness 0.003086902530515903
+    betweenness_rank 191.0
+    closeness 0.38294010889292196
+    closeness_rank 207.0
+    eigenvector 0.030869720316659896
+    eigenvector_rank 208.0
+    hits_hubs 0.003819620113059736
+    hits_hubs_rank 134.0
+    hits_authorities 0.0029503747259676887
+    hits_authorities_rank 173.0
+    pagerank 0.0025511601984505063
+    pagerank_rank 199.0
+  ]
+  node [
+    id 39
+    label "39"
+    degree 0.07109004739336494
+    degree_rank 209.0
+    indegree 0.023696682464454978
+    indegree_rank 211.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 13464.303028457187
+    strength_rank 202.0
+    instrength 6854.4040691335795
+    instrength_rank 186.0
+    outstrength 6609.898959323608
+    outstrength_rank 186.0
+    betweenness 0.0014702743156210219
+    betweenness_rank 211.0
+    closeness 0.36695652173913046
+    closeness_rank 211.0
+    eigenvector 0.01943524878336322
+    eigenvector_rank 212.0
+    hits_hubs 0.0022296146803862777
+    hits_hubs_rank 195.0
+    hits_authorities 0.0023412952159739156
+    hits_authorities_rank 193.0
+    pagerank 0.002742164756277186
+    pagerank_rank 194.0
+  ]
+  node [
+    id 40
+    label "40"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 14508.129108966712
+    strength_rank 197.0
+    instrength 7678.063667320799
+    instrength_rank 174.0
+    outstrength 6830.065441645913
+    outstrength_rank 179.0
+    betweenness 0.004416506213805325
+    betweenness_rank 161.0
+    closeness 0.4386694386694387
+    closeness_rank 84.0
+    eigenvector 0.07099505466247533
+    eigenvector_rank 85.0
+    hits_hubs 0.003052859323099455
+    hits_hubs_rank 167.0
+    hits_authorities 0.0036843407802773925
+    hits_authorities_rank 144.0
+    pagerank 0.0033927911392258652
+    pagerank_rank 171.0
+  ]
+  node [
+    id 41
+    label "41"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 33555.05695934379
+    strength_rank 4.0
+    instrength 16837.624445720052
+    instrength_rank 18.0
+    outstrength 16717.43251362374
+    outstrength_rank 18.0
+    betweenness 0.0099163640520465
+    betweenness_rank 19.0
+    closeness 0.45670995670995673
+    closeness_rank 29.0
+    eigenvector 0.09096911164975434
+    eigenvector_rank 19.0
+    hits_hubs 0.0074973686957845185
+    hits_hubs_rank 20.0
+    hits_authorities 0.006719654522154178
+    hits_authorities_rank 34.0
+    pagerank 0.006991997791425484
+    pagerank_rank 16.0
+  ]
+  node [
+    id 42
+    label "42"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 16211.134178092969
+    strength_rank 180.0
+    instrength 4129.64281372355
+    instrength_rank 209.0
+    outstrength 12081.49136436942
+    outstrength_rank 81.0
+    betweenness 0.004616810105964039
+    betweenness_rank 152.0
+    closeness 0.4203187250996016
+    closeness_rank 145.0
+    eigenvector 0.056209499955302306
+    eigenvector_rank 145.0
+    hits_hubs 0.006685349007468463
+    hits_hubs_rank 39.0
+    hits_authorities 0.0016065108043697889
+    hits_authorities_rank 208.0
+    pagerank 0.0025010715486008354
+    pagerank_rank 201.0
+  ]
+  node [
+    id 43
+    label "43"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 20683.156818338673
+    strength_rank 125.0
+    instrength 5219.939368881092
+    instrength_rank 199.0
+    outstrength 15463.217449457581
+    outstrength_rank 26.0
+    betweenness 0.004722026248203171
+    betweenness_rank 148.0
+    closeness 0.3996212121212121
+    closeness_rank 191.0
+    eigenvector 0.041097527977694136
+    eigenvector_rank 195.0
+    hits_hubs 0.0076990680080774145
+    hits_hubs_rank 13.0
+    hits_authorities 0.002170247705696708
+    hits_authorities_rank 195.0
+    pagerank 0.002906128502653973
+    pagerank_rank 190.0
+  ]
+  node [
+    id 44
+    label "44"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 23914.432155855993
+    strength_rank 76.0
+    instrength 11399.48635634744
+    instrength_rank 95.0
+    outstrength 12514.945799508554
+    outstrength_rank 72.0
+    betweenness 0.004065630858077324
+    betweenness_rank 172.0
+    closeness 0.4081237911025145
+    closeness_rank 176.0
+    eigenvector 0.048733831100224834
+    eigenvector_rank 172.0
+    hits_hubs 0.0054843986039012
+    hits_hubs_rank 64.0
+    hits_authorities 0.0054969575720158
+    hits_authorities_rank 67.0
+    pagerank 0.004859550023502345
+    pagerank_rank 99.0
+  ]
+  node [
+    id 45
+    label "45"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 25335.244154921682
+    strength_rank 54.0
+    instrength 13138.96340525909
+    instrength_rank 53.0
+    outstrength 12196.28074966259
+    outstrength_rank 80.0
+    betweenness 0.007910749573497912
+    betweenness_rank 51.0
+    closeness 0.45085470085470086
+    closeness_rank 40.0
+    eigenvector 0.0783841627867261
+    eigenvector_rank 54.0
+    hits_hubs 0.006217044997500778
+    hits_hubs_rank 44.0
+    hits_authorities 0.004559411678149375
+    hits_authorities_rank 107.0
+    pagerank 0.006324089523057673
+    pagerank_rank 32.0
+  ]
+  node [
+    id 46
+    label "46"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 22859.203606375893
+    strength_rank 95.0
+    instrength 10252.281435567886
+    instrength_rank 127.0
+    outstrength 12606.92217080801
+    outstrength_rank 69.0
+    betweenness 0.004853395688380382
+    betweenness_rank 143.0
+    closeness 0.40190476190476193
+    closeness_rank 189.0
+    eigenvector 0.0414045254953117
+    eigenvector_rank 192.0
+    hits_hubs 0.004993640881586149
+    hits_hubs_rank 82.0
+    hits_authorities 0.0057715847387839175
+    hits_authorities_rank 51.0
+    pagerank 0.002932563016937316
+    pagerank_rank 189.0
+  ]
+  node [
+    id 47
+    label "47"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.028436018957345974
+    indegree_rank 208.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 17770.521968131907
+    strength_rank 155.0
+    instrength 5939.732328576619
+    instrength_rank 190.0
+    outstrength 11830.789639555289
+    outstrength_rank 84.0
+    betweenness 0.00354268692465497
+    betweenness_rank 186.0
+    closeness 0.37881508078994613
+    closeness_rank 210.0
+    eigenvector 0.02598559042911782
+    eigenvector_rank 210.0
+    hits_hubs 0.005266653911401795
+    hits_hubs_rank 70.0
+    hits_authorities 0.0020188324271199656
+    hits_authorities_rank 199.0
+    pagerank 0.0026815227556431917
+    pagerank_rank 195.0
+  ]
+  node [
+    id 48
+    label "48"
+    degree 0.16113744075829384
+    degree_rank 21.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 27685.707275161567
+    strength_rank 38.0
+    instrength 16500.370482023776
+    instrength_rank 22.0
+    outstrength 11185.33679313779
+    outstrength_rank 96.0
+    betweenness 0.009960587982183085
+    betweenness_rank 18.0
+    closeness 0.46578366445916114
+    closeness_rank 11.0
+    eigenvector 0.09504609592580046
+    eigenvector_rank 15.0
+    hits_hubs 0.00461173797860038
+    hits_hubs_rank 98.0
+    hits_authorities 0.0095158801719671
+    hits_authorities_rank 3.0
+    pagerank 0.006881621847114997
+    pagerank_rank 19.0
+  ]
+  node [
+    id 49
+    label "49"
+    degree 0.09004739336492892
+    degree_rank 196.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.023696682464454978
+    outdegree_rank 210.0
+    strength 13916.03116941874
+    strength_rank 200.0
+    instrength 10771.95128299228
+    instrength_rank 112.0
+    outstrength 3144.07988642646
+    outstrength_rank 211.0
+    betweenness 0.0018779539959936427
+    betweenness_rank 209.0
+    closeness 0.43685300207039335
+    closeness_rank 92.0
+    eigenvector 0.06750235717221166
+    eigenvector_rank 101.0
+    hits_hubs 0.0010168669461406358
+    hits_hubs_rank 211.0
+    hits_authorities 0.005284200184757665
+    hits_authorities_rank 79.0
+    pagerank 0.004036053047860381
+    pagerank_rank 143.0
+  ]
+  node [
+    id 50
+    label "50"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 17946.50979285002
+    strength_rank 151.0
+    instrength 11368.528961710708
+    instrength_rank 96.0
+    outstrength 6577.9808311393135
+    outstrength_rank 187.0
+    betweenness 0.0038275929520787816
+    betweenness_rank 180.0
+    closeness 0.4451476793248945
+    closeness_rank 62.0
+    eigenvector 0.07632834995795086
+    eigenvector_rank 58.0
+    hits_hubs 0.002639944739391708
+    hits_hubs_rank 185.0
+    hits_authorities 0.006072450975391479
+    hits_authorities_rank 44.0
+    pagerank 0.004019747648845521
+    pagerank_rank 145.0
+  ]
+  node [
+    id 51
+    label "51"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 22613.930109957608
+    strength_rank 98.0
+    instrength 9798.133288289117
+    instrength_rank 137.0
+    outstrength 12815.796821668491
+    outstrength_rank 60.0
+    betweenness 0.006271951897659183
+    betweenness_rank 104.0
+    closeness 0.4194831013916501
+    closeness_rank 150.0
+    eigenvector 0.05466160203734295
+    eigenvector_rank 152.0
+    hits_hubs 0.005339993648071185
+    hits_hubs_rank 69.0
+    hits_authorities 0.004331888996230263
+    hits_authorities_rank 119.0
+    pagerank 0.004412194775920604
+    pagerank_rank 120.0
+  ]
+  node [
+    id 52
+    label "52"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 17083.27379831427
+    strength_rank 165.0
+    instrength 8143.248697757977
+    instrength_rank 165.0
+    outstrength 8940.025100556291
+    outstrength_rank 146.0
+    betweenness 0.006318699666822221
+    betweenness_rank 103.0
+    closeness 0.41130604288499023
+    closeness_rank 171.0
+    eigenvector 0.04569729726092639
+    eigenvector_rank 179.0
+    hits_hubs 0.0031499830325790335
+    hits_hubs_rank 160.0
+    hits_authorities 0.00416880507155749
+    hits_authorities_rank 124.0
+    pagerank 0.0027842336459502183
+    pagerank_rank 193.0
+  ]
+  node [
+    id 53
+    label "53"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.09004739336492892
+    indegree_rank 14.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 24251.757251983498
+    strength_rank 70.0
+    instrength 14584.466678862134
+    instrength_rank 32.0
+    outstrength 9667.290573121363
+    outstrength_rank 129.0
+    betweenness 0.010117061215011497
+    betweenness_rank 15.0
+    closeness 0.46271929824561403
+    closeness_rank 16.0
+    eigenvector 0.09551672266103853
+    eigenvector_rank 13.0
+    hits_hubs 0.0032621669203623544
+    hits_hubs_rank 158.0
+    hits_authorities 0.00535107952380179
+    hits_authorities_rank 73.0
+    pagerank 0.007160847689891222
+    pagerank_rank 15.0
+  ]
+  node [
+    id 54
+    label "54"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 23727.863933755543
+    strength_rank 78.0
+    instrength 14120.995277238864
+    instrength_rank 36.0
+    outstrength 9606.868656516679
+    outstrength_rank 132.0
+    betweenness 0.007202718142231389
+    betweenness_rank 72.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.0759714648449099
+    eigenvector_rank 63.0
+    hits_hubs 0.0036713041501943134
+    hits_hubs_rank 145.0
+    hits_authorities 0.006298435381449716
+    hits_authorities_rank 39.0
+    pagerank 0.005267470441552991
+    pagerank_rank 74.0
+  ]
+  node [
+    id 55
+    label "55"
+    degree 0.18009478672985785
+    degree_rank 4.0
+    indegree 0.0995260663507109
+    indegree_rank 4.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 29252.98463651229
+    strength_rank 24.0
+    instrength 16891.541945391444
+    instrength_rank 17.0
+    outstrength 12361.442691120847
+    outstrength_rank 74.0
+    betweenness 0.011289760485239796
+    betweenness_rank 7.0
+    closeness 0.4617067833698031
+    closeness_rank 18.0
+    eigenvector 0.0963215108777275
+    eigenvector_rank 9.0
+    hits_hubs 0.006014693446153108
+    hits_hubs_rank 52.0
+    hits_authorities 0.007034151108357274
+    hits_authorities_rank 28.0
+    pagerank 0.0063010440857729725
+    pagerank_rank 33.0
+  ]
+  node [
+    id 56
+    label "56"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.09004739336492892
+    indegree_rank 14.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 27002.302234631483
+    strength_rank 41.0
+    instrength 16894.287751101925
+    instrength_rank 15.0
+    outstrength 10108.014483529556
+    outstrength_rank 119.0
+    betweenness 0.007183802929562914
+    betweenness_rank 73.0
+    closeness 0.46271929824561403
+    closeness_rank 16.0
+    eigenvector 0.09625924978029617
+    eigenvector_rank 10.0
+    hits_hubs 0.00409344881038339
+    hits_hubs_rank 117.0
+    hits_authorities 0.007903770494068164
+    hits_authorities_rank 17.0
+    pagerank 0.007526926431530515
+    pagerank_rank 5.0
+  ]
+  node [
+    id 57
+    label "57"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 23814.70111316505
+    strength_rank 77.0
+    instrength 10947.619047199834
+    instrength_rank 107.0
+    outstrength 12867.082065965216
+    outstrength_rank 58.0
+    betweenness 0.008560070009239825
+    betweenness_rank 38.0
+    closeness 0.44608879492600423
+    closeness_rank 58.0
+    eigenvector 0.07530987850786648
+    eigenvector_rank 66.0
+    hits_hubs 0.0068927907337210876
+    hits_hubs_rank 31.0
+    hits_authorities 0.0034558845799928487
+    hits_authorities_rank 154.0
+    pagerank 0.005005263203497083
+    pagerank_rank 88.0
+  ]
+  node [
+    id 58
+    label "58"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 23428.375539987726
+    strength_rank 83.0
+    instrength 10995.50821456432
+    instrength_rank 105.0
+    outstrength 12432.867325423407
+    outstrength_rank 73.0
+    betweenness 0.005121669358675613
+    betweenness_rank 135.0
+    closeness 0.4432773109243697
+    closeness_rank 71.0
+    eigenvector 0.07056057936236526
+    eigenvector_rank 89.0
+    hits_hubs 0.004488785834535688
+    hits_hubs_rank 104.0
+    hits_authorities 0.004968981950231941
+    hits_authorities_rank 93.0
+    pagerank 0.005093779530688822
+    pagerank_rank 83.0
+  ]
+  node [
+    id 59
+    label "59"
+    degree 0.08056872037914692
+    degree_rank 204.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 15243.489421462125
+    strength_rank 185.0
+    instrength 8122.56214518937
+    instrength_rank 166.0
+    outstrength 7120.927276272755
+    outstrength_rank 176.0
+    betweenness 0.002287001125126947
+    betweenness_rank 204.0
+    closeness 0.394392523364486
+    closeness_rank 201.0
+    eigenvector 0.040197797257471975
+    eigenvector_rank 196.0
+    hits_hubs 0.0029323439556228695
+    hits_hubs_rank 175.0
+    hits_authorities 0.002946601006706646
+    hits_authorities_rank 174.0
+    pagerank 0.004066317472954793
+    pagerank_rank 140.0
+  ]
+  node [
+    id 60
+    label "60"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 19730.789469464984
+    strength_rank 134.0
+    instrength 7793.985732083066
+    instrength_rank 172.0
+    outstrength 11936.803737381919
+    outstrength_rank 83.0
+    betweenness 0.006512711244581275
+    betweenness_rank 92.0
+    closeness 0.44798301486199577
+    closeness_rank 50.0
+    eigenvector 0.07121476484180968
+    eigenvector_rank 83.0
+    hits_hubs 0.006969562179040583
+    hits_hubs_rank 29.0
+    hits_authorities 0.0031801594460695065
+    hits_authorities_rank 165.0
+    pagerank 0.0035825210030638053
+    pagerank_rank 161.0
+  ]
+  node [
+    id 61
+    label "61"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 24682.099742732724
+    strength_rank 64.0
+    instrength 11735.77830947492
+    instrength_rank 86.0
+    outstrength 12946.321433257803
+    outstrength_rank 55.0
+    betweenness 0.006713837278582763
+    betweenness_rank 88.0
+    closeness 0.43149284253578735
+    closeness_rank 111.0
+    eigenvector 0.06408571695836522
+    eigenvector_rank 119.0
+    hits_hubs 0.005481582153789277
+    hits_hubs_rank 65.0
+    hits_authorities 0.004020887525058807
+    hits_authorities_rank 129.0
+    pagerank 0.004720228857637041
+    pagerank_rank 106.0
+  ]
+  node [
+    id 62
+    label "62"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 25721.367355321127
+    strength_rank 50.0
+    instrength 13395.260008558544
+    instrength_rank 48.0
+    outstrength 12326.107346762581
+    outstrength_rank 75.0
+    betweenness 0.006946989119476207
+    betweenness_rank 79.0
+    closeness 0.4395833333333333
+    closeness_rank 80.0
+    eigenvector 0.06527110974081624
+    eigenvector_rank 113.0
+    hits_hubs 0.006063941246755769
+    hits_hubs_rank 49.0
+    hits_authorities 0.004925958442532886
+    hits_authorities_rank 96.0
+    pagerank 0.0055735860895113195
+    pagerank_rank 60.0
+  ]
+  node [
+    id 63
+    label "63"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 26085.78339633284
+    strength_rank 47.0
+    instrength 11143.150669500545
+    instrength_rank 99.0
+    outstrength 14942.632726832297
+    outstrength_rank 31.0
+    betweenness 0.007310289372501338
+    betweenness_rank 70.0
+    closeness 0.4203187250996016
+    closeness_rank 145.0
+    eigenvector 0.05422151993900814
+    eigenvector_rank 155.0
+    hits_hubs 0.0060280305819406165
+    hits_hubs_rank 51.0
+    hits_authorities 0.003834774740459804
+    hits_authorities_rank 138.0
+    pagerank 0.004871832817195608
+    pagerank_rank 98.0
+  ]
+  node [
+    id 64
+    label "64"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 16977.340216290024
+    strength_rank 168.0
+    instrength 8879.961235122299
+    instrength_rank 154.0
+    outstrength 8097.378981167726
+    outstrength_rank 160.0
+    betweenness 0.0047219938322081234
+    betweenness_rank 149.0
+    closeness 0.41699604743083
+    closeness_rank 159.0
+    eigenvector 0.04922533639506248
+    eigenvector_rank 170.0
+    hits_hubs 0.0031277955880552044
+    hits_hubs_rank 161.0
+    hits_authorities 0.0043539912441894766
+    hits_authorities_rank 118.0
+    pagerank 0.0031759518760054164
+    pagerank_rank 182.0
+  ]
+  node [
+    id 65
+    label "65"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 24243.83870833292
+    strength_rank 71.0
+    instrength 13934.48849182462
+    instrength_rank 38.0
+    outstrength 10309.3502165083
+    outstrength_rank 114.0
+    betweenness 0.006997724216825669
+    betweenness_rank 76.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.06621859163332602
+    eigenvector_rank 108.0
+    hits_hubs 0.004014669679962368
+    hits_hubs_rank 122.0
+    hits_authorities 0.006159559924571599
+    hits_authorities_rank 42.0
+    pagerank 0.005609496158823185
+    pagerank_rank 54.0
+  ]
+  node [
+    id 66
+    label "66"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.018957345971563982
+    indegree_rank 212.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 16508.50529234075
+    strength_rank 175.0
+    instrength 1970.8938067556953
+    instrength_rank 212.0
+    outstrength 14537.611485585054
+    outstrength_rank 36.0
+    betweenness 0.00242725258161777
+    betweenness_rank 201.0
+    closeness 0.36006825938566556
+    closeness_rank 212.0
+    eigenvector 0.02166307984446326
+    eigenvector_rank 211.0
+    hits_hubs 0.0064037673149086975
+    hits_hubs_rank 42.0
+    hits_authorities 0.0006475241233921372
+    hits_authorities_rank 212.0
+    pagerank 0.0016457510010077423
+    pagerank_rank 212.0
+  ]
+  node [
+    id 67
+    label "67"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 21211.25502066534
+    strength_rank 116.0
+    instrength 10236.785236646709
+    instrength_rank 128.0
+    outstrength 10974.469784018629
+    outstrength_rank 100.0
+    betweenness 0.006351339048161432
+    betweenness_rank 102.0
+    closeness 0.43775933609958506
+    closeness_rank 88.0
+    eigenvector 0.07041252872036532
+    eigenvector_rank 90.0
+    hits_hubs 0.005088801198850241
+    hits_hubs_rank 77.0
+    hits_authorities 0.005172253100135639
+    hits_authorities_rank 83.0
+    pagerank 0.00399526083744372
+    pagerank_rank 148.0
+  ]
+  node [
+    id 68
+    label "68"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 19562.118672423196
+    strength_rank 138.0
+    instrength 10573.512633438175
+    instrength_rank 120.0
+    outstrength 8988.60603898502
+    outstrength_rank 143.0
+    betweenness 0.003833017195912058
+    betweenness_rank 179.0
+    closeness 0.4178217821782178
+    closeness_rank 157.0
+    eigenvector 0.05398346095738481
+    eigenvector_rank 156.0
+    hits_hubs 0.0031186863294263988
+    hits_hubs_rank 163.0
+    hits_authorities 0.0036696504454466396
+    hits_authorities_rank 145.0
+    pagerank 0.005237718283411362
+    pagerank_rank 76.0
+  ]
+  node [
+    id 69
+    label "69"
+    degree 0.07582938388625593
+    degree_rank 207.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.014218009478672987
+    outdegree_rank 212.0
+    strength 8498.798572254276
+    strength_rank 212.0
+    instrength 7228.325947983792
+    instrength_rank 180.0
+    outstrength 1270.4726242704842
+    outstrength_rank 212.0
+    betweenness 0.001473483921679167
+    betweenness_rank 210.0
+    closeness 0.4306122448979592
+    closeness_rank 115.0
+    eigenvector 0.06742330680888017
+    eigenvector_rank 102.0
+    hits_hubs 0.0003800799908035557
+    hits_hubs_rank 212.0
+    hits_authorities 0.0024609337832279515
+    hits_authorities_rank 187.0
+    pagerank 0.004238500384774434
+    pagerank_rank 128.0
+  ]
+  node [
+    id 70
+    label "70"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 18256.5845458138
+    strength_rank 148.0
+    instrength 7932.334064084465
+    instrength_rank 170.0
+    outstrength 10324.250481729332
+    outstrength_rank 112.0
+    betweenness 0.007722956067595779
+    betweenness_rank 56.0
+    closeness 0.42886178861788615
+    closeness_rank 122.0
+    eigenvector 0.06228589602826936
+    eigenvector_rank 126.0
+    hits_hubs 0.0032727494014038088
+    hits_hubs_rank 156.0
+    hits_authorities 0.003135062034572596
+    hits_authorities_rank 167.0
+    pagerank 0.003702319028462381
+    pagerank_rank 156.0
+  ]
+  node [
+    id 71
+    label "71"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 27191.34163755945
+    strength_rank 40.0
+    instrength 17712.81994481808
+    instrength_rank 9.0
+    outstrength 9478.521692741371
+    outstrength_rank 134.0
+    betweenness 0.005679916710712847
+    betweenness_rank 123.0
+    closeness 0.4547413793103448
+    closeness_rank 34.0
+    eigenvector 0.08161245372330413
+    eigenvector_rank 46.0
+    hits_hubs 0.0037280327753944813
+    hits_hubs_rank 140.0
+    hits_authorities 0.006857782017095392
+    hits_authorities_rank 31.0
+    pagerank 0.006989993329874468
+    pagerank_rank 17.0
+  ]
+  node [
+    id 72
+    label "72"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 21077.055333759607
+    strength_rank 118.0
+    instrength 11141.05397973345
+    instrength_rank 100.0
+    outstrength 9936.001354026159
+    outstrength_rank 125.0
+    betweenness 0.008467755757422087
+    betweenness_rank 42.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.07838287278475298
+    eigenvector_rank 55.0
+    hits_hubs 0.0030780280553710988
+    hits_hubs_rank 164.0
+    hits_authorities 0.005297606701643495
+    hits_authorities_rank 78.0
+    pagerank 0.004542926440888112
+    pagerank_rank 114.0
+  ]
+  node [
+    id 73
+    label "73"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 23172.23154054526
+    strength_rank 86.0
+    instrength 10888.805650427143
+    instrength_rank 109.0
+    outstrength 12283.425890118118
+    outstrength_rank 76.0
+    betweenness 0.00784932751865836
+    betweenness_rank 53.0
+    closeness 0.44234800838574423
+    closeness_rank 72.0
+    eigenvector 0.0702947344829091
+    eigenvector_rank 92.0
+    hits_hubs 0.005464441328904997
+    hits_hubs_rank 66.0
+    hits_authorities 0.003933094556967493
+    hits_authorities_rank 131.0
+    pagerank 0.004466318898868684
+    pagerank_rank 117.0
+  ]
+  node [
+    id 74
+    label "74"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 20848.30987018497
+    strength_rank 120.0
+    instrength 12959.06123596487
+    instrength_rank 60.0
+    outstrength 7889.248634220101
+    outstrength_rank 163.0
+    betweenness 0.005677178100005142
+    betweenness_rank 125.0
+    closeness 0.43775933609958506
+    closeness_rank 88.0
+    eigenvector 0.0727674475194901
+    eigenvector_rank 78.0
+    hits_hubs 0.0038466187330346993
+    hits_hubs_rank 129.0
+    hits_authorities 0.004678827147384012
+    hits_authorities_rank 103.0
+    pagerank 0.006471430039107917
+    pagerank_rank 28.0
+  ]
+  node [
+    id 75
+    label "75"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 18821.42162127335
+    strength_rank 144.0
+    instrength 10365.221827371699
+    instrength_rank 125.0
+    outstrength 8456.199793901655
+    outstrength_rank 157.0
+    betweenness 0.005727404701741268
+    betweenness_rank 121.0
+    closeness 0.44608879492600423
+    closeness_rank 58.0
+    eigenvector 0.07146607633348392
+    eigenvector_rank 81.0
+    hits_hubs 0.0037003164538747533
+    hits_hubs_rank 144.0
+    hits_authorities 0.0042607624796231775
+    hits_authorities_rank 121.0
+    pagerank 0.005201772122588238
+    pagerank_rank 77.0
+  ]
+  node [
+    id 76
+    label "76"
+    degree 0.09478672985781991
+    degree_rank 190.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 14430.881908806788
+    strength_rank 198.0
+    instrength 7678.165082372052
+    instrength_rank 173.0
+    outstrength 6752.7168264347365
+    outstrength_rank 183.0
+    betweenness 0.003978874059192167
+    betweenness_rank 174.0
+    closeness 0.41865079365079366
+    closeness_rank 153.0
+    eigenvector 0.05524370172288564
+    eigenvector_rank 150.0
+    hits_hubs 0.0034295022612718085
+    hits_hubs_rank 150.0
+    hits_authorities 0.002583820149753463
+    hits_authorities_rank 182.0
+    pagerank 0.00368328725981382
+    pagerank_rank 158.0
+  ]
+  node [
+    id 77
+    label "77"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 30951.171174922318
+    strength_rank 13.0
+    instrength 17185.396951349845
+    instrength_rank 12.0
+    outstrength 13765.774223572473
+    outstrength_rank 48.0
+    betweenness 0.008480581649393661
+    betweenness_rank 41.0
+    closeness 0.4606986899563319
+    closeness_rank 20.0
+    eigenvector 0.08789822254695158
+    eigenvector_rank 28.0
+    hits_hubs 0.006837335573787038
+    hits_hubs_rank 34.0
+    hits_authorities 0.008621124835255444
+    hits_authorities_rank 8.0
+    pagerank 0.006693664977819073
+    pagerank_rank 22.0
+  ]
+  node [
+    id 78
+    label "78"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 22360.58545107204
+    strength_rank 100.0
+    instrength 9525.758015887228
+    instrength_rank 140.0
+    outstrength 12834.827435184809
+    outstrength_rank 59.0
+    betweenness 0.005062222812885917
+    betweenness_rank 138.0
+    closeness 0.40733590733590735
+    closeness_rank 178.0
+    eigenvector 0.04205472922430312
+    eigenvector_rank 189.0
+    hits_hubs 0.004692994756624779
+    hits_hubs_rank 96.0
+    hits_authorities 0.003548710733330588
+    hits_authorities_rank 149.0
+    pagerank 0.004359104745884411
+    pagerank_rank 121.0
+  ]
+  node [
+    id 79
+    label "79"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 16945.38908239974
+    strength_rank 170.0
+    instrength 6960.772397649344
+    instrength_rank 185.0
+    outstrength 9984.616684750394
+    outstrength_rank 124.0
+    betweenness 0.004255321752072291
+    betweenness_rank 169.0
+    closeness 0.4395833333333333
+    closeness_rank 80.0
+    eigenvector 0.0720174264095279
+    eigenvector_rank 80.0
+    hits_hubs 0.0038230280163557783
+    hits_hubs_rank 133.0
+    hits_authorities 0.003307014720537007
+    hits_authorities_rank 162.0
+    pagerank 0.0034397536852086704
+    pagerank_rank 169.0
+  ]
+  node [
+    id 80
+    label "80"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 16497.57125527657
+    strength_rank 176.0
+    instrength 9400.02842717358
+    instrength_rank 141.0
+    outstrength 7097.542828102989
+    outstrength_rank 177.0
+    betweenness 0.004318365796521465
+    betweenness_rank 165.0
+    closeness 0.41865079365079366
+    closeness_rank 153.0
+    eigenvector 0.055711757846407195
+    eigenvector_rank 147.0
+    hits_hubs 0.0033130114662437682
+    hits_hubs_rank 152.0
+    hits_authorities 0.004164396804338705
+    hits_authorities_rank 125.0
+    pagerank 0.003137950691696541
+    pagerank_rank 184.0
+  ]
+  node [
+    id 81
+    label "81"
+    degree 0.17061611374407584
+    degree_rank 9.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 26299.6731368791
+    strength_rank 45.0
+    instrength 10789.972637835635
+    instrength_rank 111.0
+    outstrength 15509.700499043467
+    outstrength_rank 25.0
+    betweenness 0.011270603771575596
+    betweenness_rank 8.0
+    closeness 0.44893617021276594
+    closeness_rank 48.0
+    eigenvector 0.08468505717708147
+    eigenvector_rank 36.0
+    hits_hubs 0.007168405454354422
+    hits_hubs_rank 25.0
+    hits_authorities 0.004647112167233424
+    hits_authorities_rank 104.0
+    pagerank 0.005128348296743118
+    pagerank_rank 81.0
+  ]
+  node [
+    id 82
+    label "82"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 23100.82694088599
+    strength_rank 89.0
+    instrength 12495.635402356185
+    instrength_rank 68.0
+    outstrength 10605.191538529803
+    outstrength_rank 106.0
+    betweenness 0.007734769640820448
+    betweenness_rank 55.0
+    closeness 0.44989339019189767
+    closeness_rank 43.0
+    eigenvector 0.0760974354287972
+    eigenvector_rank 62.0
+    hits_hubs 0.005981604896225929
+    hits_hubs_rank 53.0
+    hits_authorities 0.006719890862156341
+    hits_authorities_rank 33.0
+    pagerank 0.00558075119914068
+    pagerank_rank 59.0
+  ]
+  node [
+    id 83
+    label "83"
+    degree 0.07109004739336494
+    degree_rank 209.0
+    indegree 0.028436018957345974
+    indegree_rank 208.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 11641.18537414627
+    strength_rank 209.0
+    instrength 2599.6903657992993
+    instrength_rank 211.0
+    outstrength 9041.49500834697
+    outstrength_rank 141.0
+    betweenness 0.0019639752981021196
+    betweenness_rank 208.0
+    closeness 0.3822463768115942
+    closeness_rank 208.0
+    eigenvector 0.029288567503175992
+    eigenvector_rank 209.0
+    hits_hubs 0.0032738020957008437
+    hits_hubs_rank 155.0
+    hits_authorities 0.0006746628238894183
+    hits_authorities_rank 211.0
+    pagerank 0.0016593663731155953
+    pagerank_rank 211.0
+  ]
+  node [
+    id 84
+    label "84"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 21824.141839329022
+    strength_rank 110.0
+    instrength 12032.112165766122
+    instrength_rank 79.0
+    outstrength 9792.029673562898
+    outstrength_rank 128.0
+    betweenness 0.00573714414823984
+    betweenness_rank 120.0
+    closeness 0.43149284253578735
+    closeness_rank 111.0
+    eigenvector 0.07097478659570022
+    eigenvector_rank 86.0
+    hits_hubs 0.005017458283217852
+    hits_hubs_rank 80.0
+    hits_authorities 0.0056743283921548105
+    hits_authorities_rank 53.0
+    pagerank 0.0044995747717436725
+    pagerank_rank 116.0
+  ]
+  node [
+    id 85
+    label "85"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 25263.827936069814
+    strength_rank 56.0
+    instrength 10586.887255168574
+    instrength_rank 118.0
+    outstrength 14676.94068090124
+    outstrength_rank 33.0
+    betweenness 0.007206300824383623
+    betweenness_rank 71.0
+    closeness 0.4470338983050847
+    closeness_rank 54.0
+    eigenvector 0.07142497830572607
+    eigenvector_rank 82.0
+    hits_hubs 0.006146942666424308
+    hits_hubs_rank 47.0
+    hits_authorities 0.004376560985355373
+    hits_authorities_rank 117.0
+    pagerank 0.0038961348969651427
+    pagerank_rank 149.0
+  ]
+  node [
+    id 86
+    label "86"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 21336.063042114347
+    strength_rank 114.0
+    instrength 7657.487977484557
+    instrength_rank 175.0
+    outstrength 13678.57506462979
+    outstrength_rank 50.0
+    betweenness 0.004191853652520354
+    betweenness_rank 170.0
+    closeness 0.4097087378640777
+    closeness_rank 174.0
+    eigenvector 0.046888676508405155
+    eigenvector_rank 176.0
+    hits_hubs 0.005887976463679386
+    hits_hubs_rank 55.0
+    hits_authorities 0.003031123140445326
+    hits_authorities_rank 170.0
+    pagerank 0.004000510263044242
+    pagerank_rank 147.0
+  ]
+  node [
+    id 87
+    label "87"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 23307.25788334674
+    strength_rank 84.0
+    instrength 11912.826633618955
+    instrength_rank 81.0
+    outstrength 11394.431249727786
+    outstrength_rank 92.0
+    betweenness 0.005658931713196116
+    betweenness_rank 126.0
+    closeness 0.43775933609958506
+    closeness_rank 88.0
+    eigenvector 0.07610926491158704
+    eigenvector_rank 61.0
+    hits_hubs 0.004432098649443264
+    hits_hubs_rank 108.0
+    hits_authorities 0.005570565463251625
+    hits_authorities_rank 59.0
+    pagerank 0.0054350396550530075
+    pagerank_rank 65.0
+  ]
+  node [
+    id 88
+    label "88"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 14714.169437179855
+    strength_rank 194.0
+    instrength 4692.553067939209
+    instrength_rank 205.0
+    outstrength 10021.616369240646
+    outstrength_rank 123.0
+    betweenness 0.006265363026049887
+    betweenness_rank 105.0
+    closeness 0.41453831041257366
+    closeness_rank 164.0
+    eigenvector 0.05553384485570608
+    eigenvector_rank 148.0
+    hits_hubs 0.004609155565904206
+    hits_hubs_rank 99.0
+    hits_authorities 0.0016852876396336325
+    hits_authorities_rank 205.0
+    pagerank 0.002089996505979849
+    pagerank_rank 209.0
+  ]
+  node [
+    id 89
+    label "89"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.09004739336492892
+    indegree_rank 14.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 33052.49085584178
+    strength_rank 6.0
+    instrength 17748.64847821627
+    instrength_rank 8.0
+    outstrength 15303.842377625513
+    outstrength_rank 28.0
+    betweenness 0.008915977141220093
+    betweenness_rank 35.0
+    closeness 0.44798301486199577
+    closeness_rank 50.0
+    eigenvector 0.08294897776746533
+    eigenvector_rank 39.0
+    hits_hubs 0.007827984505069059
+    hits_hubs_rank 12.0
+    hits_authorities 0.009850529772921496
+    hits_authorities_rank 2.0
+    pagerank 0.005888411707060815
+    pagerank_rank 44.0
+  ]
+  node [
+    id 90
+    label "90"
+    degree 0.2132701421800948
+    degree_rank 1.0
+    indegree 0.1042654028436019
+    indegree_rank 3.0
+    outdegree 0.1090047393364929
+    outdegree_rank 1.0
+    strength 45676.12887443486
+    strength_rank 1.0
+    instrength 19585.890717571434
+    instrength_rank 2.0
+    outstrength 26090.238156863423
+    outstrength_rank 1.0
+    betweenness 0.01660054591711148
+    betweenness_rank 1.0
+    closeness 0.4678492239467849
+    closeness_rank 8.0
+    eigenvector 0.09572194175244218
+    eigenvector_rank 12.0
+    hits_hubs 0.013956097247508075
+    hits_hubs_rank 1.0
+    hits_authorities 0.007713522687362093
+    hits_authorities_rank 21.0
+    pagerank 0.007425560716576768
+    pagerank_rank 6.0
+  ]
+  node [
+    id 91
+    label "91"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 25171.942214505947
+    strength_rank 58.0
+    instrength 15064.776781327662
+    instrength_rank 30.0
+    outstrength 10107.165433178285
+    outstrength_rank 121.0
+    betweenness 0.007311777360462213
+    betweenness_rank 69.0
+    closeness 0.46373626373626375
+    closeness_rank 14.0
+    eigenvector 0.09517411419724814
+    eigenvector_rank 14.0
+    hits_hubs 0.00420906618732516
+    hits_hubs_rank 114.0
+    hits_authorities 0.0054246987963568055
+    hits_authorities_rank 71.0
+    pagerank 0.007321046737828148
+    pagerank_rank 9.0
+  ]
+  node [
+    id 92
+    label "92"
+    degree 0.09004739336492892
+    degree_rank 196.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.03317535545023697
+    outdegree_rank 201.0
+    strength 14236.56862100946
+    strength_rank 199.0
+    instrength 10752.858104504925
+    instrength_rank 114.0
+    outstrength 3483.7105165045336
+    outstrength_rank 210.0
+    betweenness 0.0030798684709621546
+    betweenness_rank 192.0
+    closeness 0.42973523421588594
+    closeness_rank 118.0
+    eigenvector 0.057092593998013134
+    eigenvector_rank 141.0
+    hits_hubs 0.0016837323789905953
+    hits_hubs_rank 209.0
+    hits_authorities 0.0034768872954627165
+    hits_authorities_rank 152.0
+    pagerank 0.004903491829579707
+    pagerank_rank 95.0
+  ]
+  node [
+    id 93
+    label "93"
+    degree 0.09478672985781991
+    degree_rank 190.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 17680.429343661253
+    strength_rank 156.0
+    instrength 8069.8742138715015
+    instrength_rank 167.0
+    outstrength 9610.555129789753
+    outstrength_rank 131.0
+    betweenness 0.003546474306959274
+    betweenness_rank 185.0
+    closeness 0.41453831041257366
+    closeness_rank 164.0
+    eigenvector 0.05045198594893633
+    eigenvector_rank 167.0
+    hits_hubs 0.003075012749231025
+    hits_hubs_rank 165.0
+    hits_authorities 0.004752861725396676
+    hits_authorities_rank 101.0
+    pagerank 0.0030574119410338788
+    pagerank_rank 185.0
+  ]
+  node [
+    id 94
+    label "94"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 26337.8422671048
+    strength_rank 44.0
+    instrength 12767.735263557843
+    instrength_rank 62.0
+    outstrength 13570.107003546957
+    outstrength_rank 51.0
+    betweenness 0.006068382887172855
+    betweenness_rank 115.0
+    closeness 0.43149284253578735
+    closeness_rank 111.0
+    eigenvector 0.06273262376958898
+    eigenvector_rank 124.0
+    hits_hubs 0.006295716425083181
+    hits_hubs_rank 43.0
+    hits_authorities 0.006203082877618256
+    hits_authorities_rank 41.0
+    pagerank 0.004070368534163258
+    pagerank_rank 139.0
+  ]
+  node [
+    id 95
+    label "95"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 27943.658722284323
+    strength_rank 35.0
+    instrength 17610.47775583933
+    instrength_rank 10.0
+    outstrength 10333.180966444994
+    outstrength_rank 111.0
+    betweenness 0.008558943126353056
+    betweenness_rank 39.0
+    closeness 0.4720357941834452
+    closeness_rank 4.0
+    eigenvector 0.1038401176373904
+    eigenvector_rank 5.0
+    hits_hubs 0.00558295269193567
+    hits_hubs_rank 61.0
+    hits_authorities 0.006860316709303299
+    hits_authorities_rank 30.0
+    pagerank 0.007645906978612105
+    pagerank_rank 4.0
+  ]
+  node [
+    id 96
+    label "96"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.1042654028436019
+    outdegree_rank 4.0
+    strength 28734.233068560126
+    strength_rank 29.0
+    instrength 12176.579389763314
+    instrength_rank 73.0
+    outstrength 16557.653678796814
+    outstrength_rank 20.0
+    betweenness 0.010284873485791806
+    betweenness_rank 12.0
+    closeness 0.42973523421588594
+    closeness_rank 118.0
+    eigenvector 0.06606522190847679
+    eigenvector_rank 110.0
+    hits_hubs 0.008057263809386976
+    hits_hubs_rank 10.0
+    hits_authorities 0.005052522452166156
+    hits_authorities_rank 89.0
+    pagerank 0.005766543918526701
+    pagerank_rank 47.0
+  ]
+  node [
+    id 97
+    label "97"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 19083.025885693525
+    strength_rank 143.0
+    instrength 9156.101161908384
+    instrength_rank 148.0
+    outstrength 9926.924723785143
+    outstrength_rank 127.0
+    betweenness 0.004689225678462862
+    betweenness_rank 151.0
+    closeness 0.4386694386694387
+    closeness_rank 84.0
+    eigenvector 0.06875641236205607
+    eigenvector_rank 99.0
+    hits_hubs 0.0038145091859860605
+    hits_hubs_rank 135.0
+    hits_authorities 0.0035153195786711408
+    hits_authorities_rank 150.0
+    pagerank 0.004122919286884973
+    pagerank_rank 136.0
+  ]
+  node [
+    id 98
+    label "98"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 29225.461774544925
+    strength_rank 25.0
+    instrength 16681.11277995218
+    instrength_rank 20.0
+    outstrength 12544.348994592747
+    outstrength_rank 71.0
+    betweenness 0.006200654489383482
+    betweenness_rank 109.0
+    closeness 0.45869565217391306
+    closeness_rank 25.0
+    eigenvector 0.09023296659809903
+    eigenvector_rank 22.0
+    hits_hubs 0.005872626795814704
+    hits_hubs_rank 56.0
+    hits_authorities 0.008096838315117273
+    hits_authorities_rank 15.0
+    pagerank 0.0067612935332866135
+    pagerank_rank 21.0
+  ]
+  node [
+    id 99
+    label "99"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 32063.736980790585
+    strength_rank 8.0
+    instrength 19834.05556183727
+    instrength_rank 1.0
+    outstrength 12229.681418953312
+    outstrength_rank 78.0
+    betweenness 0.00736448212462349
+    betweenness_rank 67.0
+    closeness 0.4596949891067538
+    closeness_rank 23.0
+    eigenvector 0.09064373918733276
+    eigenvector_rank 20.0
+    hits_hubs 0.005046909513800253
+    hits_hubs_rank 79.0
+    hits_authorities 0.007687583949523788
+    hits_authorities_rank 22.0
+    pagerank 0.009300013755424108
+    pagerank_rank 1.0
+  ]
+  node [
+    id 100
+    label "100"
+    degree 0.05687203791469195
+    degree_rank 212.0
+    indegree 0.03317535545023697
+    indegree_rank 205.0
+    outdegree 0.023696682464454978
+    outdegree_rank 210.0
+    strength 9262.701011044981
+    strength_rank 211.0
+    instrength 4248.908867804188
+    instrength_rank 208.0
+    outstrength 5013.792143240794
+    outstrength_rank 206.0
+    betweenness 0.0007936424816772946
+    betweenness_rank 212.0
+    closeness 0.3871559633027523
+    closeness_rank 206.0
+    eigenvector 0.0316668181773068
+    eigenvector_rank 207.0
+    hits_hubs 0.002104844129835462
+    hits_hubs_rank 200.0
+    hits_authorities 0.0019311417600792707
+    hits_authorities_rank 200.0
+    pagerank 0.001692997283734284
+    pagerank_rank 210.0
+  ]
+  node [
+    id 101
+    label "101"
+    degree 0.09004739336492892
+    degree_rank 196.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 12494.154587587593
+    strength_rank 204.0
+    instrength 7061.747344444899
+    instrength_rank 183.0
+    outstrength 5432.407243142693
+    outstrength_rank 203.0
+    betweenness 0.0023870868075944202
+    betweenness_rank 202.0
+    closeness 0.3973634651600753
+    closeness_rank 197.0
+    eigenvector 0.04017046793046681
+    eigenvector_rank 197.0
+    hits_hubs 0.0017219601624254672
+    hits_hubs_rank 208.0
+    hits_authorities 0.0034745415885775346
+    hits_authorities_rank 153.0
+    pagerank 0.002935061237428105
+    pagerank_rank 188.0
+  ]
+  node [
+    id 102
+    label "102"
+    degree 0.18009478672985785
+    degree_rank 4.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.1042654028436019
+    outdegree_rank 4.0
+    strength 30868.038199114228
+    strength_rank 14.0
+    instrength 11787.213178519087
+    instrength_rank 85.0
+    outstrength 19080.82502059514
+    outstrength_rank 8.0
+    betweenness 0.013064814872387786
+    betweenness_rank 2.0
+    closeness 0.44142259414225943
+    closeness_rank 77.0
+    eigenvector 0.07333803891919767
+    eigenvector_rank 75.0
+    hits_hubs 0.007005427180384155
+    hits_hubs_rank 27.0
+    hits_authorities 0.004211685150058736
+    hits_authorities_rank 123.0
+    pagerank 0.005350070589005308
+    pagerank_rank 68.0
+  ]
+  node [
+    id 103
+    label "103"
+    degree 0.08056872037914692
+    degree_rank 204.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.037914691943127965
+    outdegree_rank 197.0
+    strength 21203.093759254563
+    strength_rank 117.0
+    instrength 13003.381691659353
+    instrength_rank 58.0
+    outstrength 8199.71206759521
+    outstrength_rank 159.0
+    betweenness 0.002378907877905256
+    betweenness_rank 203.0
+    closeness 0.3996212121212121
+    closeness_rank 191.0
+    eigenvector 0.04349494349349175
+    eigenvector_rank 186.0
+    hits_hubs 0.002942766892454671
+    hits_hubs_rank 174.0
+    hits_authorities 0.005542028429564187
+    hits_authorities_rank 63.0
+    pagerank 0.005179439921944458
+    pagerank_rank 79.0
+  ]
+  node [
+    id 104
+    label "104"
+    degree 0.0995260663507109
+    degree_rank 186.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 13063.157583297141
+    strength_rank 203.0
+    instrength 8023.059569786459
+    instrength_rank 169.0
+    outstrength 5040.098013510682
+    outstrength_rank 204.0
+    betweenness 0.002856498770804416
+    betweenness_rank 196.0
+    closeness 0.41050583657587547
+    closeness_rank 172.0
+    eigenvector 0.05065681638434382
+    eigenvector_rank 165.0
+    hits_hubs 0.0022366666349021513
+    hits_hubs_rank 194.0
+    hits_authorities 0.003376952736655569
+    hits_authorities_rank 157.0
+    pagerank 0.0032065377567583493
+    pagerank_rank 180.0
+  ]
+  node [
+    id 105
+    label "105"
+    degree 0.09478672985781991
+    degree_rank 190.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 14833.952895712144
+    strength_rank 192.0
+    instrength 5833.841722371789
+    instrength_rank 191.0
+    outstrength 9000.111173340354
+    outstrength_rank 142.0
+    betweenness 0.0034039741835415883
+    betweenness_rank 188.0
+    closeness 0.40344168260038243
+    closeness_rank 186.0
+    eigenvector 0.046360190540140754
+    eigenvector_rank 178.0
+    hits_hubs 0.0036194523523763638
+    hits_hubs_rank 147.0
+    hits_authorities 0.002642407288985875
+    hits_authorities_rank 180.0
+    pagerank 0.002485731355137775
+    pagerank_rank 202.0
+  ]
+  node [
+    id 106
+    label "106"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 28048.126496724984
+    strength_rank 32.0
+    instrength 13057.212914202377
+    instrength_rank 57.0
+    outstrength 14990.913582522608
+    outstrength_rank 30.0
+    betweenness 0.010210298129037678
+    betweenness_rank 13.0
+    closeness 0.4617067833698031
+    closeness_rank 18.0
+    eigenvector 0.08838328384793062
+    eigenvector_rank 27.0
+    hits_hubs 0.007410407292358835
+    hits_hubs_rank 22.0
+    hits_authorities 0.005775523896209557
+    hits_authorities_rank 50.0
+    pagerank 0.006632790379661299
+    pagerank_rank 23.0
+  ]
+  node [
+    id 107
+    label "107"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 19456.680946591456
+    strength_rank 139.0
+    instrength 12333.041087655736
+    instrength_rank 70.0
+    outstrength 7123.639858935718
+    outstrength_rank 175.0
+    betweenness 0.004543558011476234
+    betweenness_rank 154.0
+    closeness 0.4262626262626263
+    closeness_rank 128.0
+    eigenvector 0.06450970074323363
+    eigenvector_rank 117.0
+    hits_hubs 0.0029457685926541606
+    hits_hubs_rank 173.0
+    hits_authorities 0.005472361993042557
+    hits_authorities_rank 69.0
+    pagerank 0.005870491209297067
+    pagerank_rank 45.0
+  ]
+  node [
+    id 108
+    label "108"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 23939.17138053158
+    strength_rank 75.0
+    instrength 10198.178085149686
+    instrength_rank 131.0
+    outstrength 13740.993295381897
+    outstrength_rank 49.0
+    betweenness 0.005041890490692351
+    betweenness_rank 140.0
+    closeness 0.4081237911025145
+    closeness_rank 176.0
+    eigenvector 0.04936980344456254
+    eigenvector_rank 169.0
+    hits_hubs 0.004714424495882555
+    hits_hubs_rank 95.0
+    hits_authorities 0.0053263977736124615
+    hits_authorities_rank 76.0
+    pagerank 0.0045441570371704525
+    pagerank_rank 113.0
+  ]
+  node [
+    id 109
+    label "109"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 24602.517108097596
+    strength_rank 66.0
+    instrength 11477.302762253054
+    instrength_rank 94.0
+    outstrength 13125.214345844543
+    outstrength_rank 53.0
+    betweenness 0.008254795917126686
+    betweenness_rank 45.0
+    closeness 0.43415637860082307
+    closeness_rank 101.0
+    eigenvector 0.06361636156513899
+    eigenvector_rank 121.0
+    hits_hubs 0.0056734815837507484
+    hits_hubs_rank 60.0
+    hits_authorities 0.0036966492360057507
+    hits_authorities_rank 143.0
+    pagerank 0.004769432614628005
+    pagerank_rank 102.0
+  ]
+  node [
+    id 110
+    label "110"
+    degree 0.06635071090047394
+    degree_rank 211.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.028436018957345974
+    outdegree_rank 207.0
+    strength 11562.629581550937
+    strength_rank 210.0
+    instrength 7347.91794906249
+    instrength_rank 178.0
+    outstrength 4214.711632488447
+    outstrength_rank 208.0
+    betweenness 0.00218385492348568
+    betweenness_rank 205.0
+    closeness 0.39365671641791045
+    closeness_rank 203.0
+    eigenvector 0.038309289557408886
+    eigenvector_rank 200.0
+    hits_hubs 0.0011273193625588663
+    hits_hubs_rank 210.0
+    hits_authorities 0.0023734561190016006
+    hits_authorities_rank 189.0
+    pagerank 0.0035492949850178274
+    pagerank_rank 162.0
+  ]
+  node [
+    id 111
+    label "111"
+    degree 0.16113744075829384
+    degree_rank 21.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 26051.70869502425
+    strength_rank 48.0
+    instrength 12548.087405446538
+    instrength_rank 66.0
+    outstrength 13503.62128957771
+    outstrength_rank 52.0
+    betweenness 0.009225815829311274
+    betweenness_rank 29.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.0743644951804843
+    eigenvector_rank 69.0
+    hits_hubs 0.005742294314014821
+    hits_hubs_rank 58.0
+    hits_authorities 0.0065672770446943305
+    hits_authorities_rank 35.0
+    pagerank 0.004794935702204792
+    pagerank_rank 100.0
+  ]
+  node [
+    id 112
+    label "112"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 14908.676059659512
+    strength_rank 190.0
+    instrength 6971.738298820087
+    instrength_rank 184.0
+    outstrength 7936.937760839424
+    outstrength_rank 162.0
+    betweenness 0.0042957321369568495
+    betweenness_rank 166.0
+    closeness 0.42973523421588594
+    closeness_rank 118.0
+    eigenvector 0.06901753509595289
+    eigenvector_rank 97.0
+    hits_hubs 0.002911726990648375
+    hits_hubs_rank 177.0
+    hits_authorities 0.0026197909022580256
+    hits_authorities_rank 181.0
+    pagerank 0.003697554452510396
+    pagerank_rank 157.0
+  ]
+  node [
+    id 113
+    label "113"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 23696.802425855138
+    strength_rank 80.0
+    instrength 15090.371314065293
+    instrength_rank 29.0
+    outstrength 8606.431111789843
+    outstrength_rank 154.0
+    betweenness 0.0075408914473672345
+    betweenness_rank 63.0
+    closeness 0.4720357941834452
+    closeness_rank 4.0
+    eigenvector 0.09794602723620352
+    eigenvector_rank 6.0
+    hits_hubs 0.003727938663466808
+    hits_hubs_rank 141.0
+    hits_authorities 0.008256983692678863
+    hits_authorities_rank 11.0
+    pagerank 0.006557745125643721
+    pagerank_rank 25.0
+  ]
+  node [
+    id 114
+    label "114"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 29591.766132215347
+    strength_rank 20.0
+    instrength 16892.096313733244
+    instrength_rank 16.0
+    outstrength 12699.669818482103
+    outstrength_rank 66.0
+    betweenness 0.008832978512387336
+    betweenness_rank 36.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.07896680658855328
+    eigenvector_rank 51.0
+    hits_hubs 0.0049927977237101935
+    hits_hubs_rank 83.0
+    hits_authorities 0.006891061387108306
+    hits_authorities_rank 29.0
+    pagerank 0.006869511561008429
+    pagerank_rank 20.0
+  ]
+  node [
+    id 115
+    label "115"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 21926.410204085892
+    strength_rank 109.0
+    instrength 13350.361727662563
+    instrength_rank 50.0
+    outstrength 8576.048476423328
+    outstrength_rank 155.0
+    betweenness 0.005927078263557446
+    betweenness_rank 118.0
+    closeness 0.43685300207039335
+    closeness_rank 92.0
+    eigenvector 0.07030749081059849
+    eigenvector_rank 91.0
+    hits_hubs 0.0038123024182261044
+    hits_hubs_rank 136.0
+    hits_authorities 0.005667337925888459
+    hits_authorities_rank 54.0
+    pagerank 0.0049108874912932605
+    pagerank_rank 94.0
+  ]
+  node [
+    id 116
+    label "116"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 22882.32527115434
+    strength_rank 94.0
+    instrength 5154.114092544229
+    instrength_rank 200.0
+    outstrength 17728.21117861011
+    outstrength_rank 11.0
+    betweenness 0.0064341511267986505
+    betweenness_rank 95.0
+    closeness 0.4137254901960784
+    closeness_rank 167.0
+    eigenvector 0.045071183921813016
+    eigenvector_rank 180.0
+    hits_hubs 0.007625686698822409
+    hits_hubs_rank 15.0
+    hits_authorities 0.0018141330801153667
+    hits_authorities_rank 201.0
+    pagerank 0.0028231460947898517
+    pagerank_rank 191.0
+  ]
+  node [
+    id 117
+    label "117"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 20346.609447533992
+    strength_rank 127.0
+    instrength 14143.111653556463
+    instrength_rank 35.0
+    outstrength 6203.497793977527
+    outstrength_rank 192.0
+    betweenness 0.003837391383049236
+    betweenness_rank 177.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.07327046568971565
+    eigenvector_rank 76.0
+    hits_hubs 0.0021916350593222966
+    hits_hubs_rank 197.0
+    hits_authorities 0.007765742415908733
+    hits_authorities_rank 20.0
+    pagerank 0.005163549515163115
+    pagerank_rank 80.0
+  ]
+  node [
+    id 118
+    label "118"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 17137.109149073698
+    strength_rank 162.0
+    instrength 8220.699227109726
+    instrength_rank 160.0
+    outstrength 8916.409921963972
+    outstrength_rank 147.0
+    betweenness 0.006736879863613866
+    betweenness_rank 86.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.06686473999121643
+    eigenvector_rank 105.0
+    hits_hubs 0.0032936044077277204
+    hits_hubs_rank 153.0
+    hits_authorities 0.004289868456841213
+    hits_authorities_rank 120.0
+    pagerank 0.003261338336841969
+    pagerank_rank 177.0
+  ]
+  node [
+    id 119
+    label "119"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 23296.27768809219
+    strength_rank 85.0
+    instrength 10392.839250656043
+    instrength_rank 124.0
+    outstrength 12903.438437436143
+    outstrength_rank 57.0
+    betweenness 0.005061473049598782
+    betweenness_rank 139.0
+    closeness 0.4228456913827655
+    closeness_rank 138.0
+    eigenvector 0.060557273576414106
+    eigenvector_rank 132.0
+    hits_hubs 0.006608481555151595
+    hits_hubs_rank 41.0
+    hits_authorities 0.004946025890424678
+    hits_authorities_rank 95.0
+    pagerank 0.004291567487459481
+    pagerank_rank 123.0
+  ]
+  node [
+    id 120
+    label "120"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 22753.35181582969
+    strength_rank 97.0
+    instrength 13386.765275290692
+    instrength_rank 49.0
+    outstrength 9366.586540538998
+    outstrength_rank 137.0
+    betweenness 0.006879242314707272
+    betweenness_rank 81.0
+    closeness 0.4688888888888889
+    closeness_rank 7.0
+    eigenvector 0.0892613291039681
+    eigenvector_rank 25.0
+    hits_hubs 0.003706944629281334
+    hits_hubs_rank 142.0
+    hits_authorities 0.008002594229129228
+    hits_authorities_rank 16.0
+    pagerank 0.004902521797116804
+    pagerank_rank 96.0
+  ]
+  node [
+    id 121
+    label "121"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 17091.441460783804
+    strength_rank 164.0
+    instrength 9688.441869149477
+    instrength_rank 138.0
+    outstrength 7402.999591634326
+    outstrength_rank 171.0
+    betweenness 0.007000202355037067
+    betweenness_rank 75.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.06610485725945725
+    eigenvector_rank 109.0
+    hits_hubs 0.002787777651768065
+    hits_hubs_rank 180.0
+    hits_authorities 0.003414414407812209
+    hits_authorities_rank 155.0
+    pagerank 0.00468157780573781
+    pagerank_rank 108.0
+  ]
+  node [
+    id 122
+    label "122"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 34870.40790997118
+    strength_rank 2.0
+    instrength 18993.593886942002
+    instrength_rank 3.0
+    outstrength 15876.814023029177
+    outstrength_rank 22.0
+    betweenness 0.007635167656377845
+    betweenness_rank 58.0
+    closeness 0.4386694386694387
+    closeness_rank 84.0
+    eigenvector 0.07567794681236056
+    eigenvector_rank 64.0
+    hits_hubs 0.007352265658247713
+    hits_hubs_rank 23.0
+    hits_authorities 0.009084989349736831
+    hits_authorities_rank 5.0
+    pagerank 0.0073201005917953805
+    pagerank_rank 10.0
+  ]
+  node [
+    id 123
+    label "123"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 27745.71205403909
+    strength_rank 37.0
+    instrength 13797.283632017723
+    instrength_rank 43.0
+    outstrength 13948.428422021369
+    outstrength_rank 44.0
+    betweenness 0.006697929455545437
+    betweenness_rank 89.0
+    closeness 0.4228456913827655
+    closeness_rank 138.0
+    eigenvector 0.059695329275737334
+    eigenvector_rank 136.0
+    hits_hubs 0.006718563651583243
+    hits_hubs_rank 36.0
+    hits_authorities 0.008119863990118456
+    hits_authorities_rank 13.0
+    pagerank 0.0042456502799365125
+    pagerank_rank 127.0
+  ]
+  node [
+    id 124
+    label "124"
+    degree 0.18483412322274884
+    degree_rank 2.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.1090047393364929
+    outdegree_rank 1.0
+    strength 30737.683956517212
+    strength_rank 15.0
+    instrength 10959.737084065122
+    instrength_rank 106.0
+    outstrength 19777.946872452092
+    outstrength_rank 5.0
+    betweenness 0.011721905601357316
+    betweenness_rank 5.0
+    closeness 0.44608879492600423
+    closeness_rank 58.0
+    eigenvector 0.07298755697304127
+    eigenvector_rank 77.0
+    hits_hubs 0.009677977236665445
+    hits_hubs_rank 5.0
+    hits_authorities 0.004865792869169686
+    hits_authorities_rank 99.0
+    pagerank 0.004272842276627075
+    pagerank_rank 125.0
+  ]
+  node [
+    id 125
+    label "125"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 26765.540672719748
+    strength_rank 42.0
+    instrength 12601.667420606918
+    instrength_rank 65.0
+    outstrength 14163.873252112831
+    outstrength_rank 42.0
+    betweenness 0.008330177395449837
+    betweenness_rank 43.0
+    closeness 0.433264887063655
+    closeness_rank 103.0
+    eigenvector 0.07366446406256233
+    eigenvector_rank 73.0
+    hits_hubs 0.006871141277899157
+    hits_hubs_rank 33.0
+    hits_authorities 0.004530700019019893
+    hits_authorities_rank 111.0
+    pagerank 0.006031409659104704
+    pagerank_rank 36.0
+  ]
+  node [
+    id 126
+    label "126"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 23726.59575816713
+    strength_rank 79.0
+    instrength 17060.15950958168
+    instrength_rank 14.0
+    outstrength 6666.436248585447
+    outstrength_rank 185.0
+    betweenness 0.006407052173496119
+    betweenness_rank 98.0
+    closeness 0.47737556561085975
+    closeness_rank 3.0
+    eigenvector 0.09370999033069141
+    eigenvector_rank 16.0
+    hits_hubs 0.002379395757252541
+    hits_hubs_rank 189.0
+    hits_authorities 0.008223487584634625
+    hits_authorities_rank 12.0
+    pagerank 0.005994253547801546
+    pagerank_rank 39.0
+  ]
+  node [
+    id 127
+    label "127"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 24394.738675083332
+    strength_rank 68.0
+    instrength 12195.837625682396
+    instrength_rank 72.0
+    outstrength 12198.901049400934
+    outstrength_rank 79.0
+    betweenness 0.006714348082632912
+    betweenness_rank 87.0
+    closeness 0.4395833333333333
+    closeness_rank 80.0
+    eigenvector 0.06808957268566151
+    eigenvector_rank 100.0
+    hits_hubs 0.004843734398650083
+    hits_hubs_rank 91.0
+    hits_authorities 0.005511462269144472
+    hits_authorities_rank 66.0
+    pagerank 0.005030783222713696
+    pagerank_rank 86.0
+  ]
+  node [
+    id 128
+    label "128"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 17653.082150038124
+    strength_rank 157.0
+    instrength 11121.761015449276
+    instrength_rank 101.0
+    outstrength 6531.321134588849
+    outstrength_rank 188.0
+    betweenness 0.0041875499020131105
+    betweenness_rank 171.0
+    closeness 0.42369477911646586
+    closeness_rank 133.0
+    eigenvector 0.053378560687694254
+    eigenvector_rank 158.0
+    hits_hubs 0.002093085965082241
+    hits_hubs_rank 201.0
+    hits_authorities 0.004117429322499139
+    hits_authorities_rank 126.0
+    pagerank 0.004554363064105995
+    pagerank_rank 111.0
+  ]
+  node [
+    id 129
+    label "129"
+    degree 0.09478672985781991
+    degree_rank 190.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.03317535545023697
+    outdegree_rank 201.0
+    strength 19711.309840925464
+    strength_rank 135.0
+    instrength 11191.52479578382
+    instrength_rank 98.0
+    outstrength 8519.785045141643
+    outstrength_rank 156.0
+    betweenness 0.003792319279273042
+    betweenness_rank 181.0
+    closeness 0.4203187250996016
+    closeness_rank 145.0
+    eigenvector 0.05305733009098116
+    eigenvector_rank 159.0
+    hits_hubs 0.004331381189595171
+    hits_hubs_rank 110.0
+    hits_authorities 0.0033440345810795517
+    hits_authorities_rank 161.0
+    pagerank 0.004934995517924968
+    pagerank_rank 90.0
+  ]
+  node [
+    id 130
+    label "130"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 18742.941789295564
+    strength_rank 145.0
+    instrength 4698.442812134165
+    instrength_rank 204.0
+    outstrength 14044.4989771614
+    outstrength_rank 43.0
+    betweenness 0.0038349753148311893
+    betweenness_rank 178.0
+    closeness 0.3951310861423221
+    closeness_rank 199.0
+    eigenvector 0.0367870969843033
+    eigenvector_rank 203.0
+    hits_hubs 0.006798782202626519
+    hits_hubs_rank 35.0
+    hits_authorities 0.001644708200965993
+    hits_authorities_rank 206.0
+    pagerank 0.002419248640186923
+    pagerank_rank 203.0
+  ]
+  node [
+    id 131
+    label "131"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 23523.913462070122
+    strength_rank 81.0
+    instrength 13120.500254319328
+    instrength_rank 54.0
+    outstrength 10403.413207750795
+    outstrength_rank 110.0
+    betweenness 0.0055905089301080515
+    betweenness_rank 128.0
+    closeness 0.42115768463073855
+    closeness_rank 144.0
+    eigenvector 0.0560742083736221
+    eigenvector_rank 146.0
+    hits_hubs 0.003702408010798668
+    hits_hubs_rank 143.0
+    hits_authorities 0.004972240451791583
+    hits_authorities_rank 92.0
+    pagerank 0.005685275741300085
+    pagerank_rank 50.0
+  ]
+  node [
+    id 132
+    label "132"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 24114.315944284142
+    strength_rank 73.0
+    instrength 10201.754098036317
+    instrength_rank 130.0
+    outstrength 13912.561846247827
+    outstrength_rank 45.0
+    betweenness 0.00916018111077817
+    betweenness_rank 31.0
+    closeness 0.4518201284796574
+    closeness_rank 36.0
+    eigenvector 0.08293269816982661
+    eigenvector_rank 40.0
+    hits_hubs 0.005094637969208079
+    hits_hubs_rank 76.0
+    hits_authorities 0.004553775211993362
+    hits_authorities_rank 109.0
+    pagerank 0.004752799762211907
+    pagerank_rank 105.0
+  ]
+  node [
+    id 133
+    label "133"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.037914691943127965
+    outdegree_rank 197.0
+    strength 16454.334632548394
+    strength_rank 178.0
+    instrength 12058.187893660792
+    instrength_rank 77.0
+    outstrength 4396.146738887603
+    outstrength_rank 207.0
+    betweenness 0.003913628897750524
+    betweenness_rank 176.0
+    closeness 0.44798301486199577
+    closeness_rank 50.0
+    eigenvector 0.07428939749410736
+    eigenvector_rank 70.0
+    hits_hubs 0.001729430341587105
+    hits_hubs_rank 206.0
+    hits_authorities 0.005444638506977921
+    hits_authorities_rank 70.0
+    pagerank 0.005588505599178025
+    pagerank_rank 57.0
+  ]
+  node [
+    id 134
+    label "134"
+    degree 0.0995260663507109
+    degree_rank 186.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 18725.376846558607
+    strength_rank 146.0
+    instrength 8051.216846370195
+    instrength_rank 168.0
+    outstrength 10674.160000188413
+    outstrength_rank 103.0
+    betweenness 0.003160680464405084
+    betweenness_rank 189.0
+    closeness 0.3988657844990548
+    closeness_rank 193.0
+    eigenvector 0.04218485584137377
+    eigenvector_rank 188.0
+    hits_hubs 0.004826584649574539
+    hits_hubs_rank 92.0
+    hits_authorities 0.0035680679529597275
+    hits_authorities_rank 148.0
+    pagerank 0.0032494606772867866
+    pagerank_rank 178.0
+  ]
+  node [
+    id 135
+    label "135"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 24991.060493963094
+    strength_rank 61.0
+    instrength 16544.19070765751
+    instrength_rank 21.0
+    outstrength 8446.869786305582
+    outstrength_rank 158.0
+    betweenness 0.00612692253845456
+    betweenness_rank 111.0
+    closeness 0.45869565217391306
+    closeness_rank 25.0
+    eigenvector 0.08521779378662211
+    eigenvector_rank 34.0
+    hits_hubs 0.0037318738690653597
+    hits_hubs_rank 139.0
+    hits_authorities 0.0067646972158762145
+    hits_authorities_rank 32.0
+    pagerank 0.006484893188324547
+    pagerank_rank 27.0
+  ]
+  node [
+    id 136
+    label "136"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.037914691943127965
+    indegree_rank 196.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 14702.04794480406
+    strength_rank 195.0
+    instrength 4594.543352570867
+    instrength_rank 206.0
+    outstrength 10107.504592233194
+    outstrength_rank 120.0
+    betweenness 0.0036661396904917364
+    betweenness_rank 183.0
+    closeness 0.39587242026266417
+    closeness_rank 198.0
+    eigenvector 0.038431595283113844
+    eigenvector_rank 199.0
+    hits_hubs 0.00466262556240634
+    hits_hubs_rank 97.0
+    hits_authorities 0.002083720497758031
+    hits_authorities_rank 198.0
+    pagerank 0.0022560777388316187
+    pagerank_rank 206.0
+  ]
+  node [
+    id 137
+    label "137"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 15801.296659862724
+    strength_rank 183.0
+    instrength 5150.786746787199
+    instrength_rank 201.0
+    outstrength 10650.509913075526
+    outstrength_rank 104.0
+    betweenness 0.0044617738598012446
+    betweenness_rank 157.0
+    closeness 0.4042145593869732
+    closeness_rank 183.0
+    eigenvector 0.04439626486410583
+    eigenvector_rank 182.0
+    hits_hubs 0.003958437693873137
+    hits_hubs_rank 124.0
+    hits_authorities 0.001805405016659342
+    hits_authorities_rank 202.0
+    pagerank 0.0025804271000776447
+    pagerank_rank 198.0
+  ]
+  node [
+    id 138
+    label "138"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.0995260663507109
+    outdegree_rank 7.0
+    strength 29401.411933658095
+    strength_rank 21.0
+    instrength 8389.404780309025
+    instrength_rank 158.0
+    outstrength 21012.00715334907
+    outstrength_rank 3.0
+    betweenness 0.006224799986845098
+    betweenness_rank 107.0
+    closeness 0.4042145593869732
+    closeness_rank 183.0
+    eigenvector 0.04180878307395065
+    eigenvector_rank 190.0
+    hits_hubs 0.009997249139550392
+    hits_hubs_rank 3.0
+    hits_authorities 0.003853311577501882
+    hits_authorities_rank 137.0
+    pagerank 0.003401889207818632
+    pagerank_rank 170.0
+  ]
+  node [
+    id 139
+    label "139"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 24731.87009866099
+    strength_rank 63.0
+    instrength 10360.69008945077
+    instrength_rank 126.0
+    outstrength 14371.18000921022
+    outstrength_rank 39.0
+    betweenness 0.007369776228088505
+    betweenness_rank 66.0
+    closeness 0.4350515463917526
+    closeness_rank 98.0
+    eigenvector 0.06391526508450941
+    eigenvector_rank 120.0
+    hits_hubs 0.0060936483206511
+    hits_hubs_rank 48.0
+    hits_authorities 0.004913123509992728
+    hits_authorities_rank 97.0
+    pagerank 0.004081512486146028
+    pagerank_rank 138.0
+  ]
+  node [
+    id 140
+    label "140"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 22926.525425688727
+    strength_rank 92.0
+    instrength 11676.51274184619
+    instrength_rank 87.0
+    outstrength 11250.012683842537
+    outstrength_rank 93.0
+    betweenness 0.007614203884373331
+    betweenness_rank 59.0
+    closeness 0.4518201284796574
+    closeness_rank 36.0
+    eigenvector 0.08225695436630709
+    eigenvector_rank 42.0
+    hits_hubs 0.004213806001372185
+    hits_hubs_rank 113.0
+    hits_authorities 0.005564009107359052
+    hits_authorities_rank 60.0
+    pagerank 0.004563657387858667
+    pagerank_rank 109.0
+  ]
+  node [
+    id 141
+    label "141"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 23077.498826868818
+    strength_rank 91.0
+    instrength 12465.840853756345
+    instrength_rank 69.0
+    outstrength 10611.657973112473
+    outstrength_rank 105.0
+    betweenness 0.006355239645905248
+    betweenness_rank 101.0
+    closeness 0.43415637860082307
+    closeness_rank 101.0
+    eigenvector 0.07238593645268095
+    eigenvector_rank 79.0
+    hits_hubs 0.0050947313807689475
+    hits_hubs_rank 75.0
+    hits_authorities 0.005741551290774802
+    hits_authorities_rank 52.0
+    pagerank 0.004445311593575531
+    pagerank_rank 119.0
+  ]
+  node [
+    id 142
+    label "142"
+    degree 0.17061611374407584
+    degree_rank 9.0
+    indegree 0.09004739336492892
+    indegree_rank 14.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 28044.421990478724
+    strength_rank 33.0
+    instrength 17879.68046207221
+    instrength_rank 7.0
+    outstrength 10164.741528406512
+    outstrength_rank 116.0
+    betweenness 0.009882730300959597
+    betweenness_rank 21.0
+    closeness 0.46373626373626375
+    closeness_rank 14.0
+    eigenvector 0.09753968186680789
+    eigenvector_rank 7.0
+    hits_hubs 0.004229457651368961
+    hits_hubs_rank 112.0
+    hits_authorities 0.0071652421335829004
+    hits_authorities_rank 27.0
+    pagerank 0.0077977359451315564
+    pagerank_rank 3.0
+  ]
+  node [
+    id 143
+    label "143"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 16197.929360728187
+    strength_rank 181.0
+    instrength 10124.79009914872
+    instrength_rank 134.0
+    outstrength 6073.139261579467
+    outstrength_rank 193.0
+    betweenness 0.0044477372406387826
+    betweenness_rank 158.0
+    closeness 0.44798301486199577
+    closeness_rank 50.0
+    eigenvector 0.07804696497527738
+    eigenvector_rank 56.0
+    hits_hubs 0.002228975602085841
+    hits_hubs_rank 196.0
+    hits_authorities 0.004412988341736676
+    hits_authorities_rank 116.0
+    pagerank 0.003724198569651906
+    pagerank_rank 155.0
+  ]
+  node [
+    id 144
+    label "144"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 17057.258088808325
+    strength_rank 166.0
+    instrength 11489.40304618101
+    instrength_rank 93.0
+    outstrength 5567.855042627312
+    outstrength_rank 201.0
+    betweenness 0.004505147435951246
+    betweenness_rank 156.0
+    closeness 0.4395833333333333
+    closeness_rank 80.0
+    eigenvector 0.07334486866550084
+    eigenvector_rank 74.0
+    hits_hubs 0.0028757370374376183
+    hits_hubs_rank 179.0
+    hits_authorities 0.0050159677383300304
+    hits_authorities_rank 90.0
+    pagerank 0.005675772461896769
+    pagerank_rank 51.0
+  ]
+  node [
+    id 145
+    label "145"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 17284.316523311798
+    strength_rank 161.0
+    instrength 9272.76429902758
+    instrength_rank 144.0
+    outstrength 8011.552224284217
+    outstrength_rank 161.0
+    betweenness 0.006259823496496022
+    betweenness_rank 106.0
+    closeness 0.422
+    closeness_rank 141.0
+    eigenvector 0.06099146717082532
+    eigenvector_rank 131.0
+    hits_hubs 0.003938538572060215
+    hits_hubs_rank 125.0
+    hits_authorities 0.003626492660274295
+    hits_authorities_rank 146.0
+    pagerank 0.004780503066220729
+    pagerank_rank 101.0
+  ]
+  node [
+    id 146
+    label "146"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 21279.803673082504
+    strength_rank 115.0
+    instrength 10578.493833893046
+    instrength_rank 119.0
+    outstrength 10701.30983918946
+    outstrength_rank 102.0
+    betweenness 0.007589349691418882
+    betweenness_rank 60.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.05998658060093386
+    eigenvector_rank 135.0
+    hits_hubs 0.00514052044603452
+    hits_hubs_rank 73.0
+    hits_authorities 0.004035311540031988
+    hits_authorities_rank 128.0
+    pagerank 0.004931331566989311
+    pagerank_rank 91.0
+  ]
+  node [
+    id 147
+    label "147"
+    degree 0.08056872037914692
+    degree_rank 204.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.03317535545023697
+    outdegree_rank 201.0
+    strength 14769.365081034572
+    strength_rank 193.0
+    instrength 9058.695895976201
+    instrength_rank 152.0
+    outstrength 5710.669185058371
+    outstrength_rank 197.0
+    betweenness 0.0025029173805255728
+    betweenness_rank 199.0
+    closeness 0.40655105973025046
+    closeness_rank 180.0
+    eigenvector 0.048373307303168724
+    eigenvector_rank 173.0
+    hits_hubs 0.002041555064040727
+    hits_hubs_rank 202.0
+    hits_authorities 0.0037839241534699886
+    hits_authorities_rank 139.0
+    pagerank 0.003496881391348341
+    pagerank_rank 166.0
+  ]
+  node [
+    id 148
+    label "148"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 22908.59908097682
+    strength_rank 93.0
+    instrength 15384.39736853321
+    instrength_rank 26.0
+    outstrength 7524.201712443608
+    outstrength_rank 170.0
+    betweenness 0.004259389792483331
+    betweenness_rank 168.0
+    closeness 0.4350515463917526
+    closeness_rank 98.0
+    eigenvector 0.07462939050361228
+    eigenvector_rank 68.0
+    hits_hubs 0.0029626042587538553
+    hits_hubs_rank 171.0
+    hits_authorities 0.00778414548182882
+    hits_authorities_rank 19.0
+    pagerank 0.006332944816034879
+    pagerank_rank 31.0
+  ]
+  node [
+    id 149
+    label "149"
+    degree 0.16113744075829384
+    degree_rank 21.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 29732.50483084189
+    strength_rank 18.0
+    instrength 14172.63232121494
+    instrength_rank 34.0
+    outstrength 15559.872509626954
+    outstrength_rank 24.0
+    betweenness 0.010135262070167085
+    betweenness_rank 14.0
+    closeness 0.4557235421166307
+    closeness_rank 32.0
+    eigenvector 0.08986859085158502
+    eigenvector_rank 23.0
+    hits_hubs 0.006704168893894835
+    hits_hubs_rank 37.0
+    hits_authorities 0.004572792879124809
+    hits_authorities_rank 106.0
+    pagerank 0.007305094172336297
+    pagerank_rank 11.0
+  ]
+  node [
+    id 150
+    label "150"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 26127.035253416172
+    strength_rank 46.0
+    instrength 11885.80059170541
+    instrength_rank 83.0
+    outstrength 14241.234661710763
+    outstrength_rank 41.0
+    betweenness 0.008250126789219218
+    betweenness_rank 46.0
+    closeness 0.4306122448979592
+    closeness_rank 115.0
+    eigenvector 0.06491736658079274
+    eigenvector_rank 115.0
+    hits_hubs 0.0068826163816939874
+    hits_hubs_rank 32.0
+    hits_authorities 0.005558309450294943
+    hits_authorities_rank 61.0
+    pagerank 0.004924025047067171
+    pagerank_rank 92.0
+  ]
+  node [
+    id 151
+    label "151"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 29362.661003895177
+    strength_rank 23.0
+    instrength 18285.03660572815
+    instrength_rank 6.0
+    outstrength 11077.624398167027
+    outstrength_rank 97.0
+    betweenness 0.00855711402712468
+    betweenness_rank 40.0
+    closeness 0.4720357941834452
+    closeness_rank 4.0
+    eigenvector 0.10439191943727223
+    eigenvector_rank 4.0
+    hits_hubs 0.00495548467120197
+    hits_hubs_rank 85.0
+    hits_authorities 0.00916755649198255
+    hits_authorities_rank 4.0
+    pagerank 0.007226532950518743
+    pagerank_rank 14.0
+  ]
+  node [
+    id 152
+    label "152"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 24368.431563804712
+    strength_rank 69.0
+    instrength 12725.08280357729
+    instrength_rank 63.0
+    outstrength 11643.34876022742
+    outstrength_rank 87.0
+    betweenness 0.010921458954511553
+    betweenness_rank 10.0
+    closeness 0.45085470085470086
+    closeness_rank 40.0
+    eigenvector 0.08170921945044599
+    eigenvector_rank 45.0
+    hits_hubs 0.004891005378259472
+    hits_hubs_rank 88.0
+    hits_authorities 0.004745947920618933
+    hits_authorities_rank 102.0
+    pagerank 0.005594375336126875
+    pagerank_rank 56.0
+  ]
+  node [
+    id 153
+    label "153"
+    degree 0.18009478672985785
+    degree_rank 4.0
+    indegree 0.09004739336492892
+    indegree_rank 14.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 33255.882695920925
+    strength_rank 5.0
+    instrength 15558.166032106938
+    instrength_rank 24.0
+    outstrength 17697.716663813986
+    outstrength_rank 12.0
+    betweenness 0.011667388511581969
+    betweenness_rank 6.0
+    closeness 0.4678492239467849
+    closeness_rank 8.0
+    eigenvector 0.08888653576461035
+    eigenvector_rank 26.0
+    hits_hubs 0.009278533373575171
+    hits_hubs_rank 7.0
+    hits_authorities 0.006308573922991451
+    hits_authorities_rank 38.0
+    pagerank 0.0060164406959211285
+    pagerank_rank 37.0
+  ]
+  node [
+    id 154
+    label "154"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 25259.49619429881
+    strength_rank 57.0
+    instrength 10827.830665094894
+    instrength_rank 110.0
+    outstrength 14431.665529203914
+    outstrength_rank 37.0
+    betweenness 0.010482063471588676
+    betweenness_rank 11.0
+    closeness 0.45085470085470086
+    closeness_rank 40.0
+    eigenvector 0.08488123888395693
+    eigenvector_rank 35.0
+    hits_hubs 0.005563746707343823
+    hits_hubs_rank 62.0
+    hits_authorities 0.004980660393768883
+    hits_authorities_rank 91.0
+    pagerank 0.005483235693788923
+    pagerank_rank 64.0
+  ]
+  node [
+    id 155
+    label "155"
+    degree 0.09478672985781991
+    degree_rank 190.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 11901.307601969847
+    strength_rank 207.0
+    instrength 6436.231885490011
+    instrength_rank 188.0
+    outstrength 5465.075716479836
+    outstrength_rank 202.0
+    betweenness 0.003047028636219507
+    betweenness_rank 194.0
+    closeness 0.41291585127201563
+    closeness_rank 169.0
+    eigenvector 0.04901449276971375
+    eigenvector_rank 171.0
+    hits_hubs 0.0023345309448150964
+    hits_hubs_rank 191.0
+    hits_authorities 0.0024981300496652106
+    hits_authorities_rank 185.0
+    pagerank 0.0033365360972978835
+    pagerank_rank 174.0
+  ]
+  node [
+    id 156
+    label "156"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 15275.984954453197
+    strength_rank 184.0
+    instrength 9226.203788359571
+    instrength_rank 145.0
+    outstrength 6049.781166093627
+    outstrength_rank 194.0
+    betweenness 0.00450954480746643
+    betweenness_rank 155.0
+    closeness 0.4262626262626263
+    closeness_rank 128.0
+    eigenvector 0.057960136787186325
+    eigenvector_rank 140.0
+    hits_hubs 0.0023546153823142376
+    hits_hubs_rank 190.0
+    hits_authorities 0.0029205841926732393
+    hits_authorities_rank 177.0
+    pagerank 0.004193919598094162
+    pagerank_rank 130.0
+  ]
+  node [
+    id 157
+    label "157"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 19839.316913117393
+    strength_rank 132.0
+    instrength 12148.579330280809
+    instrength_rank 76.0
+    outstrength 7690.737582836583
+    outstrength_rank 166.0
+    betweenness 0.004357483336450969
+    betweenness_rank 164.0
+    closeness 0.4228456913827655
+    closeness_rank 138.0
+    eigenvector 0.05863001257412411
+    eigenvector_rank 139.0
+    hits_hubs 0.0030550712223945584
+    hits_hubs_rank 166.0
+    hits_authorities 0.00464644516487249
+    hits_authorities_rank 105.0
+    pagerank 0.004551263713090564
+    pagerank_rank 112.0
+  ]
+  node [
+    id 158
+    label "158"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 17486.70181301957
+    strength_rank 160.0
+    instrength 10121.182731853216
+    instrength_rank 135.0
+    outstrength 7365.5190811663515
+    outstrength_rank 173.0
+    betweenness 0.004367315617400495
+    betweenness_rank 163.0
+    closeness 0.4442105263157895
+    closeness_rank 64.0
+    eigenvector 0.07061472085923005
+    eigenvector_rank 87.0
+    hits_hubs 0.0030091752972484244
+    hits_hubs_rank 170.0
+    hits_authorities 0.005586654474452042
+    hits_authorities_rank 57.0
+    pagerank 0.004285277167309931
+    pagerank_rank 124.0
+  ]
+  node [
+    id 159
+    label "159"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 21586.113253893403
+    strength_rank 112.0
+    instrength 13848.53824784634
+    instrength_rank 41.0
+    outstrength 7737.575006047062
+    outstrength_rank 165.0
+    betweenness 0.0057201079220142855
+    betweenness_rank 122.0
+    closeness 0.4470338983050847
+    closeness_rank 54.0
+    eigenvector 0.07885979023966554
+    eigenvector_rank 52.0
+    hits_hubs 0.0026746436905697247
+    hits_hubs_rank 183.0
+    hits_authorities 0.007273465737194015
+    hits_authorities_rank 24.0
+    pagerank 0.006548173744453807
+    pagerank_rank 26.0
+  ]
+  node [
+    id 160
+    label "160"
+    degree 0.17535545023696683
+    degree_rank 7.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 29088.964754581284
+    strength_rank 28.0
+    instrength 13101.833398816161
+    instrength_rank 55.0
+    outstrength 15987.131355765125
+    outstrength_rank 21.0
+    betweenness 0.011941753226934259
+    betweenness_rank 4.0
+    closeness 0.45869565217391306
+    closeness_rank 25.0
+    eigenvector 0.09312287906656062
+    eigenvector_rank 17.0
+    hits_hubs 0.00725746335153594
+    hits_hubs_rank 24.0
+    hits_authorities 0.0053107295599842215
+    hits_authorities_rank 77.0
+    pagerank 0.0059059251108802245
+    pagerank_rank 43.0
+  ]
+  node [
+    id 161
+    label "161"
+    degree 0.17535545023696683
+    degree_rank 7.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 27954.838760296607
+    strength_rank 34.0
+    instrength 13289.336833786247
+    instrength_rank 51.0
+    outstrength 14665.50192651036
+    outstrength_rank 34.0
+    betweenness 0.011269250021084025
+    betweenness_rank 9.0
+    closeness 0.4647577092511013
+    closeness_rank 12.0
+    eigenvector 0.09715437977237092
+    eigenvector_rank 8.0
+    hits_hubs 0.006941249666569033
+    hits_hubs_rank 30.0
+    hits_authorities 0.006241714476243443
+    hits_authorities_rank 40.0
+    pagerank 0.006105212340637756
+    pagerank_rank 34.0
+  ]
+  node [
+    id 162
+    label "162"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 24615.480028415295
+    strength_rank 65.0
+    instrength 11881.83348095211
+    instrength_rank 84.0
+    outstrength 12733.646547463186
+    outstrength_rank 65.0
+    betweenness 0.008238287822241412
+    betweenness_rank 47.0
+    closeness 0.45670995670995673
+    closeness_rank 29.0
+    eigenvector 0.08010821296355149
+    eigenvector_rank 48.0
+    hits_hubs 0.004119190624544869
+    hits_hubs_rank 116.0
+    hits_authorities 0.005131944371364798
+    hits_authorities_rank 86.0
+    pagerank 0.0055834787713499555
+    pagerank_rank 58.0
+  ]
+  node [
+    id 163
+    label "163"
+    degree 0.16113744075829384
+    degree_rank 21.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 31722.186463264676
+    strength_rank 10.0
+    instrength 13762.466686479247
+    instrength_rank 46.0
+    outstrength 17959.71977678543
+    outstrength_rank 10.0
+    betweenness 0.009586981750247435
+    betweenness_rank 24.0
+    closeness 0.44608879492600423
+    closeness_rank 58.0
+    eigenvector 0.07535430909751943
+    eigenvector_rank 65.0
+    hits_hubs 0.007670970610865277
+    hits_hubs_rank 14.0
+    hits_authorities 0.004902855234225783
+    hits_authorities_rank 98.0
+    pagerank 0.007369352860480073
+    pagerank_rank 7.0
+  ]
+  node [
+    id 164
+    label "164"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 29391.320534354745
+    strength_rank 22.0
+    instrength 8891.712921390332
+    instrength_rank 153.0
+    outstrength 20499.607612964413
+    outstrength_rank 4.0
+    betweenness 0.005638717602741043
+    betweenness_rank 127.0
+    closeness 0.412109375
+    closeness_rank 170.0
+    eigenvector 0.05350756670477009
+    eigenvector_rank 157.0
+    hits_hubs 0.013324302909688392
+    hits_hubs_rank 2.0
+    hits_authorities 0.004054779596652503
+    hits_authorities_rank 127.0
+    pagerank 0.003639145044361862
+    pagerank_rank 160.0
+  ]
+  node [
+    id 165
+    label "165"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 22324.4472057316
+    strength_rank 101.0
+    instrength 12214.26741978613
+    instrength_rank 71.0
+    outstrength 10110.17978594547
+    outstrength_rank 118.0
+    betweenness 0.0037042557616366392
+    betweenness_rank 182.0
+    closeness 0.4245472837022133
+    closeness_rank 132.0
+    eigenvector 0.06027051815819815
+    eigenvector_rank 134.0
+    hits_hubs 0.00511016326901721
+    hits_hubs_rank 74.0
+    hits_authorities 0.00720890278554669
+    hits_authorities_rank 26.0
+    pagerank 0.004755728142209028
+    pagerank_rank 104.0
+  ]
+  node [
+    id 166
+    label "166"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 30565.331906567815
+    strength_rank 16.0
+    instrength 15224.449463027582
+    instrength_rank 28.0
+    outstrength 15340.882443540235
+    outstrength_rank 27.0
+    betweenness 0.009517675675823874
+    betweenness_rank 25.0
+    closeness 0.4647577092511013
+    closeness_rank 12.0
+    eigenvector 0.09619558868566346
+    eigenvector_rank 11.0
+    hits_hubs 0.007502678437044805
+    hits_hubs_rank 19.0
+    hits_authorities 0.005329167934732487
+    hits_authorities_rank 75.0
+    pagerank 0.007265800714637779
+    pagerank_rank 12.0
+  ]
+  node [
+    id 167
+    label "167"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.09478672985781991
+    indegree_rank 6.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 31427.509724436626
+    strength_rank 12.0
+    instrength 17139.21449000703
+    instrength_rank 13.0
+    outstrength 14288.295234429595
+    outstrength_rank 40.0
+    betweenness 0.009435801888201235
+    betweenness_rank 27.0
+    closeness 0.4606986899563319
+    closeness_rank 20.0
+    eigenvector 0.09176616492526922
+    eigenvector_rank 18.0
+    hits_hubs 0.005706620984581728
+    hits_hubs_rank 59.0
+    hits_authorities 0.007839691800024886
+    hits_authorities_rank 18.0
+    pagerank 0.007365789616976041
+    pagerank_rank 8.0
+  ]
+  node [
+    id 168
+    label "168"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.047393364928909956
+    indegree_rank 169.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 20834.06526521861
+    strength_rank 121.0
+    instrength 8838.80538393059
+    instrength_rank 155.0
+    outstrength 11995.25988128802
+    outstrength_rank 82.0
+    betweenness 0.006102845194459146
+    betweenness_rank 113.0
+    closeness 0.39811320754716983
+    closeness_rank 195.0
+    eigenvector 0.03971662109211069
+    eigenvector_rank 198.0
+    hits_hubs 0.0045446798014897065
+    hits_hubs_rank 102.0
+    hits_authorities 0.0033557510306452413
+    hits_authorities_rank 159.0
+    pagerank 0.004322487990551495
+    pagerank_rank 122.0
+  ]
+  node [
+    id 169
+    label "169"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 19610.182336721075
+    strength_rank 137.0
+    instrength 10762.343340173717
+    instrength_rank 113.0
+    outstrength 8847.838996547356
+    outstrength_rank 148.0
+    betweenness 0.005488781242490848
+    betweenness_rank 129.0
+    closeness 0.4161735700197239
+    closeness_rank 161.0
+    eigenvector 0.047469540663109086
+    eigenvector_rank 175.0
+    hits_hubs 0.0038282521426082463
+    hits_hubs_rank 131.0
+    hits_authorities 0.00390352665591318
+    hits_authorities_rank 134.0
+    pagerank 0.004229610041103821
+    pagerank_rank 129.0
+  ]
+  node [
+    id 170
+    label "170"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 30295.381004822262
+    strength_rank 17.0
+    instrength 12928.969639128129
+    instrength_rank 61.0
+    outstrength 17366.411365694134
+    outstrength_rank 14.0
+    betweenness 0.007569829576198821
+    betweenness_rank 61.0
+    closeness 0.44893617021276594
+    closeness_rank 48.0
+    eigenvector 0.07845795103041707
+    eigenvector_rank 53.0
+    hits_hubs 0.0098362052894004
+    hits_hubs_rank 4.0
+    hits_authorities 0.005263396812217392
+    hits_authorities_rank 82.0
+    pagerank 0.005182951059743711
+    pagerank_rank 78.0
+  ]
+  node [
+    id 171
+    label "171"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 17003.06983743855
+    strength_rank 167.0
+    instrength 8204.66582364991
+    instrength_rank 161.0
+    outstrength 8798.40401378864
+    outstrength_rank 149.0
+    betweenness 0.004404975435129789
+    betweenness_rank 162.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.06170956971534313
+    eigenvector_rank 128.0
+    hits_hubs 0.0032622431840154064
+    hits_hubs_rank 157.0
+    hits_authorities 0.002522796571462705
+    hits_authorities_rank 184.0
+    pagerank 0.004261714778395617
+    pagerank_rank 126.0
+  ]
+  node [
+    id 172
+    label "172"
+    degree 0.12322274881516589
+    degree_rank 121.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 20437.572936341858
+    strength_rank 126.0
+    instrength 11644.60542921716
+    instrength_rank 88.0
+    outstrength 8792.9675071247
+    outstrength_rank 150.0
+    betweenness 0.006776134924052967
+    betweenness_rank 84.0
+    closeness 0.4306122448979592
+    closeness_rank 115.0
+    eigenvector 0.0695923063143334
+    eigenvector_rank 93.0
+    hits_hubs 0.0038235514527315217
+    hits_hubs_rank 132.0
+    hits_authorities 0.003768247471165499
+    hits_authorities_rank 140.0
+    pagerank 0.0049183327739172646
+    pagerank_rank 93.0
+  ]
+  node [
+    id 173
+    label "173"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 24005.39973523699
+    strength_rank 74.0
+    instrength 7098.726141255762
+    instrength_rank 181.0
+    outstrength 16906.67359398123
+    outstrength_rank 15.0
+    betweenness 0.009892897394481447
+    betweenness_rank 20.0
+    closeness 0.42369477911646586
+    closeness_rank 133.0
+    eigenvector 0.06327748375367245
+    eigenvector_rank 122.0
+    hits_hubs 0.007594320063253175
+    hits_hubs_rank 17.0
+    hits_authorities 0.002353845613667611
+    hits_authorities_rank 192.0
+    pagerank 0.004186257204665582
+    pagerank_rank 131.0
+  ]
+  node [
+    id 174
+    label "174"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 20302.27283297525
+    strength_rank 128.0
+    instrength 11314.898133839659
+    instrength_rank 97.0
+    outstrength 8987.37469913559
+    outstrength_rank 144.0
+    betweenness 0.006453181563987038
+    betweenness_rank 94.0
+    closeness 0.44234800838574423
+    closeness_rank 72.0
+    eigenvector 0.07624701573816497
+    eigenvector_rank 60.0
+    hits_hubs 0.00448654345770595
+    hits_hubs_rank 105.0
+    hits_authorities 0.005626342345555675
+    hits_authorities_rank 56.0
+    pagerank 0.005312608933603598
+    pagerank_rank 70.0
+  ]
+  node [
+    id 175
+    label "175"
+    degree 0.18483412322274884
+    degree_rank 2.0
+    indegree 0.1137440758293839
+    indegree_rank 1.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 31478.61280598201
+    strength_rank 11.0
+    instrength 18820.975907961125
+    instrength_rank 5.0
+    outstrength 12657.636898020886
+    outstrength_rank 67.0
+    betweenness 0.012545673678926299
+    betweenness_rank 3.0
+    closeness 0.48394495412844035
+    closeness_rank 2.0
+    eigenvector 0.11949319097686259
+    eigenvector_rank 2.0
+    hits_hubs 0.005395238109145984
+    hits_hubs_rank 68.0
+    hits_authorities 0.00877827677478201
+    hits_authorities_rank 6.0
+    pagerank 0.008884466278795437
+    pagerank_rank 2.0
+  ]
+  node [
+    id 176
+    label "176"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 17528.42730676359
+    strength_rank 159.0
+    instrength 7597.254547715875
+    instrength_rank 176.0
+    outstrength 9931.172759047717
+    outstrength_rank 126.0
+    betweenness 0.005112031166704081
+    betweenness_rank 136.0
+    closeness 0.42369477911646586
+    closeness_rank 133.0
+    eigenvector 0.06256437140992209
+    eigenvector_rank 125.0
+    hits_hubs 0.0045547165703857155
+    hits_hubs_rank 101.0
+    hits_authorities 0.0030010275550359576
+    hits_authorities_rank 172.0
+    pagerank 0.0035003173640865267
+    pagerank_rank 165.0
+  ]
+  node [
+    id 177
+    label "177"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 29698.55877537817
+    strength_rank 19.0
+    instrength 13075.474934842154
+    instrength_rank 56.0
+    outstrength 16623.083840536015
+    outstrength_rank 19.0
+    betweenness 0.0073295658786275844
+    betweenness_rank 68.0
+    closeness 0.4359504132231405
+    closeness_rank 96.0
+    eigenvector 0.06673372169260655
+    eigenvector_rank 107.0
+    hits_hubs 0.007086238577771381
+    hits_hubs_rank 26.0
+    hits_authorities 0.005270795804094325
+    hits_authorities_rank 81.0
+    pagerank 0.005496123922684986
+    pagerank_rank 63.0
+  ]
+  node [
+    id 178
+    label "178"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 17095.946205300217
+    strength_rank 163.0
+    instrength 12056.76800577525
+    instrength_rank 78.0
+    outstrength 5039.1781995249685
+    outstrength_rank 205.0
+    betweenness 0.006809479467620901
+    betweenness_rank 82.0
+    closeness 0.43685300207039335
+    closeness_rank 92.0
+    eigenvector 0.06900605555232442
+    eigenvector_rank 98.0
+    hits_hubs 0.0020292976864533805
+    hits_hubs_rank 203.0
+    hits_authorities 0.005283226897785948
+    hits_authorities_rank 80.0
+    pagerank 0.004766535873471462
+    pagerank_rank 103.0
+  ]
+  node [
+    id 179
+    label "179"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 25322.0772168279
+    strength_rank 55.0
+    instrength 12665.581468655104
+    instrength_rank 64.0
+    outstrength 12656.495748172794
+    outstrength_rank 68.0
+    betweenness 0.006778062582360918
+    betweenness_rank 83.0
+    closeness 0.422
+    closeness_rank 141.0
+    eigenvector 0.06409827455525101
+    eigenvector_rank 118.0
+    hits_hubs 0.0049743901827759545
+    hits_hubs_rank 84.0
+    hits_authorities 0.005575472936106475
+    hits_authorities_rank 58.0
+    pagerank 0.005295833589050328
+    pagerank_rank 71.0
+  ]
+  node [
+    id 180
+    label "180"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 15023.983738105897
+    strength_rank 188.0
+    instrength 9357.988329377808
+    instrength_rank 143.0
+    outstrength 5665.99540872809
+    outstrength_rank 198.0
+    betweenness 0.005901206464097341
+    betweenness_rank 119.0
+    closeness 0.4323770491803279
+    closeness_rank 104.0
+    eigenvector 0.06579730823162729
+    eigenvector_rank 111.0
+    hits_hubs 0.0021891978958486426
+    hits_hubs_rank 198.0
+    hits_authorities 0.0038642489725284426
+    hits_authorities_rank 136.0
+    pagerank 0.005647071089986397
+    pagerank_rank 53.0
+  ]
+  node [
+    id 181
+    label "181"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 25106.941094128153
+    strength_rank 59.0
+    instrength 13470.299357323089
+    instrength_rank 47.0
+    outstrength 11636.641736805066
+    outstrength_rank 88.0
+    betweenness 0.006420927146406104
+    betweenness_rank 97.0
+    closeness 0.44989339019189767
+    closeness_rank 43.0
+    eigenvector 0.07995276730270785
+    eigenvector_rank 49.0
+    hits_hubs 0.004952186913093431
+    hits_hubs_rank 86.0
+    hits_authorities 0.008586771361302032
+    hits_authorities_rank 9.0
+    pagerank 0.005063306656301212
+    pagerank_rank 85.0
+  ]
+  node [
+    id 182
+    label "182"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 22785.42319968934
+    strength_rank 96.0
+    instrength 11084.80903091878
+    instrength_rank 103.0
+    outstrength 11700.61416877056
+    outstrength_rank 85.0
+    betweenness 0.00856968007591173
+    betweenness_rank 37.0
+    closeness 0.4451476793248945
+    closeness_rank 62.0
+    eigenvector 0.07726311031896733
+    eigenvector_rank 57.0
+    hits_hubs 0.004162936253737456
+    hits_hubs_rank 115.0
+    hits_authorities 0.005154433237714154
+    hits_authorities_rank 85.0
+    pagerank 0.005605664436951302
+    pagerank_rank 55.0
+  ]
+  node [
+    id 183
+    label "183"
+    degree 0.11848341232227488
+    degree_rank 129.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 17898.57414492983
+    strength_rank 153.0
+    instrength 11120.58794277824
+    instrength_rank 102.0
+    outstrength 6777.986202151591
+    outstrength_rank 182.0
+    betweenness 0.005290984491831568
+    betweenness_rank 132.0
+    closeness 0.4386694386694387
+    closeness_rank 84.0
+    eigenvector 0.07057066055892128
+    eigenvector_rank 88.0
+    hits_hubs 0.001901080507843295
+    hits_hubs_rank 205.0
+    hits_authorities 0.005064072840047637
+    hits_authorities_rank 88.0
+    pagerank 0.0037508888064332795
+    pagerank_rank 154.0
+  ]
+  node [
+    id 184
+    label "184"
+    degree 0.1137440758293839
+    degree_rank 144.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 16846.136930279165
+    strength_rank 171.0
+    instrength 7890.018372841256
+    instrength_rank 171.0
+    outstrength 8956.11855743791
+    outstrength_rank 145.0
+    betweenness 0.004703617970680949
+    betweenness_rank 150.0
+    closeness 0.4042145593869732
+    closeness_rank 183.0
+    eigenvector 0.041354898867138695
+    eigenvector_rank 193.0
+    hits_hubs 0.0032833915394572437
+    hits_hubs_rank 154.0
+    hits_authorities 0.00350392544017144
+    hits_authorities_rank 151.0
+    pagerank 0.003327081578592359
+    pagerank_rank 175.0
+  ]
+  node [
+    id 185
+    label "185"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 20225.47816843384
+    strength_rank 129.0
+    instrength 10909.702851699025
+    instrength_rank 108.0
+    outstrength 9315.775316734816
+    outstrength_rank 139.0
+    betweenness 0.00789396735312651
+    betweenness_rank 52.0
+    closeness 0.4557235421166307
+    closeness_rank 32.0
+    eigenvector 0.08962757110405022
+    eigenvector_rank 24.0
+    hits_hubs 0.003261412775502559
+    hits_hubs_rank 159.0
+    hits_authorities 0.004426247100908313
+    hits_authorities_rank 115.0
+    pagerank 0.004456715156855549
+    pagerank_rank 118.0
+  ]
+  node [
+    id 186
+    label "186"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.1090047393364929
+    outdegree_rank 1.0
+    strength 32443.33435220459
+    strength_rank 7.0
+    instrength 9361.727728686083
+    instrength_rank 142.0
+    outstrength 23081.60662351851
+    outstrength_rank 2.0
+    betweenness 0.009080395600113856
+    betweenness_rank 33.0
+    closeness 0.4178217821782178
+    closeness_rank 157.0
+    eigenvector 0.05423196428208705
+    eigenvector_rank 154.0
+    hits_hubs 0.00960075199020318
+    hits_hubs_rank 6.0
+    hits_authorities 0.0039103293122179405
+    hits_authorities_rank 133.0
+    pagerank 0.0040095124849993564
+    pagerank_rank 146.0
+  ]
+  node [
+    id 187
+    label "187"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.0995260663507109
+    outdegree_rank 7.0
+    strength 25105.912645110137
+    strength_rank 60.0
+    instrength 8227.374213974766
+    instrength_rank 159.0
+    outstrength 16878.53843113537
+    outstrength_rank 16.0
+    betweenness 0.008273444070519404
+    betweenness_rank 44.0
+    closeness 0.4153543307086614
+    closeness_rank 162.0
+    eigenvector 0.052227608118733136
+    eigenvector_rank 164.0
+    hits_hubs 0.0061649430304747625
+    hits_hubs_rank 46.0
+    hits_authorities 0.00301983382980065
+    hits_authorities_rank 171.0
+    pagerank 0.003523435899470637
+    pagerank_rank 164.0
+  ]
+  node [
+    id 188
+    label "188"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.07109004739336494
+    indegree_rank 63.0
+    outdegree 0.09478672985781991
+    outdegree_rank 10.0
+    strength 28640.431447789575
+    strength_rank 30.0
+    instrength 11897.97261275158
+    instrength_rank 82.0
+    outstrength 16742.458835037996
+    outstrength_rank 17.0
+    betweenness 0.008206122015034886
+    betweenness_rank 48.0
+    closeness 0.43685300207039335
+    closeness_rank 92.0
+    eigenvector 0.06936268798252164
+    eigenvector_rank 95.0
+    hits_hubs 0.0075100993261487834
+    hits_hubs_rank 18.0
+    hits_authorities 0.004546533610123932
+    hits_authorities_rank 110.0
+    pagerank 0.005243082092438227
+    pagerank_rank 75.0
+  ]
+  node [
+    id 189
+    label "189"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 22088.799591030325
+    strength_rank 105.0
+    instrength 11016.587896151075
+    instrength_rank 104.0
+    outstrength 11072.21169487925
+    outstrength_rank 98.0
+    betweenness 0.006390089638287835
+    betweenness_rank 99.0
+    closeness 0.42369477911646586
+    closeness_rank 133.0
+    eigenvector 0.061631892510351984
+    eigenvector_rank 129.0
+    hits_hubs 0.004443912073506066
+    hits_hubs_rank 107.0
+    hits_authorities 0.005473293730092945
+    hits_authorities_rank 68.0
+    pagerank 0.004055850566109859
+    pagerank_rank 142.0
+  ]
+  node [
+    id 190
+    label "190"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 21645.708959759308
+    strength_rank 111.0
+    instrength 10440.007668410404
+    instrength_rank 122.0
+    outstrength 11205.701291348905
+    outstrength_rank 95.0
+    betweenness 0.009660407603589672
+    betweenness_rank 23.0
+    closeness 0.44989339019189767
+    closeness_rank 43.0
+    eigenvector 0.0863659229512958
+    eigenvector_rank 31.0
+    hits_hubs 0.004802385943904387
+    hits_hubs_rank 93.0
+    hits_authorities 0.0030792860449293784
+    hits_authorities_rank 168.0
+    pagerank 0.005766427578612306
+    pagerank_rank 48.0
+  ]
+  node [
+    id 191
+    label "191"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.06635071090047394
+    outdegree_rank 95.0
+    strength 22419.166719042507
+    strength_rank 99.0
+    instrength 13776.558636681208
+    instrength_rank 45.0
+    outstrength 8642.608082361297
+    outstrength_rank 153.0
+    betweenness 0.007717831872056285
+    betweenness_rank 57.0
+    closeness 0.4405010438413361
+    closeness_rank 78.0
+    eigenvector 0.08354840604306644
+    eigenvector_rank 37.0
+    hits_hubs 0.003775383687735797
+    hits_hubs_rank 137.0
+    hits_authorities 0.006316666860653804
+    hits_authorities_rank 37.0
+    pagerank 0.005735043519211305
+    pagerank_rank 49.0
+  ]
+  node [
+    id 192
+    label "192"
+    degree 0.14218009478672988
+    degree_rank 58.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 18083.105132544577
+    strength_rank 150.0
+    instrength 5489.52233259811
+    instrength_rank 196.0
+    outstrength 12593.582799946467
+    outstrength_rank 70.0
+    betweenness 0.006957927432963767
+    betweenness_rank 78.0
+    closeness 0.4194831013916501
+    closeness_rank 150.0
+    eigenvector 0.052569549590720854
+    eigenvector_rank 161.0
+    hits_hubs 0.004898470935876649
+    hits_hubs_rank 87.0
+    hits_authorities 0.0022533043496574313
+    hits_authorities_rank 194.0
+    pagerank 0.0028228266726783025
+    pagerank_rank 192.0
+  ]
+  node [
+    id 193
+    label "193"
+    degree 0.1090047393364929
+    degree_rank 160.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.04265402843601896
+    outdegree_rank 183.0
+    strength 19667.33305610354
+    strength_rank 136.0
+    instrength 12972.999227090471
+    instrength_rank 59.0
+    outstrength 6694.33382901307
+    outstrength_rank 184.0
+    betweenness 0.0048247536669036
+    betweenness_rank 144.0
+    closeness 0.43149284253578735
+    closeness_rank 111.0
+    eigenvector 0.06698671222629542
+    eigenvector_rank 104.0
+    hits_hubs 0.002170055150942863
+    hits_hubs_rank 199.0
+    hits_authorities 0.005870222007220323
+    hits_authorities_rank 47.0
+    pagerank 0.004899401879260866
+    pagerank_rank 97.0
+  ]
+  node [
+    id 194
+    label "194"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 25540.446853884787
+    strength_rank 52.0
+    instrength 13260.91037114731
+    instrength_rank 52.0
+    outstrength 12279.536482737476
+    outstrength_rank 77.0
+    betweenness 0.007169449908595751
+    betweenness_rank 74.0
+    closeness 0.42886178861788615
+    closeness_rank 122.0
+    eigenvector 0.06522339951578056
+    eigenvector_rank 114.0
+    hits_hubs 0.004093412426165765
+    hits_hubs_rank 118.0
+    hits_authorities 0.006015510332078329
+    hits_authorities_rank 45.0
+    pagerank 0.005781208180550821
+    pagerank_rank 46.0
+  ]
+  node [
+    id 195
+    label "195"
+    degree 0.16113744075829384
+    degree_rank 21.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 31739.511410988365
+    strength_rank 9.0
+    instrength 18934.124402737467
+    instrength_rank 4.0
+    outstrength 12805.387008250897
+    outstrength_rank 61.0
+    betweenness 0.00916523799701799
+    betweenness_rank 30.0
+    closeness 0.45376344086021503
+    closeness_rank 35.0
+    eigenvector 0.08303850030872248
+    eigenvector_rank 38.0
+    hits_hubs 0.005216235550573897
+    hits_hubs_rank 72.0
+    hits_authorities 0.009949691906132353
+    hits_authorities_rank 1.0
+    pagerank 0.00637894065161938
+    pagerank_rank 29.0
+  ]
+  node [
+    id 196
+    label "196"
+    degree 0.0995260663507109
+    degree_rank 186.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 16717.49612315042
+    strength_rank 173.0
+    instrength 5488.40654578996
+    instrength_rank 197.0
+    outstrength 11229.089577360462
+    outstrength_rank 94.0
+    betweenness 0.0030776686323399577
+    betweenness_rank 193.0
+    closeness 0.394392523364486
+    closeness_rank 201.0
+    eigenvector 0.037115218523467705
+    eigenvector_rank 201.0
+    hits_hubs 0.005499546852174743
+    hits_hubs_rank 63.0
+    hits_authorities 0.0020908544282275347
+    hits_authorities_rank 197.0
+    pagerank 0.0021633515685699897
+    pagerank_rank 207.0
+  ]
+  node [
+    id 197
+    label "197"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.08530805687203792
+    indegree_rank 20.0
+    outdegree 0.047393364928909956
+    outdegree_rank 167.0
+    strength 28285.342569694032
+    strength_rank 31.0
+    instrength 16759.693468352027
+    instrength_rank 19.0
+    outstrength 11525.649101342004
+    outstrength_rank 91.0
+    betweenness 0.006095805863872248
+    betweenness_rank 114.0
+    closeness 0.4518201284796574
+    closeness_rank 36.0
+    eigenvector 0.08188311938888859
+    eigenvector_rank 44.0
+    hits_hubs 0.004853254784349431
+    hits_hubs_rank 90.0
+    hits_authorities 0.008361846628951517
+    hits_authorities_rank 10.0
+    pagerank 0.005968666914811823
+    pagerank_rank 40.0
+  ]
+  node [
+    id 198
+    label "198"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.09004739336492892
+    outdegree_rank 11.0
+    strength 33574.550597358
+    strength_rank 3.0
+    instrength 14046.678152290735
+    instrength_rank 37.0
+    outstrength 19527.872445067263
+    outstrength_rank 6.0
+    betweenness 0.00999088294768082
+    betweenness_rank 17.0
+    closeness 0.44234800838574423
+    closeness_rank 72.0
+    eigenvector 0.07112179242335616
+    eigenvector_rank 84.0
+    hits_hubs 0.009169647801403343
+    hits_hubs_rank 8.0
+    hits_authorities 0.005411588186466959
+    hits_authorities_rank 72.0
+    pagerank 0.005957713946520518
+    pagerank_rank 42.0
+  ]
+  node [
+    id 199
+    label "199"
+    degree 0.14691943127962087
+    degree_rank 46.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.08056872037914692
+    outdegree_rank 33.0
+    strength 29137.041817309575
+    strength_rank 27.0
+    instrength 11524.383213268417
+    instrength_rank 91.0
+    outstrength 17612.658604041157
+    outstrength_rank 13.0
+    betweenness 0.007497647483744881
+    betweenness_rank 65.0
+    closeness 0.44234800838574423
+    closeness_rank 72.0
+    eigenvector 0.06910031511140224
+    eigenvector_rank 96.0
+    hits_hubs 0.007475620084474537
+    hits_hubs_rank 21.0
+    hits_authorities 0.005851051396576077
+    hits_authorities_rank 48.0
+    pagerank 0.00416365978790457
+    pagerank_rank 132.0
+  ]
+  node [
+    id 200
+    label "200"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 11819.225797861825
+    strength_rank 208.0
+    instrength 5538.672907487075
+    instrength_rank 194.0
+    outstrength 6280.552890374751
+    outstrength_rank 191.0
+    betweenness 0.004736138016727745
+    betweenness_rank 147.0
+    closeness 0.41865079365079366
+    closeness_rank 153.0
+    eigenvector 0.05674178342510171
+    eigenvector_rank 143.0
+    hits_hubs 0.002951781730650081
+    hits_hubs_rank 172.0
+    hits_authorities 0.0017543987672431248
+    hits_authorities_rank 203.0
+    pagerank 0.0032248731264356333
+    pagerank_rank 179.0
+  ]
+  node [
+    id 201
+    label "201"
+    degree 0.13744075829383887
+    degree_rank 73.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 23498.51379353935
+    strength_rank 82.0
+    instrength 12501.679227832032
+    instrength_rank 67.0
+    outstrength 10996.83456570732
+    outstrength_rank 99.0
+    betweenness 0.006116913191430586
+    betweenness_rank 112.0
+    closeness 0.40891472868217055
+    closeness_rank 175.0
+    eigenvector 0.05055463113805516
+    eigenvector_rank 166.0
+    hits_hubs 0.004093294442000284
+    hits_hubs_rank 119.0
+    hits_authorities 0.005547964976295016
+    hits_authorities_rank 62.0
+    pagerank 0.005010345237377906
+    pagerank_rank 87.0
+  ]
+  node [
+    id 202
+    label "202"
+    degree 0.09004739336492892
+    degree_rank 196.0
+    indegree 0.05213270142180095
+    indegree_rank 155.0
+    outdegree 0.037914691943127965
+    outdegree_rank 197.0
+    strength 15112.947502788407
+    strength_rank 186.0
+    instrength 8688.245562388798
+    instrength_rank 157.0
+    outstrength 6424.701940399609
+    outstrength_rank 190.0
+    betweenness 0.0029956823644744644
+    betweenness_rank 195.0
+    closeness 0.4137254901960784
+    closeness_rank 167.0
+    eigenvector 0.049883129176531274
+    eigenvector_rank 168.0
+    hits_hubs 0.002426291688545994
+    hits_hubs_rank 188.0
+    hits_authorities 0.002575288631599722
+    hits_authorities_rank 183.0
+    pagerank 0.004696154273911154
+    pagerank_rank 107.0
+  ]
+  node [
+    id 203
+    label "203"
+    degree 0.08530805687203792
+    degree_rank 201.0
+    indegree 0.05687203791469195
+    indegree_rank 137.0
+    outdegree 0.028436018957345974
+    outdegree_rank 207.0
+    strength 15040.14640800335
+    strength_rank 187.0
+    instrength 9064.755332757797
+    instrength_rank 151.0
+    outstrength 5975.391075245552
+    outstrength_rank 195.0
+    betweenness 0.0026505203711102137
+    betweenness_rank 197.0
+    closeness 0.4262626262626263
+    closeness_rank 128.0
+    eigenvector 0.06184708074358754
+    eigenvector_rank 127.0
+    hits_hubs 0.002741455308824902
+    hits_hubs_rank 182.0
+    hits_authorities 0.004239305134051007
+    hits_authorities_rank 122.0
+    pagerank 0.0037552587450550004
+    pagerank_rank 153.0
+  ]
+  node [
+    id 204
+    label "204"
+    degree 0.1042654028436019
+    degree_rank 177.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.06161137440758294
+    outdegree_rank 110.0
+    strength 22067.381484872207
+    strength_rank 106.0
+    instrength 8185.081006470387
+    instrength_rank 162.0
+    outstrength 13882.30047840182
+    outstrength_rank 46.0
+    betweenness 0.0039326532044136
+    betweenness_rank 175.0
+    closeness 0.40344168260038243
+    closeness_rank 186.0
+    eigenvector 0.04495023938151833
+    eigenvector_rank 181.0
+    hits_hubs 0.006982861464872087
+    hits_hubs_rank 28.0
+    hits_authorities 0.003161635084382872
+    hits_authorities_rank 166.0
+    pagerank 0.0033512826769986894
+    pagerank_rank 173.0
+  ]
+  node [
+    id 205
+    label "205"
+    degree 0.16587677725118485
+    degree_rank 12.0
+    indegree 0.06635071090047394
+    indegree_rank 80.0
+    outdegree 0.0995260663507109
+    outdegree_rank 7.0
+    strength 27927.94351958023
+    strength_rank 36.0
+    instrength 12167.01616708057
+    instrength_rank 74.0
+    outstrength 15760.927352499657
+    outstrength_rank 23.0
+    betweenness 0.00950967961034957
+    betweenness_rank 26.0
+    closeness 0.4271255060728745
+    closeness_rank 127.0
+    eigenvector 0.06102121848821992
+    eigenvector_rank 130.0
+    hits_hubs 0.006183192395972005
+    hits_hubs_rank 45.0
+    hits_authorities 0.004506013310864326
+    hits_authorities_rank 113.0
+    pagerank 0.005125907444935125
+    pagerank_rank 82.0
+  ]
+  node [
+    id 206
+    label "206"
+    degree 0.09004739336492892
+    degree_rank 196.0
+    indegree 0.06161137440758294
+    indegree_rank 113.0
+    outdegree 0.028436018957345974
+    outdegree_rank 207.0
+    strength 16329.667725028616
+    strength_rank 179.0
+    instrength 10516.961769613643
+    instrength_rank 121.0
+    outstrength 5812.705955414973
+    outstrength_rank 196.0
+    betweenness 0.0021800251814654385
+    betweenness_rank 206.0
+    closeness 0.42973523421588594
+    closeness_rank 118.0
+    eigenvector 0.06052365896334295
+    eigenvector_rank 133.0
+    hits_hubs 0.0028898132949732066
+    hits_hubs_rank 178.0
+    hits_authorities 0.003911511605117511
+    hits_authorities_rank 132.0
+    pagerank 0.004157000737086674
+    pagerank_rank 134.0
+  ]
+  node [
+    id 207
+    label "207"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.05213270142180095
+    outdegree_rank 153.0
+    strength 19399.38794010359
+    strength_rank 140.0
+    instrength 13780.256280429161
+    instrength_rank 44.0
+    outstrength 5619.131659674429
+    outstrength_rank 200.0
+    betweenness 0.007550974727670919
+    betweenness_rank 62.0
+    closeness 0.44989339019189767
+    closeness_rank 43.0
+    eigenvector 0.08204463922480769
+    eigenvector_rank 43.0
+    hits_hubs 0.0019867949619423063
+    hits_hubs_rank 204.0
+    hits_authorities 0.005655581670480275
+    hits_authorities_rank 55.0
+    pagerank 0.00600289003289757
+    pagerank_rank 38.0
+  ]
+  node [
+    id 208
+    label "208"
+    degree 0.15639810426540285
+    degree_rank 26.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.07582938388625593
+    outdegree_rank 42.0
+    strength 21547.078383964363
+    strength_rank 113.0
+    instrength 11922.16297097547
+    instrength_rank 80.0
+    outstrength 9624.915412988894
+    outstrength_rank 130.0
+    betweenness 0.009146941093643259
+    betweenness_rank 32.0
+    closeness 0.4518201284796574
+    closeness_rank 36.0
+    eigenvector 0.08089259034566458
+    eigenvector_rank 47.0
+    hits_hubs 0.004326932870842509
+    hits_hubs_rank 111.0
+    hits_authorities 0.005337571523838826
+    hits_authorities_rank 74.0
+    pagerank 0.005278550003487446
+    pagerank_rank 73.0
+  ]
+  node [
+    id 209
+    label "209"
+    degree 0.13270142180094788
+    degree_rank 89.0
+    indegree 0.07582938388625593
+    indegree_rank 42.0
+    outdegree 0.05687203791469195
+    outdegree_rank 130.0
+    strength 25637.52257578104
+    strength_rank 51.0
+    instrength 14870.780269748315
+    instrength_rank 31.0
+    outstrength 10766.742306032727
+    outstrength_rank 101.0
+    betweenness 0.0052602016597723044
+    betweenness_rank 133.0
+    closeness 0.4470338983050847
+    closeness_rank 54.0
+    eigenvector 0.0823271628284097
+    eigenvector_rank 41.0
+    hits_hubs 0.0050562222341985225
+    hits_hubs_rank 78.0
+    hits_authorities 0.008111156079932898
+    hits_authorities_rank 14.0
+    pagerank 0.005964488875562887
+    pagerank_rank 41.0
+  ]
+  node [
+    id 210
+    label "210"
+    degree 0.1279620853080569
+    degree_rank 106.0
+    indegree 0.04265402843601896
+    indegree_rank 183.0
+    outdegree 0.08530805687203792
+    outdegree_rank 19.0
+    strength 20066.58960983797
+    strength_rank 130.0
+    instrength 7310.79840616344
+    instrength_rank 179.0
+    outstrength 12755.791203674531
+    outstrength_rank 64.0
+    betweenness 0.006650396640405136
+    betweenness_rank 90.0
+    closeness 0.40344168260038243
+    closeness_rank 186.0
+    eigenvector 0.043941246088177295
+    eigenvector_rank 184.0
+    hits_hubs 0.004068539113811473
+    hits_hubs_rank 120.0
+    hits_authorities 0.0024788371392375098
+    hits_authorities_rank 186.0
+    pagerank 0.003473270759238505
+    pagerank_rank 167.0
+  ]
+  node [
+    id 211
+    label "211"
+    degree 0.15165876777251186
+    degree_rank 37.0
+    indegree 0.08056872037914692
+    indegree_rank 33.0
+    outdegree 0.07109004739336494
+    outdegree_rank 66.0
+    strength 24131.37553087336
+    strength_rank 72.0
+    instrength 13819.843408755594
+    instrength_rank 42.0
+    outstrength 10311.532122117764
+    outstrength_rank 113.0
+    betweenness 0.009797935628486895
+    betweenness_rank 22.0
+    closeness 0.4596949891067538
+    closeness_rank 23.0
+    eigenvector 0.08757044700098814
+    eigenvector_rank 30.0
+    hits_hubs 0.0037686935138132485
+    hits_hubs_rank 138.0
+    hits_authorities 0.005524572811272136
+    hits_authorities_rank 64.0
+    pagerank 0.006355934675709296
+    pagerank_rank 30.0
+  ]
+  edge [
+    source 0
+    target 166
+    weight 1326.8743250304824
+  ]
+  edge [
+    source 0
+    target 199
+    weight 970.9095295874013
+  ]
+  edge [
+    source 0
+    target 137
+    weight 377.3339164377659
+  ]
+  edge [
+    source 0
+    target 136
+    weight 369.46994190474646
+  ]
+  edge [
+    source 0
+    target 47
+    weight 943.6712351353435
+  ]
+  edge [
+    source 0
+    target 205
+    weight 878.0008736631755
+  ]
+  edge [
+    source 0
+    target 186
+    weight 300.7310136776332
+  ]
+  edge [
+    source 0
+    target 114
+    weight 1497.1033654599942
+  ]
+  edge [
+    source 0
+    target 113
+    weight 247.43539727045965
+  ]
+  edge [
+    source 0
+    target 45
+    weight 1934.9365742023035
+  ]
+  edge [
+    source 0
+    target 194
+    weight 1128.1229180872274
+  ]
+  edge [
+    source 0
+    target 99
+    weight 990.4287625593411
+  ]
+  edge [
+    source 0
+    target 149
+    weight 679.0081059566684
+  ]
+  edge [
+    source 1
+    target 136
+    weight 293.12197900793694
+  ]
+  edge [
+    source 1
+    target 124
+    weight 552.2448974697105
+  ]
+  edge [
+    source 1
+    target 91
+    weight 794.7707580439792
+  ]
+  edge [
+    source 1
+    target 43
+    weight 524.0792917248748
+  ]
+  edge [
+    source 1
+    target 172
+    weight 564.396006250179
+  ]
+  edge [
+    source 1
+    target 9
+    weight 2321.216686352525
+  ]
+  edge [
+    source 1
+    target 149
+    weight 300.89568392587165
+  ]
+  edge [
+    source 1
+    target 177
+    weight 1025.8923454316416
+  ]
+  edge [
+    source 1
+    target 162
+    weight 156.33917213325708
+  ]
+  edge [
+    source 1
+    target 61
+    weight 475.79247748932437
+  ]
+  edge [
+    source 1
+    target 151
+    weight 804.8021314306687
+  ]
+  edge [
+    source 1
+    target 47
+    weight 1925.884845169475
+  ]
+  edge [
+    source 1
+    target 142
+    weight 392.9364954932316
+  ]
+  edge [
+    source 2
+    target 53
+    weight 1429.4537142237896
+  ]
+  edge [
+    source 2
+    target 60
+    weight 681.7506953452911
+  ]
+  edge [
+    source 2
+    target 65
+    weight 13.758825343339112
+  ]
+  edge [
+    source 2
+    target 196
+    weight 615.3556487281126
+  ]
+  edge [
+    source 2
+    target 107
+    weight 1684.7955133146663
+  ]
+  edge [
+    source 2
+    target 149
+    weight 2165.331804302839
+  ]
+  edge [
+    source 2
+    target 208
+    weight 1391.570238521207
+  ]
+  edge [
+    source 2
+    target 147
+    weight 66.71619990006687
+  ]
+  edge [
+    source 2
+    target 152
+    weight 1085.3150668895398
+  ]
+  edge [
+    source 2
+    target 171
+    weight 1068.741656641011
+  ]
+  edge [
+    source 2
+    target 187
+    weight 114.03661108510413
+  ]
+  edge [
+    source 2
+    target 143
+    weight 167.71814475842092
+  ]
+  edge [
+    source 2
+    target 126
+    weight 106.59628172004152
+  ]
+  edge [
+    source 2
+    target 120
+    weight 525.3362922160222
+  ]
+  edge [
+    source 2
+    target 199
+    weight 488.03110760891843
+  ]
+  edge [
+    source 3
+    target 153
+    weight 1818.0721148426585
+  ]
+  edge [
+    source 3
+    target 40
+    weight 89.88662813390326
+  ]
+  edge [
+    source 3
+    target 35
+    weight 514.6621279688866
+  ]
+  edge [
+    source 3
+    target 80
+    weight 1124.260411064722
+  ]
+  edge [
+    source 3
+    target 131
+    weight 444.2371995810752
+  ]
+  edge [
+    source 3
+    target 156
+    weight 710.8719272946532
+  ]
+  edge [
+    source 3
+    target 157
+    weight 396.94125920389115
+  ]
+  edge [
+    source 3
+    target 41
+    weight 196.40471294957933
+  ]
+  edge [
+    source 3
+    target 177
+    weight 703.7377985218952
+  ]
+  edge [
+    source 3
+    target 94
+    weight 1088.8332171505328
+  ]
+  edge [
+    source 3
+    target 88
+    weight 150.71793308116344
+  ]
+  edge [
+    source 3
+    target 70
+    weight 166.61386626330358
+  ]
+  edge [
+    source 3
+    target 96
+    weight 180.73298161618214
+  ]
+  edge [
+    source 3
+    target 74
+    weight 1204.5777246351374
+  ]
+  edge [
+    source 3
+    target 56
+    weight 560.7097487522335
+  ]
+  edge [
+    source 4
+    target 138
+    weight 786.7223864236579
+  ]
+  edge [
+    source 4
+    target 71
+    weight 1423.7455898267249
+  ]
+  edge [
+    source 4
+    target 88
+    weight 179.12361803563465
+  ]
+  edge [
+    source 4
+    target 74
+    weight 360.29400392203326
+  ]
+  edge [
+    source 4
+    target 208
+    weight 653.3085933445341
+  ]
+  edge [
+    source 4
+    target 198
+    weight 272.0305435019935
+  ]
+  edge [
+    source 4
+    target 185
+    weight 600.457727401199
+  ]
+  edge [
+    source 4
+    target 47
+    weight 1243.8393018426023
+  ]
+  edge [
+    source 4
+    target 118
+    weight 234.3965231486567
+  ]
+  edge [
+    source 4
+    target 109
+    weight 1384.314166790387
+  ]
+  edge [
+    source 4
+    target 126
+    weight 1505.1809774826154
+  ]
+  edge [
+    source 4
+    target 136
+    weight 243.39552016359534
+  ]
+  edge [
+    source 4
+    target 23
+    weight 2063.374408808774
+  ]
+  edge [
+    source 4
+    target 69
+    weight 635.4077125595666
+  ]
+  edge [
+    source 4
+    target 128
+    weight 1404.2513818749517
+  ]
+  edge [
+    source 5
+    target 67
+    weight 953.8266472371517
+  ]
+  edge [
+    source 5
+    target 30
+    weight 700.7706703494797
+  ]
+  edge [
+    source 5
+    target 172
+    weight 3125.277120460007
+  ]
+  edge [
+    source 5
+    target 192
+    weight 56.98452816609658
+  ]
+  edge [
+    source 5
+    target 121
+    weight 461.2229969491511
+  ]
+  edge [
+    source 5
+    target 32
+    weight 844.5652932642087
+  ]
+  edge [
+    source 5
+    target 115
+    weight 159.64758354932434
+  ]
+  edge [
+    source 5
+    target 3
+    weight 59.00504465073267
+  ]
+  edge [
+    source 5
+    target 125
+    weight 729.581605386299
+  ]
+  edge [
+    source 5
+    target 27
+    weight 1299.831648120226
+  ]
+  edge [
+    source 5
+    target 88
+    weight 686.1188402896252
+  ]
+  edge [
+    source 5
+    target 175
+    weight 824.7544923564402
+  ]
+  edge [
+    source 5
+    target 190
+    weight 671.9012896205556
+  ]
+  edge [
+    source 6
+    target 161
+    weight 77.86537960937193
+  ]
+  edge [
+    source 6
+    target 102
+    weight 109.01722083561268
+  ]
+  edge [
+    source 6
+    target 126
+    weight 729.7169681789195
+  ]
+  edge [
+    source 6
+    target 147
+    weight 2269.0262976829977
+  ]
+  edge [
+    source 6
+    target 195
+    weight 146.38684162011526
+  ]
+  edge [
+    source 6
+    target 19
+    weight 821.264187263842
+  ]
+  edge [
+    source 6
+    target 135
+    weight 586.4648696652948
+  ]
+  edge [
+    source 6
+    target 7
+    weight 591.4455412922318
+  ]
+  edge [
+    source 6
+    target 57
+    weight 261.0989340442914
+  ]
+  edge [
+    source 6
+    target 125
+    weight 553.9240673493886
+  ]
+  edge [
+    source 6
+    target 172
+    weight 659.1679539378111
+  ]
+  edge [
+    source 6
+    target 25
+    weight 2638.856956001959
+  ]
+  edge [
+    source 7
+    target 79
+    weight 573.4001468855095
+  ]
+  edge [
+    source 7
+    target 153
+    weight 250.7072848862286
+  ]
+  edge [
+    source 7
+    target 83
+    weight 295.9327916597987
+  ]
+  edge [
+    source 7
+    target 173
+    weight 1162.2005746417217
+  ]
+  edge [
+    source 7
+    target 24
+    weight 669.9046036353456
+  ]
+  edge [
+    source 7
+    target 33
+    weight 273.086140511329
+  ]
+  edge [
+    source 7
+    target 123
+    weight 711.6022090345883
+  ]
+  edge [
+    source 7
+    target 56
+    weight 457.0675147642627
+  ]
+  edge [
+    source 7
+    target 6
+    weight 692.7615110092764
+  ]
+  edge [
+    source 7
+    target 84
+    weight 623.7605676193914
+  ]
+  edge [
+    source 7
+    target 144
+    weight 1781.062989120006
+  ]
+  edge [
+    source 7
+    target 120
+    weight 60.11454364614524
+  ]
+  edge [
+    source 7
+    target 57
+    weight 1178.1426341319755
+  ]
+  edge [
+    source 8
+    target 31
+    weight 494.54699778494177
+  ]
+  edge [
+    source 8
+    target 106
+    weight 543.8627421845135
+  ]
+  edge [
+    source 8
+    target 56
+    weight 630.3668470313038
+  ]
+  edge [
+    source 8
+    target 195
+    weight 324.0778168208346
+  ]
+  edge [
+    source 8
+    target 21
+    weight 1265.2891040208585
+  ]
+  edge [
+    source 8
+    target 192
+    weight 628.17482465947
+  ]
+  edge [
+    source 8
+    target 122
+    weight 1467.7292268976973
+  ]
+  edge [
+    source 8
+    target 79
+    weight 151.69292795586784
+  ]
+  edge [
+    source 8
+    target 62
+    weight 971.1475173364258
+  ]
+  edge [
+    source 8
+    target 135
+    weight 133.8970458778484
+  ]
+  edge [
+    source 8
+    target 12
+    weight 290.1852781704662
+  ]
+  edge [
+    source 8
+    target 152
+    weight 929.7352941524489
+  ]
+  edge [
+    source 8
+    target 141
+    weight 254.2683338248475
+  ]
+  edge [
+    source 8
+    target 3
+    weight 551.6787057366155
+  ]
+  edge [
+    source 8
+    target 49
+    weight 988.1780641701425
+  ]
+  edge [
+    source 8
+    target 194
+    weight 737.1125394738518
+  ]
+  edge [
+    source 8
+    target 204
+    weight 233.85281080003884
+  ]
+  edge [
+    source 9
+    target 72
+    weight 910.23280808781
+  ]
+  edge [
+    source 9
+    target 95
+    weight 387.3109851199229
+  ]
+  edge [
+    source 9
+    target 24
+    weight 85.44404959108384
+  ]
+  edge [
+    source 9
+    target 170
+    weight 844.9416959895639
+  ]
+  edge [
+    source 9
+    target 55
+    weight 266.1862867768504
+  ]
+  edge [
+    source 9
+    target 147
+    weight 192.70610374275844
+  ]
+  edge [
+    source 9
+    target 111
+    weight 695.9128267024087
+  ]
+  edge [
+    source 9
+    target 163
+    weight 1735.1463903077772
+  ]
+  edge [
+    source 9
+    target 144
+    weight 328.7386856831884
+  ]
+  edge [
+    source 9
+    target 45
+    weight 1379.7353313223568
+  ]
+  edge [
+    source 10
+    target 21
+    weight 572.3435088744186
+  ]
+  edge [
+    source 10
+    target 22
+    weight 615.9014484035247
+  ]
+  edge [
+    source 10
+    target 56
+    weight 431.14084153091375
+  ]
+  edge [
+    source 10
+    target 85
+    weight 1780.2552192784055
+  ]
+  edge [
+    source 10
+    target 64
+    weight 414.11761035140205
+  ]
+  edge [
+    source 10
+    target 158
+    weight 1021.4452602182381
+  ]
+  edge [
+    source 10
+    target 162
+    weight 586.8093455429404
+  ]
+  edge [
+    source 10
+    target 185
+    weight 334.4870700729228
+  ]
+  edge [
+    source 10
+    target 108
+    weight 401.275738915765
+  ]
+  edge [
+    source 10
+    target 46
+    weight 76.14677536902549
+  ]
+  edge [
+    source 10
+    target 97
+    weight 1137.7633510654684
+  ]
+  edge [
+    source 10
+    target 140
+    weight 1295.0132104933784
+  ]
+  edge [
+    source 10
+    target 177
+    weight 1029.2355101203368
+  ]
+  edge [
+    source 10
+    target 49
+    weight 444.72141548456375
+  ]
+  edge [
+    source 10
+    target 6
+    weight 832.1130059862586
+  ]
+  edge [
+    source 10
+    target 183
+    weight 1598.4508555892705
+  ]
+  edge [
+    source 10
+    target 43
+    weight 2.522259263990989
+  ]
+  edge [
+    source 10
+    target 167
+    weight 1295.9275971955803
+  ]
+  edge [
+    source 11
+    target 102
+    weight 1039.0895759597752
+  ]
+  edge [
+    source 11
+    target 10
+    weight 916.723512851271
+  ]
+  edge [
+    source 11
+    target 179
+    weight 1082.4591745482192
+  ]
+  edge [
+    source 11
+    target 100
+    weight 2196.8539921625456
+  ]
+  edge [
+    source 11
+    target 65
+    weight 122.42866223072973
+  ]
+  edge [
+    source 11
+    target 30
+    weight 1047.7145982873985
+  ]
+  edge [
+    source 11
+    target 19
+    weight 1000.4100418757578
+  ]
+  edge [
+    source 11
+    target 112
+    weight 136.13382938487635
+  ]
+  edge [
+    source 11
+    target 82
+    weight 779.9523905540336
+  ]
+  edge [
+    source 11
+    target 33
+    weight 628.5620164557217
+  ]
+  edge [
+    source 11
+    target 157
+    weight 2134.320618568739
+  ]
+  edge [
+    source 11
+    target 57
+    weight 136.21471212237165
+  ]
+  edge [
+    source 11
+    target 123
+    weight 405.1908022784423
+  ]
+  edge [
+    source 11
+    target 147
+    weight 1655.4524315463807
+  ]
+  edge [
+    source 11
+    target 55
+    weight 1262.719198725509
+  ]
+  edge [
+    source 12
+    target 152
+    weight 526.1398621264245
+  ]
+  edge [
+    source 12
+    target 65
+    weight 1259.0796398088567
+  ]
+  edge [
+    source 12
+    target 142
+    weight 807.5902899463152
+  ]
+  edge [
+    source 12
+    target 156
+    weight 840.5202417620311
+  ]
+  edge [
+    source 12
+    target 133
+    weight 1173.371352755779
+  ]
+  edge [
+    source 12
+    target 132
+    weight 335.96829270861997
+  ]
+  edge [
+    source 12
+    target 7
+    weight 229.84328331637462
+  ]
+  edge [
+    source 12
+    target 124
+    weight 249.21562093196258
+  ]
+  edge [
+    source 12
+    target 30
+    weight 247.37330885390725
+  ]
+  edge [
+    source 12
+    target 89
+    weight 854.137839940123
+  ]
+  edge [
+    source 13
+    target 202
+    weight 741.5054131488655
+  ]
+  edge [
+    source 13
+    target 71
+    weight 735.584616418017
+  ]
+  edge [
+    source 13
+    target 14
+    weight 624.9586010224652
+  ]
+  edge [
+    source 13
+    target 136
+    weight 337.77611034369977
+  ]
+  edge [
+    source 13
+    target 169
+    weight 923.0022608013669
+  ]
+  edge [
+    source 13
+    target 25
+    weight 367.6523800514206
+  ]
+  edge [
+    source 13
+    target 168
+    weight 464.64727062322925
+  ]
+  edge [
+    source 13
+    target 10
+    weight 336.02631457017515
+  ]
+  edge [
+    source 13
+    target 63
+    weight 1058.3814561300046
+  ]
+  edge [
+    source 13
+    target 11
+    weight 44.69722971070934
+  ]
+  edge [
+    source 14
+    target 141
+    weight 1591.8853841832392
+  ]
+  edge [
+    source 14
+    target 45
+    weight 733.8956529922341
+  ]
+  edge [
+    source 14
+    target 206
+    weight 2117.6534667508836
+  ]
+  edge [
+    source 14
+    target 70
+    weight 1121.427333067371
+  ]
+  edge [
+    source 14
+    target 166
+    weight 168.73192054870918
+  ]
+  edge [
+    source 14
+    target 152
+    weight 310.6709089195309
+  ]
+  edge [
+    source 14
+    target 115
+    weight 1173.8079339313792
+  ]
+  edge [
+    source 14
+    target 163
+    weight 1402.8479010040353
+  ]
+  edge [
+    source 14
+    target 174
+    weight 1592.412728770588
+  ]
+  edge [
+    source 14
+    target 138
+    weight 567.218701467515
+  ]
+  edge [
+    source 14
+    target 22
+    weight 1195.268631189793
+  ]
+  edge [
+    source 14
+    target 130
+    weight 781.1619319631399
+  ]
+  edge [
+    source 15
+    target 69
+    weight 933.1589597193099
+  ]
+  edge [
+    source 15
+    target 113
+    weight 51.15095669583088
+  ]
+  edge [
+    source 15
+    target 123
+    weight 1727.6257248785475
+  ]
+  edge [
+    source 15
+    target 1
+    weight 809.5752914892042
+  ]
+  edge [
+    source 15
+    target 190
+    weight 1061.6670500155033
+  ]
+  edge [
+    source 15
+    target 197
+    weight 762.1133753538303
+  ]
+  edge [
+    source 15
+    target 171
+    weight 201.74928371512763
+  ]
+  edge [
+    source 15
+    target 128
+    weight 1853.1848534267258
+  ]
+  edge [
+    source 16
+    target 78
+    weight 1597.759201590031
+  ]
+  edge [
+    source 16
+    target 143
+    weight 711.0670787394507
+  ]
+  edge [
+    source 16
+    target 197
+    weight 73.60360606214356
+  ]
+  edge [
+    source 16
+    target 181
+    weight 666.2037017036815
+  ]
+  edge [
+    source 16
+    target 77
+    weight 686.992236885503
+  ]
+  edge [
+    source 16
+    target 81
+    weight 999.8370910744859
+  ]
+  edge [
+    source 16
+    target 186
+    weight 63.95614576813472
+  ]
+  edge [
+    source 16
+    target 7
+    weight 824.2990037228473
+  ]
+  edge [
+    source 16
+    target 26
+    weight 514.061168360003
+  ]
+  edge [
+    source 16
+    target 123
+    weight 972.2851636220989
+  ]
+  edge [
+    source 16
+    target 120
+    weight 848.1843958607664
+  ]
+  edge [
+    source 16
+    target 50
+    weight 1078.9068120834868
+  ]
+  edge [
+    source 16
+    target 90
+    weight 99.73257843266643
+  ]
+  edge [
+    source 16
+    target 41
+    weight 2274.129263796742
+  ]
+  edge [
+    source 16
+    target 4
+    weight 412.9952986183463
+  ]
+  edge [
+    source 16
+    target 175
+    weight 448.8311698312064
+  ]
+  edge [
+    source 16
+    target 102
+    weight 907.2506828216996
+  ]
+  edge [
+    source 16
+    target 38
+    weight 1193.6666779901889
+  ]
+  edge [
+    source 17
+    target 76
+    weight 326.0923649913205
+  ]
+  edge [
+    source 17
+    target 160
+    weight 1662.2491325111876
+  ]
+  edge [
+    source 17
+    target 45
+    weight 1011.933675286266
+  ]
+  edge [
+    source 17
+    target 197
+    weight 2848.356880600553
+  ]
+  edge [
+    source 17
+    target 29
+    weight 1346.320973503293
+  ]
+  edge [
+    source 17
+    target 140
+    weight 612.2686882212361
+  ]
+  edge [
+    source 17
+    target 180
+    weight 43.752878585065474
+  ]
+  edge [
+    source 17
+    target 171
+    weight 738.4742269515159
+  ]
+  edge [
+    source 17
+    target 170
+    weight 236.21798086798793
+  ]
+  edge [
+    source 17
+    target 61
+    weight 888.565787314228
+  ]
+  edge [
+    source 17
+    target 165
+    weight 28.45685986553002
+  ]
+  edge [
+    source 17
+    target 69
+    weight 925.3654924937
+  ]
+  edge [
+    source 17
+    target 162
+    weight 314.35253577309544
+  ]
+  edge [
+    source 17
+    target 120
+    weight 381.5185932869424
+  ]
+  edge [
+    source 17
+    target 184
+    weight 903.9572120024776
+  ]
+  edge [
+    source 17
+    target 54
+    weight 516.7741701763925
+  ]
+  edge [
+    source 18
+    target 113
+    weight 977.387725731621
+  ]
+  edge [
+    source 18
+    target 151
+    weight 2015.7128042214806
+  ]
+  edge [
+    source 18
+    target 211
+    weight 513.0412497260137
+  ]
+  edge [
+    source 18
+    target 173
+    weight 337.59561258101905
+  ]
+  edge [
+    source 18
+    target 87
+    weight 717.494149432407
+  ]
+  edge [
+    source 18
+    target 127
+    weight 135.27006423963854
+  ]
+  edge [
+    source 18
+    target 70
+    weight 1241.169595506028
+  ]
+  edge [
+    source 18
+    target 204
+    weight 647.3735160406271
+  ]
+  edge [
+    source 18
+    target 195
+    weight 1041.5232860903388
+  ]
+  edge [
+    source 18
+    target 140
+    weight 1069.2742897057478
+  ]
+  edge [
+    source 18
+    target 175
+    weight 1767.6384412495213
+  ]
+  edge [
+    source 19
+    target 186
+    weight 410.0967306323283
+  ]
+  edge [
+    source 19
+    target 80
+    weight 744.28269236086
+  ]
+  edge [
+    source 19
+    target 156
+    weight 957.6909573425208
+  ]
+  edge [
+    source 19
+    target 153
+    weight 603.7927083172219
+  ]
+  edge [
+    source 19
+    target 63
+    weight 596.9729040780552
+  ]
+  edge [
+    source 19
+    target 1
+    weight 330.53689167516114
+  ]
+  edge [
+    source 19
+    target 60
+    weight 461.9117403366414
+  ]
+  edge [
+    source 19
+    target 39
+    weight 711.9972628642198
+  ]
+  edge [
+    source 19
+    target 53
+    weight 253.53069184742617
+  ]
+  edge [
+    source 19
+    target 111
+    weight 294.3812254728015
+  ]
+  edge [
+    source 19
+    target 18
+    weight 1337.6409721434145
+  ]
+  edge [
+    source 19
+    target 104
+    weight 631.2981490478963
+  ]
+  edge [
+    source 20
+    target 37
+    weight 980.3998360256853
+  ]
+  edge [
+    source 20
+    target 54
+    weight 1090.7199792848123
+  ]
+  edge [
+    source 20
+    target 68
+    weight 340.9783164404155
+  ]
+  edge [
+    source 20
+    target 189
+    weight 481.646712669698
+  ]
+  edge [
+    source 20
+    target 2
+    weight 170.87163026456153
+  ]
+  edge [
+    source 20
+    target 188
+    weight 803.2418675834334
+  ]
+  edge [
+    source 20
+    target 161
+    weight 59.39532849785377
+  ]
+  edge [
+    source 20
+    target 166
+    weight 1739.2857307373692
+  ]
+  edge [
+    source 20
+    target 76
+    weight 848.0194238848911
+  ]
+  edge [
+    source 20
+    target 61
+    weight 410.90898673592403
+  ]
+  edge [
+    source 20
+    target 10
+    weight 407.6726249622233
+  ]
+  edge [
+    source 20
+    target 146
+    weight 220.84473562685744
+  ]
+  edge [
+    source 21
+    target 81
+    weight 323.3372356987781
+  ]
+  edge [
+    source 21
+    target 168
+    weight 26.522309427589434
+  ]
+  edge [
+    source 21
+    target 128
+    weight 1391.9995826860065
+  ]
+  edge [
+    source 21
+    target 2
+    weight 2347.630777268175
+  ]
+  edge [
+    source 21
+    target 146
+    weight 628.0552696562679
+  ]
+  edge [
+    source 21
+    target 176
+    weight 473.8417175011484
+  ]
+  edge [
+    source 21
+    target 90
+    weight 1593.0403778978973
+  ]
+  edge [
+    source 22
+    target 192
+    weight 338.48171355326616
+  ]
+  edge [
+    source 22
+    target 3
+    weight 961.8947288194183
+  ]
+  edge [
+    source 22
+    target 77
+    weight 1476.6306245263456
+  ]
+  edge [
+    source 22
+    target 68
+    weight 178.90740538220444
+  ]
+  edge [
+    source 22
+    target 53
+    weight 932.1550321352407
+  ]
+  edge [
+    source 22
+    target 170
+    weight 526.3134545355774
+  ]
+  edge [
+    source 22
+    target 128
+    weight 280.89583910990416
+  ]
+  edge [
+    source 22
+    target 190
+    weight 782.0509602402961
+  ]
+  edge [
+    source 22
+    target 36
+    weight 358.5782133830831
+  ]
+  edge [
+    source 22
+    target 71
+    weight 925.1675850206545
+  ]
+  edge [
+    source 22
+    target 188
+    weight 1251.6367609962076
+  ]
+  edge [
+    source 22
+    target 176
+    weight 312.70768404402
+  ]
+  edge [
+    source 22
+    target 91
+    weight 301.940788911021
+  ]
+  edge [
+    source 22
+    target 1
+    weight 271.9404404586671
+  ]
+  edge [
+    source 22
+    target 95
+    weight 529.6819434389251
+  ]
+  edge [
+    source 23
+    target 4
+    weight 259.8584811239562
+  ]
+  edge [
+    source 23
+    target 33
+    weight 458.6226119906743
+  ]
+  edge [
+    source 23
+    target 12
+    weight 569.0073971065334
+  ]
+  edge [
+    source 23
+    target 72
+    weight 488.5445037404421
+  ]
+  edge [
+    source 23
+    target 89
+    weight 1066.149358259885
+  ]
+  edge [
+    source 23
+    target 161
+    weight 66.00667364256373
+  ]
+  edge [
+    source 23
+    target 96
+    weight 43.98046756080879
+  ]
+  edge [
+    source 23
+    target 61
+    weight 2387.512778825527
+  ]
+  edge [
+    source 23
+    target 129
+    weight 779.6939887721437
+  ]
+  edge [
+    source 23
+    target 30
+    weight 432.8239179344404
+  ]
+  edge [
+    source 23
+    target 88
+    weight 1137.4485429767874
+  ]
+  edge [
+    source 23
+    target 109
+    weight 888.7708748463912
+  ]
+  edge [
+    source 23
+    target 19
+    weight 36.4160853550018
+  ]
+  edge [
+    source 23
+    target 57
+    weight 270.1620491454228
+  ]
+  edge [
+    source 23
+    target 210
+    weight 1344.1066085133787
+  ]
+  edge [
+    source 23
+    target 110
+    weight 1299.6589666373707
+  ]
+  edge [
+    source 24
+    target 95
+    weight 1150.8247197772232
+  ]
+  edge [
+    source 24
+    target 185
+    weight 54.605302810955635
+  ]
+  edge [
+    source 24
+    target 37
+    weight 2122.6758189128986
+  ]
+  edge [
+    source 24
+    target 156
+    weight 1133.7991851626266
+  ]
+  edge [
+    source 24
+    target 107
+    weight 370.7689649858634
+  ]
+  edge [
+    source 24
+    target 81
+    weight 27.04943694621433
+  ]
+  edge [
+    source 24
+    target 161
+    weight 153.72997079170057
+  ]
+  edge [
+    source 24
+    target 49
+    weight 1624.65660742942
+  ]
+  edge [
+    source 24
+    target 113
+    weight 764.102238183217
+  ]
+  edge [
+    source 24
+    target 116
+    weight 132.3019257013698
+  ]
+  edge [
+    source 25
+    target 112
+    weight 210.94770128282335
+  ]
+  edge [
+    source 25
+    target 208
+    weight 1.665869501363531
+  ]
+  edge [
+    source 25
+    target 73
+    weight 171.22701305010446
+  ]
+  edge [
+    source 25
+    target 53
+    weight 1358.8812302389022
+  ]
+  edge [
+    source 25
+    target 110
+    weight 843.9237531825946
+  ]
+  edge [
+    source 25
+    target 48
+    weight 947.2974526671126
+  ]
+  edge [
+    source 25
+    target 2
+    weight 1213.1076350318008
+  ]
+  edge [
+    source 25
+    target 128
+    weight 579.677636860556
+  ]
+  edge [
+    source 25
+    target 171
+    weight 137.73078514599652
+  ]
+  edge [
+    source 25
+    target 122
+    weight 346.2696256466583
+  ]
+  edge [
+    source 25
+    target 140
+    weight 22.638982921032877
+  ]
+  edge [
+    source 25
+    target 89
+    weight 548.1162041879879
+  ]
+  edge [
+    source 25
+    target 129
+    weight 496.51196329165134
+  ]
+  edge [
+    source 25
+    target 205
+    weight 145.43845514933776
+  ]
+  edge [
+    source 26
+    target 71
+    weight 1.6788061918052648
+  ]
+  edge [
+    source 26
+    target 129
+    weight 502.43573531848665
+  ]
+  edge [
+    source 26
+    target 171
+    weight 372.56807408901165
+  ]
+  edge [
+    source 26
+    target 58
+    weight 166.72433598488408
+  ]
+  edge [
+    source 26
+    target 79
+    weight 831.0517521848664
+  ]
+  edge [
+    source 26
+    target 48
+    weight 405.86574965425154
+  ]
+  edge [
+    source 26
+    target 152
+    weight 245.78128108446384
+  ]
+  edge [
+    source 26
+    target 41
+    weight 129.44500434483814
+  ]
+  edge [
+    source 26
+    target 177
+    weight 1048.9003625106727
+  ]
+  edge [
+    source 26
+    target 139
+    weight 298.9241897541812
+  ]
+  edge [
+    source 26
+    target 173
+    weight 282.8780907142378
+  ]
+  edge [
+    source 26
+    target 20
+    weight 944.0616054321492
+  ]
+  edge [
+    source 26
+    target 192
+    weight 112.62705579509931
+  ]
+  edge [
+    source 26
+    target 211
+    weight 629.6489465964988
+  ]
+  edge [
+    source 26
+    target 2
+    weight 1878.2060031183773
+  ]
+  edge [
+    source 27
+    target 122
+    weight 1327.7665480215135
+  ]
+  edge [
+    source 27
+    target 22
+    weight 1629.9896909634022
+  ]
+  edge [
+    source 27
+    target 154
+    weight 1342.9360943694658
+  ]
+  edge [
+    source 27
+    target 88
+    weight 37.70476598253682
+  ]
+  edge [
+    source 27
+    target 124
+    weight 691.1178035477885
+  ]
+  edge [
+    source 27
+    target 85
+    weight 1276.1234320798114
+  ]
+  edge [
+    source 27
+    target 115
+    weight 110.46491389357868
+  ]
+  edge [
+    source 27
+    target 151
+    weight 1519.926410771708
+  ]
+  edge [
+    source 27
+    target 99
+    weight 1873.8321251058364
+  ]
+  edge [
+    source 27
+    target 134
+    weight 2053.344751433895
+  ]
+  edge [
+    source 27
+    target 139
+    weight 1517.6157501628709
+  ]
+  edge [
+    source 27
+    target 135
+    weight 527.0537394366877
+  ]
+  edge [
+    source 27
+    target 160
+    weight 812.7362739278079
+  ]
+  edge [
+    source 27
+    target 15
+    weight 155.77637346582367
+  ]
+  edge [
+    source 27
+    target 67
+    weight 323.3211947408144
+  ]
+  edge [
+    source 28
+    target 163
+    weight 907.3508711402458
+  ]
+  edge [
+    source 28
+    target 9
+    weight 758.4948908545605
+  ]
+  edge [
+    source 28
+    target 61
+    weight 1014.2754521142854
+  ]
+  edge [
+    source 28
+    target 142
+    weight 92.20834564095998
+  ]
+  edge [
+    source 28
+    target 149
+    weight 1025.2918941382734
+  ]
+  edge [
+    source 28
+    target 99
+    weight 1528.8277217065802
+  ]
+  edge [
+    source 28
+    target 119
+    weight 179.48392643893794
+  ]
+  edge [
+    source 28
+    target 170
+    weight 938.1452286766489
+  ]
+  edge [
+    source 28
+    target 208
+    weight 771.6560630971468
+  ]
+  edge [
+    source 28
+    target 26
+    weight 580.7955809529562
+  ]
+  edge [
+    source 28
+    target 62
+    weight 843.7156634852922
+  ]
+  edge [
+    source 28
+    target 105
+    weight 179.51688749724028
+  ]
+  edge [
+    source 28
+    target 197
+    weight 475.63374397619907
+  ]
+  edge [
+    source 28
+    target 130
+    weight 305.9657602285747
+  ]
+  edge [
+    source 28
+    target 125
+    weight 365.29885223367074
+  ]
+  edge [
+    source 28
+    target 51
+    weight 72.68455930924279
+  ]
+  edge [
+    source 29
+    target 33
+    weight 2098.010893711535
+  ]
+  edge [
+    source 29
+    target 169
+    weight 459.838196382059
+  ]
+  edge [
+    source 29
+    target 95
+    weight 373.2401297821724
+  ]
+  edge [
+    source 29
+    target 49
+    weight 684.655502434112
+  ]
+  edge [
+    source 29
+    target 96
+    weight 1172.5606104108267
+  ]
+  edge [
+    source 29
+    target 51
+    weight 1568.4144252259623
+  ]
+  edge [
+    source 29
+    target 40
+    weight 1166.875332583009
+  ]
+  edge [
+    source 29
+    target 145
+    weight 581.3912370880435
+  ]
+  edge [
+    source 29
+    target 99
+    weight 940.8852349278224
+  ]
+  edge [
+    source 29
+    target 119
+    weight 1160.3820381159082
+  ]
+  edge [
+    source 29
+    target 67
+    weight 104.66272579108141
+  ]
+  edge [
+    source 29
+    target 31
+    weight 80.22092063341219
+  ]
+  edge [
+    source 29
+    target 7
+    weight 380.32587221629797
+  ]
+  edge [
+    source 29
+    target 198
+    weight 2036.2880242376043
+  ]
+  edge [
+    source 29
+    target 5
+    weight 125.4967588937551
+  ]
+  edge [
+    source 30
+    target 70
+    weight 47.2383938716992
+  ]
+  edge [
+    source 30
+    target 166
+    weight 608.115539811422
+  ]
+  edge [
+    source 30
+    target 172
+    weight 1619.6388850566166
+  ]
+  edge [
+    source 30
+    target 88
+    weight 34.39121119948875
+  ]
+  edge [
+    source 30
+    target 121
+    weight 690.2386856784599
+  ]
+  edge [
+    source 30
+    target 181
+    weight 1629.4784026551597
+  ]
+  edge [
+    source 30
+    target 28
+    weight 922.5197489697649
+  ]
+  edge [
+    source 30
+    target 11
+    weight 88.34626005155418
+  ]
+  edge [
+    source 30
+    target 93
+    weight 514.3299355103318
+  ]
+  edge [
+    source 30
+    target 7
+    weight 532.0374841157766
+  ]
+  edge [
+    source 30
+    target 69
+    weight 192.93065912359793
+  ]
+  edge [
+    source 30
+    target 87
+    weight 1827.3876548296184
+  ]
+  edge [
+    source 31
+    target 99
+    weight 1632.7171255457397
+  ]
+  edge [
+    source 31
+    target 175
+    weight 435.74328142661216
+  ]
+  edge [
+    source 31
+    target 53
+    weight 1105.0907316130044
+  ]
+  edge [
+    source 31
+    target 57
+    weight 1691.3897769850137
+  ]
+  edge [
+    source 31
+    target 30
+    weight 1411.3857661940722
+  ]
+  edge [
+    source 31
+    target 113
+    weight 1158.0551927337071
+  ]
+  edge [
+    source 31
+    target 161
+    weight 145.17634518004553
+  ]
+  edge [
+    source 32
+    target 141
+    weight 433.02149188021224
+  ]
+  edge [
+    source 32
+    target 168
+    weight 1173.129640075905
+  ]
+  edge [
+    source 32
+    target 118
+    weight 1156.2711352016468
+  ]
+  edge [
+    source 32
+    target 201
+    weight 187.13503169990815
+  ]
+  edge [
+    source 32
+    target 181
+    weight 1252.106935227058
+  ]
+  edge [
+    source 32
+    target 68
+    weight 1061.96707325788
+  ]
+  edge [
+    source 32
+    target 180
+    weight 1512.9338598071881
+  ]
+  edge [
+    source 32
+    target 192
+    weight 507.8963832001406
+  ]
+  edge [
+    source 32
+    target 161
+    weight 820.699264223214
+  ]
+  edge [
+    source 32
+    target 124
+    weight 1232.4818324212335
+  ]
+  edge [
+    source 32
+    target 145
+    weight 1102.1545483171853
+  ]
+  edge [
+    source 32
+    target 196
+    weight 472.55776842911985
+  ]
+  edge [
+    source 32
+    target 207
+    weight 568.3166374435157
+  ]
+  edge [
+    source 32
+    target 126
+    weight 1898.57237152464
+  ]
+  edge [
+    source 32
+    target 135
+    weight 126.76330858934551
+  ]
+  edge [
+    source 32
+    target 65
+    weight 1332.2524867710933
+  ]
+  edge [
+    source 32
+    target 158
+    weight 630.195505496699
+  ]
+  edge [
+    source 32
+    target 115
+    weight 780.1915307676373
+  ]
+  edge [
+    source 32
+    target 54
+    weight 477.6391719796343
+  ]
+  edge [
+    source 32
+    target 153
+    weight 109.07669594768007
+  ]
+  edge [
+    source 32
+    target 127
+    weight 374.08419473349744
+  ]
+  edge [
+    source 32
+    target 6
+    weight 979.5611115816324
+  ]
+  edge [
+    source 33
+    target 77
+    weight 39.46621874065495
+  ]
+  edge [
+    source 33
+    target 73
+    weight 112.40546940960664
+  ]
+  edge [
+    source 33
+    target 145
+    weight 927.7309628822353
+  ]
+  edge [
+    source 33
+    target 172
+    weight 289.88097321134734
+  ]
+  edge [
+    source 33
+    target 98
+    weight 696.3309340943979
+  ]
+  edge [
+    source 33
+    target 175
+    weight 1872.6617304263689
+  ]
+  edge [
+    source 33
+    target 203
+    weight 81.5742630179628
+  ]
+  edge [
+    source 34
+    target 195
+    weight 910.7723467954801
+  ]
+  edge [
+    source 34
+    target 93
+    weight 1932.7929997241747
+  ]
+  edge [
+    source 34
+    target 126
+    weight 956.8582747671815
+  ]
+  edge [
+    source 34
+    target 104
+    weight 933.6411815618299
+  ]
+  edge [
+    source 34
+    target 162
+    weight 1692.590539689526
+  ]
+  edge [
+    source 34
+    target 145
+    weight 1002.9777871099743
+  ]
+  edge [
+    source 34
+    target 70
+    weight 296.90801859245005
+  ]
+  edge [
+    source 34
+    target 98
+    weight 1180.2787177503762
+  ]
+  edge [
+    source 34
+    target 122
+    weight 334.2683084533751
+  ]
+  edge [
+    source 34
+    target 33
+    weight 20.311303750012016
+  ]
+  edge [
+    source 34
+    target 31
+    weight 1508.0045994603215
+  ]
+  edge [
+    source 34
+    target 193
+    weight 1490.4573330204812
+  ]
+  edge [
+    source 34
+    target 116
+    weight 577.6438047921657
+  ]
+  edge [
+    source 34
+    target 4
+    weight 691.9826554304501
+  ]
+  edge [
+    source 34
+    target 171
+    weight 53.293639344246486
+  ]
+  edge [
+    source 34
+    target 65
+    weight 1898.413220779185
+  ]
+  edge [
+    source 34
+    target 119
+    weight 672.698209523833
+  ]
+  edge [
+    source 34
+    target 141
+    weight 2004.3165191995568
+  ]
+  edge [
+    source 34
+    target 5
+    weight 994.6259876920315
+  ]
+  edge [
+    source 35
+    target 54
+    weight 775.092585866244
+  ]
+  edge [
+    source 35
+    target 163
+    weight 99.58906731078977
+  ]
+  edge [
+    source 35
+    target 167
+    weight 575.2467348539501
+  ]
+  edge [
+    source 35
+    target 84
+    weight 3210.1136118165
+  ]
+  edge [
+    source 35
+    target 208
+    weight 954.516912250881
+  ]
+  edge [
+    source 35
+    target 204
+    weight 1462.1236055539325
+  ]
+  edge [
+    source 35
+    target 124
+    weight 119.9025069297306
+  ]
+  edge [
+    source 35
+    target 94
+    weight 2095.6447545755964
+  ]
+  edge [
+    source 35
+    target 72
+    weight 1440.8259831087237
+  ]
+  edge [
+    source 35
+    target 18
+    weight 172.82638888864108
+  ]
+  edge [
+    source 35
+    target 34
+    weight 255.2191798821764
+  ]
+  edge [
+    source 35
+    target 206
+    weight 832.3311995718911
+  ]
+  edge [
+    source 35
+    target 101
+    weight 197.4902058356452
+  ]
+  edge [
+    source 35
+    target 122
+    weight 345.7306664092115
+  ]
+  edge [
+    source 35
+    target 150
+    weight 1355.7445022954164
+  ]
+  edge [
+    source 35
+    target 53
+    weight 183.18768205468828
+  ]
+  edge [
+    source 35
+    target 98
+    weight 812.2216947928108
+  ]
+  edge [
+    source 36
+    target 81
+    weight 524.8404680812387
+  ]
+  edge [
+    source 36
+    target 102
+    weight 226.86352356164696
+  ]
+  edge [
+    source 36
+    target 21
+    weight 1736.9397278668757
+  ]
+  edge [
+    source 36
+    target 198
+    weight 1707.1902578542135
+  ]
+  edge [
+    source 36
+    target 153
+    weight 294.9441645801545
+  ]
+  edge [
+    source 36
+    target 178
+    weight 1068.4724844483032
+  ]
+  edge [
+    source 36
+    target 75
+    weight 945.7023323475873
+  ]
+  edge [
+    source 36
+    target 99
+    weight 1353.3542854110028
+  ]
+  edge [
+    source 36
+    target 129
+    weight 1396.9965864597423
+  ]
+  edge [
+    source 36
+    target 4
+    weight 52.87700545748555
+  ]
+  edge [
+    source 37
+    target 63
+    weight 584.9167726097231
+  ]
+  edge [
+    source 37
+    target 9
+    weight 518.9636759866802
+  ]
+  edge [
+    source 37
+    target 77
+    weight 0.473785210151064
+  ]
+  edge [
+    source 37
+    target 122
+    weight 1011.9632132969261
+  ]
+  edge [
+    source 37
+    target 203
+    weight 993.1421636524564
+  ]
+  edge [
+    source 37
+    target 111
+    weight 468.3473337534787
+  ]
+  edge [
+    source 37
+    target 7
+    weight 531.5161187840606
+  ]
+  edge [
+    source 37
+    target 160
+    weight 502.68477065235135
+  ]
+  edge [
+    source 37
+    target 6
+    weight 111.47597487458873
+  ]
+  edge [
+    source 37
+    target 33
+    weight 1180.9970395603655
+  ]
+  edge [
+    source 37
+    target 166
+    weight 2086.2985795823142
+  ]
+  edge [
+    source 37
+    target 135
+    weight 276.9642446606746
+  ]
+  edge [
+    source 37
+    target 114
+    weight 1264.9001659134997
+  ]
+  edge [
+    source 38
+    target 95
+    weight 101.2433426860247
+  ]
+  edge [
+    source 38
+    target 169
+    weight 215.55286510544886
+  ]
+  edge [
+    source 38
+    target 193
+    weight 217.83781510622484
+  ]
+  edge [
+    source 38
+    target 98
+    weight 315.29816204036814
+  ]
+  edge [
+    source 38
+    target 33
+    weight 398.5951883883515
+  ]
+  edge [
+    source 38
+    target 189
+    weight 417.0973590305625
+  ]
+  edge [
+    source 38
+    target 24
+    weight 291.0035550842722
+  ]
+  edge [
+    source 38
+    target 142
+    weight 715.7424543165481
+  ]
+  edge [
+    source 38
+    target 207
+    weight 408.25340161371213
+  ]
+  edge [
+    source 38
+    target 118
+    weight 754.7918247274108
+  ]
+  edge [
+    source 38
+    target 39
+    weight 2485.3667331366605
+  ]
+  edge [
+    source 38
+    target 105
+    weight 658.5373286440496
+  ]
+  edge [
+    source 38
+    target 74
+    weight 1059.681526160826
+  ]
+  edge [
+    source 38
+    target 37
+    weight 200.3665269144039
+  ]
+  edge [
+    source 38
+    target 99
+    weight 513.5914932790727
+  ]
+  edge [
+    source 38
+    target 191
+    weight 1184.1570560597452
+  ]
+  edge [
+    source 38
+    target 36
+    weight 245.5193278308452
+  ]
+  edge [
+    source 39
+    target 53
+    weight 198.50465371018498
+  ]
+  edge [
+    source 39
+    target 163
+    weight 730.6889858549479
+  ]
+  edge [
+    source 39
+    target 175
+    weight 390.3323388030008
+  ]
+  edge [
+    source 39
+    target 119
+    weight 160.85900044273563
+  ]
+  edge [
+    source 39
+    target 2
+    weight 690.4952004835409
+  ]
+  edge [
+    source 39
+    target 24
+    weight 705.3697466260481
+  ]
+  edge [
+    source 39
+    target 167
+    weight 42.53005921186852
+  ]
+  edge [
+    source 39
+    target 130
+    weight 840.1244320962686
+  ]
+  edge [
+    source 39
+    target 17
+    weight 1003.3503112020006
+  ]
+  edge [
+    source 39
+    target 8
+    weight 1847.644230893013
+  ]
+  edge [
+    source 40
+    target 125
+    weight 384.67632787331127
+  ]
+  edge [
+    source 40
+    target 29
+    weight 556.7320725805956
+  ]
+  edge [
+    source 40
+    target 61
+    weight 921.4499551520113
+  ]
+  edge [
+    source 40
+    target 169
+    weight 82.41641719089904
+  ]
+  edge [
+    source 40
+    target 157
+    weight 632.0411684657356
+  ]
+  edge [
+    source 40
+    target 85
+    weight 728.8063864492144
+  ]
+  edge [
+    source 40
+    target 103
+    weight 1898.549239524442
+  ]
+  edge [
+    source 40
+    target 178
+    weight 408.0799258218501
+  ]
+  edge [
+    source 40
+    target 138
+    weight 346.33544314389735
+  ]
+  edge [
+    source 40
+    target 175
+    weight 870.9785054439566
+  ]
+  edge [
+    source 41
+    target 43
+    weight 1621.6528422556846
+  ]
+  edge [
+    source 41
+    target 3
+    weight 645.249321487145
+  ]
+  edge [
+    source 41
+    target 189
+    weight 600.383487416309
+  ]
+  edge [
+    source 41
+    target 58
+    weight 1453.6276369850864
+  ]
+  edge [
+    source 41
+    target 159
+    weight 2634.2048596589943
+  ]
+  edge [
+    source 41
+    target 135
+    weight 1.3716913243725486
+  ]
+  edge [
+    source 41
+    target 30
+    weight 2109.331819407998
+  ]
+  edge [
+    source 41
+    target 44
+    weight 971.6843408913151
+  ]
+  edge [
+    source 41
+    target 140
+    weight 1083.54378864011
+  ]
+  edge [
+    source 41
+    target 20
+    weight 891.481665078431
+  ]
+  edge [
+    source 41
+    target 114
+    weight 1927.3801750047676
+  ]
+  edge [
+    source 41
+    target 63
+    weight 253.94416603603798
+  ]
+  edge [
+    source 41
+    target 96
+    weight 1129.916454484999
+  ]
+  edge [
+    source 41
+    target 9
+    weight 1386.3187928793498
+  ]
+  edge [
+    source 41
+    target 45
+    weight 7.341472073138618
+  ]
+  edge [
+    source 42
+    target 46
+    weight 1517.1041219619897
+  ]
+  edge [
+    source 42
+    target 132
+    weight 337.0262062457276
+  ]
+  edge [
+    source 42
+    target 191
+    weight 719.6122157639535
+  ]
+  edge [
+    source 42
+    target 167
+    weight 32.74410533528564
+  ]
+  edge [
+    source 42
+    target 111
+    weight 541.445964748772
+  ]
+  edge [
+    source 42
+    target 195
+    weight 2198.749915129277
+  ]
+  edge [
+    source 42
+    target 153
+    weight 591.7497156421236
+  ]
+  edge [
+    source 42
+    target 22
+    weight 2213.6379731675593
+  ]
+  edge [
+    source 42
+    target 54
+    weight 631.1002626858916
+  ]
+  edge [
+    source 42
+    target 116
+    weight 470.81498743904035
+  ]
+  edge [
+    source 42
+    target 197
+    weight 1170.1003443188445
+  ]
+  edge [
+    source 42
+    target 156
+    weight 319.0531571120156
+  ]
+  edge [
+    source 42
+    target 86
+    weight 581.8329311955303
+  ]
+  edge [
+    source 42
+    target 26
+    weight 756.5194636234125
+  ]
+  edge [
+    source 43
+    target 28
+    weight 1868.1485965037493
+  ]
+  edge [
+    source 43
+    target 26
+    weight 591.0967774409949
+  ]
+  edge [
+    source 43
+    target 208
+    weight 122.481474847533
+  ]
+  edge [
+    source 43
+    target 198
+    weight 434.2481759104551
+  ]
+  edge [
+    source 43
+    target 137
+    weight 45.78689576254928
+  ]
+  edge [
+    source 43
+    target 24
+    weight 1030.7106125838354
+  ]
+  edge [
+    source 43
+    target 64
+    weight 1232.2463022241182
+  ]
+  edge [
+    source 43
+    target 123
+    weight 1293.7635336052967
+  ]
+  edge [
+    source 43
+    target 135
+    weight 732.0447890629218
+  ]
+  edge [
+    source 43
+    target 150
+    weight 1241.550279934136
+  ]
+  edge [
+    source 43
+    target 127
+    weight 1727.0475768442566
+  ]
+  edge [
+    source 43
+    target 19
+    weight 268.381097451807
+  ]
+  edge [
+    source 43
+    target 63
+    weight 792.7791290282125
+  ]
+  edge [
+    source 43
+    target 211
+    weight 1195.0183302887008
+  ]
+  edge [
+    source 43
+    target 90
+    weight 1528.7581455730374
+  ]
+  edge [
+    source 43
+    target 6
+    weight 1359.155732395974
+  ]
+  edge [
+    source 44
+    target 18
+    weight 434.3472104401736
+  ]
+  edge [
+    source 44
+    target 172
+    weight 1754.9367833934818
+  ]
+  edge [
+    source 44
+    target 90
+    weight 244.8810606264529
+  ]
+  edge [
+    source 44
+    target 1
+    weight 697.8522627864411
+  ]
+  edge [
+    source 44
+    target 195
+    weight 1450.0298250586136
+  ]
+  edge [
+    source 44
+    target 60
+    weight 393.47763224768454
+  ]
+  edge [
+    source 44
+    target 135
+    weight 596.2689908075944
+  ]
+  edge [
+    source 44
+    target 123
+    weight 456.4360819940755
+  ]
+  edge [
+    source 44
+    target 119
+    weight 1257.9121557030871
+  ]
+  edge [
+    source 44
+    target 209
+    weight 214.7059255886956
+  ]
+  edge [
+    source 44
+    target 207
+    weight 1147.958557588759
+  ]
+  edge [
+    source 44
+    target 121
+    weight 850.9235539738712
+  ]
+  edge [
+    source 44
+    target 125
+    weight 1668.1237502448064
+  ]
+  edge [
+    source 44
+    target 133
+    weight 1113.8289546181134
+  ]
+  edge [
+    source 44
+    target 100
+    weight 233.26305443670483
+  ]
+  edge [
+    source 45
+    target 122
+    weight 1668.9114380171816
+  ]
+  edge [
+    source 45
+    target 77
+    weight 588.0922253209999
+  ]
+  edge [
+    source 45
+    target 100
+    weight 575.9439747767609
+  ]
+  edge [
+    source 45
+    target 57
+    weight 332.2991396691015
+  ]
+  edge [
+    source 45
+    target 141
+    weight 515.9102233097254
+  ]
+  edge [
+    source 45
+    target 74
+    weight 237.73776017303328
+  ]
+  edge [
+    source 45
+    target 209
+    weight 2296.750078841622
+  ]
+  edge [
+    source 45
+    target 147
+    weight 21.54563339146104
+  ]
+  edge [
+    source 45
+    target 49
+    weight 499.8743615618998
+  ]
+  edge [
+    source 45
+    target 144
+    weight 325.71387341719003
+  ]
+  edge [
+    source 45
+    target 102
+    weight 1640.0117689261344
+  ]
+  edge [
+    source 45
+    target 89
+    weight 1104.8912698003116
+  ]
+  edge [
+    source 45
+    target 182
+    weight 1174.589369609365
+  ]
+  edge [
+    source 45
+    target 202
+    weight 667.6060185025724
+  ]
+  edge [
+    source 45
+    target 105
+    weight 546.4036143452328
+  ]
+  edge [
+    source 46
+    target 30
+    weight 263.3257151346999
+  ]
+  edge [
+    source 46
+    target 14
+    weight 821.2692878069704
+  ]
+  edge [
+    source 46
+    target 18
+    weight 244.44878416463712
+  ]
+  edge [
+    source 46
+    target 129
+    weight 1327.8536602847782
+  ]
+  edge [
+    source 46
+    target 187
+    weight 448.0782705937388
+  ]
+  edge [
+    source 46
+    target 135
+    weight 1705.2486202883133
+  ]
+  edge [
+    source 46
+    target 103
+    weight 2009.155222016224
+  ]
+  edge [
+    source 46
+    target 51
+    weight 664.4177572027492
+  ]
+  edge [
+    source 46
+    target 49
+    weight 60.276415584899894
+  ]
+  edge [
+    source 46
+    target 76
+    weight 618.6640586857291
+  ]
+  edge [
+    source 46
+    target 201
+    weight 2108.014166928503
+  ]
+  edge [
+    source 46
+    target 27
+    weight 88.61785093243975
+  ]
+  edge [
+    source 46
+    target 22
+    weight 391.27348439020284
+  ]
+  edge [
+    source 46
+    target 134
+    weight 853.8385003601273
+  ]
+  edge [
+    source 46
+    target 64
+    weight 654.9455625576712
+  ]
+  edge [
+    source 46
+    target 159
+    weight 347.4948138763249
+  ]
+  edge [
+    source 47
+    target 125
+    weight 68.4045989286358
+  ]
+  edge [
+    source 47
+    target 129
+    weight 468.84527236559495
+  ]
+  edge [
+    source 47
+    target 139
+    weight 1635.783422111166
+  ]
+  edge [
+    source 47
+    target 70
+    weight 433.04098614680254
+  ]
+  edge [
+    source 47
+    target 183
+    weight 1037.5586234063537
+  ]
+  edge [
+    source 47
+    target 90
+    weight 1484.2602177007861
+  ]
+  edge [
+    source 47
+    target 207
+    weight 848.1131141521432
+  ]
+  edge [
+    source 47
+    target 73
+    weight 1635.901874758668
+  ]
+  edge [
+    source 47
+    target 188
+    weight 425.04794817219215
+  ]
+  edge [
+    source 47
+    target 161
+    weight 1096.6566847227693
+  ]
+  edge [
+    source 47
+    target 167
+    weight 506.4341828793497
+  ]
+  edge [
+    source 47
+    target 36
+    weight 75.63926492970434
+  ]
+  edge [
+    source 47
+    target 205
+    weight 1.1037084441659317
+  ]
+  edge [
+    source 47
+    target 211
+    weight 290.62412339087666
+  ]
+  edge [
+    source 47
+    target 71
+    weight 498.8740199692682
+  ]
+  edge [
+    source 47
+    target 199
+    weight 1324.5015974768125
+  ]
+  edge [
+    source 48
+    target 29
+    weight 174.7549162744179
+  ]
+  edge [
+    source 48
+    target 103
+    weight 1387.3638968555706
+  ]
+  edge [
+    source 48
+    target 154
+    weight 445.46860138026625
+  ]
+  edge [
+    source 48
+    target 163
+    weight 1040.8425064228234
+  ]
+  edge [
+    source 48
+    target 211
+    weight 1067.2782473044545
+  ]
+  edge [
+    source 48
+    target 20
+    weight 70.32599391312834
+  ]
+  edge [
+    source 48
+    target 177
+    weight 2610.7374233473574
+  ]
+  edge [
+    source 48
+    target 105
+    weight 86.14187072186644
+  ]
+  edge [
+    source 48
+    target 2
+    weight 393.2432327356857
+  ]
+  edge [
+    source 48
+    target 145
+    weight 65.7118073166234
+  ]
+  edge [
+    source 48
+    target 53
+    weight 953.0689319920419
+  ]
+  edge [
+    source 48
+    target 161
+    weight 695.0901772579357
+  ]
+  edge [
+    source 48
+    target 16
+    weight 106.84695682280271
+  ]
+  edge [
+    source 48
+    target 180
+    weight 120.90993606353057
+  ]
+  edge [
+    source 48
+    target 40
+    weight 571.9000826351875
+  ]
+  edge [
+    source 48
+    target 125
+    weight 1395.6522120941
+  ]
+  edge [
+    source 49
+    target 14
+    weight 1381.8664031779629
+  ]
+  edge [
+    source 49
+    target 178
+    weight 576.3683311047398
+  ]
+  edge [
+    source 49
+    target 97
+    weight 241.67969800098388
+  ]
+  edge [
+    source 49
+    target 144
+    weight 753.535035716107
+  ]
+  edge [
+    source 49
+    target 9
+    weight 190.63041842666647
+  ]
+  edge [
+    source 50
+    target 181
+    weight 51.29506976886223
+  ]
+  edge [
+    source 50
+    target 162
+    weight 911.162184886327
+  ]
+  edge [
+    source 50
+    target 149
+    weight 1415.045318907239
+  ]
+  edge [
+    source 50
+    target 166
+    weight 90.32601197182055
+  ]
+  edge [
+    source 50
+    target 29
+    weight 645.1114399768965
+  ]
+  edge [
+    source 50
+    target 107
+    weight 806.8703961095581
+  ]
+  edge [
+    source 50
+    target 56
+    weight 622.6484321949808
+  ]
+  edge [
+    source 50
+    target 70
+    weight 1995.9391760926833
+  ]
+  edge [
+    source 50
+    target 80
+    weight 39.58280123094502
+  ]
+  edge [
+    source 51
+    target 72
+    weight 362.4847354005463
+  ]
+  edge [
+    source 51
+    target 122
+    weight 2739.312867753687
+  ]
+  edge [
+    source 51
+    target 121
+    weight 1025.5025717464946
+  ]
+  edge [
+    source 51
+    target 156
+    weight 1153.47081454712
+  ]
+  edge [
+    source 51
+    target 41
+    weight 742.2194675879131
+  ]
+  edge [
+    source 51
+    target 0
+    weight 2267.3945407112606
+  ]
+  edge [
+    source 51
+    target 188
+    weight 824.3087150174538
+  ]
+  edge [
+    source 51
+    target 8
+    weight 1469.2092696633742
+  ]
+  edge [
+    source 51
+    target 103
+    weight 8.21834046877639
+  ]
+  edge [
+    source 51
+    target 197
+    weight 311.6105436237651
+  ]
+  edge [
+    source 51
+    target 14
+    weight 43.03917229127602
+  ]
+  edge [
+    source 51
+    target 152
+    weight 526.5128666176382
+  ]
+  edge [
+    source 51
+    target 60
+    weight 706.4905989529071
+  ]
+  edge [
+    source 51
+    target 90
+    weight 238.2554674211122
+  ]
+  edge [
+    source 51
+    target 38
+    weight 265.33073454630863
+  ]
+  edge [
+    source 51
+    target 1
+    weight 132.43611531885827
+  ]
+  edge [
+    source 52
+    target 187
+    weight 206.41419836173372
+  ]
+  edge [
+    source 52
+    target 169
+    weight 1582.2272606515564
+  ]
+  edge [
+    source 52
+    target 5
+    weight 899.6981914383672
+  ]
+  edge [
+    source 52
+    target 166
+    weight 770.3122376250898
+  ]
+  edge [
+    source 52
+    target 70
+    weight 63.644363693924134
+  ]
+  edge [
+    source 52
+    target 16
+    weight 427.6316690300424
+  ]
+  edge [
+    source 52
+    target 81
+    weight 612.4955151562675
+  ]
+  edge [
+    source 52
+    target 71
+    weight 746.0829015720063
+  ]
+  edge [
+    source 52
+    target 62
+    weight 170.97047990696075
+  ]
+  edge [
+    source 52
+    target 83
+    weight 182.52516140875514
+  ]
+  edge [
+    source 52
+    target 155
+    weight 622.5093963982022
+  ]
+  edge [
+    source 52
+    target 18
+    weight 859.6543615007192
+  ]
+  edge [
+    source 52
+    target 61
+    weight 66.67411477870763
+  ]
+  edge [
+    source 52
+    target 142
+    weight 441.8379798259323
+  ]
+  edge [
+    source 52
+    target 109
+    weight 1287.347269208028
+  ]
+  edge [
+    source 53
+    target 148
+    weight 421.46663827168
+  ]
+  edge [
+    source 53
+    target 28
+    weight 281.24470346585883
+  ]
+  edge [
+    source 53
+    target 198
+    weight 901.6649453861093
+  ]
+  edge [
+    source 53
+    target 90
+    weight 530.438778178503
+  ]
+  edge [
+    source 53
+    target 67
+    weight 143.3717121509235
+  ]
+  edge [
+    source 53
+    target 26
+    weight 348.8064359883907
+  ]
+  edge [
+    source 53
+    target 132
+    weight 1281.708580482572
+  ]
+  edge [
+    source 53
+    target 86
+    weight 804.6417419473674
+  ]
+  edge [
+    source 53
+    target 27
+    weight 1740.0199542604319
+  ]
+  edge [
+    source 53
+    target 48
+    weight 100.10930875185838
+  ]
+  edge [
+    source 53
+    target 42
+    weight 309.78010522047634
+  ]
+  edge [
+    source 53
+    target 33
+    weight 207.64868951070355
+  ]
+  edge [
+    source 53
+    target 14
+    weight 487.18481266441677
+  ]
+  edge [
+    source 53
+    target 171
+    weight 1251.0745921574812
+  ]
+  edge [
+    source 53
+    target 112
+    weight 754.3294122927695
+  ]
+  edge [
+    source 53
+    target 0
+    weight 103.80016239182115
+  ]
+  edge [
+    source 54
+    target 139
+    weight 1585.687882719175
+  ]
+  edge [
+    source 54
+    target 64
+    weight 353.5126191422967
+  ]
+  edge [
+    source 54
+    target 15
+    weight 23.028460561206458
+  ]
+  edge [
+    source 54
+    target 152
+    weight 716.204160841231
+  ]
+  edge [
+    source 54
+    target 190
+    weight 185.23644170275668
+  ]
+  edge [
+    source 54
+    target 69
+    weight 334.0861614945739
+  ]
+  edge [
+    source 54
+    target 206
+    weight 1161.9066561838365
+  ]
+  edge [
+    source 54
+    target 11
+    weight 484.01202405598644
+  ]
+  edge [
+    source 54
+    target 211
+    weight 709.1579905850475
+  ]
+  edge [
+    source 54
+    target 26
+    weight 307.71835728899424
+  ]
+  edge [
+    source 54
+    target 77
+    weight 875.2536761356832
+  ]
+  edge [
+    source 54
+    target 160
+    weight 477.2705717040688
+  ]
+  edge [
+    source 54
+    target 179
+    weight 351.9859352063472
+  ]
+  edge [
+    source 54
+    target 68
+    weight 2041.8077188954749
+  ]
+  edge [
+    source 55
+    target 131
+    weight 2237.870591251208
+  ]
+  edge [
+    source 55
+    target 195
+    weight 646.0904453167045
+  ]
+  edge [
+    source 55
+    target 89
+    weight 222.18676527284657
+  ]
+  edge [
+    source 55
+    target 185
+    weight 555.6970452121245
+  ]
+  edge [
+    source 55
+    target 6
+    weight 835.3433155345879
+  ]
+  edge [
+    source 55
+    target 182
+    weight 334.79045692008236
+  ]
+  edge [
+    source 55
+    target 72
+    weight 610.4426004594284
+  ]
+  edge [
+    source 55
+    target 180
+    weight 1012.3615871924337
+  ]
+  edge [
+    source 55
+    target 175
+    weight 825.4569928483236
+  ]
+  edge [
+    source 55
+    target 115
+    weight 210.02772778727723
+  ]
+  edge [
+    source 55
+    target 159
+    weight 852.5553990320698
+  ]
+  edge [
+    source 55
+    target 20
+    weight 81.38523338496513
+  ]
+  edge [
+    source 55
+    target 86
+    weight 1131.1370171623541
+  ]
+  edge [
+    source 55
+    target 126
+    weight 1527.2008339963577
+  ]
+  edge [
+    source 55
+    target 112
+    weight 38.01792821281016
+  ]
+  edge [
+    source 55
+    target 199
+    weight 436.1429510865719
+  ]
+  edge [
+    source 55
+    target 84
+    weight 804.7358004507003
+  ]
+  edge [
+    source 56
+    target 140
+    weight 439.9600042041508
+  ]
+  edge [
+    source 56
+    target 163
+    weight 1340.3481007381145
+  ]
+  edge [
+    source 56
+    target 95
+    weight 865.0339900607657
+  ]
+  edge [
+    source 56
+    target 53
+    weight 865.1272357130354
+  ]
+  edge [
+    source 56
+    target 47
+    weight 524.4965946827945
+  ]
+  edge [
+    source 56
+    target 34
+    weight 1736.5273168605402
+  ]
+  edge [
+    source 56
+    target 27
+    weight 518.0392567730145
+  ]
+  edge [
+    source 56
+    target 127
+    weight 401.40939948773257
+  ]
+  edge [
+    source 56
+    target 99
+    weight 1120.1865689119886
+  ]
+  edge [
+    source 56
+    target 33
+    weight 1337.7718483923945
+  ]
+  edge [
+    source 56
+    target 208
+    weight 959.114167705023
+  ]
+  edge [
+    source 57
+    target 124
+    weight 435.8738750907215
+  ]
+  edge [
+    source 57
+    target 30
+    weight 634.2885852486229
+  ]
+  edge [
+    source 57
+    target 28
+    weight 1553.3707071958202
+  ]
+  edge [
+    source 57
+    target 153
+    weight 564.3996405962403
+  ]
+  edge [
+    source 57
+    target 42
+    weight 53.95120632699142
+  ]
+  edge [
+    source 57
+    target 169
+    weight 1199.390020401414
+  ]
+  edge [
+    source 57
+    target 127
+    weight 743.6437568428657
+  ]
+  edge [
+    source 57
+    target 98
+    weight 545.2418316969068
+  ]
+  edge [
+    source 57
+    target 174
+    weight 1779.6601850428679
+  ]
+  edge [
+    source 57
+    target 75
+    weight 8.940994919856905
+  ]
+  edge [
+    source 57
+    target 133
+    weight 194.898194768724
+  ]
+  edge [
+    source 57
+    target 140
+    weight 1196.8576594470778
+  ]
+  edge [
+    source 57
+    target 74
+    weight 164.90554873278518
+  ]
+  edge [
+    source 57
+    target 160
+    weight 716.1444734186824
+  ]
+  edge [
+    source 57
+    target 77
+    weight 1868.358351327289
+  ]
+  edge [
+    source 57
+    target 123
+    weight 1207.1570349083493
+  ]
+  edge [
+    source 58
+    target 151
+    weight 746.5947948406015
+  ]
+  edge [
+    source 58
+    target 76
+    weight 1115.3599947134692
+  ]
+  edge [
+    source 58
+    target 29
+    weight 1033.209948089702
+  ]
+  edge [
+    source 58
+    target 8
+    weight 761.3190194173453
+  ]
+  edge [
+    source 58
+    target 112
+    weight 765.4311930741221
+  ]
+  edge [
+    source 58
+    target 178
+    weight 546.8872089658787
+  ]
+  edge [
+    source 58
+    target 62
+    weight 2376.3993356939354
+  ]
+  edge [
+    source 58
+    target 27
+    weight 485.26862321291367
+  ]
+  edge [
+    source 58
+    target 1
+    weight 2182.9707219371944
+  ]
+  edge [
+    source 58
+    target 104
+    weight 1534.2917413949592
+  ]
+  edge [
+    source 58
+    target 81
+    weight 316.67829020661094
+  ]
+  edge [
+    source 58
+    target 193
+    weight 568.4564538766734
+  ]
+  edge [
+    source 59
+    target 170
+    weight 347.606452236418
+  ]
+  edge [
+    source 59
+    target 145
+    weight 63.07722974877854
+  ]
+  edge [
+    source 59
+    target 128
+    weight 1736.4964367002585
+  ]
+  edge [
+    source 59
+    target 75
+    weight 730.1345932976216
+  ]
+  edge [
+    source 59
+    target 211
+    weight 534.1110188351562
+  ]
+  edge [
+    source 59
+    target 85
+    weight 628.8192620253108
+  ]
+  edge [
+    source 59
+    target 194
+    weight 1584.089900889452
+  ]
+  edge [
+    source 59
+    target 91
+    weight 929.3308201399714
+  ]
+  edge [
+    source 59
+    target 94
+    weight 567.261562399788
+  ]
+  edge [
+    source 60
+    target 116
+    weight 31.773692030404575
+  ]
+  edge [
+    source 60
+    target 80
+    weight 871.476422439759
+  ]
+  edge [
+    source 60
+    target 22
+    weight 1634.992991917355
+  ]
+  edge [
+    source 60
+    target 117
+    weight 1413.8494620166125
+  ]
+  edge [
+    source 60
+    target 121
+    weight 109.1771096398243
+  ]
+  edge [
+    source 60
+    target 17
+    weight 1247.8616337043225
+  ]
+  edge [
+    source 60
+    target 129
+    weight 222.0466483169664
+  ]
+  edge [
+    source 60
+    target 62
+    weight 590.8387540361667
+  ]
+  edge [
+    source 60
+    target 115
+    weight 244.87327631925197
+  ]
+  edge [
+    source 60
+    target 198
+    weight 758.4838173933642
+  ]
+  edge [
+    source 60
+    target 195
+    weight 1754.6233184951982
+  ]
+  edge [
+    source 60
+    target 98
+    weight 1675.014658494301
+  ]
+  edge [
+    source 60
+    target 29
+    weight 267.6308245070265
+  ]
+  edge [
+    source 60
+    target 197
+    weight 1114.161128071366
+  ]
+  edge [
+    source 61
+    target 158
+    weight 320.980266029284
+  ]
+  edge [
+    source 61
+    target 76
+    weight 1253.9715972898114
+  ]
+  edge [
+    source 61
+    target 10
+    weight 907.9525705248984
+  ]
+  edge [
+    source 61
+    target 6
+    weight 483.93352888173945
+  ]
+  edge [
+    source 61
+    target 170
+    weight 638.9332291192271
+  ]
+  edge [
+    source 61
+    target 126
+    weight 876.3673783168945
+  ]
+  edge [
+    source 61
+    target 107
+    weight 1492.7209643027254
+  ]
+  edge [
+    source 61
+    target 92
+    weight 1577.7730133590323
+  ]
+  edge [
+    source 61
+    target 167
+    weight 535.3267098623385
+  ]
+  edge [
+    source 61
+    target 48
+    weight 180.7989980757785
+  ]
+  edge [
+    source 61
+    target 45
+    weight 478.89099466647815
+  ]
+  edge [
+    source 61
+    target 62
+    weight 1073.1710416980923
+  ]
+  edge [
+    source 61
+    target 8
+    weight 273.1305855703431
+  ]
+  edge [
+    source 61
+    target 163
+    weight 179.0263961798168
+  ]
+  edge [
+    source 61
+    target 141
+    weight 1003.2182720370982
+  ]
+  edge [
+    source 61
+    target 29
+    weight 1670.1258873442437
+  ]
+  edge [
+    source 62
+    target 26
+    weight 783.1902401151782
+  ]
+  edge [
+    source 62
+    target 84
+    weight 145.99156928219006
+  ]
+  edge [
+    source 62
+    target 7
+    weight 663.888093670189
+  ]
+  edge [
+    source 62
+    target 206
+    weight 949.2852342787282
+  ]
+  edge [
+    source 62
+    target 151
+    weight 1660.9603779074846
+  ]
+  edge [
+    source 62
+    target 9
+    weight 170.63846064565067
+  ]
+  edge [
+    source 62
+    target 170
+    weight 545.7930316859056
+  ]
+  edge [
+    source 62
+    target 178
+    weight 734.3661023904511
+  ]
+  edge [
+    source 62
+    target 32
+    weight 214.46811074838882
+  ]
+  edge [
+    source 62
+    target 192
+    weight 96.5463023065419
+  ]
+  edge [
+    source 62
+    target 63
+    weight 513.1844560310321
+  ]
+  edge [
+    source 62
+    target 99
+    weight 1901.9268535607657
+  ]
+  edge [
+    source 62
+    target 82
+    weight 1341.8651501072268
+  ]
+  edge [
+    source 62
+    target 186
+    weight 1399.5934861066041
+  ]
+  edge [
+    source 62
+    target 117
+    weight 1204.4098779262447
+  ]
+  edge [
+    source 63
+    target 91
+    weight 23.658379299156323
+  ]
+  edge [
+    source 63
+    target 146
+    weight 1134.2409700080404
+  ]
+  edge [
+    source 63
+    target 13
+    weight 13.052626734467125
+  ]
+  edge [
+    source 63
+    target 209
+    weight 666.4503621015609
+  ]
+  edge [
+    source 63
+    target 3
+    weight 338.2188805555206
+  ]
+  edge [
+    source 63
+    target 18
+    weight 1286.4178852737311
+  ]
+  edge [
+    source 63
+    target 113
+    weight 1088.3061769278906
+  ]
+  edge [
+    source 63
+    target 187
+    weight 1456.5065533723043
+  ]
+  edge [
+    source 63
+    target 193
+    weight 435.82133529457775
+  ]
+  edge [
+    source 63
+    target 22
+    weight 1646.6084621245627
+  ]
+  edge [
+    source 63
+    target 16
+    weight 248.48162665818495
+  ]
+  edge [
+    source 63
+    target 52
+    weight 103.25232831308057
+  ]
+  edge [
+    source 63
+    target 169
+    weight 2359.0504792778333
+  ]
+  edge [
+    source 63
+    target 138
+    weight 2112.1294915903254
+  ]
+  edge [
+    source 63
+    target 104
+    weight 788.3162408501996
+  ]
+  edge [
+    source 63
+    target 9
+    weight 1242.120928450861
+  ]
+  edge [
+    source 64
+    target 54
+    weight 1515.5629693695164
+  ]
+  edge [
+    source 64
+    target 206
+    weight 555.3846618858245
+  ]
+  edge [
+    source 64
+    target 97
+    weight 351.76041556694787
+  ]
+  edge [
+    source 64
+    target 135
+    weight 209.07326358029087
+  ]
+  edge [
+    source 64
+    target 36
+    weight 758.7886763945767
+  ]
+  edge [
+    source 64
+    target 89
+    weight 448.7160921585448
+  ]
+  edge [
+    source 64
+    target 8
+    weight 60.983270108482685
+  ]
+  edge [
+    source 64
+    target 52
+    weight 342.7842033656415
+  ]
+  edge [
+    source 64
+    target 17
+    weight 689.714884324737
+  ]
+  edge [
+    source 64
+    target 50
+    weight 845.7979083182092
+  ]
+  edge [
+    source 64
+    target 137
+    weight 1321.3451538770973
+  ]
+  edge [
+    source 64
+    target 207
+    weight 773.8970855240578
+  ]
+  edge [
+    source 64
+    target 108
+    weight 223.57039669379952
+  ]
+  edge [
+    source 65
+    target 187
+    weight 472.2488646731085
+  ]
+  edge [
+    source 65
+    target 55
+    weight 606.8777100190276
+  ]
+  edge [
+    source 65
+    target 162
+    weight 1194.5168834290544
+  ]
+  edge [
+    source 65
+    target 153
+    weight 1728.611722697321
+  ]
+  edge [
+    source 65
+    target 1
+    weight 461.0422309689977
+  ]
+  edge [
+    source 65
+    target 64
+    weight 998.8945271753137
+  ]
+  edge [
+    source 65
+    target 166
+    weight 169.00172573929592
+  ]
+  edge [
+    source 65
+    target 62
+    weight 352.81401198950005
+  ]
+  edge [
+    source 65
+    target 40
+    weight 753.8574351528972
+  ]
+  edge [
+    source 65
+    target 53
+    weight 415.7534716728995
+  ]
+  edge [
+    source 65
+    target 180
+    weight 66.26316617888926
+  ]
+  edge [
+    source 65
+    target 124
+    weight 1774.7046872396963
+  ]
+  edge [
+    source 65
+    target 106
+    weight 488.9126274745562
+  ]
+  edge [
+    source 65
+    target 130
+    weight 825.8511520977421
+  ]
+  edge [
+    source 66
+    target 91
+    weight 866.0033744639716
+  ]
+  edge [
+    source 66
+    target 75
+    weight 721.4966260181906
+  ]
+  edge [
+    source 66
+    target 117
+    weight 884.8999451758995
+  ]
+  edge [
+    source 66
+    target 79
+    weight 1211.8986692865062
+  ]
+  edge [
+    source 66
+    target 24
+    weight 286.67940287813815
+  ]
+  edge [
+    source 66
+    target 127
+    weight 2493.9583586969297
+  ]
+  edge [
+    source 66
+    target 122
+    weight 1485.4703327276823
+  ]
+  edge [
+    source 66
+    target 201
+    weight 250.39997580489091
+  ]
+  edge [
+    source 66
+    target 155
+    weight 162.705010418875
+  ]
+  edge [
+    source 66
+    target 72
+    weight 599.9725348229119
+  ]
+  edge [
+    source 66
+    target 51
+    weight 581.2844015306226
+  ]
+  edge [
+    source 66
+    target 205
+    weight 982.0643635842948
+  ]
+  edge [
+    source 66
+    target 2
+    weight 931.0559690677435
+  ]
+  edge [
+    source 66
+    target 14
+    weight 169.9661664729269
+  ]
+  edge [
+    source 66
+    target 48
+    weight 184.9779401608925
+  ]
+  edge [
+    source 66
+    target 151
+    weight 523.8655132074939
+  ]
+  edge [
+    source 66
+    target 5
+    weight 853.725931981607
+  ]
+  edge [
+    source 66
+    target 25
+    weight 1347.1869692854775
+  ]
+  edge [
+    source 67
+    target 146
+    weight 337.80873780601087
+  ]
+  edge [
+    source 67
+    target 176
+    weight 1049.9949493514596
+  ]
+  edge [
+    source 67
+    target 53
+    weight 907.5291698283248
+  ]
+  edge [
+    source 67
+    target 24
+    weight 1145.5155849481064
+  ]
+  edge [
+    source 67
+    target 71
+    weight 288.9780666244638
+  ]
+  edge [
+    source 67
+    target 117
+    weight 685.3029504657339
+  ]
+  edge [
+    source 67
+    target 101
+    weight 565.8417231084361
+  ]
+  edge [
+    source 67
+    target 55
+    weight 382.57563698937014
+  ]
+  edge [
+    source 67
+    target 110
+    weight 1212.1058140398475
+  ]
+  edge [
+    source 67
+    target 106
+    weight 408.1437046916207
+  ]
+  edge [
+    source 67
+    target 33
+    weight 373.8876248121031
+  ]
+  edge [
+    source 67
+    target 85
+    weight 746.7908627051731
+  ]
+  edge [
+    source 67
+    target 197
+    weight 1169.3741773960169
+  ]
+  edge [
+    source 67
+    target 28
+    weight 1700.620781251963
+  ]
+  edge [
+    source 68
+    target 205
+    weight 568.6321295958977
+  ]
+  edge [
+    source 68
+    target 145
+    weight 2995.192125129501
+  ]
+  edge [
+    source 68
+    target 197
+    weight 606.0737494440721
+  ]
+  edge [
+    source 68
+    target 169
+    weight 93.15659767710758
+  ]
+  edge [
+    source 68
+    target 33
+    weight 55.00525986444016
+  ]
+  edge [
+    source 68
+    target 129
+    weight 1846.075797431694
+  ]
+  edge [
+    source 68
+    target 151
+    weight 267.13629035918586
+  ]
+  edge [
+    source 68
+    target 31
+    weight 1482.779716203252
+  ]
+  edge [
+    source 68
+    target 126
+    weight 345.62487581362933
+  ]
+  edge [
+    source 68
+    target 36
+    weight 728.9294974662402
+  ]
+  edge [
+    source 69
+    target 154
+    weight 187.41855286927955
+  ]
+  edge [
+    source 69
+    target 173
+    weight 290.0248790119376
+  ]
+  edge [
+    source 69
+    target 180
+    weight 793.0291923892671
+  ]
+  edge [
+    source 70
+    target 205
+    weight 586.7199762576668
+  ]
+  edge [
+    source 70
+    target 179
+    weight 137.69580931832962
+  ]
+  edge [
+    source 70
+    target 192
+    weight 272.4634314573953
+  ]
+  edge [
+    source 70
+    target 8
+    weight 125.22903320935356
+  ]
+  edge [
+    source 70
+    target 108
+    weight 297.13852300718384
+  ]
+  edge [
+    source 70
+    target 74
+    weight 1011.1840047410773
+  ]
+  edge [
+    source 70
+    target 27
+    weight 399.79539979859015
+  ]
+  edge [
+    source 70
+    target 6
+    weight 976.136269110014
+  ]
+  edge [
+    source 70
+    target 75
+    weight 644.1139404801763
+  ]
+  edge [
+    source 70
+    target 83
+    weight 546.4279229250566
+  ]
+  edge [
+    source 70
+    target 185
+    weight 1507.6936699473615
+  ]
+  edge [
+    source 70
+    target 73
+    weight 635.5799623416212
+  ]
+  edge [
+    source 70
+    target 154
+    weight 290.1989488598194
+  ]
+  edge [
+    source 70
+    target 35
+    weight 1123.4189411461475
+  ]
+  edge [
+    source 70
+    target 133
+    weight 590.7634404102059
+  ]
+  edge [
+    source 70
+    target 105
+    weight 1179.6912087193316
+  ]
+  edge [
+    source 71
+    target 113
+    weight 828.5622444494643
+  ]
+  edge [
+    source 71
+    target 60
+    weight 411.94211105142875
+  ]
+  edge [
+    source 71
+    target 159
+    weight 282.83259001495617
+  ]
+  edge [
+    source 71
+    target 90
+    weight 352.58523014335344
+  ]
+  edge [
+    source 71
+    target 112
+    weight 158.58059151459878
+  ]
+  edge [
+    source 71
+    target 14
+    weight 1370.9329137498992
+  ]
+  edge [
+    source 71
+    target 41
+    weight 84.78504538227861
+  ]
+  edge [
+    source 71
+    target 146
+    weight 2358.698012905784
+  ]
+  edge [
+    source 71
+    target 125
+    weight 1669.6220457057482
+  ]
+  edge [
+    source 71
+    target 54
+    weight 775.2832065344566
+  ]
+  edge [
+    source 71
+    target 53
+    weight 1184.6977012894038
+  ]
+  edge [
+    source 72
+    target 31
+    weight 411.0437849400573
+  ]
+  edge [
+    source 72
+    target 173
+    weight 65.07372583166162
+  ]
+  edge [
+    source 72
+    target 193
+    weight 775.9731085627269
+  ]
+  edge [
+    source 72
+    target 83
+    weight 1370.287997173036
+  ]
+  edge [
+    source 72
+    target 13
+    weight 2467.7006417417133
+  ]
+  edge [
+    source 72
+    target 17
+    weight 729.9119962834177
+  ]
+  edge [
+    source 72
+    target 171
+    weight 328.39752789618365
+  ]
+  edge [
+    source 72
+    target 146
+    weight 382.63071261837
+  ]
+  edge [
+    source 72
+    target 187
+    weight 453.27653390625665
+  ]
+  edge [
+    source 72
+    target 164
+    weight 714.5693220387388
+  ]
+  edge [
+    source 72
+    target 165
+    weight 564.0100361519269
+  ]
+  edge [
+    source 72
+    target 14
+    weight 328.43111747706246
+  ]
+  edge [
+    source 72
+    target 27
+    weight 806.6563827253075
+  ]
+  edge [
+    source 72
+    target 159
+    weight 240.19975525542208
+  ]
+  edge [
+    source 72
+    target 167
+    weight 297.83871142427904
+  ]
+  edge [
+    source 73
+    target 114
+    weight 2251.8752308674107
+  ]
+  edge [
+    source 73
+    target 59
+    weight 657.282548410442
+  ]
+  edge [
+    source 73
+    target 194
+    weight 284.70360817934227
+  ]
+  edge [
+    source 73
+    target 157
+    weight 57.179169821707916
+  ]
+  edge [
+    source 73
+    target 109
+    weight 862.5758062277289
+  ]
+  edge [
+    source 73
+    target 198
+    weight 1038.4839106036345
+  ]
+  edge [
+    source 73
+    target 65
+    weight 1034.6514278895038
+  ]
+  edge [
+    source 73
+    target 27
+    weight 42.77351700011003
+  ]
+  edge [
+    source 73
+    target 189
+    weight 1455.7699996819445
+  ]
+  edge [
+    source 73
+    target 106
+    weight 74.25140328422353
+  ]
+  edge [
+    source 73
+    target 146
+    weight 1771.8551233284124
+  ]
+  edge [
+    source 73
+    target 50
+    weight 558.8604374366416
+  ]
+  edge [
+    source 73
+    target 93
+    weight 894.6517400902204
+  ]
+  edge [
+    source 73
+    target 165
+    weight 1298.5119672967933
+  ]
+  edge [
+    source 74
+    target 44
+    weight 1376.695159703006
+  ]
+  edge [
+    source 74
+    target 69
+    weight 543.0981021989942
+  ]
+  edge [
+    source 74
+    target 41
+    weight 653.6568104416278
+  ]
+  edge [
+    source 74
+    target 159
+    weight 536.4554155086028
+  ]
+  edge [
+    source 74
+    target 162
+    weight 489.5496171874704
+  ]
+  edge [
+    source 74
+    target 197
+    weight 1318.4178470258626
+  ]
+  edge [
+    source 74
+    target 184
+    weight 464.61947423199763
+  ]
+  edge [
+    source 74
+    target 188
+    weight 250.36959652323634
+  ]
+  edge [
+    source 74
+    target 81
+    weight 287.6726926635424
+  ]
+  edge [
+    source 74
+    target 18
+    weight 356.7603291633054
+  ]
+  edge [
+    source 74
+    target 190
+    weight 302.0911294299186
+  ]
+  edge [
+    source 74
+    target 113
+    weight 876.8640458420107
+  ]
+  edge [
+    source 74
+    target 95
+    weight 432.99841430052595
+  ]
+  edge [
+    source 75
+    target 183
+    weight 16.43637135349637
+  ]
+  edge [
+    source 75
+    target 17
+    weight 231.51527426145478
+  ]
+  edge [
+    source 75
+    target 10
+    weight 861.3185559131473
+  ]
+  edge [
+    source 75
+    target 176
+    weight 435.8396058682122
+  ]
+  edge [
+    source 75
+    target 109
+    weight 390.2177255373769
+  ]
+  edge [
+    source 75
+    target 115
+    weight 1146.9902855031146
+  ]
+  edge [
+    source 75
+    target 152
+    weight 1458.3591567797212
+  ]
+  edge [
+    source 75
+    target 114
+    weight 822.3694970155434
+  ]
+  edge [
+    source 75
+    target 194
+    weight 866.0194770449982
+  ]
+  edge [
+    source 75
+    target 48
+    weight 765.3591435315363
+  ]
+  edge [
+    source 75
+    target 182
+    weight 1461.7747010930539
+  ]
+  edge [
+    source 76
+    target 15
+    weight 282.27761831255987
+  ]
+  edge [
+    source 76
+    target 168
+    weight 686.5780384245339
+  ]
+  edge [
+    source 76
+    target 200
+    weight 18.76224255171101
+  ]
+  edge [
+    source 76
+    target 2
+    weight 291.90380748808417
+  ]
+  edge [
+    source 76
+    target 172
+    weight 280.9978048167691
+  ]
+  edge [
+    source 76
+    target 125
+    weight 1825.012348802872
+  ]
+  edge [
+    source 76
+    target 195
+    weight 2468.045236823273
+  ]
+  edge [
+    source 76
+    target 119
+    weight 54.639230467351624
+  ]
+  edge [
+    source 76
+    target 182
+    weight 844.5004987475811
+  ]
+  edge [
+    source 77
+    target 174
+    weight 626.2559796517922
+  ]
+  edge [
+    source 77
+    target 175
+    weight 1350.5847272161357
+  ]
+  edge [
+    source 77
+    target 193
+    weight 720.2209528241744
+  ]
+  edge [
+    source 77
+    target 195
+    weight 441.6939389630621
+  ]
+  edge [
+    source 77
+    target 159
+    weight 383.5061455006548
+  ]
+  edge [
+    source 77
+    target 63
+    weight 542.454963114279
+  ]
+  edge [
+    source 77
+    target 81
+    weight 1332.8342140605378
+  ]
+  edge [
+    source 77
+    target 147
+    weight 1140.8628913090815
+  ]
+  edge [
+    source 77
+    target 207
+    weight 1494.2712741450196
+  ]
+  edge [
+    source 77
+    target 148
+    weight 592.5264865994966
+  ]
+  edge [
+    source 77
+    target 60
+    weight 373.11857472529385
+  ]
+  edge [
+    source 77
+    target 1
+    weight 1152.7597764355914
+  ]
+  edge [
+    source 77
+    target 111
+    weight 1436.2241969265397
+  ]
+  edge [
+    source 77
+    target 17
+    weight 776.0476654033565
+  ]
+  edge [
+    source 77
+    target 122
+    weight 1402.4124366974568
+  ]
+  edge [
+    source 78
+    target 138
+    weight 25.583064176862962
+  ]
+  edge [
+    source 78
+    target 67
+    weight 886.5195056099085
+  ]
+  edge [
+    source 78
+    target 10
+    weight 469.4799065893209
+  ]
+  edge [
+    source 78
+    target 149
+    weight 669.2087608928376
+  ]
+  edge [
+    source 78
+    target 100
+    weight 554.0030579516454
+  ]
+  edge [
+    source 78
+    target 177
+    weight 1673.7917885620022
+  ]
+  edge [
+    source 78
+    target 119
+    weight 2023.1413470948178
+  ]
+  edge [
+    source 78
+    target 188
+    weight 699.928479102964
+  ]
+  edge [
+    source 78
+    target 162
+    weight 19.226783743456252
+  ]
+  edge [
+    source 78
+    target 31
+    weight 1433.0007272816415
+  ]
+  edge [
+    source 78
+    target 115
+    weight 960.2663433581603
+  ]
+  edge [
+    source 78
+    target 170
+    weight 354.56097919299407
+  ]
+  edge [
+    source 78
+    target 55
+    weight 632.2174023567394
+  ]
+  edge [
+    source 78
+    target 7
+    weight 359.3609181074267
+  ]
+  edge [
+    source 78
+    target 86
+    weight 2074.5383711640325
+  ]
+  edge [
+    source 79
+    target 129
+    weight 899.475436784843
+  ]
+  edge [
+    source 79
+    target 191
+    weight 46.42351947725851
+  ]
+  edge [
+    source 79
+    target 154
+    weight 1236.7935264873154
+  ]
+  edge [
+    source 79
+    target 175
+    weight 495.10088881885423
+  ]
+  edge [
+    source 79
+    target 143
+    weight 1498.744058749373
+  ]
+  edge [
+    source 79
+    target 55
+    weight 697.9199744954375
+  ]
+  edge [
+    source 79
+    target 157
+    weight 1820.1940720796529
+  ]
+  edge [
+    source 79
+    target 41
+    weight 371.1954010755018
+  ]
+  edge [
+    source 79
+    target 176
+    weight 2040.5654220663173
+  ]
+  edge [
+    source 79
+    target 166
+    weight 873.6438806826931
+  ]
+  edge [
+    source 79
+    target 73
+    weight 4.56050403314633
+  ]
+  edge [
+    source 80
+    target 36
+    weight 319.20607592172877
+  ]
+  edge [
+    source 80
+    target 87
+    weight 1525.6522550092484
+  ]
+  edge [
+    source 80
+    target 140
+    weight 81.12966225478968
+  ]
+  edge [
+    source 80
+    target 174
+    weight 592.8413934934564
+  ]
+  edge [
+    source 80
+    target 195
+    weight 996.5839711408328
+  ]
+  edge [
+    source 80
+    target 198
+    weight 1102.2055993901758
+  ]
+  edge [
+    source 80
+    target 92
+    weight 627.8813381912107
+  ]
+  edge [
+    source 80
+    target 143
+    weight 428.1372116161468
+  ]
+  edge [
+    source 80
+    target 90
+    weight 728.9961776055768
+  ]
+  edge [
+    source 80
+    target 133
+    weight 60.90348161481058
+  ]
+  edge [
+    source 80
+    target 77
+    weight 24.694511605773172
+  ]
+  edge [
+    source 80
+    target 190
+    weight 609.3111502592388
+  ]
+  edge [
+    source 81
+    target 75
+    weight 58.97126120580953
+  ]
+  edge [
+    source 81
+    target 35
+    weight 167.1981586855012
+  ]
+  edge [
+    source 81
+    target 153
+    weight 796.4226061351903
+  ]
+  edge [
+    source 81
+    target 73
+    weight 672.1355637313058
+  ]
+  edge [
+    source 81
+    target 149
+    weight 255.72009261712407
+  ]
+  edge [
+    source 81
+    target 33
+    weight 847.7561301403734
+  ]
+  edge [
+    source 81
+    target 85
+    weight 187.58448342727286
+  ]
+  edge [
+    source 81
+    target 9
+    weight 2113.3681969328327
+  ]
+  edge [
+    source 81
+    target 16
+    weight 2421.881256760035
+  ]
+  edge [
+    source 81
+    target 11
+    weight 673.0402239782696
+  ]
+  edge [
+    source 81
+    target 12
+    weight 37.08617676865239
+  ]
+  edge [
+    source 81
+    target 133
+    weight 485.4829509393858
+  ]
+  edge [
+    source 81
+    target 206
+    weight 21.5103098601316
+  ]
+  edge [
+    source 81
+    target 94
+    weight 244.53771426677986
+  ]
+  edge [
+    source 81
+    target 176
+    weight 1307.2928915437212
+  ]
+  edge [
+    source 81
+    target 99
+    weight 2462.409537950459
+  ]
+  edge [
+    source 81
+    target 120
+    weight 1322.1167582475457
+  ]
+  edge [
+    source 81
+    target 199
+    weight 1435.1861858530776
+  ]
+  edge [
+    source 82
+    target 29
+    weight 29.318745169204902
+  ]
+  edge [
+    source 82
+    target 186
+    weight 245.5769707479971
+  ]
+  edge [
+    source 82
+    target 25
+    weight 346.1507951799914
+  ]
+  edge [
+    source 82
+    target 111
+    weight 794.4566434488734
+  ]
+  edge [
+    source 82
+    target 118
+    weight 130.23631948697778
+  ]
+  edge [
+    source 82
+    target 15
+    weight 510.9703262971869
+  ]
+  edge [
+    source 82
+    target 122
+    weight 2585.559674242216
+  ]
+  edge [
+    source 82
+    target 48
+    weight 1417.496443900383
+  ]
+  edge [
+    source 82
+    target 117
+    weight 268.3703579428785
+  ]
+  edge [
+    source 82
+    target 165
+    weight 1752.3386807573715
+  ]
+  edge [
+    source 82
+    target 148
+    weight 900.403068857235
+  ]
+  edge [
+    source 82
+    target 59
+    weight 1314.6251834762268
+  ]
+  edge [
+    source 82
+    target 184
+    weight 54.21145026831434
+  ]
+  edge [
+    source 82
+    target 94
+    weight 255.4768787549471
+  ]
+  edge [
+    source 83
+    target 26
+    weight 1245.3478114339503
+  ]
+  edge [
+    source 83
+    target 47
+    weight 375.3825925631121
+  ]
+  edge [
+    source 83
+    target 118
+    weight 871.4456652295728
+  ]
+  edge [
+    source 83
+    target 206
+    weight 1550.6442829404978
+  ]
+  edge [
+    source 83
+    target 170
+    weight 1152.6875445838155
+  ]
+  edge [
+    source 83
+    target 172
+    weight 1427.046167752868
+  ]
+  edge [
+    source 83
+    target 141
+    weight 493.61546233709385
+  ]
+  edge [
+    source 83
+    target 63
+    weight 1322.0870973434025
+  ]
+  edge [
+    source 83
+    target 41
+    weight 603.2383841626554
+  ]
+  edge [
+    source 84
+    target 22
+    weight 730.6908367284516
+  ]
+  edge [
+    source 84
+    target 75
+    weight 217.03586952529702
+  ]
+  edge [
+    source 84
+    target 0
+    weight 1317.3180812804746
+  ]
+  edge [
+    source 84
+    target 195
+    weight 1251.735578662275
+  ]
+  edge [
+    source 84
+    target 189
+    weight 1179.3081621938707
+  ]
+  edge [
+    source 84
+    target 181
+    weight 1015.6490527525319
+  ]
+  edge [
+    source 84
+    target 50
+    weight 410.10144357714603
+  ]
+  edge [
+    source 84
+    target 200
+    weight 159.0459248877308
+  ]
+  edge [
+    source 84
+    target 125
+    weight 1005.0874359697705
+  ]
+  edge [
+    source 84
+    target 58
+    weight 42.724473735180595
+  ]
+  edge [
+    source 84
+    target 198
+    weight 680.1437683626887
+  ]
+  edge [
+    source 84
+    target 203
+    weight 115.45853830808407
+  ]
+  edge [
+    source 84
+    target 49
+    weight 269.97695853905657
+  ]
+  edge [
+    source 84
+    target 114
+    weight 1397.7535490403407
+  ]
+  edge [
+    source 85
+    target 203
+    weight 1269.8135574763307
+  ]
+  edge [
+    source 85
+    target 205
+    weight 1145.3203251188752
+  ]
+  edge [
+    source 85
+    target 170
+    weight 986.9328868254361
+  ]
+  edge [
+    source 85
+    target 204
+    weight 1284.5827097610734
+  ]
+  edge [
+    source 85
+    target 178
+    weight 1894.975063847647
+  ]
+  edge [
+    source 85
+    target 211
+    weight 262.5794267383606
+  ]
+  edge [
+    source 85
+    target 12
+    weight 2155.574654687445
+  ]
+  edge [
+    source 85
+    target 186
+    weight 1118.1019277466028
+  ]
+  edge [
+    source 85
+    target 36
+    weight 165.42830720557794
+  ]
+  edge [
+    source 85
+    target 151
+    weight 379.67730120408106
+  ]
+  edge [
+    source 85
+    target 55
+    weight 2081.166325579312
+  ]
+  edge [
+    source 85
+    target 209
+    weight 1274.6011452036219
+  ]
+  edge [
+    source 85
+    target 53
+    weight 90.42161442000986
+  ]
+  edge [
+    source 85
+    target 183
+    weight 483.83411361795226
+  ]
+  edge [
+    source 85
+    target 143
+    weight 83.93132146891502
+  ]
+  edge [
+    source 86
+    target 176
+    weight 449.8678148788845
+  ]
+  edge [
+    source 86
+    target 187
+    weight 560.8064315250556
+  ]
+  edge [
+    source 86
+    target 119
+    weight 1792.8361182607227
+  ]
+  edge [
+    source 86
+    target 186
+    weight 1080.72457887521
+  ]
+  edge [
+    source 86
+    target 30
+    weight 77.22153335798707
+  ]
+  edge [
+    source 86
+    target 99
+    weight 236.4554609831916
+  ]
+  edge [
+    source 86
+    target 114
+    weight 2422.3763865641668
+  ]
+  edge [
+    source 86
+    target 29
+    weight 1115.503208504284
+  ]
+  edge [
+    source 86
+    target 183
+    weight 2118.751420886205
+  ]
+  edge [
+    source 86
+    target 46
+    weight 933.6542321721072
+  ]
+  edge [
+    source 86
+    target 150
+    weight 959.6649643491068
+  ]
+  edge [
+    source 86
+    target 5
+    weight 397.0445044932993
+  ]
+  edge [
+    source 86
+    target 88
+    weight 381.4701248579933
+  ]
+  edge [
+    source 86
+    target 124
+    weight 1152.198284921578
+  ]
+  edge [
+    source 87
+    target 161
+    weight 185.921719265584
+  ]
+  edge [
+    source 87
+    target 154
+    weight 968.2857221218045
+  ]
+  edge [
+    source 87
+    target 44
+    weight 2517.7876365911993
+  ]
+  edge [
+    source 87
+    target 101
+    weight 607.989741018118
+  ]
+  edge [
+    source 87
+    target 179
+    weight 1243.5092859312092
+  ]
+  edge [
+    source 87
+    target 195
+    weight 512.5394896253895
+  ]
+  edge [
+    source 87
+    target 205
+    weight 1169.7849615056125
+  ]
+  edge [
+    source 87
+    target 118
+    weight 467.3327728835436
+  ]
+  edge [
+    source 87
+    target 31
+    weight 100.04117033605381
+  ]
+  edge [
+    source 87
+    target 76
+    weight 1459.3815665037744
+  ]
+  edge [
+    source 87
+    target 102
+    weight 2130.1852088621786
+  ]
+  edge [
+    source 87
+    target 152
+    weight 31.671975083317363
+  ]
+  edge [
+    source 88
+    target 9
+    weight 470.85287855855074
+  ]
+  edge [
+    source 88
+    target 15
+    weight 387.1950672423983
+  ]
+  edge [
+    source 88
+    target 104
+    weight 665.2923206233801
+  ]
+  edge [
+    source 88
+    target 210
+    weight 80.31428621786571
+  ]
+  edge [
+    source 88
+    target 85
+    weight 1954.0603243295777
+  ]
+  edge [
+    source 88
+    target 156
+    weight 233.10190267892375
+  ]
+  edge [
+    source 88
+    target 131
+    weight 1255.3458493198534
+  ]
+  edge [
+    source 88
+    target 99
+    weight 1680.705775053794
+  ]
+  edge [
+    source 88
+    target 197
+    weight 636.9625856624573
+  ]
+  edge [
+    source 88
+    target 84
+    weight 445.74519816335055
+  ]
+  edge [
+    source 88
+    target 64
+    weight 409.87956903945104
+  ]
+  edge [
+    source 88
+    target 123
+    weight 1042.0843995230675
+  ]
+  edge [
+    source 88
+    target 1
+    weight 343.52893519748
+  ]
+  edge [
+    source 88
+    target 90
+    weight 416.5472776304963
+  ]
+  edge [
+    source 89
+    target 117
+    weight 1801.4192932744022
+  ]
+  edge [
+    source 89
+    target 208
+    weight 501.04306772231456
+  ]
+  edge [
+    source 89
+    target 22
+    weight 1312.7419077982854
+  ]
+  edge [
+    source 89
+    target 33
+    weight 335.91034386961576
+  ]
+  edge [
+    source 89
+    target 167
+    weight 369.4221524899544
+  ]
+  edge [
+    source 89
+    target 138
+    weight 1814.3914767108636
+  ]
+  edge [
+    source 89
+    target 211
+    weight 388.5860079861784
+  ]
+  edge [
+    source 89
+    target 181
+    weight 748.552810210057
+  ]
+  edge [
+    source 89
+    target 41
+    weight 1578.9494771847874
+  ]
+  edge [
+    source 89
+    target 139
+    weight 1465.0323688990313
+  ]
+  edge [
+    source 89
+    target 126
+    weight 1497.8990804826908
+  ]
+  edge [
+    source 89
+    target 20
+    weight 1189.8907878897382
+  ]
+  edge [
+    source 89
+    target 60
+    weight 356.08501104720364
+  ]
+  edge [
+    source 89
+    target 142
+    weight 1943.9185920603911
+  ]
+  edge [
+    source 90
+    target 132
+    weight 70.25361393409213
+  ]
+  edge [
+    source 90
+    target 144
+    weight 429.8161378984921
+  ]
+  edge [
+    source 90
+    target 95
+    weight 450.37783243856893
+  ]
+  edge [
+    source 90
+    target 181
+    weight 2334.4589190073275
+  ]
+  edge [
+    source 90
+    target 113
+    weight 2775.8416028195984
+  ]
+  edge [
+    source 90
+    target 165
+    weight 1501.8600288317011
+  ]
+  edge [
+    source 90
+    target 174
+    weight 1278.1471721095993
+  ]
+  edge [
+    source 90
+    target 106
+    weight 606.1283221986871
+  ]
+  edge [
+    source 90
+    target 123
+    weight 2208.598801016911
+  ]
+  edge [
+    source 90
+    target 56
+    weight 1632.1646993979543
+  ]
+  edge [
+    source 90
+    target 37
+    weight 434.0283753130155
+  ]
+  edge [
+    source 90
+    target 40
+    weight 509.41860764544396
+  ]
+  edge [
+    source 90
+    target 3
+    weight 1740.768401498285
+  ]
+  edge [
+    source 90
+    target 119
+    weight 986.5706282450944
+  ]
+  edge [
+    source 90
+    target 118
+    weight 467.4893806376442
+  ]
+  edge [
+    source 90
+    target 79
+    weight 846.7511449696682
+  ]
+  edge [
+    source 90
+    target 82
+    weight 1004.5270787487257
+  ]
+  edge [
+    source 90
+    target 154
+    weight 236.80399612015344
+  ]
+  edge [
+    source 90
+    target 158
+    weight 1425.5604402009078
+  ]
+  edge [
+    source 90
+    target 107
+    weight 1310.7178062880466
+  ]
+  edge [
+    source 90
+    target 67
+    weight 1320.4275177641077
+  ]
+  edge [
+    source 90
+    target 120
+    weight 2143.5998657201762
+  ]
+  edge [
+    source 90
+    target 48
+    weight 375.9277840592249
+  ]
+  edge [
+    source 91
+    target 107
+    weight 1624.828073239068
+  ]
+  edge [
+    source 91
+    target 15
+    weight 294.9098642632766
+  ]
+  edge [
+    source 91
+    target 105
+    weight 118.7138052676877
+  ]
+  edge [
+    source 91
+    target 127
+    weight 1728.1579823800791
+  ]
+  edge [
+    source 91
+    target 180
+    weight 79.15851396382037
+  ]
+  edge [
+    source 91
+    target 31
+    weight 902.1080076208144
+  ]
+  edge [
+    source 91
+    target 3
+    weight 347.152575032885
+  ]
+  edge [
+    source 91
+    target 211
+    weight 1275.8795915739233
+  ]
+  edge [
+    source 91
+    target 82
+    weight 1849.3573449446833
+  ]
+  edge [
+    source 91
+    target 30
+    weight 439.94363037112913
+  ]
+  edge [
+    source 91
+    target 190
+    weight 1446.9560445209177
+  ]
+  edge [
+    source 92
+    target 89
+    weight 216.79695383820916
+  ]
+  edge [
+    source 92
+    target 91
+    weight 259.8758997876774
+  ]
+  edge [
+    source 92
+    target 144
+    weight 607.4824725043666
+  ]
+  edge [
+    source 92
+    target 161
+    weight 888.9398621666691
+  ]
+  edge [
+    source 92
+    target 20
+    weight 434.7856943603878
+  ]
+  edge [
+    source 92
+    target 159
+    weight 852.5074605513825
+  ]
+  edge [
+    source 92
+    target 52
+    weight 223.32217329584125
+  ]
+  edge [
+    source 93
+    target 24
+    weight 842.8345064357729
+  ]
+  edge [
+    source 93
+    target 80
+    weight 1062.916010310202
+  ]
+  edge [
+    source 93
+    target 2
+    weight 878.26747323349
+  ]
+  edge [
+    source 93
+    target 91
+    weight 66.49095366029451
+  ]
+  edge [
+    source 93
+    target 8
+    weight 912.0675695697648
+  ]
+  edge [
+    source 93
+    target 27
+    weight 1059.6767350703014
+  ]
+  edge [
+    source 93
+    target 197
+    weight 854.2301098624042
+  ]
+  edge [
+    source 93
+    target 21
+    weight 2275.501084315175
+  ]
+  edge [
+    source 93
+    target 169
+    weight 472.7974030345065
+  ]
+  edge [
+    source 93
+    target 187
+    weight 1185.7732842978426
+  ]
+  edge [
+    source 94
+    target 186
+    weight 376.3845357455074
+  ]
+  edge [
+    source 94
+    target 5
+    weight 224.4977419985726
+  ]
+  edge [
+    source 94
+    target 36
+    weight 629.630103315435
+  ]
+  edge [
+    source 94
+    target 137
+    weight 1068.6566660491208
+  ]
+  edge [
+    source 94
+    target 89
+    weight 1960.4633165938758
+  ]
+  edge [
+    source 94
+    target 70
+    weight 1473.535399270597
+  ]
+  edge [
+    source 94
+    target 103
+    weight 2499.207445187376
+  ]
+  edge [
+    source 94
+    target 54
+    weight 2540.479913825769
+  ]
+  edge [
+    source 94
+    target 55
+    weight 776.7719581330798
+  ]
+  edge [
+    source 94
+    target 11
+    weight 146.7699870597192
+  ]
+  edge [
+    source 94
+    target 29
+    weight 643.6840815895109
+  ]
+  edge [
+    source 94
+    target 162
+    weight 839.5261886451389
+  ]
+  edge [
+    source 94
+    target 122
+    weight 390.49966613325535
+  ]
+  edge [
+    source 95
+    target 148
+    weight 630.5986943914598
+  ]
+  edge [
+    source 95
+    target 177
+    weight 740.9390522783651
+  ]
+  edge [
+    source 95
+    target 50
+    weight 364.87871665273997
+  ]
+  edge [
+    source 95
+    target 42
+    weight 258.376163551073
+  ]
+  edge [
+    source 95
+    target 106
+    weight 1879.5460488007031
+  ]
+  edge [
+    source 95
+    target 141
+    weight 308.9089319662534
+  ]
+  edge [
+    source 95
+    target 151
+    weight 298.9917595056236
+  ]
+  edge [
+    source 95
+    target 48
+    weight 793.8929300499817
+  ]
+  edge [
+    source 95
+    target 120
+    weight 10.69868314476632
+  ]
+  edge [
+    source 95
+    target 15
+    weight 475.4897133180174
+  ]
+  edge [
+    source 95
+    target 29
+    weight 1938.2570385830934
+  ]
+  edge [
+    source 95
+    target 140
+    weight 37.214725989628505
+  ]
+  edge [
+    source 95
+    target 142
+    weight 1644.4277339348366
+  ]
+  edge [
+    source 95
+    target 149
+    weight 250.4913508616494
+  ]
+  edge [
+    source 95
+    target 122
+    weight 700.4694234168014
+  ]
+  edge [
+    source 96
+    target 66
+    weight 80.49777440757663
+  ]
+  edge [
+    source 96
+    target 111
+    weight 772.9367587663078
+  ]
+  edge [
+    source 96
+    target 189
+    weight 639.9541672053261
+  ]
+  edge [
+    source 96
+    target 165
+    weight 1772.6590061814027
+  ]
+  edge [
+    source 96
+    target 103
+    weight 2729.2394377130368
+  ]
+  edge [
+    source 96
+    target 89
+    weight 854.7266218165593
+  ]
+  edge [
+    source 96
+    target 75
+    weight 1172.685862537985
+  ]
+  edge [
+    source 96
+    target 128
+    weight 470.41771020411574
+  ]
+  edge [
+    source 96
+    target 188
+    weight 179.04850374601637
+  ]
+  edge [
+    source 96
+    target 197
+    weight 1431.2476135020183
+  ]
+  edge [
+    source 96
+    target 55
+    weight 348.5387286590834
+  ]
+  edge [
+    source 96
+    target 67
+    weight 2004.315778866926
+  ]
+  edge [
+    source 96
+    target 87
+    weight 1206.8658578101188
+  ]
+  edge [
+    source 96
+    target 49
+    weight 31.926875412916132
+  ]
+  edge [
+    source 96
+    target 24
+    weight 479.4448167351602
+  ]
+  edge [
+    source 96
+    target 187
+    weight 65.47993494302611
+  ]
+  edge [
+    source 96
+    target 206
+    weight 70.8405539656568
+  ]
+  edge [
+    source 96
+    target 178
+    weight 1074.5384121115376
+  ]
+  edge [
+    source 96
+    target 100
+    weight 380.52533294334364
+  ]
+  edge [
+    source 96
+    target 81
+    weight 336.35548532626746
+  ]
+  edge [
+    source 96
+    target 28
+    weight 55.840114983023824
+  ]
+  edge [
+    source 96
+    target 181
+    weight 399.56833095941244
+  ]
+  edge [
+    source 97
+    target 139
+    weight 1270.4989246491725
+  ]
+  edge [
+    source 97
+    target 137
+    weight 191.77511074775828
+  ]
+  edge [
+    source 97
+    target 40
+    weight 1182.615453338762
+  ]
+  edge [
+    source 97
+    target 102
+    weight 1309.9972862291606
+  ]
+  edge [
+    source 97
+    target 106
+    weight 1476.5012672578896
+  ]
+  edge [
+    source 97
+    target 33
+    weight 35.252939374059835
+  ]
+  edge [
+    source 97
+    target 141
+    weight 1904.6215984987045
+  ]
+  edge [
+    source 97
+    target 73
+    weight 2375.0582265358435
+  ]
+  edge [
+    source 97
+    target 113
+    weight 180.60391715379285
+  ]
+  edge [
+    source 98
+    target 33
+    weight 949.1116105807203
+  ]
+  edge [
+    source 98
+    target 84
+    weight 1663.3269627433215
+  ]
+  edge [
+    source 98
+    target 120
+    weight 1581.468491478989
+  ]
+  edge [
+    source 98
+    target 24
+    weight 509.9798876877905
+  ]
+  edge [
+    source 98
+    target 191
+    weight 576.52080237048
+  ]
+  edge [
+    source 98
+    target 82
+    weight 1761.5968267324163
+  ]
+  edge [
+    source 98
+    target 92
+    weight 1831.7614676680182
+  ]
+  edge [
+    source 98
+    target 118
+    weight 775.1573140656602
+  ]
+  edge [
+    source 98
+    target 166
+    weight 649.6149982415718
+  ]
+  edge [
+    source 98
+    target 161
+    weight 1774.366810180392
+  ]
+  edge [
+    source 98
+    target 75
+    weight 419.83131422517135
+  ]
+  edge [
+    source 98
+    target 67
+    weight 51.61250861821554
+  ]
+  edge [
+    source 99
+    target 186
+    weight 1642.5506984047827
+  ]
+  edge [
+    source 99
+    target 159
+    weight 1000.1221695869691
+  ]
+  edge [
+    source 99
+    target 92
+    weight 484.7512880660042
+  ]
+  edge [
+    source 99
+    target 75
+    weight 2371.376913464865
+  ]
+  edge [
+    source 99
+    target 86
+    weight 1305.1114415048735
+  ]
+  edge [
+    source 99
+    target 133
+    weight 1857.2766250908724
+  ]
+  edge [
+    source 99
+    target 114
+    weight 1227.6150559145933
+  ]
+  edge [
+    source 99
+    target 190
+    weight 622.0498238210406
+  ]
+  edge [
+    source 99
+    target 7
+    weight 483.99547367563537
+  ]
+  edge [
+    source 99
+    target 28
+    weight 1121.5860800184673
+  ]
+  edge [
+    source 99
+    target 142
+    weight 113.24584940521005
+  ]
+  edge [
+    source 100
+    target 57
+    weight 1807.621412892726
+  ]
+  edge [
+    source 100
+    target 9
+    weight 484.7831151235853
+  ]
+  edge [
+    source 100
+    target 90
+    weight 1331.1476273551089
+  ]
+  edge [
+    source 100
+    target 12
+    weight 1121.4344662975093
+  ]
+  edge [
+    source 100
+    target 175
+    weight 268.80552157186423
+  ]
+  edge [
+    source 101
+    target 163
+    weight 145.2010687893156
+  ]
+  edge [
+    source 101
+    target 55
+    weight 597.3920655767877
+  ]
+  edge [
+    source 101
+    target 99
+    weight 482.82129919776264
+  ]
+  edge [
+    source 101
+    target 181
+    weight 34.07497901534467
+  ]
+  edge [
+    source 101
+    target 27
+    weight 886.6053429432517
+  ]
+  edge [
+    source 101
+    target 200
+    weight 1033.9409070955862
+  ]
+  edge [
+    source 101
+    target 15
+    weight 1085.6008105222563
+  ]
+  edge [
+    source 101
+    target 94
+    weight 542.8988774748584
+  ]
+  edge [
+    source 101
+    target 190
+    weight 135.87862399712878
+  ]
+  edge [
+    source 101
+    target 58
+    weight 332.4197990585493
+  ]
+  edge [
+    source 101
+    target 139
+    weight 155.57346947185243
+  ]
+  edge [
+    source 102
+    target 155
+    weight 2134.2969248422773
+  ]
+  edge [
+    source 102
+    target 26
+    weight 194.60445949846013
+  ]
+  edge [
+    source 102
+    target 69
+    weight 596.8138909260724
+  ]
+  edge [
+    source 102
+    target 201
+    weight 1760.0778713738478
+  ]
+  edge [
+    source 102
+    target 167
+    weight 266.4972688960153
+  ]
+  edge [
+    source 102
+    target 17
+    weight 1151.6302689072404
+  ]
+  edge [
+    source 102
+    target 67
+    weight 126.91035338184366
+  ]
+  edge [
+    source 102
+    target 207
+    weight 587.1063834096444
+  ]
+  edge [
+    source 102
+    target 72
+    weight 146.9844609017231
+  ]
+  edge [
+    source 102
+    target 160
+    weight 1220.5639752423228
+  ]
+  edge [
+    source 102
+    target 68
+    weight 1543.0051241990993
+  ]
+  edge [
+    source 102
+    target 62
+    weight 147.8664803354348
+  ]
+  edge [
+    source 102
+    target 183
+    weight 130.02263686201454
+  ]
+  edge [
+    source 102
+    target 92
+    weight 17.797841140363786
+  ]
+  edge [
+    source 102
+    target 36
+    weight 137.91519711055568
+  ]
+  edge [
+    source 102
+    target 31
+    weight 302.1442359131646
+  ]
+  edge [
+    source 102
+    target 38
+    weight 878.3904550831621
+  ]
+  edge [
+    source 102
+    target 94
+    weight 1633.8348293743002
+  ]
+  edge [
+    source 102
+    target 64
+    weight 1650.8227420416868
+  ]
+  edge [
+    source 102
+    target 44
+    weight 1413.222785361106
+  ]
+  edge [
+    source 102
+    target 199
+    weight 568.8596567360189
+  ]
+  edge [
+    source 102
+    target 147
+    weight 2471.457179058789
+  ]
+  edge [
+    source 103
+    target 124
+    weight 232.3815765506971
+  ]
+  edge [
+    source 103
+    target 88
+    weight 291.18346350204297
+  ]
+  edge [
+    source 103
+    target 45
+    weight 2538.138807115893
+  ]
+  edge [
+    source 103
+    target 18
+    weight 1359.4983940889297
+  ]
+  edge [
+    source 103
+    target 153
+    weight 842.9329436728774
+  ]
+  edge [
+    source 103
+    target 52
+    weight 119.90109174729523
+  ]
+  edge [
+    source 103
+    target 137
+    weight 924.6912591461444
+  ]
+  edge [
+    source 103
+    target 91
+    weight 1890.9845317713305
+  ]
+  edge [
+    source 104
+    target 209
+    weight 307.8272816211271
+  ]
+  edge [
+    source 104
+    target 81
+    weight 229.5817074578829
+  ]
+  edge [
+    source 104
+    target 150
+    weight 241.58303292021935
+  ]
+  edge [
+    source 104
+    target 96
+    weight 922.6100858222089
+  ]
+  edge [
+    source 104
+    target 31
+    weight 596.1009585835936
+  ]
+  edge [
+    source 104
+    target 167
+    weight 442.96753610672613
+  ]
+  edge [
+    source 104
+    target 98
+    weight 358.6920794523037
+  ]
+  edge [
+    source 104
+    target 185
+    weight 413.81087569966786
+  ]
+  edge [
+    source 104
+    target 142
+    weight 840.8314191216946
+  ]
+  edge [
+    source 104
+    target 42
+    weight 686.0930367252588
+  ]
+  edge [
+    source 105
+    target 71
+    weight 711.8635957118271
+  ]
+  edge [
+    source 105
+    target 196
+    weight 1061.8920095994474
+  ]
+  edge [
+    source 105
+    target 180
+    weight 916.9916285790898
+  ]
+  edge [
+    source 105
+    target 97
+    weight 290.8553483876552
+  ]
+  edge [
+    source 105
+    target 124
+    weight 697.0224224757726
+  ]
+  edge [
+    source 105
+    target 16
+    weight 264.2945640902343
+  ]
+  edge [
+    source 105
+    target 68
+    weight 343.7658187614394
+  ]
+  edge [
+    source 105
+    target 167
+    weight 206.21634163628391
+  ]
+  edge [
+    source 105
+    target 92
+    weight 1034.1318835661652
+  ]
+  edge [
+    source 105
+    target 210
+    weight 411.38821412417445
+  ]
+  edge [
+    source 105
+    target 135
+    weight 3061.6893464082636
+  ]
+  edge [
+    source 106
+    target 91
+    weight 687.4273637726841
+  ]
+  edge [
+    source 106
+    target 63
+    weight 718.5278319587541
+  ]
+  edge [
+    source 106
+    target 144
+    weight 258.20411211539977
+  ]
+  edge [
+    source 106
+    target 110
+    weight 126.92756962448519
+  ]
+  edge [
+    source 106
+    target 11
+    weight 806.2166656661111
+  ]
+  edge [
+    source 106
+    target 166
+    weight 1115.6974668181363
+  ]
+  edge [
+    source 106
+    target 40
+    weight 4.067629323734195
+  ]
+  edge [
+    source 106
+    target 199
+    weight 1487.4078054705792
+  ]
+  edge [
+    source 106
+    target 90
+    weight 256.86870226185636
+  ]
+  edge [
+    source 106
+    target 74
+    weight 1423.501935600914
+  ]
+  edge [
+    source 106
+    target 108
+    weight 499.19880304691117
+  ]
+  edge [
+    source 106
+    target 70
+    weight 110.08842781341511
+  ]
+  edge [
+    source 106
+    target 188
+    weight 663.0893710166754
+  ]
+  edge [
+    source 106
+    target 111
+    weight 122.88966655079267
+  ]
+  edge [
+    source 106
+    target 151
+    weight 2390.923441100228
+  ]
+  edge [
+    source 106
+    target 113
+    weight 328.9272192808411
+  ]
+  edge [
+    source 106
+    target 56
+    weight 1199.4490162768295
+  ]
+  edge [
+    source 106
+    target 203
+    weight 1598.2560089093752
+  ]
+  edge [
+    source 106
+    target 209
+    weight 1193.2445459148885
+  ]
+  edge [
+    source 107
+    target 49
+    weight 248.55062387496946
+  ]
+  edge [
+    source 107
+    target 175
+    weight 192.69403747208685
+  ]
+  edge [
+    source 107
+    target 18
+    weight 87.96845740420657
+  ]
+  edge [
+    source 107
+    target 7
+    weight 815.9789640991896
+  ]
+  edge [
+    source 107
+    target 183
+    weight 4.599387437864863
+  ]
+  edge [
+    source 107
+    target 203
+    weight 105.20979671276302
+  ]
+  edge [
+    source 107
+    target 140
+    weight 291.6915114036083
+  ]
+  edge [
+    source 107
+    target 81
+    weight 1563.9670382848508
+  ]
+  edge [
+    source 107
+    target 174
+    weight 1289.4159703854214
+  ]
+  edge [
+    source 107
+    target 8
+    weight 450.8135773787192
+  ]
+  edge [
+    source 107
+    target 9
+    weight 2072.7504944820375
+  ]
+  edge [
+    source 108
+    target 46
+    weight 605.3382629540799
+  ]
+  edge [
+    source 108
+    target 178
+    weight 830.5476767903849
+  ]
+  edge [
+    source 108
+    target 61
+    weight 2177.640598006152
+  ]
+  edge [
+    source 108
+    target 57
+    weight 810.0971959333732
+  ]
+  edge [
+    source 108
+    target 186
+    weight 938.178348716149
+  ]
+  edge [
+    source 108
+    target 155
+    weight 442.261533723933
+  ]
+  edge [
+    source 108
+    target 184
+    weight 392.5328212031759
+  ]
+  edge [
+    source 108
+    target 17
+    weight 1917.580605089048
+  ]
+  edge [
+    source 108
+    target 13
+    weight 1944.638037673869
+  ]
+  edge [
+    source 108
+    target 134
+    weight 1006.8655693289245
+  ]
+  edge [
+    source 108
+    target 86
+    weight 5.687790690410793
+  ]
+  edge [
+    source 108
+    target 205
+    weight 662.4233588416279
+  ]
+  edge [
+    source 108
+    target 51
+    weight 2007.2014964307718
+  ]
+  edge [
+    source 109
+    target 181
+    weight 365.28428101461867
+  ]
+  edge [
+    source 109
+    target 206
+    weight 783.8932234343201
+  ]
+  edge [
+    source 109
+    target 60
+    weight 472.53162646171825
+  ]
+  edge [
+    source 109
+    target 42
+    weight 527.5967530484754
+  ]
+  edge [
+    source 109
+    target 166
+    weight 419.2578552537485
+  ]
+  edge [
+    source 109
+    target 139
+    weight 24.14228123734857
+  ]
+  edge [
+    source 109
+    target 159
+    weight 1428.9416507821982
+  ]
+  edge [
+    source 109
+    target 153
+    weight 451.83623857071467
+  ]
+  edge [
+    source 109
+    target 198
+    weight 1044.3858992063863
+  ]
+  edge [
+    source 109
+    target 193
+    weight 1723.3567154427421
+  ]
+  edge [
+    source 109
+    target 51
+    weight 648.3113843552687
+  ]
+  edge [
+    source 109
+    target 152
+    weight 2099.421695074124
+  ]
+  edge [
+    source 109
+    target 33
+    weight 591.0546770102293
+  ]
+  edge [
+    source 109
+    target 58
+    weight 275.62597103466214
+  ]
+  edge [
+    source 109
+    target 128
+    weight 444.1301953501451
+  ]
+  edge [
+    source 109
+    target 185
+    weight 490.1497546691894
+  ]
+  edge [
+    source 109
+    target 82
+    weight 888.6713904131198
+  ]
+  edge [
+    source 109
+    target 119
+    weight 446.6227534855336
+  ]
+  edge [
+    source 110
+    target 168
+    weight 271.26359730758475
+  ]
+  edge [
+    source 110
+    target 32
+    weight 219.0249096284613
+  ]
+  edge [
+    source 110
+    target 202
+    weight 1631.155431032786
+  ]
+  edge [
+    source 110
+    target 115
+    weight 988.9951954089777
+  ]
+  edge [
+    source 110
+    target 192
+    weight 904.2746227034802
+  ]
+  edge [
+    source 110
+    target 102
+    weight 199.99787640715763
+  ]
+  edge [
+    source 111
+    target 142
+    weight 1130.8131292009355
+  ]
+  edge [
+    source 111
+    target 80
+    weight 778.338833857652
+  ]
+  edge [
+    source 111
+    target 97
+    weight 925.2785923175104
+  ]
+  edge [
+    source 111
+    target 189
+    weight 809.8627849538233
+  ]
+  edge [
+    source 111
+    target 128
+    weight 847.0502910787548
+  ]
+  edge [
+    source 111
+    target 91
+    weight 881.501266370195
+  ]
+  edge [
+    source 111
+    target 167
+    weight 2036.0457044041093
+  ]
+  edge [
+    source 111
+    target 56
+    weight 422.22145158112244
+  ]
+  edge [
+    source 111
+    target 190
+    weight 23.469490254348358
+  ]
+  edge [
+    source 111
+    target 17
+    weight 722.3704291987825
+  ]
+  edge [
+    source 111
+    target 24
+    weight 234.05032913647415
+  ]
+  edge [
+    source 111
+    target 155
+    weight 409.2516552883915
+  ]
+  edge [
+    source 111
+    target 180
+    weight 806.533798050157
+  ]
+  edge [
+    source 111
+    target 108
+    weight 497.6308278465992
+  ]
+  edge [
+    source 111
+    target 15
+    weight 159.8850185170305
+  ]
+  edge [
+    source 111
+    target 79
+    weight 208.0389007170134
+  ]
+  edge [
+    source 111
+    target 191
+    weight 831.3287501948234
+  ]
+  edge [
+    source 111
+    target 14
+    weight 238.590474210784
+  ]
+  edge [
+    source 111
+    target 13
+    weight 1541.3595623992032
+  ]
+  edge [
+    source 112
+    target 159
+    weight 219.48522124391195
+  ]
+  edge [
+    source 112
+    target 150
+    weight 532.5348844636895
+  ]
+  edge [
+    source 112
+    target 169
+    weight 2637.775090171634
+  ]
+  edge [
+    source 112
+    target 41
+    weight 1217.7297385865584
+  ]
+  edge [
+    source 112
+    target 211
+    weight 413.6164628792999
+  ]
+  edge [
+    source 112
+    target 92
+    weight 2241.4111795922618
+  ]
+  edge [
+    source 112
+    target 203
+    weight 8.830762863833854
+  ]
+  edge [
+    source 112
+    target 83
+    weight 155.6752670618297
+  ]
+  edge [
+    source 112
+    target 26
+    weight 509.87915397640467
+  ]
+  edge [
+    source 113
+    target 170
+    weight 478.1151225019189
+  ]
+  edge [
+    source 113
+    target 48
+    weight 863.3674050288197
+  ]
+  edge [
+    source 113
+    target 112
+    weight 972.9714776677565
+  ]
+  edge [
+    source 113
+    target 41
+    weight 1213.8945220443577
+  ]
+  edge [
+    source 113
+    target 173
+    weight 660.6767343628572
+  ]
+  edge [
+    source 113
+    target 5
+    weight 1212.9736837270157
+  ]
+  edge [
+    source 113
+    target 132
+    weight 644.685366744978
+  ]
+  edge [
+    source 113
+    target 87
+    weight 55.81551164525544
+  ]
+  edge [
+    source 113
+    target 57
+    weight 337.992486367324
+  ]
+  edge [
+    source 113
+    target 175
+    weight 1074.7165319232508
+  ]
+  edge [
+    source 113
+    target 158
+    weight 260.05052279677307
+  ]
+  edge [
+    source 113
+    target 121
+    weight 831.1717469795364
+  ]
+  edge [
+    source 114
+    target 116
+    weight 824.6876821437295
+  ]
+  edge [
+    source 114
+    target 162
+    weight 93.94986615402382
+  ]
+  edge [
+    source 114
+    target 211
+    weight 1981.2521932545606
+  ]
+  edge [
+    source 114
+    target 81
+    weight 630.5813197445408
+  ]
+  edge [
+    source 114
+    target 208
+    weight 269.52900010539804
+  ]
+  edge [
+    source 114
+    target 39
+    weight 1387.5308301993252
+  ]
+  edge [
+    source 114
+    target 17
+    weight 515.3594791352351
+  ]
+  edge [
+    source 114
+    target 182
+    weight 92.42035371725177
+  ]
+  edge [
+    source 114
+    target 155
+    weight 687.9438554667049
+  ]
+  edge [
+    source 114
+    target 121
+    weight 1306.943576321187
+  ]
+  edge [
+    source 114
+    target 9
+    weight 1329.7012845737468
+  ]
+  edge [
+    source 114
+    target 120
+    weight 743.7121986222534
+  ]
+  edge [
+    source 114
+    target 71
+    weight 1646.1695863094772
+  ]
+  edge [
+    source 114
+    target 160
+    weight 667.2626008582504
+  ]
+  edge [
+    source 114
+    target 53
+    weight 522.6259918764185
+  ]
+  edge [
+    source 115
+    target 18
+    weight 1008.3549837448559
+  ]
+  edge [
+    source 115
+    target 144
+    weight 447.5887343780416
+  ]
+  edge [
+    source 115
+    target 198
+    weight 1560.439391993487
+  ]
+  edge [
+    source 115
+    target 161
+    weight 213.84162811966496
+  ]
+  edge [
+    source 115
+    target 40
+    weight 606.2624135251876
+  ]
+  edge [
+    source 115
+    target 20
+    weight 329.2012639048955
+  ]
+  edge [
+    source 115
+    target 151
+    weight 469.26894130021174
+  ]
+  edge [
+    source 115
+    target 193
+    weight 1293.779999527423
+  ]
+  edge [
+    source 115
+    target 208
+    weight 867.1016380465368
+  ]
+  edge [
+    source 115
+    target 26
+    weight 465.6874060690309
+  ]
+  edge [
+    source 115
+    target 103
+    weight 774.7610765286498
+  ]
+  edge [
+    source 115
+    target 113
+    weight 539.7609992853439
+  ]
+  edge [
+    source 116
+    target 29
+    weight 961.7359358831193
+  ]
+  edge [
+    source 116
+    target 80
+    weight 2338.4180987287496
+  ]
+  edge [
+    source 116
+    target 180
+    weight 661.0344712644661
+  ]
+  edge [
+    source 116
+    target 52
+    weight 1282.600959612478
+  ]
+  edge [
+    source 116
+    target 141
+    weight 1716.2329937118645
+  ]
+  edge [
+    source 116
+    target 148
+    weight 735.7613559825446
+  ]
+  edge [
+    source 116
+    target 33
+    weight 602.7206711718788
+  ]
+  edge [
+    source 116
+    target 203
+    weight 1044.3493265405573
+  ]
+  edge [
+    source 116
+    target 127
+    weight 1297.6477605288624
+  ]
+  edge [
+    source 116
+    target 17
+    weight 638.2343221516053
+  ]
+  edge [
+    source 116
+    target 109
+    weight 727.3039705936952
+  ]
+  edge [
+    source 116
+    target 197
+    weight 266.73163621122643
+  ]
+  edge [
+    source 116
+    target 113
+    weight 1241.7156394060785
+  ]
+  edge [
+    source 116
+    target 124
+    weight 877.5334277473559
+  ]
+  edge [
+    source 116
+    target 27
+    weight 585.644073761046
+  ]
+  edge [
+    source 116
+    target 96
+    weight 189.0362234413427
+  ]
+  edge [
+    source 116
+    target 207
+    weight 1167.1728695665113
+  ]
+  edge [
+    source 116
+    target 5
+    weight 939.3955434337508
+  ]
+  edge [
+    source 116
+    target 189
+    weight 454.9418988729756
+  ]
+  edge [
+    source 117
+    target 91
+    weight 1431.2112386780393
+  ]
+  edge [
+    source 117
+    target 90
+    weight 759.8088396744076
+  ]
+  edge [
+    source 117
+    target 79
+    weight 713.5225768188651
+  ]
+  edge [
+    source 117
+    target 176
+    weight 257.89663381070415
+  ]
+  edge [
+    source 117
+    target 190
+    weight 704.6560087532274
+  ]
+  edge [
+    source 117
+    target 11
+    weight 294.150851312802
+  ]
+  edge [
+    source 117
+    target 210
+    weight 678.9158846421187
+  ]
+  edge [
+    source 117
+    target 7
+    weight 1055.279557565859
+  ]
+  edge [
+    source 117
+    target 191
+    weight 308.0562027215026
+  ]
+  edge [
+    source 118
+    target 207
+    weight 438.80938015464653
+  ]
+  edge [
+    source 118
+    target 41
+    weight 1698.8607001287676
+  ]
+  edge [
+    source 118
+    target 86
+    weight 81.83103589000808
+  ]
+  edge [
+    source 118
+    target 123
+    weight 180.69911944468532
+  ]
+  edge [
+    source 118
+    target 97
+    weight 1155.6551919129565
+  ]
+  edge [
+    source 118
+    target 166
+    weight 208.4039138307918
+  ]
+  edge [
+    source 118
+    target 93
+    weight 271.24238427426593
+  ]
+  edge [
+    source 118
+    target 35
+    weight 45.04567489230748
+  ]
+  edge [
+    source 118
+    target 34
+    weight 1147.4355054977666
+  ]
+  edge [
+    source 118
+    target 13
+    weight 837.6896669215479
+  ]
+  edge [
+    source 118
+    target 7
+    weight 647.149431946087
+  ]
+  edge [
+    source 118
+    target 204
+    weight 1211.5907166828267
+  ]
+  edge [
+    source 118
+    target 114
+    weight 991.9972003873163
+  ]
+  edge [
+    source 119
+    target 48
+    weight 1830.2819781453009
+  ]
+  edge [
+    source 119
+    target 11
+    weight 546.4296877498755
+  ]
+  edge [
+    source 119
+    target 28
+    weight 599.5297785123436
+  ]
+  edge [
+    source 119
+    target 165
+    weight 1548.5781028462836
+  ]
+  edge [
+    source 119
+    target 175
+    weight 467.298992682209
+  ]
+  edge [
+    source 119
+    target 89
+    weight 199.65759908539556
+  ]
+  edge [
+    source 119
+    target 53
+    weight 1824.85106664167
+  ]
+  edge [
+    source 119
+    target 195
+    weight 251.62816582795227
+  ]
+  edge [
+    source 119
+    target 154
+    weight 116.605428156641
+  ]
+  edge [
+    source 119
+    target 199
+    weight 1786.2289112998012
+  ]
+  edge [
+    source 119
+    target 88
+    weight 829.9202983525544
+  ]
+  edge [
+    source 119
+    target 80
+    weight 671.6510931500485
+  ]
+  edge [
+    source 119
+    target 211
+    weight 2230.777334986068
+  ]
+  edge [
+    source 120
+    target 177
+    weight 429.3220691722219
+  ]
+  edge [
+    source 120
+    target 102
+    weight 686.7749343453474
+  ]
+  edge [
+    source 120
+    target 160
+    weight 108.51003737507529
+  ]
+  edge [
+    source 120
+    target 188
+    weight 635.1593036949242
+  ]
+  edge [
+    source 120
+    target 167
+    weight 1093.0406718842414
+  ]
+  edge [
+    source 120
+    target 154
+    weight 220.06694212566072
+  ]
+  edge [
+    source 120
+    target 17
+    weight 2275.8849652142203
+  ]
+  edge [
+    source 120
+    target 51
+    weight 335.89926627182444
+  ]
+  edge [
+    source 120
+    target 101
+    weight 2076.7668639592957
+  ]
+  edge [
+    source 120
+    target 59
+    weight 801.2372506966691
+  ]
+  edge [
+    source 120
+    target 87
+    weight 613.6340845400682
+  ]
+  edge [
+    source 120
+    target 164
+    weight 90.29015125944849
+  ]
+  edge [
+    source 121
+    target 163
+    weight 200.74681159572384
+  ]
+  edge [
+    source 121
+    target 109
+    weight 515.8897078105501
+  ]
+  edge [
+    source 121
+    target 95
+    weight 857.4510585766486
+  ]
+  edge [
+    source 121
+    target 183
+    weight 213.03948245126435
+  ]
+  edge [
+    source 121
+    target 196
+    weight 81.9091486056372
+  ]
+  edge [
+    source 121
+    target 77
+    weight 712.3345435669984
+  ]
+  edge [
+    source 121
+    target 91
+    weight 83.16637236963263
+  ]
+  edge [
+    source 121
+    target 8
+    weight 698.8194249306554
+  ]
+  edge [
+    source 121
+    target 59
+    weight 1550.8876010589852
+  ]
+  edge [
+    source 121
+    target 1
+    weight 228.46269123114266
+  ]
+  edge [
+    source 121
+    target 57
+    weight 237.12138447794948
+  ]
+  edge [
+    source 121
+    target 185
+    weight 493.80535574541784
+  ]
+  edge [
+    source 121
+    target 12
+    weight 256.3830379093247
+  ]
+  edge [
+    source 121
+    target 201
+    weight 517.8516010397801
+  ]
+  edge [
+    source 121
+    target 132
+    weight 755.1313702646179
+  ]
+  edge [
+    source 122
+    target 166
+    weight 473.81703149024634
+  ]
+  edge [
+    source 122
+    target 157
+    weight 1071.1079841525407
+  ]
+  edge [
+    source 122
+    target 35
+    weight 1595.6145702414829
+  ]
+  edge [
+    source 122
+    target 1
+    weight 543.9398427501208
+  ]
+  edge [
+    source 122
+    target 70
+    weight 480.17508047873844
+  ]
+  edge [
+    source 122
+    target 77
+    weight 564.2323753228183
+  ]
+  edge [
+    source 122
+    target 182
+    weight 383.526072648786
+  ]
+  edge [
+    source 122
+    target 71
+    weight 1028.2901687405692
+  ]
+  edge [
+    source 122
+    target 108
+    weight 2815.47265679715
+  ]
+  edge [
+    source 122
+    target 154
+    weight 706.0853692259897
+  ]
+  edge [
+    source 122
+    target 190
+    weight 239.20903778392227
+  ]
+  edge [
+    source 122
+    target 117
+    weight 1978.8421834665533
+  ]
+  edge [
+    source 122
+    target 148
+    weight 1975.3109056988437
+  ]
+  edge [
+    source 122
+    target 136
+    weight 383.9373652921103
+  ]
+  edge [
+    source 122
+    target 6
+    weight 1208.8621350868384
+  ]
+  edge [
+    source 122
+    target 48
+    weight 428.3912438524678
+  ]
+  edge [
+    source 123
+    target 91
+    weight 1036.0758486515676
+  ]
+  edge [
+    source 123
+    target 157
+    weight 43.84773500167714
+  ]
+  edge [
+    source 123
+    target 108
+    weight 207.96540938481905
+  ]
+  edge [
+    source 123
+    target 131
+    weight 1597.2928855848616
+  ]
+  edge [
+    source 123
+    target 174
+    weight 1448.2020433671826
+  ]
+  edge [
+    source 123
+    target 141
+    weight 268.6076728037207
+  ]
+  edge [
+    source 123
+    target 155
+    weight 79.66789428822054
+  ]
+  edge [
+    source 123
+    target 30
+    weight 489.5219050583738
+  ]
+  edge [
+    source 123
+    target 181
+    weight 774.3654892555065
+  ]
+  edge [
+    source 123
+    target 193
+    weight 433.9701112998289
+  ]
+  edge [
+    source 123
+    target 101
+    weight 1140.2965222641162
+  ]
+  edge [
+    source 123
+    target 45
+    weight 470.2587077190217
+  ]
+  edge [
+    source 123
+    target 17
+    weight 790.5118066571474
+  ]
+  edge [
+    source 123
+    target 4
+    weight 1050.5664035770392
+  ]
+  edge [
+    source 123
+    target 40
+    weight 1096.6557606867664
+  ]
+  edge [
+    source 123
+    target 77
+    weight 3020.622226421519
+  ]
+  edge [
+    source 124
+    target 159
+    weight 1334.7345080751902
+  ]
+  edge [
+    source 124
+    target 165
+    weight 1065.2600935216733
+  ]
+  edge [
+    source 124
+    target 60
+    weight 145.4764670037053
+  ]
+  edge [
+    source 124
+    target 176
+    weight 96.92412120317465
+  ]
+  edge [
+    source 124
+    target 201
+    weight 1644.8387100508921
+  ]
+  edge [
+    source 124
+    target 48
+    weight 1681.0601472039514
+  ]
+  edge [
+    source 124
+    target 11
+    weight 1038.3557763598335
+  ]
+  edge [
+    source 124
+    target 172
+    weight 63.06082269179504
+  ]
+  edge [
+    source 124
+    target 115
+    weight 1020.2265103919544
+  ]
+  edge [
+    source 124
+    target 87
+    weight 1830.2471551056562
+  ]
+  edge [
+    source 124
+    target 95
+    weight 685.6210627801051
+  ]
+  edge [
+    source 124
+    target 121
+    weight 521.4672525748134
+  ]
+  edge [
+    source 124
+    target 158
+    weight 707.4583776853412
+  ]
+  edge [
+    source 124
+    target 153
+    weight 86.29588092754025
+  ]
+  edge [
+    source 124
+    target 150
+    weight 507.8781828966805
+  ]
+  edge [
+    source 124
+    target 25
+    weight 309.8992044858061
+  ]
+  edge [
+    source 124
+    target 178
+    weight 521.1793607036801
+  ]
+  edge [
+    source 124
+    target 135
+    weight 1824.550058680698
+  ]
+  edge [
+    source 124
+    target 182
+    weight 1184.3553267611737
+  ]
+  edge [
+    source 124
+    target 140
+    weight 1157.881828732258
+  ]
+  edge [
+    source 124
+    target 6
+    weight 1701.6634826552545
+  ]
+  edge [
+    source 124
+    target 185
+    weight 136.55780735708788
+  ]
+  edge [
+    source 124
+    target 50
+    weight 512.9547346038282
+  ]
+  edge [
+    source 125
+    target 126
+    weight 463.15541853064843
+  ]
+  edge [
+    source 125
+    target 4
+    weight 3104.668467901447
+  ]
+  edge [
+    source 125
+    target 72
+    weight 125.41123439937218
+  ]
+  edge [
+    source 125
+    target 170
+    weight 660.6432596287973
+  ]
+  edge [
+    source 125
+    target 87
+    weight 220.45899828878103
+  ]
+  edge [
+    source 125
+    target 6
+    weight 310.6196470938561
+  ]
+  edge [
+    source 125
+    target 158
+    weight 1175.8264491626305
+  ]
+  edge [
+    source 125
+    target 145
+    weight 156.6148854683978
+  ]
+  edge [
+    source 125
+    target 209
+    weight 765.9899125995385
+  ]
+  edge [
+    source 125
+    target 71
+    weight 195.14719155718774
+  ]
+  edge [
+    source 125
+    target 106
+    weight 723.4283357565118
+  ]
+  edge [
+    source 125
+    target 50
+    weight 61.54310755703048
+  ]
+  edge [
+    source 125
+    target 188
+    weight 1396.5397991857556
+  ]
+  edge [
+    source 125
+    target 122
+    weight 2073.705859226812
+  ]
+  edge [
+    source 125
+    target 194
+    weight 359.16420803774554
+  ]
+  edge [
+    source 125
+    target 5
+    weight 1209.2454864867486
+  ]
+  edge [
+    source 125
+    target 176
+    weight 244.22157385160568
+  ]
+  edge [
+    source 125
+    target 142
+    weight 917.4894173799661
+  ]
+  edge [
+    source 126
+    target 114
+    weight 42.26911612041624
+  ]
+  edge [
+    source 126
+    target 0
+    weight 925.1396285181022
+  ]
+  edge [
+    source 126
+    target 32
+    weight 685.0702511491276
+  ]
+  edge [
+    source 126
+    target 202
+    weight 302.55732154409304
+  ]
+  edge [
+    source 126
+    target 72
+    weight 216.52584799678152
+  ]
+  edge [
+    source 126
+    target 61
+    weight 747.5830429022103
+  ]
+  edge [
+    source 126
+    target 106
+    weight 2314.537063971475
+  ]
+  edge [
+    source 126
+    target 41
+    weight 470.33838594708675
+  ]
+  edge [
+    source 126
+    target 129
+    weight 962.4155904361546
+  ]
+  edge [
+    source 127
+    target 73
+    weight 1313.55965642427
+  ]
+  edge [
+    source 127
+    target 146
+    weight 862.1380347067164
+  ]
+  edge [
+    source 127
+    target 97
+    weight 765.3266500809202
+  ]
+  edge [
+    source 127
+    target 57
+    weight 562.8550909027642
+  ]
+  edge [
+    source 127
+    target 161
+    weight 792.9005209921523
+  ]
+  edge [
+    source 127
+    target 191
+    weight 156.6585579707982
+  ]
+  edge [
+    source 127
+    target 90
+    weight 2251.433299676826
+  ]
+  edge [
+    source 127
+    target 201
+    weight 1746.4147163768732
+  ]
+  edge [
+    source 127
+    target 114
+    weight 529.240967785881
+  ]
+  edge [
+    source 127
+    target 96
+    weight 999.3639397165127
+  ]
+  edge [
+    source 127
+    target 15
+    weight 1143.8912555481556
+  ]
+  edge [
+    source 127
+    target 10
+    weight 1075.1183592190605
+  ]
+  edge [
+    source 128
+    target 131
+    weight 1187.5356925124859
+  ]
+  edge [
+    source 128
+    target 164
+    weight 380.15592947766163
+  ]
+  edge [
+    source 128
+    target 63
+    weight 1644.1257019911675
+  ]
+  edge [
+    source 128
+    target 97
+    weight 1382.5199652586837
+  ]
+  edge [
+    source 128
+    target 60
+    weight 344.3421231261926
+  ]
+  edge [
+    source 128
+    target 162
+    weight 39.79597878265072
+  ]
+  edge [
+    source 128
+    target 158
+    weight 219.14849690156268
+  ]
+  edge [
+    source 128
+    target 36
+    weight 718.7376045164773
+  ]
+  edge [
+    source 128
+    target 207
+    weight 614.9596420219679
+  ]
+  edge [
+    source 129
+    target 90
+    weight 1898.3376210777756
+  ]
+  edge [
+    source 129
+    target 180
+    weight 1143.5763068489528
+  ]
+  edge [
+    source 129
+    target 184
+    weight 1545.7114028422607
+  ]
+  edge [
+    source 129
+    target 168
+    weight 15.575778651885315
+  ]
+  edge [
+    source 129
+    target 25
+    weight 1268.7229976514716
+  ]
+  edge [
+    source 129
+    target 77
+    weight 797.828230896895
+  ]
+  edge [
+    source 129
+    target 28
+    weight 1850.032707172403
+  ]
+  edge [
+    source 130
+    target 46
+    weight 2859.770239964731
+  ]
+  edge [
+    source 130
+    target 107
+    weight 1784.5447452298658
+  ]
+  edge [
+    source 130
+    target 89
+    weight 1196.331812017044
+  ]
+  edge [
+    source 130
+    target 94
+    weight 876.4110589764597
+  ]
+  edge [
+    source 130
+    target 127
+    weight 178.7153960060565
+  ]
+  edge [
+    source 130
+    target 56
+    weight 395.26837622771507
+  ]
+  edge [
+    source 130
+    target 2
+    weight 506.86347450444964
+  ]
+  edge [
+    source 130
+    target 143
+    weight 409.2299686953815
+  ]
+  edge [
+    source 130
+    target 188
+    weight 549.8132818910224
+  ]
+  edge [
+    source 130
+    target 68
+    weight 35.71669992337917
+  ]
+  edge [
+    source 130
+    target 140
+    weight 1694.980405135232
+  ]
+  edge [
+    source 130
+    target 50
+    weight 266.04767888692203
+  ]
+  edge [
+    source 130
+    target 25
+    weight 312.32216867923546
+  ]
+  edge [
+    source 130
+    target 128
+    weight 560.5079557877182
+  ]
+  edge [
+    source 130
+    target 153
+    weight 2415.6489834988733
+  ]
+  edge [
+    source 130
+    target 80
+    weight 2.326731737315015
+  ]
+  edge [
+    source 131
+    target 129
+    weight 768.6370089954181
+  ]
+  edge [
+    source 131
+    target 171
+    weight 1520.292672879626
+  ]
+  edge [
+    source 131
+    target 66
+    weight 1474.113535047973
+  ]
+  edge [
+    source 131
+    target 151
+    weight 1449.3694092211479
+  ]
+  edge [
+    source 131
+    target 26
+    weight 366.763262150767
+  ]
+  edge [
+    source 131
+    target 166
+    weight 177.35635598445657
+  ]
+  edge [
+    source 131
+    target 65
+    weight 1761.8080508506368
+  ]
+  edge [
+    source 131
+    target 88
+    weight 354.45802017154176
+  ]
+  edge [
+    source 131
+    target 147
+    weight 574.8134916822811
+  ]
+  edge [
+    source 131
+    target 1
+    weight 1081.1512169715402
+  ]
+  edge [
+    source 131
+    target 163
+    weight 314.6372986678179
+  ]
+  edge [
+    source 131
+    target 103
+    weight 560.0128851275856
+  ]
+  edge [
+    source 132
+    target 183
+    weight 98.49442331813071
+  ]
+  edge [
+    source 132
+    target 201
+    weight 717.9002445102377
+  ]
+  edge [
+    source 132
+    target 84
+    weight 111.65211724973557
+  ]
+  edge [
+    source 132
+    target 150
+    weight 20.08009557417165
+  ]
+  edge [
+    source 132
+    target 80
+    weight 618.8646343810576
+  ]
+  edge [
+    source 132
+    target 118
+    weight 173.26633283477855
+  ]
+  edge [
+    source 132
+    target 30
+    weight 1023.8689420350487
+  ]
+  edge [
+    source 132
+    target 34
+    weight 123.0371972945901
+  ]
+  edge [
+    source 132
+    target 38
+    weight 2285.0970195252385
+  ]
+  edge [
+    source 132
+    target 43
+    weight 673.0093951866837
+  ]
+  edge [
+    source 132
+    target 44
+    weight 946.340248059669
+  ]
+  edge [
+    source 132
+    target 28
+    weight 1017.8645236805421
+  ]
+  edge [
+    source 132
+    target 12
+    weight 2660.976960917397
+  ]
+  edge [
+    source 132
+    target 115
+    weight 1157.882957468328
+  ]
+  edge [
+    source 132
+    target 145
+    weight 1491.1745248058721
+  ]
+  edge [
+    source 132
+    target 206
+    weight 793.052229406347
+  ]
+  edge [
+    source 133
+    target 67
+    weight 302.6922499798653
+  ]
+  edge [
+    source 133
+    target 194
+    weight 487.06293548632004
+  ]
+  edge [
+    source 133
+    target 69
+    weight 647.0697074635178
+  ]
+  edge [
+    source 133
+    target 8
+    weight 1072.0536759369206
+  ]
+  edge [
+    source 133
+    target 81
+    weight 231.67940086140868
+  ]
+  edge [
+    source 133
+    target 56
+    weight 805.0555356987496
+  ]
+  edge [
+    source 133
+    target 200
+    weight 166.13023772804328
+  ]
+  edge [
+    source 133
+    target 191
+    weight 684.4029957327774
+  ]
+  edge [
+    source 134
+    target 19
+    weight 206.97887351975544
+  ]
+  edge [
+    source 134
+    target 167
+    weight 547.7945530067334
+  ]
+  edge [
+    source 134
+    target 28
+    weight 1011.9499051551422
+  ]
+  edge [
+    source 134
+    target 190
+    weight 216.75373267757533
+  ]
+  edge [
+    source 134
+    target 62
+    weight 2855.491980614313
+  ]
+  edge [
+    source 134
+    target 22
+    weight 675.2449678672307
+  ]
+  edge [
+    source 134
+    target 129
+    weight 839.1161947208217
+  ]
+  edge [
+    source 134
+    target 57
+    weight 505.47917563267265
+  ]
+  edge [
+    source 134
+    target 191
+    weight 423.4135076832951
+  ]
+  edge [
+    source 134
+    target 49
+    weight 410.33979045764136
+  ]
+  edge [
+    source 134
+    target 67
+    weight 2557.1590314708483
+  ]
+  edge [
+    source 134
+    target 98
+    weight 424.43828738238375
+  ]
+  edge [
+    source 135
+    target 76
+    weight 222.45727098709716
+  ]
+  edge [
+    source 135
+    target 96
+    weight 1510.5295211983416
+  ]
+  edge [
+    source 135
+    target 113
+    weight 272.0166906621294
+  ]
+  edge [
+    source 135
+    target 174
+    weight 364.2389472483605
+  ]
+  edge [
+    source 135
+    target 201
+    weight 2098.1321330740548
+  ]
+  edge [
+    source 135
+    target 166
+    weight 1593.1779177178746
+  ]
+  edge [
+    source 135
+    target 89
+    weight 556.5435503790677
+  ]
+  edge [
+    source 135
+    target 203
+    weight 268.9525293493765
+  ]
+  edge [
+    source 135
+    target 204
+    weight 1082.6897760630752
+  ]
+  edge [
+    source 135
+    target 71
+    weight 478.13144962620424
+  ]
+  edge [
+    source 136
+    target 90
+    weight 875.7917253463869
+  ]
+  edge [
+    source 136
+    target 178
+    weight 1494.9899602363928
+  ]
+  edge [
+    source 136
+    target 170
+    weight 988.4466384529176
+  ]
+  edge [
+    source 136
+    target 115
+    weight 941.1068144498558
+  ]
+  edge [
+    source 136
+    target 20
+    weight 570.1873590652636
+  ]
+  edge [
+    source 136
+    target 55
+    weight 477.9624643636515
+  ]
+  edge [
+    source 136
+    target 40
+    weight 37.796062645695
+  ]
+  edge [
+    source 136
+    target 151
+    weight 1196.3325759950403
+  ]
+  edge [
+    source 136
+    target 67
+    weight 263.248883604897
+  ]
+  edge [
+    source 136
+    target 92
+    weight 93.1805719238038
+  ]
+  edge [
+    source 136
+    target 77
+    weight 255.5597194525428
+  ]
+  edge [
+    source 136
+    target 192
+    weight 503.0816586988024
+  ]
+  edge [
+    source 136
+    target 85
+    weight 682.8451786179244
+  ]
+  edge [
+    source 136
+    target 164
+    weight 1208.760615129819
+  ]
+  edge [
+    source 136
+    target 207
+    weight 518.214364250202
+  ]
+  edge [
+    source 137
+    target 114
+    weight 766.7506167686881
+  ]
+  edge [
+    source 137
+    target 173
+    weight 1348.2487339471102
+  ]
+  edge [
+    source 137
+    target 121
+    weight 795.3773710204222
+  ]
+  edge [
+    source 137
+    target 143
+    weight 1256.7941845890707
+  ]
+  edge [
+    source 137
+    target 195
+    weight 852.8863155852647
+  ]
+  edge [
+    source 137
+    target 81
+    weight 151.06195024229368
+  ]
+  edge [
+    source 137
+    target 18
+    weight 966.0636065712368
+  ]
+  edge [
+    source 137
+    target 203
+    weight 399.1535773891123
+  ]
+  edge [
+    source 137
+    target 196
+    weight 1206.8986177512184
+  ]
+  edge [
+    source 137
+    target 21
+    weight 712.4622384341743
+  ]
+  edge [
+    source 137
+    target 6
+    weight 1521.5382832378493
+  ]
+  edge [
+    source 137
+    target 148
+    weight 227.8549923987273
+  ]
+  edge [
+    source 137
+    target 52
+    weight 445.4194251403588
+  ]
+  edge [
+    source 138
+    target 90
+    weight 1469.3481625366674
+  ]
+  edge [
+    source 138
+    target 23
+    weight 1522.533802195082
+  ]
+  edge [
+    source 138
+    target 106
+    weight 527.0906831293807
+  ]
+  edge [
+    source 138
+    target 49
+    weight 2451.8673516269846
+  ]
+  edge [
+    source 138
+    target 112
+    weight 81.0736714134107
+  ]
+  edge [
+    source 138
+    target 135
+    weight 1051.6281849639795
+  ]
+  edge [
+    source 138
+    target 123
+    weight 1446.3012439348063
+  ]
+  edge [
+    source 138
+    target 148
+    weight 1470.0073419290898
+  ]
+  edge [
+    source 138
+    target 75
+    weight 375.58857075420855
+  ]
+  edge [
+    source 138
+    target 30
+    weight 421.44891328203914
+  ]
+  edge [
+    source 138
+    target 55
+    weight 369.6881508471519
+  ]
+  edge [
+    source 138
+    target 25
+    weight 607.0164732100462
+  ]
+  edge [
+    source 138
+    target 164
+    weight 883.4033062885337
+  ]
+  edge [
+    source 138
+    target 52
+    weight 441.23827203759316
+  ]
+  edge [
+    source 138
+    target 111
+    weight 2314.918382579325
+  ]
+  edge [
+    source 138
+    target 139
+    weight 145.19282698260943
+  ]
+  edge [
+    source 138
+    target 72
+    weight 319.7948203030428
+  ]
+  edge [
+    source 138
+    target 161
+    weight 1634.4653656451176
+  ]
+  edge [
+    source 138
+    target 33
+    weight 814.3765595720236
+  ]
+  edge [
+    source 138
+    target 64
+    weight 1492.376958470699
+  ]
+  edge [
+    source 138
+    target 50
+    weight 1172.648111647272
+  ]
+  edge [
+    source 139
+    target 60
+    weight 603.3253915603431
+  ]
+  edge [
+    source 139
+    target 191
+    weight 968.3185113188042
+  ]
+  edge [
+    source 139
+    target 112
+    weight 711.3237788691931
+  ]
+  edge [
+    source 139
+    target 18
+    weight 47.900995301897844
+  ]
+  edge [
+    source 139
+    target 95
+    weight 2281.3251607596894
+  ]
+  edge [
+    source 139
+    target 138
+    weight 392.76065721022604
+  ]
+  edge [
+    source 139
+    target 50
+    weight 504.18494376832643
+  ]
+  edge [
+    source 139
+    target 161
+    weight 538.3784459154592
+  ]
+  edge [
+    source 139
+    target 7
+    weight 1689.1637299217623
+  ]
+  edge [
+    source 139
+    target 153
+    weight 2611.7622340918174
+  ]
+  edge [
+    source 139
+    target 182
+    weight 380.75051926765417
+  ]
+  edge [
+    source 139
+    target 198
+    weight 29.236797280312857
+  ]
+  edge [
+    source 139
+    target 163
+    weight 996.600931957526
+  ]
+  edge [
+    source 139
+    target 59
+    weight 584.7635189364992
+  ]
+  edge [
+    source 139
+    target 21
+    weight 254.7247079815121
+  ]
+  edge [
+    source 139
+    target 177
+    weight 296.8341043638068
+  ]
+  edge [
+    source 139
+    target 160
+    weight 559.9138208830724
+  ]
+  edge [
+    source 139
+    target 158
+    weight 919.9117598223186
+  ]
+  edge [
+    source 140
+    target 130
+    weight 473.58396446933284
+  ]
+  edge [
+    source 140
+    target 78
+    weight 1520.0403565853755
+  ]
+  edge [
+    source 140
+    target 22
+    weight 1130.2270775173324
+  ]
+  edge [
+    source 140
+    target 1
+    weight 174.3344785935318
+  ]
+  edge [
+    source 140
+    target 145
+    weight 39.465839142940894
+  ]
+  edge [
+    source 140
+    target 124
+    weight 532.4407269383792
+  ]
+  edge [
+    source 140
+    target 157
+    weight 2193.69418499372
+  ]
+  edge [
+    source 140
+    target 141
+    weight 316.96454763248033
+  ]
+  edge [
+    source 140
+    target 185
+    weight 1237.51907823015
+  ]
+  edge [
+    source 140
+    target 190
+    weight 1956.085474864284
+  ]
+  edge [
+    source 140
+    target 33
+    weight 347.7023333026599
+  ]
+  edge [
+    source 140
+    target 106
+    weight 534.589437542871
+  ]
+  edge [
+    source 140
+    target 54
+    weight 793.3651840294805
+  ]
+  edge [
+    source 141
+    target 90
+    weight 332.2795743777677
+  ]
+  edge [
+    source 141
+    target 120
+    weight 732.8525818329906
+  ]
+  edge [
+    source 141
+    target 16
+    weight 902.0168052320131
+  ]
+  edge [
+    source 141
+    target 118
+    weight 286.92194652554366
+  ]
+  edge [
+    source 141
+    target 29
+    weight 1789.7516654563237
+  ]
+  edge [
+    source 141
+    target 152
+    weight 156.57823921518815
+  ]
+  edge [
+    source 141
+    target 30
+    weight 265.83587252623363
+  ]
+  edge [
+    source 141
+    target 184
+    weight 1498.731469914148
+  ]
+  edge [
+    source 141
+    target 34
+    weight 683.0365175546659
+  ]
+  edge [
+    source 141
+    target 189
+    weight 973.2935291357733
+  ]
+  edge [
+    source 141
+    target 122
+    weight 972.6296223221242
+  ]
+  edge [
+    source 141
+    target 151
+    weight 502.1724061365162
+  ]
+  edge [
+    source 141
+    target 131
+    weight 1515.5577428831862
+  ]
+  edge [
+    source 142
+    target 126
+    weight 63.29711362331004
+  ]
+  edge [
+    source 142
+    target 124
+    weight 707.3813867613471
+  ]
+  edge [
+    source 142
+    target 109
+    weight 319.16489647004744
+  ]
+  edge [
+    source 142
+    target 75
+    weight 1475.9102356248954
+  ]
+  edge [
+    source 142
+    target 139
+    weight 340.0099880083079
+  ]
+  edge [
+    source 142
+    target 118
+    weight 1236.0272295593234
+  ]
+  edge [
+    source 142
+    target 42
+    weight 486.6841592928165
+  ]
+  edge [
+    source 142
+    target 141
+    weight 564.5592625944571
+  ]
+  edge [
+    source 142
+    target 97
+    weight 449.54636149572775
+  ]
+  edge [
+    source 142
+    target 167
+    weight 538.1664414412794
+  ]
+  edge [
+    source 142
+    target 199
+    weight 200.52605309340862
+  ]
+  edge [
+    source 142
+    target 95
+    weight 298.16204581839645
+  ]
+  edge [
+    source 142
+    target 153
+    weight 874.6798162830144
+  ]
+  edge [
+    source 142
+    target 8
+    weight 224.74831695298082
+  ]
+  edge [
+    source 142
+    target 174
+    weight 997.8122724262894
+  ]
+  edge [
+    source 142
+    target 151
+    weight 543.841063684812
+  ]
+  edge [
+    source 142
+    target 149
+    weight 844.2248852760994
+  ]
+  edge [
+    source 143
+    target 185
+    weight 870.6526578259644
+  ]
+  edge [
+    source 143
+    target 12
+    weight 323.8567019865847
+  ]
+  edge [
+    source 143
+    target 207
+    weight 417.1675698036929
+  ]
+  edge [
+    source 143
+    target 76
+    weight 340.09374324649207
+  ]
+  edge [
+    source 143
+    target 27
+    weight 1089.9926448664223
+  ]
+  edge [
+    source 143
+    target 18
+    weight 1095.1661362187858
+  ]
+  edge [
+    source 143
+    target 56
+    weight 591.6708913580344
+  ]
+  edge [
+    source 143
+    target 183
+    weight 183.20796598853389
+  ]
+  edge [
+    source 143
+    target 99
+    weight 493.1140437706397
+  ]
+  edge [
+    source 143
+    target 121
+    weight 668.2169065143166
+  ]
+  edge [
+    source 144
+    target 2
+    weight 374.87060280160443
+  ]
+  edge [
+    source 144
+    target 140
+    weight 14.41991804958188
+  ]
+  edge [
+    source 144
+    target 149
+    weight 507.14804261256995
+  ]
+  edge [
+    source 144
+    target 85
+    weight 130.72249475856725
+  ]
+  edge [
+    source 144
+    target 153
+    weight 354.8488856230555
+  ]
+  edge [
+    source 144
+    target 99
+    weight 1666.5424104924573
+  ]
+  edge [
+    source 144
+    target 135
+    weight 1416.0363635840677
+  ]
+  edge [
+    source 144
+    target 82
+    weight 416.9826936709948
+  ]
+  edge [
+    source 144
+    target 127
+    weight 686.2836310344123
+  ]
+  edge [
+    source 145
+    target 209
+    weight 1484.864406162758
+  ]
+  edge [
+    source 145
+    target 125
+    weight 52.3481654677281
+  ]
+  edge [
+    source 145
+    target 142
+    weight 2186.450503199432
+  ]
+  edge [
+    source 145
+    target 55
+    weight 1146.9837388107846
+  ]
+  edge [
+    source 145
+    target 45
+    weight 150.21566202057866
+  ]
+  edge [
+    source 145
+    target 61
+    weight 202.25390622566437
+  ]
+  edge [
+    source 145
+    target 79
+    weight 319.5720163008192
+  ]
+  edge [
+    source 145
+    target 73
+    weight 675.9486681085554
+  ]
+  edge [
+    source 145
+    target 109
+    weight 327.2886400341153
+  ]
+  edge [
+    source 145
+    target 97
+    weight 52.836677069387235
+  ]
+  edge [
+    source 145
+    target 137
+    weight 289.8591207920255
+  ]
+  edge [
+    source 145
+    target 147
+    weight 208.4674625009805
+  ]
+  edge [
+    source 145
+    target 156
+    weight 266.48441308400805
+  ]
+  edge [
+    source 145
+    target 34
+    weight 68.30848946772977
+  ]
+  edge [
+    source 145
+    target 9
+    weight 333.86377131473034
+  ]
+  edge [
+    source 145
+    target 82
+    weight 245.80658372492076
+  ]
+  edge [
+    source 146
+    target 7
+    weight 228.98249313923375
+  ]
+  edge [
+    source 146
+    target 196
+    weight 369.8136498727823
+  ]
+  edge [
+    source 146
+    target 56
+    weight 610.2253696809559
+  ]
+  edge [
+    source 146
+    target 10
+    weight 15.393717419340618
+  ]
+  edge [
+    source 146
+    target 190
+    weight 98.18006326506169
+  ]
+  edge [
+    source 146
+    target 55
+    weight 919.4067898470496
+  ]
+  edge [
+    source 146
+    target 173
+    weight 470.73397737926746
+  ]
+  edge [
+    source 146
+    target 163
+    weight 1061.0262987349367
+  ]
+  edge [
+    source 146
+    target 44
+    weight 278.94667583101204
+  ]
+  edge [
+    source 146
+    target 95
+    weight 1354.2712609100602
+  ]
+  edge [
+    source 146
+    target 54
+    weight 166.85760392941086
+  ]
+  edge [
+    source 146
+    target 149
+    weight 51.047193920197685
+  ]
+  edge [
+    source 146
+    target 153
+    weight 617.7015600942151
+  ]
+  edge [
+    source 146
+    target 127
+    weight 172.7512267944262
+  ]
+  edge [
+    source 146
+    target 71
+    weight 2040.1131153639494
+  ]
+  edge [
+    source 146
+    target 117
+    weight 373.2315194419017
+  ]
+  edge [
+    source 146
+    target 108
+    weight 1872.6273235656597
+  ]
+  edge [
+    source 147
+    target 16
+    weight 665.80755512904
+  ]
+  edge [
+    source 147
+    target 34
+    weight 827.4550632413756
+  ]
+  edge [
+    source 147
+    target 106
+    weight 901.1155912863431
+  ]
+  edge [
+    source 147
+    target 41
+    weight 750.5380546457013
+  ]
+  edge [
+    source 147
+    target 149
+    weight 1078.401060052587
+  ]
+  edge [
+    source 147
+    target 36
+    weight 531.1787914494349
+  ]
+  edge [
+    source 147
+    target 146
+    weight 956.1730692538883
+  ]
+  edge [
+    source 148
+    target 172
+    weight 90.52715588352174
+  ]
+  edge [
+    source 148
+    target 124
+    weight 221.8224668043316
+  ]
+  edge [
+    source 148
+    target 114
+    weight 904.749480809566
+  ]
+  edge [
+    source 148
+    target 69
+    weight 1145.7491793571653
+  ]
+  edge [
+    source 148
+    target 68
+    weight 1313.788033125179
+  ]
+  edge [
+    source 148
+    target 208
+    weight 957.9046400341867
+  ]
+  edge [
+    source 148
+    target 87
+    weight 1159.774873891223
+  ]
+  edge [
+    source 148
+    target 50
+    weight 319.5763793312634
+  ]
+  edge [
+    source 148
+    target 158
+    weight 988.0487230696274
+  ]
+  edge [
+    source 148
+    target 26
+    weight 422.26078013754295
+  ]
+  edge [
+    source 149
+    target 200
+    weight 1040.1475547219611
+  ]
+  edge [
+    source 149
+    target 175
+    weight 485.03476703900293
+  ]
+  edge [
+    source 149
+    target 157
+    weight 1385.2349457417379
+  ]
+  edge [
+    source 149
+    target 207
+    weight 290.846300475399
+  ]
+  edge [
+    source 149
+    target 33
+    weight 1238.3353211618203
+  ]
+  edge [
+    source 149
+    target 31
+    weight 138.73278486758133
+  ]
+  edge [
+    source 149
+    target 65
+    weight 1017.9982276795256
+  ]
+  edge [
+    source 149
+    target 209
+    weight 875.4900778227642
+  ]
+  edge [
+    source 149
+    target 35
+    weight 868.7275979222065
+  ]
+  edge [
+    source 149
+    target 58
+    weight 2324.3274112061727
+  ]
+  edge [
+    source 149
+    target 96
+    weight 2132.1133964487994
+  ]
+  edge [
+    source 149
+    target 64
+    weight 59.219103821935676
+  ]
+  edge [
+    source 149
+    target 133
+    weight 157.14403882933345
+  ]
+  edge [
+    source 149
+    target 62
+    weight 844.1606498712566
+  ]
+  edge [
+    source 149
+    target 196
+    weight 268.99270295681805
+  ]
+  edge [
+    source 149
+    target 16
+    weight 1181.5513381000733
+  ]
+  edge [
+    source 149
+    target 181
+    weight 1251.8162909605655
+  ]
+  edge [
+    source 150
+    target 166
+    weight 1069.788465420168
+  ]
+  edge [
+    source 150
+    target 167
+    weight 616.0512130682541
+  ]
+  edge [
+    source 150
+    target 55
+    weight 1501.6662503966836
+  ]
+  edge [
+    source 150
+    target 22
+    weight 1196.7561253899344
+  ]
+  edge [
+    source 150
+    target 78
+    weight 638.1460046885513
+  ]
+  edge [
+    source 150
+    target 91
+    weight 1560.1367033086876
+  ]
+  edge [
+    source 150
+    target 143
+    weight 676.3838977377297
+  ]
+  edge [
+    source 150
+    target 50
+    weight 42.573268354874656
+  ]
+  edge [
+    source 150
+    target 32
+    weight 717.3501907514053
+  ]
+  edge [
+    source 150
+    target 154
+    weight 1783.4463381928535
+  ]
+  edge [
+    source 150
+    target 13
+    weight 204.79570450437114
+  ]
+  edge [
+    source 150
+    target 48
+    weight 825.356279861126
+  ]
+  edge [
+    source 150
+    target 85
+    weight 81.39547190529623
+  ]
+  edge [
+    source 150
+    target 144
+    weight 310.8005663685278
+  ]
+  edge [
+    source 150
+    target 89
+    weight 1312.0563922586337
+  ]
+  edge [
+    source 150
+    target 161
+    weight 809.1059668567449
+  ]
+  edge [
+    source 150
+    target 202
+    weight 786.0817616059381
+  ]
+  edge [
+    source 150
+    target 69
+    weight 109.34406104098497
+  ]
+  edge [
+    source 151
+    target 66
+    weight 399.39572469386803
+  ]
+  edge [
+    source 151
+    target 207
+    weight 602.0803532743021
+  ]
+  edge [
+    source 151
+    target 41
+    weight 602.4703009812958
+  ]
+  edge [
+    source 151
+    target 142
+    weight 815.9525167038477
+  ]
+  edge [
+    source 151
+    target 178
+    weight 26.60682706761581
+  ]
+  edge [
+    source 151
+    target 30
+    weight 1911.9767452115116
+  ]
+  edge [
+    source 151
+    target 63
+    weight 1234.40385894059
+  ]
+  edge [
+    source 151
+    target 74
+    weight 2184.0418295575823
+  ]
+  edge [
+    source 151
+    target 113
+    weight 58.72274278140199
+  ]
+  edge [
+    source 151
+    target 191
+    weight 920.8067566425005
+  ]
+  edge [
+    source 151
+    target 56
+    weight 1338.7288067887707
+  ]
+  edge [
+    source 151
+    target 60
+    weight 982.43793552374
+  ]
+  edge [
+    source 152
+    target 135
+    weight 423.48921304670296
+  ]
+  edge [
+    source 152
+    target 52
+    weight 932.1703028280255
+  ]
+  edge [
+    source 152
+    target 104
+    weight 1559.0099891020193
+  ]
+  edge [
+    source 152
+    target 131
+    weight 236.11402198761232
+  ]
+  edge [
+    source 152
+    target 96
+    weight 1392.9663481815096
+  ]
+  edge [
+    source 152
+    target 49
+    weight 325.47488787354314
+  ]
+  edge [
+    source 152
+    target 9
+    weight 315.72030177008554
+  ]
+  edge [
+    source 152
+    target 170
+    weight 666.2651543876464
+  ]
+  edge [
+    source 152
+    target 183
+    weight 283.2823025757563
+  ]
+  edge [
+    source 152
+    target 101
+    weight 210.15297412355568
+  ]
+  edge [
+    source 152
+    target 27
+    weight 74.0028737116474
+  ]
+  edge [
+    source 152
+    target 193
+    weight 584.029962408892
+  ]
+  edge [
+    source 152
+    target 46
+    weight 1459.9943286238085
+  ]
+  edge [
+    source 152
+    target 133
+    weight 1312.318193943736
+  ]
+  edge [
+    source 152
+    target 132
+    weight 76.15755600465447
+  ]
+  edge [
+    source 152
+    target 153
+    weight 151.13684782918284
+  ]
+  edge [
+    source 152
+    target 113
+    weight 1072.920371153141
+  ]
+  edge [
+    source 152
+    target 156
+    weight 307.5960819770616
+  ]
+  edge [
+    source 152
+    target 137
+    weight 260.54704869884216
+  ]
+  edge [
+    source 153
+    target 18
+    weight 540.6138994391033
+  ]
+  edge [
+    source 153
+    target 87
+    weight 141.04161523540276
+  ]
+  edge [
+    source 153
+    target 199
+    weight 100.58535304095072
+  ]
+  edge [
+    source 153
+    target 122
+    weight 140.8949776794062
+  ]
+  edge [
+    source 153
+    target 139
+    weight 138.65052149064567
+  ]
+  edge [
+    source 153
+    target 37
+    weight 426.9097100059907
+  ]
+  edge [
+    source 153
+    target 58
+    weight 460.152063115907
+  ]
+  edge [
+    source 153
+    target 117
+    weight 988.0631196171921
+  ]
+  edge [
+    source 153
+    target 82
+    weight 1931.9718716816851
+  ]
+  edge [
+    source 153
+    target 1
+    weight 447.31925047888825
+  ]
+  edge [
+    source 153
+    target 154
+    weight 808.9113341531742
+  ]
+  edge [
+    source 153
+    target 25
+    weight 1178.8125071613476
+  ]
+  edge [
+    source 153
+    target 182
+    weight 889.2182410482088
+  ]
+  edge [
+    source 153
+    target 181
+    weight 1740.7822086010106
+  ]
+  edge [
+    source 153
+    target 179
+    weight 1241.9142391681896
+  ]
+  edge [
+    source 153
+    target 50
+    weight 1775.3137284721722
+  ]
+  edge [
+    source 153
+    target 159
+    weight 2763.565978777927
+  ]
+  edge [
+    source 153
+    target 28
+    weight 1856.022329115657
+  ]
+  edge [
+    source 153
+    target 97
+    weight 126.97371553112617
+  ]
+  edge [
+    source 154
+    target 158
+    weight 494.8154283821536
+  ]
+  edge [
+    source 154
+    target 65
+    weight 183.80659371363188
+  ]
+  edge [
+    source 154
+    target 136
+    weight 1269.970827175268
+  ]
+  edge [
+    source 154
+    target 57
+    weight 914.0868995954438
+  ]
+  edge [
+    source 154
+    target 182
+    weight 612.6078051073986
+  ]
+  edge [
+    source 154
+    target 96
+    weight 1050.2371343367877
+  ]
+  edge [
+    source 154
+    target 12
+    weight 210.1095380076486
+  ]
+  edge [
+    source 154
+    target 37
+    weight 663.979458750086
+  ]
+  edge [
+    source 154
+    target 179
+    weight 1122.5432548617048
+  ]
+  edge [
+    source 154
+    target 188
+    weight 1403.3013401999904
+  ]
+  edge [
+    source 154
+    target 191
+    weight 2502.6694678813556
+  ]
+  edge [
+    source 154
+    target 74
+    weight 44.384948607022395
+  ]
+  edge [
+    source 154
+    target 125
+    weight 227.63597652122485
+  ]
+  edge [
+    source 154
+    target 208
+    weight 404.3091576610197
+  ]
+  edge [
+    source 154
+    target 84
+    weight 1865.7598476246503
+  ]
+  edge [
+    source 154
+    target 172
+    weight 263.94994877289014
+  ]
+  edge [
+    source 154
+    target 95
+    weight 230.32137140958326
+  ]
+  edge [
+    source 154
+    target 2
+    weight 967.1765305960516
+  ]
+  edge [
+    source 155
+    target 188
+    weight 1046.8276071322916
+  ]
+  edge [
+    source 155
+    target 94
+    weight 242.1847679481299
+  ]
+  edge [
+    source 155
+    target 58
+    weight 58.7248520299404
+  ]
+  edge [
+    source 155
+    target 4
+    weight 434.41979459980814
+  ]
+  edge [
+    source 155
+    target 71
+    weight 1293.8437761395403
+  ]
+  edge [
+    source 155
+    target 107
+    weight 593.2806924892666
+  ]
+  edge [
+    source 155
+    target 133
+    weight 934.4681121925021
+  ]
+  edge [
+    source 155
+    target 54
+    weight 320.522464052637
+  ]
+  edge [
+    source 155
+    target 36
+    weight 540.803649895721
+  ]
+  edge [
+    source 156
+    target 126
+    weight 109.73188765156223
+  ]
+  edge [
+    source 156
+    target 135
+    weight 538.9664443897836
+  ]
+  edge [
+    source 156
+    target 203
+    weight 1125.8204913756156
+  ]
+  edge [
+    source 156
+    target 58
+    weight 228.55547567941517
+  ]
+  edge [
+    source 156
+    target 30
+    weight 103.76888561979146
+  ]
+  edge [
+    source 156
+    target 112
+    weight 798.2087328307024
+  ]
+  edge [
+    source 156
+    target 65
+    weight 16.055290429413844
+  ]
+  edge [
+    source 156
+    target 104
+    weight 8.355466153146182
+  ]
+  edge [
+    source 156
+    target 173
+    weight 578.0110797008198
+  ]
+  edge [
+    source 156
+    target 150
+    weight 1455.0632738533604
+  ]
+  edge [
+    source 156
+    target 54
+    weight 568.9322853876752
+  ]
+  edge [
+    source 156
+    target 96
+    weight 518.3118530223406
+  ]
+  edge [
+    source 157
+    target 76
+    weight 295.07554187618484
+  ]
+  edge [
+    source 157
+    target 110
+    weight 1252.6122262585536
+  ]
+  edge [
+    source 157
+    target 189
+    weight 495.3618878704002
+  ]
+  edge [
+    source 157
+    target 62
+    weight 773.48659889328
+  ]
+  edge [
+    source 157
+    target 126
+    weight 930.5811986834103
+  ]
+  edge [
+    source 157
+    target 149
+    weight 700.1031331030762
+  ]
+  edge [
+    source 157
+    target 129
+    weight 681.420912605524
+  ]
+  edge [
+    source 157
+    target 29
+    weight 880.3612187636033
+  ]
+  edge [
+    source 157
+    target 1
+    weight 161.99639815475143
+  ]
+  edge [
+    source 157
+    target 175
+    weight 141.77497283553888
+  ]
+  edge [
+    source 157
+    target 135
+    weight 659.2740083021122
+  ]
+  edge [
+    source 157
+    target 43
+    weight 718.6894854901466
+  ]
+  edge [
+    source 158
+    target 95
+    weight 2110.086719158463
+  ]
+  edge [
+    source 158
+    target 206
+    weight 814.0521795483901
+  ]
+  edge [
+    source 158
+    target 173
+    weight 279.92485169438027
+  ]
+  edge [
+    source 158
+    target 23
+    weight 342.7506520061764
+  ]
+  edge [
+    source 158
+    target 8
+    weight 345.36415959649844
+  ]
+  edge [
+    source 158
+    target 193
+    weight 1487.267483640321
+  ]
+  edge [
+    source 158
+    target 172
+    weight 166.1511073948791
+  ]
+  edge [
+    source 158
+    target 42
+    weight 252.45549823775661
+  ]
+  edge [
+    source 158
+    target 142
+    weight 453.25048863254506
+  ]
+  edge [
+    source 158
+    target 92
+    weight 1114.2159412569408
+  ]
+  edge [
+    source 159
+    target 34
+    weight 492.9820552618548
+  ]
+  edge [
+    source 159
+    target 8
+    weight 359.49802588814873
+  ]
+  edge [
+    source 159
+    target 155
+    weight 1469.9778355432782
+  ]
+  edge [
+    source 159
+    target 167
+    weight 1766.6836179638676
+  ]
+  edge [
+    source 159
+    target 168
+    weight 1390.740934901578
+  ]
+  edge [
+    source 159
+    target 43
+    weight 954.7528730822919
+  ]
+  edge [
+    source 159
+    target 183
+    weight 393.2122774297339
+  ]
+  edge [
+    source 159
+    target 73
+    weight 32.95768248471168
+  ]
+  edge [
+    source 159
+    target 119
+    weight 876.7697034915968
+  ]
+  edge [
+    source 160
+    target 174
+    weight 239.32921081883651
+  ]
+  edge [
+    source 160
+    target 55
+    weight 808.0302447558812
+  ]
+  edge [
+    source 160
+    target 87
+    weight 1879.1769878931625
+  ]
+  edge [
+    source 160
+    target 151
+    weight 228.5517221596068
+  ]
+  edge [
+    source 160
+    target 71
+    weight 1351.6956133319811
+  ]
+  edge [
+    source 160
+    target 137
+    weight 293.13234679297807
+  ]
+  edge [
+    source 160
+    target 84
+    weight 1374.8432229439725
+  ]
+  edge [
+    source 160
+    target 197
+    weight 192.03988719038125
+  ]
+  edge [
+    source 160
+    target 210
+    weight 975.3534059923927
+  ]
+  edge [
+    source 160
+    target 69
+    weight 284.728570104423
+  ]
+  edge [
+    source 160
+    target 43
+    weight 526.624214110832
+  ]
+  edge [
+    source 160
+    target 72
+    weight 1618.810735672377
+  ]
+  edge [
+    source 160
+    target 106
+    weight 106.97240312248161
+  ]
+  edge [
+    source 160
+    target 194
+    weight 15.840089518774562
+  ]
+  edge [
+    source 160
+    target 113
+    weight 1721.6854830536079
+  ]
+  edge [
+    source 160
+    target 49
+    weight 1569.1839964791184
+  ]
+  edge [
+    source 160
+    target 98
+    weight 692.5838913113092
+  ]
+  edge [
+    source 160
+    target 203
+    weight 2054.1943171623307
+  ]
+  edge [
+    source 160
+    target 40
+    weight 54.35501335067764
+  ]
+  edge [
+    source 161
+    target 98
+    weight 1351.6633200174072
+  ]
+  edge [
+    source 161
+    target 134
+    weight 1480.762456546646
+  ]
+  edge [
+    source 161
+    target 107
+    weight 896.5553256083011
+  ]
+  edge [
+    source 161
+    target 57
+    weight 327.07656596600066
+  ]
+  edge [
+    source 161
+    target 45
+    weight 16.211908164210215
+  ]
+  edge [
+    source 161
+    target 123
+    weight 1579.8436362222897
+  ]
+  edge [
+    source 161
+    target 162
+    weight 1404.0932795346012
+  ]
+  edge [
+    source 161
+    target 185
+    weight 352.2331723520865
+  ]
+  edge [
+    source 161
+    target 200
+    weight 506.2452872773548
+  ]
+  edge [
+    source 161
+    target 143
+    weight 10.929391516085175
+  ]
+  edge [
+    source 161
+    target 74
+    weight 352.8814618744594
+  ]
+  edge [
+    source 161
+    target 53
+    weight 265.7221906330769
+  ]
+  edge [
+    source 161
+    target 181
+    weight 1075.943021575786
+  ]
+  edge [
+    source 161
+    target 54
+    weight 1818.2723031152898
+  ]
+  edge [
+    source 161
+    target 34
+    weight 1364.9440591427895
+  ]
+  edge [
+    source 161
+    target 65
+    weight 752.7915946814237
+  ]
+  edge [
+    source 161
+    target 209
+    weight 1109.3329522825534
+  ]
+  edge [
+    source 162
+    target 116
+    weight 1256.030183792879
+  ]
+  edge [
+    source 162
+    target 152
+    weight 2290.7329137949346
+  ]
+  edge [
+    source 162
+    target 76
+    weight 968.3015762498876
+  ]
+  edge [
+    source 162
+    target 92
+    weight 67.03505288799627
+  ]
+  edge [
+    source 162
+    target 19
+    weight 1361.7783965877875
+  ]
+  edge [
+    source 162
+    target 200
+    weight 347.53955571440343
+  ]
+  edge [
+    source 162
+    target 126
+    weight 838.8784619986534
+  ]
+  edge [
+    source 162
+    target 45
+    weight 2141.282854191334
+  ]
+  edge [
+    source 162
+    target 109
+    weight 549.1430061116123
+  ]
+  edge [
+    source 162
+    target 192
+    weight 300.38924320338543
+  ]
+  edge [
+    source 162
+    target 186
+    weight 826.7498551291027
+  ]
+  edge [
+    source 162
+    target 125
+    weight 512.8706003871671
+  ]
+  edge [
+    source 162
+    target 133
+    weight 1272.9148474140418
+  ]
+  edge [
+    source 163
+    target 26
+    weight 1815.3881929678766
+  ]
+  edge [
+    source 163
+    target 19
+    weight 253.9050074115283
+  ]
+  edge [
+    source 163
+    target 150
+    weight 510.43766167130565
+  ]
+  edge [
+    source 163
+    target 79
+    weight 1211.365638716061
+  ]
+  edge [
+    source 163
+    target 185
+    weight 679.778632055517
+  ]
+  edge [
+    source 163
+    target 179
+    weight 991.5993962483549
+  ]
+  edge [
+    source 163
+    target 56
+    weight 1902.8652719732604
+  ]
+  edge [
+    source 163
+    target 101
+    weight 663.3554353816634
+  ]
+  edge [
+    source 163
+    target 191
+    weight 1229.0407766193814
+  ]
+  edge [
+    source 163
+    target 24
+    weight 2079.086100055011
+  ]
+  edge [
+    source 163
+    target 93
+    weight 1232.170122736018
+  ]
+  edge [
+    source 163
+    target 192
+    weight 1549.017015324724
+  ]
+  edge [
+    source 163
+    target 181
+    weight 130.71986461616513
+  ]
+  edge [
+    source 163
+    target 144
+    weight 1389.599559560539
+  ]
+  edge [
+    source 163
+    target 130
+    weight 279.18984112445753
+  ]
+  edge [
+    source 163
+    target 165
+    weight 1142.743323286934
+  ]
+  edge [
+    source 163
+    target 175
+    weight 787.1998027214037
+  ]
+  edge [
+    source 163
+    target 143
+    weight 112.25813431522948
+  ]
+  edge [
+    source 164
+    target 151
+    weight 1470.2162711090225
+  ]
+  edge [
+    source 164
+    target 133
+    weight 1472.8668857817215
+  ]
+  edge [
+    source 164
+    target 89
+    weight 2420.2309695215786
+  ]
+  edge [
+    source 164
+    target 46
+    weight 644.2587774441345
+  ]
+  edge [
+    source 164
+    target 118
+    weight 713.6004581427856
+  ]
+  edge [
+    source 164
+    target 189
+    weight 999.7080151493343
+  ]
+  edge [
+    source 164
+    target 209
+    weight 1656.8217539294733
+  ]
+  edge [
+    source 164
+    target 98
+    weight 1423.2867072280546
+  ]
+  edge [
+    source 164
+    target 162
+    weight 741.8179764496479
+  ]
+  edge [
+    source 164
+    target 48
+    weight 3299.516793868593
+  ]
+  edge [
+    source 164
+    target 26
+    weight 44.813468765250704
+  ]
+  edge [
+    source 164
+    target 199
+    weight 490.52160719556446
+  ]
+  edge [
+    source 164
+    target 13
+    weight 728.4961719066692
+  ]
+  edge [
+    source 164
+    target 88
+    weight 86.58283383037562
+  ]
+  edge [
+    source 164
+    target 195
+    weight 2894.2640252505266
+  ]
+  edge [
+    source 164
+    target 197
+    weight 1412.6048973916793
+  ]
+  edge [
+    source 165
+    target 148
+    weight 1710.9505708796587
+  ]
+  edge [
+    source 165
+    target 95
+    weight 1474.264512345176
+  ]
+  edge [
+    source 165
+    target 133
+    weight 569.6447272088271
+  ]
+  edge [
+    source 165
+    target 184
+    weight 89.94276278661455
+  ]
+  edge [
+    source 165
+    target 183
+    weight 450.63575067106956
+  ]
+  edge [
+    source 165
+    target 50
+    weight 1163.6214902232866
+  ]
+  edge [
+    source 165
+    target 45
+    weight 309.69457947397234
+  ]
+  edge [
+    source 165
+    target 4
+    weight 1431.5976637987162
+  ]
+  edge [
+    source 165
+    target 55
+    weight 2045.8214154270613
+  ]
+  edge [
+    source 165
+    target 124
+    weight 597.3868629884196
+  ]
+  edge [
+    source 165
+    target 102
+    weight 266.61945014266746
+  ]
+  edge [
+    source 166
+    target 198
+    weight 346.37106459714573
+  ]
+  edge [
+    source 166
+    target 151
+    weight 709.9764362756829
+  ]
+  edge [
+    source 166
+    target 29
+    weight 290.7797966792141
+  ]
+  edge [
+    source 166
+    target 42
+    weight 405.48276974935936
+  ]
+  edge [
+    source 166
+    target 164
+    weight 1487.9177247537166
+  ]
+  edge [
+    source 166
+    target 161
+    weight 1593.395289382457
+  ]
+  edge [
+    source 166
+    target 98
+    weight 101.72982241223428
+  ]
+  edge [
+    source 166
+    target 108
+    weight 3171.813749479226
+  ]
+  edge [
+    source 166
+    target 120
+    weight 171.59421715424244
+  ]
+  edge [
+    source 166
+    target 150
+    weight 2708.9206075369334
+  ]
+  edge [
+    source 166
+    target 28
+    weight 975.5109386682434
+  ]
+  edge [
+    source 166
+    target 178
+    weight 1473.470542450844
+  ]
+  edge [
+    source 166
+    target 148
+    weight 1903.9194844009348
+  ]
+  edge [
+    source 167
+    target 141
+    weight 392.5666580929853
+  ]
+  edge [
+    source 167
+    target 152
+    weight 267.25171869701506
+  ]
+  edge [
+    source 167
+    target 60
+    weight 796.3676017754611
+  ]
+  edge [
+    source 167
+    target 84
+    weight 1199.2359528659408
+  ]
+  edge [
+    source 167
+    target 209
+    weight 992.7797639909699
+  ]
+  edge [
+    source 167
+    target 93
+    weight 235.47790053647148
+  ]
+  edge [
+    source 167
+    target 18
+    weight 1700.0241924609165
+  ]
+  edge [
+    source 167
+    target 191
+    weight 1324.0824294049291
+  ]
+  edge [
+    source 167
+    target 97
+    weight 71.99920281657319
+  ]
+  edge [
+    source 167
+    target 80
+    weight 893.2553138972166
+  ]
+  edge [
+    source 167
+    target 58
+    weight 464.1022919037039
+  ]
+  edge [
+    source 167
+    target 179
+    weight 1540.5178840437059
+  ]
+  edge [
+    source 167
+    target 163
+    weight 1129.9329396761673
+  ]
+  edge [
+    source 167
+    target 205
+    weight 1584.3871999980067
+  ]
+  edge [
+    source 167
+    target 20
+    weight 1696.314184269531
+  ]
+  edge [
+    source 168
+    target 121
+    weight 1058.0195128323317
+  ]
+  edge [
+    source 168
+    target 115
+    weight 773.8744534519976
+  ]
+  edge [
+    source 168
+    target 61
+    weight 274.3569032438939
+  ]
+  edge [
+    source 168
+    target 163
+    weight 519.3542709791118
+  ]
+  edge [
+    source 168
+    target 58
+    weight 2365.0521508912752
+  ]
+  edge [
+    source 168
+    target 64
+    weight 139.6447924276213
+  ]
+  edge [
+    source 168
+    target 78
+    weight 1521.4743219088575
+  ]
+  edge [
+    source 168
+    target 175
+    weight 649.2405602270468
+  ]
+  edge [
+    source 168
+    target 65
+    weight 631.1179856804604
+  ]
+  edge [
+    source 168
+    target 75
+    weight 512.6849005197015
+  ]
+  edge [
+    source 168
+    target 196
+    weight 874.681060508634
+  ]
+  edge [
+    source 168
+    target 164
+    weight 92.52426010986518
+  ]
+  edge [
+    source 168
+    target 55
+    weight 598.2692097726552
+  ]
+  edge [
+    source 168
+    target 147
+    weight 457.6482051614047
+  ]
+  edge [
+    source 168
+    target 79
+    weight 107.41092645466307
+  ]
+  edge [
+    source 168
+    target 31
+    weight 1419.906367118501
+  ]
+  edge [
+    source 169
+    target 78
+    weight 213.17457966207306
+  ]
+  edge [
+    source 169
+    target 131
+    weight 1704.7002815171786
+  ]
+  edge [
+    source 169
+    target 194
+    weight 1051.3685547856553
+  ]
+  edge [
+    source 169
+    target 190
+    weight 22.267963887245912
+  ]
+  edge [
+    source 169
+    target 16
+    weight 240.62137907091144
+  ]
+  edge [
+    source 169
+    target 62
+    weight 699.3335996227413
+  ]
+  edge [
+    source 169
+    target 77
+    weight 334.97400701272767
+  ]
+  edge [
+    source 169
+    target 116
+    weight 293.26238344897075
+  ]
+  edge [
+    source 169
+    target 71
+    weight 1270.1254928556966
+  ]
+  edge [
+    source 169
+    target 102
+    weight 287.1892053010377
+  ]
+  edge [
+    source 169
+    target 126
+    weight 488.2642634381368
+  ]
+  edge [
+    source 169
+    target 202
+    weight 605.128101102674
+  ]
+  edge [
+    source 169
+    target 74
+    weight 1235.5009546256465
+  ]
+  edge [
+    source 169
+    target 133
+    weight 401.9282302166619
+  ]
+  edge [
+    source 170
+    target 132
+    weight 336.3363511999791
+  ]
+  edge [
+    source 170
+    target 175
+    weight 2464.8538638874456
+  ]
+  edge [
+    source 170
+    target 93
+    weight 2080.5990413006625
+  ]
+  edge [
+    source 170
+    target 167
+    weight 3669.377997241465
+  ]
+  edge [
+    source 170
+    target 120
+    weight 1058.0039250613004
+  ]
+  edge [
+    source 170
+    target 51
+    weight 1327.3503459648896
+  ]
+  edge [
+    source 170
+    target 174
+    weight 21.917011486022403
+  ]
+  edge [
+    source 170
+    target 82
+    weight 236.55939070451043
+  ]
+  edge [
+    source 170
+    target 106
+    weight 1487.1677127160012
+  ]
+  edge [
+    source 170
+    target 29
+    weight 287.3504492240459
+  ]
+  edge [
+    source 170
+    target 20
+    weight 881.8684574920658
+  ]
+  edge [
+    source 170
+    target 33
+    weight 25.17834625953205
+  ]
+  edge [
+    source 170
+    target 89
+    weight 2127.677793743504
+  ]
+  edge [
+    source 170
+    target 28
+    weight 505.629572341221
+  ]
+  edge [
+    source 170
+    target 139
+    weight 856.5411070714889
+  ]
+  edge [
+    source 171
+    target 51
+    weight 179.35038773437935
+  ]
+  edge [
+    source 171
+    target 125
+    weight 787.6758200353191
+  ]
+  edge [
+    source 171
+    target 160
+    weight 278.62406460423165
+  ]
+  edge [
+    source 171
+    target 132
+    weight 560.2280281096425
+  ]
+  edge [
+    source 171
+    target 97
+    weight 235.9980222723934
+  ]
+  edge [
+    source 171
+    target 109
+    weight 2460.9789385733766
+  ]
+  edge [
+    source 171
+    target 188
+    weight 1204.729342883696
+  ]
+  edge [
+    source 171
+    target 140
+    weight 1830.1952993237703
+  ]
+  edge [
+    source 171
+    target 62
+    weight 1260.6241102518331
+  ]
+  edge [
+    source 172
+    target 31
+    weight 581.546457879456
+  ]
+  edge [
+    source 172
+    target 150
+    weight 286.08151485997706
+  ]
+  edge [
+    source 172
+    target 127
+    weight 96.2979867437534
+  ]
+  edge [
+    source 172
+    target 56
+    weight 474.09960351346496
+  ]
+  edge [
+    source 172
+    target 28
+    weight 872.5125396332676
+  ]
+  edge [
+    source 172
+    target 187
+    weight 2242.481620278829
+  ]
+  edge [
+    source 172
+    target 205
+    weight 1168.8355666684508
+  ]
+  edge [
+    source 172
+    target 72
+    weight 403.0935371767189
+  ]
+  edge [
+    source 172
+    target 66
+    weight 16.886772606277702
+  ]
+  edge [
+    source 172
+    target 208
+    weight 628.8652509116312
+  ]
+  edge [
+    source 172
+    target 142
+    weight 338.46531888703805
+  ]
+  edge [
+    source 172
+    target 111
+    weight 1683.8013379658357
+  ]
+  edge [
+    source 173
+    target 82
+    weight 959.9365792766473
+  ]
+  edge [
+    source 173
+    target 24
+    weight 1115.0216051045008
+  ]
+  edge [
+    source 173
+    target 132
+    weight 2574.8781759680946
+  ]
+  edge [
+    source 173
+    target 152
+    weight 813.6146543704964
+  ]
+  edge [
+    source 173
+    target 117
+    weight 1000.0873574092502
+  ]
+  edge [
+    source 173
+    target 111
+    weight 1073.5343787080003
+  ]
+  edge [
+    source 173
+    target 193
+    weight 2101.5617828374834
+  ]
+  edge [
+    source 173
+    target 94
+    weight 680.9349907219989
+  ]
+  edge [
+    source 173
+    target 124
+    weight 886.0287052463964
+  ]
+  edge [
+    source 173
+    target 100
+    weight 289.82125936129097
+  ]
+  edge [
+    source 173
+    target 166
+    weight 56.47230898799555
+  ]
+  edge [
+    source 173
+    target 144
+    weight 1114.935027290858
+  ]
+  edge [
+    source 173
+    target 0
+    weight 261.4479469433145
+  ]
+  edge [
+    source 173
+    target 175
+    weight 1591.065935807657
+  ]
+  edge [
+    source 173
+    target 61
+    weight 594.675352146334
+  ]
+  edge [
+    source 173
+    target 69
+    weight 183.78462808566587
+  ]
+  edge [
+    source 173
+    target 13
+    weight 421.1948191624522
+  ]
+  edge [
+    source 173
+    target 40
+    weight 1187.678086552792
+  ]
+  edge [
+    source 174
+    target 78
+    weight 1056.3608634211862
+  ]
+  edge [
+    source 174
+    target 5
+    weight 156.86078399888237
+  ]
+  edge [
+    source 174
+    target 165
+    weight 908.4562843243684
+  ]
+  edge [
+    source 174
+    target 150
+    weight 1457.7818349980087
+  ]
+  edge [
+    source 174
+    target 34
+    weight 39.75995735169263
+  ]
+  edge [
+    source 174
+    target 75
+    weight 63.500895643182055
+  ]
+  edge [
+    source 174
+    target 98
+    weight 1397.1104865616821
+  ]
+  edge [
+    source 174
+    target 167
+    weight 1329.8365702206813
+  ]
+  edge [
+    source 174
+    target 201
+    weight 1007.5954567528261
+  ]
+  edge [
+    source 174
+    target 194
+    weight 72.96226876236953
+  ]
+  edge [
+    source 174
+    target 45
+    weight 239.72360859376232
+  ]
+  edge [
+    source 174
+    target 74
+    weight 892.7949067756309
+  ]
+  edge [
+    source 174
+    target 117
+    weight 364.6307817313161
+  ]
+  edge [
+    source 175
+    target 91
+    weight 933.2923987919204
+  ]
+  edge [
+    source 175
+    target 117
+    weight 494.9206264195226
+  ]
+  edge [
+    source 175
+    target 22
+    weight 1057.1774444455461
+  ]
+  edge [
+    source 175
+    target 58
+    weight 1100.1136642258614
+  ]
+  edge [
+    source 175
+    target 87
+    weight 240.77929621027894
+  ]
+  edge [
+    source 175
+    target 79
+    weight 477.52008617955926
+  ]
+  edge [
+    source 175
+    target 111
+    weight 81.42420051620033
+  ]
+  edge [
+    source 175
+    target 207
+    weight 1760.0270165318648
+  ]
+  edge [
+    source 175
+    target 160
+    weight 341.67818756897145
+  ]
+  edge [
+    source 175
+    target 143
+    weight 568.4399757108378
+  ]
+  edge [
+    source 175
+    target 149
+    weight 752.1066021395885
+  ]
+  edge [
+    source 175
+    target 176
+    weight 836.9829929125419
+  ]
+  edge [
+    source 175
+    target 2
+    weight 60.19111611040228
+  ]
+  edge [
+    source 175
+    target 182
+    weight 2459.9075109518444
+  ]
+  edge [
+    source 175
+    target 154
+    weight 1493.0757793059483
+  ]
+  edge [
+    source 176
+    target 144
+    weight 1618.2600516781768
+  ]
+  edge [
+    source 176
+    target 50
+    weight 1622.7116638207294
+  ]
+  edge [
+    source 176
+    target 177
+    weight 660.0945905546793
+  ]
+  edge [
+    source 176
+    target 46
+    weight 139.8849723392112
+  ]
+  edge [
+    source 176
+    target 130
+    weight 768.591454773373
+  ]
+  edge [
+    source 176
+    target 142
+    weight 2007.1152239074584
+  ]
+  edge [
+    source 176
+    target 79
+    weight 7.846098703182562
+  ]
+  edge [
+    source 176
+    target 47
+    weight 926.4577591832913
+  ]
+  edge [
+    source 176
+    target 193
+    weight 569.6569045768676
+  ]
+  edge [
+    source 176
+    target 95
+    weight 996.1911332282324
+  ]
+  edge [
+    source 176
+    target 195
+    weight 614.362906282514
+  ]
+  edge [
+    source 177
+    target 94
+    weight 1308.7714936712573
+  ]
+  edge [
+    source 177
+    target 173
+    weight 1073.1881759323107
+  ]
+  edge [
+    source 177
+    target 146
+    weight 700.6158808280811
+  ]
+  edge [
+    source 177
+    target 77
+    weight 1755.6507417497594
+  ]
+  edge [
+    source 177
+    target 105
+    weight 672.541119369719
+  ]
+  edge [
+    source 177
+    target 183
+    weight 2652.6185174204
+  ]
+  edge [
+    source 177
+    target 39
+    weight 1037.5593229558144
+  ]
+  edge [
+    source 177
+    target 51
+    weight 1148.2794990413329
+  ]
+  edge [
+    source 177
+    target 4
+    weight 1059.4008437302446
+  ]
+  edge [
+    source 177
+    target 144
+    weight 1016.3911922532005
+  ]
+  edge [
+    source 177
+    target 29
+    weight 1299.077911734681
+  ]
+  edge [
+    source 177
+    target 65
+    weight 1655.1906977057538
+  ]
+  edge [
+    source 177
+    target 209
+    weight 540.7160505934523
+  ]
+  edge [
+    source 177
+    target 187
+    weight 190.14066957846495
+  ]
+  edge [
+    source 177
+    target 23
+    weight 512.9417239715451
+  ]
+  edge [
+    source 178
+    target 143
+    weight 695.418832065302
+  ]
+  edge [
+    source 178
+    target 128
+    weight 92.06145369483667
+  ]
+  edge [
+    source 178
+    target 2
+    weight 436.5166539419945
+  ]
+  edge [
+    source 178
+    target 134
+    weight 182.42183045434246
+  ]
+  edge [
+    source 178
+    target 30
+    weight 636.2538318026212
+  ]
+  edge [
+    source 178
+    target 150
+    weight 24.21977489019075
+  ]
+  edge [
+    source 178
+    target 19
+    weight 220.03289019169847
+  ]
+  edge [
+    source 178
+    target 76
+    weight 230.74794394339466
+  ]
+  edge [
+    source 178
+    target 68
+    weight 326.3614146150791
+  ]
+  edge [
+    source 178
+    target 99
+    weight 58.785476943063124
+  ]
+  edge [
+    source 178
+    target 0
+    weight 713.2721034257132
+  ]
+  edge [
+    source 178
+    target 167
+    weight 971.0663208847715
+  ]
+  edge [
+    source 178
+    target 162
+    weight 452.01967267196085
+  ]
+  edge [
+    source 179
+    target 75
+    weight 647.2475168071494
+  ]
+  edge [
+    source 179
+    target 36
+    weight 388.47080613090446
+  ]
+  edge [
+    source 179
+    target 197
+    weight 258.22887834598885
+  ]
+  edge [
+    source 179
+    target 180
+    weight 624.0766498359676
+  ]
+  edge [
+    source 179
+    target 163
+    weight 1959.1268471200988
+  ]
+  edge [
+    source 179
+    target 112
+    weight 315.9616608974889
+  ]
+  edge [
+    source 179
+    target 134
+    weight 274.5210029344904
+  ]
+  edge [
+    source 179
+    target 198
+    weight 2135.5059565731635
+  ]
+  edge [
+    source 179
+    target 120
+    weight 569.415268671233
+  ]
+  edge [
+    source 179
+    target 70
+    weight 71.52023598024988
+  ]
+  edge [
+    source 179
+    target 53
+    weight 1066.9054190411025
+  ]
+  edge [
+    source 179
+    target 161
+    weight 127.91695997802208
+  ]
+  edge [
+    source 179
+    target 138
+    weight 2254.5526596037007
+  ]
+  edge [
+    source 179
+    target 177
+    weight 1218.5773070430162
+  ]
+  edge [
+    source 179
+    target 178
+    weight 744.4685792102149
+  ]
+  edge [
+    source 180
+    target 155
+    weight 287.9382007797448
+  ]
+  edge [
+    source 180
+    target 200
+    weight 133.3263491323111
+  ]
+  edge [
+    source 180
+    target 107
+    weight 13.030371559640557
+  ]
+  edge [
+    source 180
+    target 91
+    weight 282.9976384687049
+  ]
+  edge [
+    source 180
+    target 153
+    weight 393.5459878708267
+  ]
+  edge [
+    source 180
+    target 59
+    weight 222.6026561123074
+  ]
+  edge [
+    source 180
+    target 74
+    weight 1386.6757844290014
+  ]
+  edge [
+    source 180
+    target 173
+    weight 135.54884732424296
+  ]
+  edge [
+    source 180
+    target 166
+    weight 1536.8237017065314
+  ]
+  edge [
+    source 180
+    target 185
+    weight 229.11308711147933
+  ]
+  edge [
+    source 180
+    target 14
+    weight 179.55192711094827
+  ]
+  edge [
+    source 180
+    target 127
+    weight 864.840857122352
+  ]
+  edge [
+    source 181
+    target 152
+    weight 985.3396119296372
+  ]
+  edge [
+    source 181
+    target 73
+    weight 741.2482966818171
+  ]
+  edge [
+    source 181
+    target 179
+    weight 734.9027374395909
+  ]
+  edge [
+    source 181
+    target 180
+    weight 1577.3663406189785
+  ]
+  edge [
+    source 181
+    target 2
+    weight 412.0850383397519
+  ]
+  edge [
+    source 181
+    target 210
+    weight 871.8990411080317
+  ]
+  edge [
+    source 181
+    target 61
+    weight 888.9467112565984
+  ]
+  edge [
+    source 181
+    target 211
+    weight 106.57376365928528
+  ]
+  edge [
+    source 181
+    target 209
+    weight 171.02669231746324
+  ]
+  edge [
+    source 181
+    target 148
+    weight 3040.9697699176113
+  ]
+  edge [
+    source 181
+    target 31
+    weight 516.7530159096576
+  ]
+  edge [
+    source 181
+    target 135
+    weight 957.213971842074
+  ]
+  edge [
+    source 181
+    target 14
+    weight 632.3167457845727
+  ]
+  edge [
+    source 182
+    target 12
+    weight 778.550766565638
+  ]
+  edge [
+    source 182
+    target 8
+    weight 464.2518241108979
+  ]
+  edge [
+    source 182
+    target 156
+    weight 876.6037300610201
+  ]
+  edge [
+    source 182
+    target 104
+    weight 139.03655573650659
+  ]
+  edge [
+    source 182
+    target 94
+    weight 609.2640025382937
+  ]
+  edge [
+    source 182
+    target 19
+    weight 323.5571807714457
+  ]
+  edge [
+    source 182
+    target 103
+    weight 1136.8741482376913
+  ]
+  edge [
+    source 182
+    target 23
+    weight 90.65547041360583
+  ]
+  edge [
+    source 182
+    target 25
+    weight 2240.0078467307026
+  ]
+  edge [
+    source 182
+    target 204
+    weight 265.26871855188847
+  ]
+  edge [
+    source 182
+    target 206
+    weight 403.34816989860695
+  ]
+  edge [
+    source 182
+    target 109
+    weight 1013.4123154160322
+  ]
+  edge [
+    source 182
+    target 165
+    weight 631.3930367221463
+  ]
+  edge [
+    source 182
+    target 164
+    weight 1511.6063902670073
+  ]
+  edge [
+    source 182
+    target 102
+    weight 361.8570796095314
+  ]
+  edge [
+    source 182
+    target 72
+    weight 854.926933139549
+  ]
+  edge [
+    source 183
+    target 116
+    weight 322.72108595636126
+  ]
+  edge [
+    source 183
+    target 210
+    weight 918.144554657802
+  ]
+  edge [
+    source 183
+    target 81
+    weight 24.503966807079294
+  ]
+  edge [
+    source 183
+    target 149
+    weight 988.4973088360973
+  ]
+  edge [
+    source 183
+    target 157
+    weight 453.58834299694814
+  ]
+  edge [
+    source 183
+    target 171
+    weight 1329.9907402886793
+  ]
+  edge [
+    source 183
+    target 73
+    weight 773.9770096272654
+  ]
+  edge [
+    source 183
+    target 162
+    weight 239.68447818859255
+  ]
+  edge [
+    source 183
+    target 211
+    weight 835.3116730051578
+  ]
+  edge [
+    source 183
+    target 200
+    weight 891.5670417876083
+  ]
+  edge [
+    source 184
+    target 141
+    weight 697.143501684107
+  ]
+  edge [
+    source 184
+    target 10
+    weight 1373.3019610472757
+  ]
+  edge [
+    source 184
+    target 57
+    weight 390.54374863381304
+  ]
+  edge [
+    source 184
+    target 199
+    weight 76.64195886595166
+  ]
+  edge [
+    source 184
+    target 62
+    weight 435.23978482331324
+  ]
+  edge [
+    source 184
+    target 155
+    weight 79.524760759409
+  ]
+  edge [
+    source 184
+    target 154
+    weight 371.93784846534453
+  ]
+  edge [
+    source 184
+    target 152
+    weight 281.75339800157917
+  ]
+  edge [
+    source 184
+    target 89
+    weight 332.0244478130328
+  ]
+  edge [
+    source 184
+    target 92
+    weight 1439.4525259273387
+  ]
+  edge [
+    source 184
+    target 39
+    weight 1231.9499199775591
+  ]
+  edge [
+    source 184
+    target 52
+    weight 331.6458339866999
+  ]
+  edge [
+    source 184
+    target 120
+    weight 719.5828435690528
+  ]
+  edge [
+    source 184
+    target 190
+    weight 537.4318466043737
+  ]
+  edge [
+    source 184
+    target 126
+    weight 657.9441772790589
+  ]
+  edge [
+    source 185
+    target 70
+    weight 431.03318730720406
+  ]
+  edge [
+    source 185
+    target 68
+    weight 1473.813799284104
+  ]
+  edge [
+    source 185
+    target 205
+    weight 1000.3867117235629
+  ]
+  edge [
+    source 185
+    target 17
+    weight 79.15544878859347
+  ]
+  edge [
+    source 185
+    target 120
+    weight 1094.6272427645808
+  ]
+  edge [
+    source 185
+    target 136
+    weight 653.8244163762315
+  ]
+  edge [
+    source 185
+    target 134
+    weight 1519.8558583570684
+  ]
+  edge [
+    source 185
+    target 55
+    weight 612.962059324152
+  ]
+  edge [
+    source 185
+    target 91
+    weight 719.6487645960166
+  ]
+  edge [
+    source 185
+    target 202
+    weight 861.9506406834674
+  ]
+  edge [
+    source 185
+    target 156
+    weight 822.0437423911455
+  ]
+  edge [
+    source 185
+    target 88
+    weight 46.473445138689385
+  ]
+  edge [
+    source 186
+    target 101
+    weight 1599.8538787540683
+  ]
+  edge [
+    source 186
+    target 177
+    weight 1267.9929737644477
+  ]
+  edge [
+    source 186
+    target 81
+    weight 1677.0683310485492
+  ]
+  edge [
+    source 186
+    target 16
+    weight 1362.6973766658273
+  ]
+  edge [
+    source 186
+    target 46
+    weight 1737.2244052836645
+  ]
+  edge [
+    source 186
+    target 126
+    weight 784.4660645832184
+  ]
+  edge [
+    source 186
+    target 158
+    weight 358.0726761383422
+  ]
+  edge [
+    source 186
+    target 24
+    weight 54.81334817290431
+  ]
+  edge [
+    source 186
+    target 118
+    weight 667.2027328566469
+  ]
+  edge [
+    source 186
+    target 21
+    weight 576.654470724752
+  ]
+  edge [
+    source 186
+    target 50
+    weight 668.8085369767799
+  ]
+  edge [
+    source 186
+    target 26
+    weight 1523.3043323948712
+  ]
+  edge [
+    source 186
+    target 30
+    weight 620.3269778169497
+  ]
+  edge [
+    source 186
+    target 184
+    weight 570.5129023016648
+  ]
+  edge [
+    source 186
+    target 208
+    weight 2298.9552561966007
+  ]
+  edge [
+    source 186
+    target 146
+    weight 623.2499390719231
+  ]
+  edge [
+    source 186
+    target 143
+    weight 1036.9292117734815
+  ]
+  edge [
+    source 186
+    target 175
+    weight 664.7746418951399
+  ]
+  edge [
+    source 186
+    target 120
+    weight 1423.9393740136843
+  ]
+  edge [
+    source 186
+    target 185
+    weight 1317.7673455813801
+  ]
+  edge [
+    source 186
+    target 41
+    weight 194.9427987654779
+  ]
+  edge [
+    source 186
+    target 169
+    weight 737.1367494798908
+  ]
+  edge [
+    source 186
+    target 105
+    weight 1314.9122992582438
+  ]
+  edge [
+    source 187
+    target 202
+    weight 1493.8616214304377
+  ]
+  edge [
+    source 187
+    target 52
+    weight 122.16499593274133
+  ]
+  edge [
+    source 187
+    target 16
+    weight 1485.4106212071683
+  ]
+  edge [
+    source 187
+    target 112
+    weight 492.1327340567907
+  ]
+  edge [
+    source 187
+    target 79
+    weight 35.11724572467192
+  ]
+  edge [
+    source 187
+    target 143
+    weight 1791.7733710817784
+  ]
+  edge [
+    source 187
+    target 157
+    weight 460.4825095759784
+  ]
+  edge [
+    source 187
+    target 196
+    weight 536.30593933819
+  ]
+  edge [
+    source 187
+    target 184
+    weight 2369.798877290603
+  ]
+  edge [
+    source 187
+    target 170
+    weight 25.843715878053104
+  ]
+  edge [
+    source 187
+    target 8
+    weight 739.69324842504
+  ]
+  edge [
+    source 187
+    target 144
+    weight 1107.2746081969178
+  ]
+  edge [
+    source 187
+    target 93
+    weight 249.3506298248742
+  ]
+  edge [
+    source 187
+    target 131
+    weight 152.5205282532209
+  ]
+  edge [
+    source 187
+    target 111
+    weight 813.3887124639406
+  ]
+  edge [
+    source 187
+    target 96
+    weight 934.220373522654
+  ]
+  edge [
+    source 187
+    target 146
+    weight 308.74481155196867
+  ]
+  edge [
+    source 187
+    target 12
+    weight 357.3104830628746
+  ]
+  edge [
+    source 187
+    target 130
+    weight 423.9742753812765
+  ]
+  edge [
+    source 187
+    target 71
+    weight 2872.7548571034945
+  ]
+  edge [
+    source 187
+    target 45
+    weight 106.41427183269704
+  ]
+  edge [
+    source 188
+    target 174
+    weight 153.7209160916032
+  ]
+  edge [
+    source 188
+    target 0
+    weight 1756.2479256532968
+  ]
+  edge [
+    source 188
+    target 40
+    weight 416.6951617467432
+  ]
+  edge [
+    source 188
+    target 45
+    weight 108.68103892728641
+  ]
+  edge [
+    source 188
+    target 95
+    weight 810.5740393219648
+  ]
+  edge [
+    source 188
+    target 170
+    weight 1503.3348301277015
+  ]
+  edge [
+    source 188
+    target 125
+    weight 1355.7536136068763
+  ]
+  edge [
+    source 188
+    target 175
+    weight 562.697159515934
+  ]
+  edge [
+    source 188
+    target 24
+    weight 1120.4722393560921
+  ]
+  edge [
+    source 188
+    target 97
+    weight 1967.9079701320497
+  ]
+  edge [
+    source 188
+    target 82
+    weight 394.23449342803497
+  ]
+  edge [
+    source 188
+    target 72
+    weight 1858.0198726933313
+  ]
+  edge [
+    source 188
+    target 202
+    weight 132.914211142018
+  ]
+  edge [
+    source 188
+    target 142
+    weight 1178.22091407379
+  ]
+  edge [
+    source 188
+    target 133
+    weight 460.3778578760774
+  ]
+  edge [
+    source 188
+    target 209
+    weight 804.037026731982
+  ]
+  edge [
+    source 188
+    target 117
+    weight 1196.1790787938621
+  ]
+  edge [
+    source 188
+    target 1
+    weight 126.57343720056895
+  ]
+  edge [
+    source 188
+    target 80
+    weight 254.65538401505194
+  ]
+  edge [
+    source 188
+    target 98
+    weight 581.1616646037298
+  ]
+  edge [
+    source 189
+    target 160
+    weight 392.55458872642896
+  ]
+  edge [
+    source 189
+    target 137
+    weight 377.659228482917
+  ]
+  edge [
+    source 189
+    target 142
+    weight 1009.3540035866027
+  ]
+  edge [
+    source 189
+    target 127
+    weight 540.465360271913
+  ]
+  edge [
+    source 189
+    target 10
+    weight 524.8205282161554
+  ]
+  edge [
+    source 189
+    target 199
+    weight 1075.1183420754337
+  ]
+  edge [
+    source 189
+    target 63
+    weight 1881.3723322392848
+  ]
+  edge [
+    source 189
+    target 86
+    weight 396.90047675292294
+  ]
+  edge [
+    source 189
+    target 98
+    weight 937.3719674571805
+  ]
+  edge [
+    source 189
+    target 201
+    weight 463.31932022021863
+  ]
+  edge [
+    source 189
+    target 67
+    weight 672.9947853138275
+  ]
+  edge [
+    source 189
+    target 5
+    weight 1200.6924422304726
+  ]
+  edge [
+    source 189
+    target 93
+    weight 501.8836200769996
+  ]
+  edge [
+    source 189
+    target 185
+    weight 1097.7046992288922
+  ]
+  edge [
+    source 190
+    target 161
+    weight 136.4576932593029
+  ]
+  edge [
+    source 190
+    target 17
+    weight 1082.991048806635
+  ]
+  edge [
+    source 190
+    target 182
+    weight 467.4026455430478
+  ]
+  edge [
+    source 190
+    target 159
+    weight 971.932279981736
+  ]
+  edge [
+    source 190
+    target 106
+    weight 183.5766586487727
+  ]
+  edge [
+    source 190
+    target 54
+    weight 45.28553031003667
+  ]
+  edge [
+    source 190
+    target 0
+    weight 1842.6805799390906
+  ]
+  edge [
+    source 190
+    target 194
+    weight 1891.4459298493753
+  ]
+  edge [
+    source 190
+    target 140
+    weight 693.4358036809476
+  ]
+  edge [
+    source 190
+    target 44
+    weight 795.9504034972197
+  ]
+  edge [
+    source 190
+    target 85
+    weight 1228.348901040252
+  ]
+  edge [
+    source 190
+    target 71
+    weight 204.57351245520684
+  ]
+  edge [
+    source 190
+    target 53
+    weight 790.8488543511892
+  ]
+  edge [
+    source 190
+    target 114
+    weight 44.31578932748434
+  ]
+  edge [
+    source 190
+    target 205
+    weight 826.4556606586096
+  ]
+  edge [
+    source 191
+    target 158
+    weight 1441.5441236344516
+  ]
+  edge [
+    source 191
+    target 182
+    weight 798.9655295033309
+  ]
+  edge [
+    source 191
+    target 94
+    weight 156.0818224947323
+  ]
+  edge [
+    source 191
+    target 110
+    weight 442.87747455803003
+  ]
+  edge [
+    source 191
+    target 23
+    weight 143.09301679407994
+  ]
+  edge [
+    source 191
+    target 161
+    weight 1479.0267480992256
+  ]
+  edge [
+    source 191
+    target 81
+    weight 284.3859405490599
+  ]
+  edge [
+    source 191
+    target 132
+    weight 1089.4138163764865
+  ]
+  edge [
+    source 191
+    target 174
+    weight 494.6513739466718
+  ]
+  edge [
+    source 191
+    target 9
+    weight 1088.013323756559
+  ]
+  edge [
+    source 191
+    target 160
+    weight 676.7471722818291
+  ]
+  edge [
+    source 191
+    target 90
+    weight 167.8890045130168
+  ]
+  edge [
+    source 191
+    target 29
+    weight 232.04152614469916
+  ]
+  edge [
+    source 191
+    target 85
+    weight 147.87720970912378
+  ]
+  edge [
+    source 192
+    target 87
+    weight 494.49819372773595
+  ]
+  edge [
+    source 192
+    target 102
+    weight 1200.8157851717524
+  ]
+  edge [
+    source 192
+    target 132
+    weight 508.44651841217365
+  ]
+  edge [
+    source 192
+    target 171
+    weight 304.38909508620304
+  ]
+  edge [
+    source 192
+    target 60
+    weight 1064.7282229254554
+  ]
+  edge [
+    source 192
+    target 183
+    weight 1456.443813770194
+  ]
+  edge [
+    source 192
+    target 142
+    weight 849.829786755476
+  ]
+  edge [
+    source 192
+    target 186
+    weight 959.0834371360299
+  ]
+  edge [
+    source 192
+    target 49
+    weight 1162.2684320630117
+  ]
+  edge [
+    source 192
+    target 44
+    weight 689.5271395899847
+  ]
+  edge [
+    source 192
+    target 175
+    weight 93.46173370626823
+  ]
+  edge [
+    source 192
+    target 135
+    weight 223.80099650890293
+  ]
+  edge [
+    source 192
+    target 16
+    weight 737.7099825857372
+  ]
+  edge [
+    source 192
+    target 134
+    weight 640.6787704495273
+  ]
+  edge [
+    source 192
+    target 160
+    weight 380.2568748974472
+  ]
+  edge [
+    source 192
+    target 45
+    weight 1511.6082666775558
+  ]
+  edge [
+    source 192
+    target 56
+    weight 140.8747177906138
+  ]
+  edge [
+    source 192
+    target 121
+    weight 175.16103269240097
+  ]
+  edge [
+    source 193
+    target 64
+    weight 985.4383459958713
+  ]
+  edge [
+    source 193
+    target 89
+    weight 364.08607285321125
+  ]
+  edge [
+    source 193
+    target 121
+    weight 1118.008142154065
+  ]
+  edge [
+    source 193
+    target 118
+    weight 286.5595918095355
+  ]
+  edge [
+    source 193
+    target 131
+    weight 388.51065573738555
+  ]
+  edge [
+    source 193
+    target 78
+    weight 1629.8358389765813
+  ]
+  edge [
+    source 193
+    target 202
+    weight 1203.6637150727247
+  ]
+  edge [
+    source 193
+    target 164
+    weight 256.4598703966294
+  ]
+  edge [
+    source 193
+    target 102
+    weight 461.77159601706603
+  ]
+  edge [
+    source 194
+    target 110
+    weight 1095.1000406672397
+  ]
+  edge [
+    source 194
+    target 57
+    weight 1185.4378406995922
+  ]
+  edge [
+    source 194
+    target 126
+    weight 1474.133995484453
+  ]
+  edge [
+    source 194
+    target 175
+    weight 95.27481825585448
+  ]
+  edge [
+    source 194
+    target 3
+    weight 396.9706458078307
+  ]
+  edge [
+    source 194
+    target 56
+    weight 132.91103823746482
+  ]
+  edge [
+    source 194
+    target 14
+    weight 1881.472554057105
+  ]
+  edge [
+    source 194
+    target 160
+    weight 612.910550865017
+  ]
+  edge [
+    source 194
+    target 91
+    weight 1334.6012898951415
+  ]
+  edge [
+    source 194
+    target 105
+    weight 1077.3835885484168
+  ]
+  edge [
+    source 194
+    target 69
+    weight 696.7888234162192
+  ]
+  edge [
+    source 194
+    target 210
+    weight 773.5800852407037
+  ]
+  edge [
+    source 194
+    target 108
+    weight 211.48465641257116
+  ]
+  edge [
+    source 194
+    target 73
+    weight 429.2022446702375
+  ]
+  edge [
+    source 194
+    target 19
+    weight 318.94773992582253
+  ]
+  edge [
+    source 194
+    target 31
+    weight 563.3365705538041
+  ]
+  edge [
+    source 195
+    target 115
+    weight 456.63976712012425
+  ]
+  edge [
+    source 195
+    target 27
+    weight 1148.8814958454584
+  ]
+  edge [
+    source 195
+    target 58
+    weight 1723.3580887136802
+  ]
+  edge [
+    source 195
+    target 85
+    weight 382.29015969833205
+  ]
+  edge [
+    source 195
+    target 6
+    weight 573.4967503493024
+  ]
+  edge [
+    source 195
+    target 188
+    weight 564.93069560572
+  ]
+  edge [
+    source 195
+    target 72
+    weight 723.347791160825
+  ]
+  edge [
+    source 195
+    target 77
+    weight 310.37566251841736
+  ]
+  edge [
+    source 195
+    target 177
+    weight 369.41960917170906
+  ]
+  edge [
+    source 195
+    target 211
+    weight 97.01982284021037
+  ]
+  edge [
+    source 195
+    target 145
+    weight 847.2733520180284
+  ]
+  edge [
+    source 195
+    target 160
+    weight 2108.4195578739036
+  ]
+  edge [
+    source 195
+    target 104
+    weight 797.9602613454687
+  ]
+  edge [
+    source 195
+    target 82
+    weight 218.02173869588637
+  ]
+  edge [
+    source 195
+    target 149
+    weight 1577.639584658673
+  ]
+  edge [
+    source 195
+    target 113
+    weight 906.3126706351552
+  ]
+  edge [
+    source 196
+    target 29
+    weight 11.663509458454854
+  ]
+  edge [
+    source 196
+    target 174
+    weight 436.29292900096516
+  ]
+  edge [
+    source 196
+    target 89
+    weight 1935.6826821892132
+  ]
+  edge [
+    source 196
+    target 115
+    weight 1408.1967530099398
+  ]
+  edge [
+    source 196
+    target 173
+    weight 414.6208581341946
+  ]
+  edge [
+    source 196
+    target 59
+    weight 1147.473997222733
+  ]
+  edge [
+    source 196
+    target 43
+    weight 198.6090077665882
+  ]
+  edge [
+    source 196
+    target 150
+    weight 584.2599814622151
+  ]
+  edge [
+    source 196
+    target 64
+    weight 488.8631018742308
+  ]
+  edge [
+    source 196
+    target 56
+    weight 1656.7668237908615
+  ]
+  edge [
+    source 196
+    target 149
+    weight 912.4714990135475
+  ]
+  edge [
+    source 196
+    target 170
+    weight 2034.1884344375171
+  ]
+  edge [
+    source 197
+    target 110
+    weight 1074.7121040943696
+  ]
+  edge [
+    source 197
+    target 127
+    weight 755.2640739556217
+  ]
+  edge [
+    source 197
+    target 98
+    weight 1772.1766683840303
+  ]
+  edge [
+    source 197
+    target 179
+    weight 1016.2317739722762
+  ]
+  edge [
+    source 197
+    target 74
+    weight 1400.8988461297176
+  ]
+  edge [
+    source 197
+    target 156
+    weight 1604.967634946444
+  ]
+  edge [
+    source 197
+    target 146
+    weight 293.43853653072665
+  ]
+  edge [
+    source 197
+    target 131
+    weight 1858.1871342529093
+  ]
+  edge [
+    source 197
+    target 78
+    weight 830.8120734470691
+  ]
+  edge [
+    source 197
+    target 151
+    weight 918.9602556288391
+  ]
+  edge [
+    source 198
+    target 176
+    weight 91.11914068408439
+  ]
+  edge [
+    source 198
+    target 112
+    weight 822.1042948312374
+  ]
+  edge [
+    source 198
+    target 194
+    weight 2775.589968629815
+  ]
+  edge [
+    source 198
+    target 191
+    weight 938.513465802072
+  ]
+  edge [
+    source 198
+    target 126
+    weight 1483.6948138622472
+  ]
+  edge [
+    source 198
+    target 91
+    weight 280.8327725314533
+  ]
+  edge [
+    source 198
+    target 136
+    weight 1043.0471923072785
+  ]
+  edge [
+    source 198
+    target 77
+    weight 2933.293067658187
+  ]
+  edge [
+    source 198
+    target 7
+    weight 87.17503320921637
+  ]
+  edge [
+    source 198
+    target 12
+    weight 42.544479178932
+  ]
+  edge [
+    source 198
+    target 168
+    weight 1303.2718296043613
+  ]
+  edge [
+    source 198
+    target 128
+    weight 1280.1504652681726
+  ]
+  edge [
+    source 198
+    target 54
+    weight 1096.4745262163638
+  ]
+  edge [
+    source 198
+    target 44
+    weight 2409.331966822927
+  ]
+  edge [
+    source 198
+    target 42
+    weight 457.10661894411254
+  ]
+  edge [
+    source 198
+    target 32
+    weight 66.64759688861068
+  ]
+  edge [
+    source 198
+    target 28
+    weight 1149.472102484416
+  ]
+  edge [
+    source 198
+    target 132
+    weight 1218.661884572953
+  ]
+  edge [
+    source 198
+    target 83
+    weight 48.8412255708232
+  ]
+  edge [
+    source 199
+    target 29
+    weight 401.9273513100053
+  ]
+  edge [
+    source 199
+    target 90
+    weight 1047.8840784841914
+  ]
+  edge [
+    source 199
+    target 38
+    weight 887.535311396286
+  ]
+  edge [
+    source 199
+    target 208
+    weight 263.57916169202076
+  ]
+  edge [
+    source 199
+    target 194
+    weight 2007.4279724023847
+  ]
+  edge [
+    source 199
+    target 164
+    weight 1588.0833151626318
+  ]
+  edge [
+    source 199
+    target 193
+    weight 570.6092686720531
+  ]
+  edge [
+    source 199
+    target 84
+    weight 24.90927153681899
+  ]
+  edge [
+    source 199
+    target 54
+    weight 988.6331204752554
+  ]
+  edge [
+    source 199
+    target 3
+    weight 1905.501172665661
+  ]
+  edge [
+    source 199
+    target 11
+    weight 1394.7902797795168
+  ]
+  edge [
+    source 199
+    target 128
+    weight 180.93721340712978
+  ]
+  edge [
+    source 199
+    target 52
+    weight 2364.5818050657576
+  ]
+  edge [
+    source 199
+    target 53
+    weight 236.11129557972964
+  ]
+  edge [
+    source 199
+    target 191
+    weight 962.5536210375342
+  ]
+  edge [
+    source 199
+    target 94
+    weight 2465.59929321017
+  ]
+  edge [
+    source 199
+    target 126
+    weight 321.9950721640115
+  ]
+  edge [
+    source 200
+    target 112
+    weight 714.5212924915069
+  ]
+  edge [
+    source 200
+    target 189
+    weight 215.13649013083403
+  ]
+  edge [
+    source 200
+    target 36
+    weight 53.013349464881664
+  ]
+  edge [
+    source 200
+    target 88
+    weight 476.9599705207752
+  ]
+  edge [
+    source 200
+    target 98
+    weight 2222.3091369566473
+  ]
+  edge [
+    source 200
+    target 89
+    weight 28.1727364872432
+  ]
+  edge [
+    source 200
+    target 19
+    weight 9.144963472756984
+  ]
+  edge [
+    source 200
+    target 35
+    weight 614.8084616837457
+  ]
+  edge [
+    source 200
+    target 90
+    weight 776.2403823478066
+  ]
+  edge [
+    source 200
+    target 33
+    weight 469.4164890023365
+  ]
+  edge [
+    source 200
+    target 91
+    weight 700.8296178162163
+  ]
+  edge [
+    source 201
+    target 121
+    weight 77.0114100726048
+  ]
+  edge [
+    source 201
+    target 209
+    weight 516.1422940458435
+  ]
+  edge [
+    source 201
+    target 200
+    weight 546.825781877959
+  ]
+  edge [
+    source 201
+    target 119
+    weight 455.02489801962884
+  ]
+  edge [
+    source 201
+    target 26
+    weight 281.2875299537637
+  ]
+  edge [
+    source 201
+    target 189
+    weight 716.6345671953061
+  ]
+  edge [
+    source 201
+    target 208
+    weight 662.4663869280658
+  ]
+  edge [
+    source 201
+    target 178
+    weight 661.817530625708
+  ]
+  edge [
+    source 201
+    target 85
+    weight 41.23192322879089
+  ]
+  edge [
+    source 201
+    target 55
+    weight 574.9009900911292
+  ]
+  edge [
+    source 201
+    target 157
+    weight 1499.947339678481
+  ]
+  edge [
+    source 201
+    target 205
+    weight 1447.4628758712834
+  ]
+  edge [
+    source 201
+    target 32
+    weight 740.7711158515671
+  ]
+  edge [
+    source 201
+    target 104
+    weight 15.065148356464661
+  ]
+  edge [
+    source 201
+    target 172
+    weight 673.3546199708312
+  ]
+  edge [
+    source 201
+    target 21
+    weight 1226.1370632991288
+  ]
+  edge [
+    source 201
+    target 109
+    weight 269.4385608643947
+  ]
+  edge [
+    source 201
+    target 95
+    weight 591.3145297763683
+  ]
+  edge [
+    source 202
+    target 135
+    weight 1492.3915566375824
+  ]
+  edge [
+    source 202
+    target 208
+    weight 214.0960924100055
+  ]
+  edge [
+    source 202
+    target 67
+    weight 525.7223421162968
+  ]
+  edge [
+    source 202
+    target 116
+    weight 1186.9996613981018
+  ]
+  edge [
+    source 202
+    target 93
+    weight 157.37583979748416
+  ]
+  edge [
+    source 202
+    target 160
+    weight 1472.842912432132
+  ]
+  edge [
+    source 202
+    target 166
+    weight 91.44949584686458
+  ]
+  edge [
+    source 202
+    target 68
+    weight 1283.8240397611419
+  ]
+  edge [
+    source 203
+    target 65
+    weight 2255.1357882610655
+  ]
+  edge [
+    source 203
+    target 99
+    weight 510.41021340294805
+  ]
+  edge [
+    source 203
+    target 179
+    weight 1854.0951366713941
+  ]
+  edge [
+    source 203
+    target 171
+    weight 23.05322647507306
+  ]
+  edge [
+    source 203
+    target 109
+    weight 481.4568837693162
+  ]
+  edge [
+    source 203
+    target 31
+    weight 851.2398266657551
+  ]
+  edge [
+    source 204
+    target 192
+    weight 219.5855535297078
+  ]
+  edge [
+    source 204
+    target 29
+    weight 679.1331019902229
+  ]
+  edge [
+    source 204
+    target 189
+    weight 1577.4888346449159
+  ]
+  edge [
+    source 204
+    target 37
+    weight 489.56865616490387
+  ]
+  edge [
+    source 204
+    target 30
+    weight 1534.4588325987365
+  ]
+  edge [
+    source 204
+    target 114
+    weight 419.89584549615427
+  ]
+  edge [
+    source 204
+    target 52
+    weight 1434.1673064324648
+  ]
+  edge [
+    source 204
+    target 197
+    weight 1858.2024643132165
+  ]
+  edge [
+    source 204
+    target 148
+    weight 849.6494702541493
+  ]
+  edge [
+    source 204
+    target 143
+    weight 318.50584880514174
+  ]
+  edge [
+    source 204
+    target 179
+    weight 1348.1268412457828
+  ]
+  edge [
+    source 204
+    target 41
+    weight 2142.5370118773803
+  ]
+  edge [
+    source 204
+    target 111
+    weight 1010.9807110490414
+  ]
+  edge [
+    source 205
+    target 199
+    weight 1083.7221538779272
+  ]
+  edge [
+    source 205
+    target 187
+    weight 832.1312413593012
+  ]
+  edge [
+    source 205
+    target 117
+    weight 1488.9050998750943
+  ]
+  edge [
+    source 205
+    target 158
+    weight 158.12470231488703
+  ]
+  edge [
+    source 205
+    target 172
+    weight 666.2200796241628
+  ]
+  edge [
+    source 205
+    target 171
+    weight 874.9103029797534
+  ]
+  edge [
+    source 205
+    target 206
+    weight 463.05960188853106
+  ]
+  edge [
+    source 205
+    target 98
+    weight 194.20274931605542
+  ]
+  edge [
+    source 205
+    target 104
+    weight 950.7925156145889
+  ]
+  edge [
+    source 205
+    target 78
+    weight 518.1547756075034
+  ]
+  edge [
+    source 205
+    target 73
+    weight 1315.0434785699883
+  ]
+  edge [
+    source 205
+    target 106
+    weight 801.3889121363496
+  ]
+  edge [
+    source 205
+    target 68
+    weight 629.5771897927764
+  ]
+  edge [
+    source 205
+    target 185
+    weight 484.52863163571294
+  ]
+  edge [
+    source 205
+    target 85
+    weight 589.7359459155236
+  ]
+  edge [
+    source 205
+    target 115
+    weight 1817.1696812516627
+  ]
+  edge [
+    source 205
+    target 139
+    weight 927.037356892921
+  ]
+  edge [
+    source 205
+    target 72
+    weight 461.63558066986695
+  ]
+  edge [
+    source 205
+    target 21
+    weight 585.1256040320154
+  ]
+  edge [
+    source 205
+    target 123
+    weight 565.6958815545634
+  ]
+  edge [
+    source 205
+    target 8
+    weight 353.7658675904722
+  ]
+  edge [
+    source 206
+    target 92
+    weight 223.4660009257891
+  ]
+  edge [
+    source 206
+    target 82
+    weight 466.1518696732975
+  ]
+  edge [
+    source 206
+    target 160
+    weight 110.46383299338427
+  ]
+  edge [
+    source 206
+    target 48
+    weight 1538.0140625901415
+  ]
+  edge [
+    source 206
+    target 162
+    weight 2495.559663825434
+  ]
+  edge [
+    source 206
+    target 12
+    weight 979.0505254069269
+  ]
+  edge [
+    source 207
+    target 79
+    weight 265.5842667520908
+  ]
+  edge [
+    source 207
+    target 23
+    weight 268.14779820527815
+  ]
+  edge [
+    source 207
+    target 154
+    weight 619.7961832611778
+  ]
+  edge [
+    source 207
+    target 100
+    weight 18.498196171896083
+  ]
+  edge [
+    source 207
+    target 48
+    weight 276.35597884838916
+  ]
+  edge [
+    source 207
+    target 107
+    weight 831.722053923689
+  ]
+  edge [
+    source 207
+    target 51
+    weight 1264.9397652220728
+  ]
+  edge [
+    source 207
+    target 32
+    weight 238.8090511767025
+  ]
+  edge [
+    source 207
+    target 102
+    weight 889.9669544725784
+  ]
+  edge [
+    source 207
+    target 190
+    weight 824.8115367130088
+  ]
+  edge [
+    source 207
+    target 132
+    weight 120.49987492754593
+  ]
+  edge [
+    source 208
+    target 148
+    weight 726.3581831615493
+  ]
+  edge [
+    source 208
+    target 164
+    weight 677.94203650628
+  ]
+  edge [
+    source 208
+    target 140
+    weight 156.0069636436421
+  ]
+  edge [
+    source 208
+    target 46
+    weight 278.9053194551353
+  ]
+  edge [
+    source 208
+    target 151
+    weight 187.7566996687172
+  ]
+  edge [
+    source 208
+    target 59
+    weight 1843.6893892755074
+  ]
+  edge [
+    source 208
+    target 56
+    weight 2890.0527645124316
+  ]
+  edge [
+    source 208
+    target 155
+    weight 60.154817980974336
+  ]
+  edge [
+    source 208
+    target 132
+    weight 292.35846208417917
+  ]
+  edge [
+    source 208
+    target 84
+    weight 3.9411740629488605
+  ]
+  edge [
+    source 208
+    target 9
+    weight 351.81469623353485
+  ]
+  edge [
+    source 208
+    target 200
+    weight 695.1420247124059
+  ]
+  edge [
+    source 208
+    target 5
+    weight 522.3346159484454
+  ]
+  edge [
+    source 208
+    target 114
+    weight 381.5038712574197
+  ]
+  edge [
+    source 208
+    target 119
+    weight 325.89924136679736
+  ]
+  edge [
+    source 208
+    target 207
+    weight 231.05515311892646
+  ]
+  edge [
+    source 209
+    target 81
+    weight 1236.0425536260277
+  ]
+  edge [
+    source 209
+    target 185
+    weight 53.14093876191458
+  ]
+  edge [
+    source 209
+    target 33
+    weight 376.67344916220475
+  ]
+  edge [
+    source 209
+    target 86
+    weight 1275.8071711770574
+  ]
+  edge [
+    source 209
+    target 9
+    weight 194.64823343973808
+  ]
+  edge [
+    source 209
+    target 48
+    weight 586.3008417739663
+  ]
+  edge [
+    source 209
+    target 41
+    weight 1912.2893658175017
+  ]
+  edge [
+    source 209
+    target 111
+    weight 443.4450657942202
+  ]
+  edge [
+    source 209
+    target 211
+    weight 1289.3672251058006
+  ]
+  edge [
+    source 209
+    target 77
+    weight 940.5647469975797
+  ]
+  edge [
+    source 209
+    target 90
+    weight 1201.3663887097434
+  ]
+  edge [
+    source 209
+    target 210
+    weight 1257.096325666972
+  ]
+  edge [
+    source 210
+    target 84
+    weight 558.096869406602
+  ]
+  edge [
+    source 210
+    target 95
+    weight 1630.1835041505133
+  ]
+  edge [
+    source 210
+    target 42
+    weight 692.1165026272295
+  ]
+  edge [
+    source 210
+    target 134
+    weight 38.92810650517339
+  ]
+  edge [
+    source 210
+    target 168
+    weight 1553.894749734986
+  ]
+  edge [
+    source 210
+    target 202
+    weight 261.82132712322095
+  ]
+  edge [
+    source 210
+    target 4
+    weight 917.3655180887135
+  ]
+  edge [
+    source 210
+    target 162
+    weight 210.83931431493028
+  ]
+  edge [
+    source 210
+    target 10
+    weight 1293.0297825846396
+  ]
+  edge [
+    source 210
+    target 14
+    weight 1395.618138706191
+  ]
+  edge [
+    source 210
+    target 102
+    weight 69.80502985574174
+  ]
+  edge [
+    source 210
+    target 195
+    weight 178.13097924981554
+  ]
+  edge [
+    source 210
+    target 61
+    weight 685.1422432840604
+  ]
+  edge [
+    source 210
+    target 12
+    weight 646.6203922079724
+  ]
+  edge [
+    source 210
+    target 204
+    weight 1701.0234636918938
+  ]
+  edge [
+    source 210
+    target 131
+    weight 542.6276714383514
+  ]
+  edge [
+    source 210
+    target 32
+    weight 322.6689248632916
+  ]
+  edge [
+    source 210
+    target 116
+    weight 57.87868584120488
+  ]
+  edge [
+    source 211
+    target 4
+    weight 752.5975723038888
+  ]
+  edge [
+    source 211
+    target 55
+    weight 183.48534444405192
+  ]
+  edge [
+    source 211
+    target 148
+    weight 198.62040579022954
+  ]
+  edge [
+    source 211
+    target 33
+    weight 219.99994769477303
+  ]
+  edge [
+    source 211
+    target 138
+    weight 89.71089998197701
+  ]
+  edge [
+    source 211
+    target 38
+    weight 888.8089388525622
+  ]
+  edge [
+    source 211
+    target 143
+    weight 358.5294675263757
+  ]
+  edge [
+    source 211
+    target 3
+    weight 476.95987262091757
+  ]
+  edge [
+    source 211
+    target 107
+    weight 923.2061806050455
+  ]
+  edge [
+    source 211
+    target 207
+    weight 1912.0071773547954
+  ]
+  edge [
+    source 211
+    target 35
+    weight 894.9234051648612
+  ]
+  edge [
+    source 211
+    target 31
+    weight 775.8648122395106
+  ]
+  edge [
+    source 211
+    target 204
+    weight 296.57568932503114
+  ]
+  edge [
+    source 211
+    target 168
+    weight 1953.1812351789374
+  ]
+  edge [
+    source 211
+    target 99
+    weight 387.0611730348062
+  ]
+]

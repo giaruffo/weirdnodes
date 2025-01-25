@@ -20,10 +20,10 @@ def perturb_network_by_nodes(g0, n):
 
     Notes:
     - Each selected node will either have its outgoing or incoming edges rewired.
-    - Nodes are assigned a type 'normal', 'black_hole', or 'vulcano' based on the perturbation.
+    - Nodes are assigned a type 'normal', 'black_hole', or 'volcano' based on the perturbation.
     - 'black_hole' nodes will have a significant increase in the transaction activity, 
         and a significant reduction of outgoing transactions.
-    - 'vulcano' nodes will have a significant decrease in the number of incoming transactions, 
+    - 'volcano' nodes will have a significant decrease in the number of incoming transactions, 
         and a significant increase of outgoing transactions.
     """
     # Create a copy of g0 to perturb
@@ -76,8 +76,8 @@ def perturb_network_by_nodes(g0, n):
             # Set the node type to 'black_hole'
             g1.nodes[node]['type'] = 'black_hole'
         else:
-            # Selected node will be a 'vulcano'
-            g1.nodes[node]['type'] = 'vulcano'
+            # Selected node will be a 'volcano'
+            g1.nodes[node]['type'] = 'volcano'
             # Rewire a significant portion of incoming links
             if len(list(g1.in_edges(node))) > 0:
                 in_edges = list(g1.in_edges(node, data=True))
@@ -229,7 +229,7 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     attribute, with the following color scheme:
         - 'normal': cyan
         - 'black_hole': black
-        - 'vulcano': red
+        - 'volcano': red
         - 'mushroom': brown
         - 'ghost': blue
         - 'indirect_source': green
@@ -255,7 +255,7 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
     for node in g1.nodes:
         if g1.nodes[node]['type'] == 'black_hole':
             color_map_g1.append('black')
-        elif g1.nodes[node]['type'] == 'vulcano':
+        elif g1.nodes[node]['type'] == 'volcano':
             color_map_g1.append('red')
         elif g1.nodes[node]['type'] == 'mushroom':
             color_map_g1.append('brown')

@@ -153,3 +153,23 @@ def store_and_plot_evaluation_results(strategy, precisions, recalls, avg_precisi
     plt.legend()
     plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', f'evaluation_by{strategy}.png'))
     plt.close()
+
+def create_latex_tabular(strategy, precisions, recalls, avg_precisions):
+    """Create a LaTeX tabular string for the evaluation results."""
+
+    print(f"Storing evaluation results by {strategy} in a latex table...")
+    latex_file = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"latex_table.txt")
+    if os.path.exists(latex_file):
+        with open(latex_file, "a") as f:
+            f.write(strategy+'\t')
+            f.write(f'& {precisions[0]:.2f} & {precisions[1]:.2f} & {precisions[4]:.2f}')  
+            f.write(f'& {avg_precisions[4]:.2f} & {avg_precisions[9]:.2f} & {avg_precisions[19]:.2f} & {avg_precisions[29]:.2f}')
+            f.write(f'& {recalls[29]:.2f} \\\\\n')
+    else:
+        with open(latex_file, "w") as f:
+            f.write(strategy+'\t')
+            f.write(f'& {precisions[0]:.2f} & {precisions[1]:.2f} & {precisions[4]:.2f}')
+            f.write(f'& {avg_precisions[4]:.2f} & {avg_precisions[9]:.2f} & {avg_precisions[19]:.2f} & {avg_precisions[29]:.2f}')
+            f.write(f'& {recalls[29]:.2f} \\\\\n')
+
+  

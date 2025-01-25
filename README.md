@@ -6,10 +6,6 @@ This repository contains the code for the paper "WeirdNodes: Centrality Based An
 on Temporal Networks for the Anti-Financial
 Crime Domain" by Salvatore Vilella, Arthur T. E. C. Lupi, Marco Fornasiero, Dario Moncalvo, Valeria Ricci, Silvia Ronchiadin, and Giancarlo Ruffo.
 
-## Installation
-
-To install the required packages, run the following command: `pip install -r requirements.txt`
-
 ## Configuration
 
 The configuration file `config.py` contains the following parameters:
@@ -30,9 +26,9 @@ You can change these parameters to fit your needs.
 
 ## Usage
 
-To run the code, run one of the test files in the main folder. For example, to run an experiment that perturates the network with vulcanoes and blackholes nodes, run command: `python test_ER_vulcanoes_blackholes.py`
+To run the code, run main.py, after you set the experiment type in config.py. For example, to run an experiment that perturates the network with volcanoes and blackholes nodes, set EXPERIMENT_TYPE = ExperimentType.ER_VOLCANOES_AND_BLACKHOLES in config.py, and then run command: `python main.py`
 
-## Description of functions that pertubates the network given as input in the `net_perturbation.py` file:
+## File `net_perturbation.py` contains functions that perturb the network given as input 
 
 - `perturb_network_by_nodes(g0, n)`: 
     Perturbs the network by adding `n` nodes.     
@@ -49,10 +45,10 @@ To run the code, run one of the test files in the main folder. For example, to r
 
     Notes:
     - Each selected node will either have its outgoing or incoming edges rewired.
-    - Nodes are assigned a type 'normal', 'black_hole', or 'vulcano' based on the perturbation.
+    - Nodes are assigned a type 'normal', 'black_hole', or 'volcano' based on the perturbation.
     - 'black_hole' nodes will have a significant increase in the transaction activity, 
         and a significant reduction of outgoing transactions.
-    - 'vulcano' nodes will have a significant decrease in the number of incoming transactions, 
+    - 'volcano' nodes will have a significant decrease in the number of incoming transactions, 
         and a significant increase of outgoing transactions.
 
 - `perturb_network_by_links(g0, n)`: 
@@ -105,7 +101,7 @@ To run the code, run one of the test files in the main folder. For example, to r
     attribute, with the following color scheme:
         - 'normal': cyan
         - 'black_hole': black
-        - 'vulcano': red
+        - 'volcano': red
         - 'mushroom': brown
         - 'ghost': blue
         - 'indirect_source': green

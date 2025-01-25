@@ -135,7 +135,7 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
         x.append(ranks2[node] + 1)
         y.append(ranks1[node] + 1)
         node_type = g.nodes[node].get('type', 'normal')
-        if node_type == 'vulcano':
+        if node_type == 'volcano':
             colors.append('red')
             texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
         elif node_type == 'black_hole':
@@ -186,7 +186,7 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
         if  markers[i] == 'o':
             plt.scatter(x[i], y[i], c=colors[i], marker=markers[i], s=sizes[i], alpha=0.3)
 
-    # Plot 'black_hole', 'vulcano', 'mushroom', and 'ghost' nodes on top
+    # Plot 'black_hole', 'volcano', 'mushroom', and 'ghost' nodes on top
     for i in range(len(x)):
         if markers[i] != 'o':
             plt.scatter(x[i], y[i], c=colors[i], marker=markers[i], s=sizes[i], alpha=0.8)
