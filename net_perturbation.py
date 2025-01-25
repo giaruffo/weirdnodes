@@ -45,7 +45,8 @@ def perturbate_network_by_nodes(g0, n):
 
     # Initialize nodes' types as 'normal'
     for node in g1.nodes:
-        g1.nodes[node]['type'] = 'normal'
+        if 'type' not in g1.nodes[node]:
+            g1.nodes[node]['type'] = 'normal'
 
     for node in nodes_to_perturbate:
         if random.random() < 0.5:
@@ -128,7 +129,8 @@ def perturbate_network_by_links(g0, n):
 
     # Initialize nodes' types as 'normal'
     for node in g1.nodes:
-        g1.nodes[node]['type'] = 'normal'
+        if 'type' not in g1.nodes[node]:
+            g1.nodes[node]['type'] = 'normal'
 
     for edge in edges_to_perturbate:
         if random.random() < 0.5:
@@ -167,6 +169,9 @@ def perturbate_network_by_links(g0, n):
 def perturbate_network_with_intermediary_nodes(g, num_links_to_remove, num_intermediary_nodes):
     """
     Perturbates a given network by removing a specified number of links and adding intermediary nodes between the source and target nodes.
+    The original source and target nodes of the removed links are set to 'indirect_source' and 'indirect_target', respectively.
+    The intermediary nodes are set to 'intermediary'. The weights of the new links are set to a random value between MIN_WEIGHT and MAX_WEIGHT.
+    The weights of the removed links are set to a minimum value of MIN_WEIGHT.
     Parameters:
     g (networkx.Graph): The input graph to be perturbated.
     num_links_to_remove (int): The number of links to remove from the graph.
@@ -187,7 +192,8 @@ def perturbate_network_with_intermediary_nodes(g, num_links_to_remove, num_inter
     g1 = g.copy()
     # Initialize nodes' types as 'normal'
     for node in g1.nodes:
-        g1.nodes[node]['type'] = 'normal'
+        if 'type' not in g1.nodes[node]:
+            g1.nodes[node]['type'] = 'normal'
     # Get a list of edges and shuffle it
     edges = list(g.edges())
     random.shuffle(edges)
@@ -226,8 +232,11 @@ def plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str 
         - 'vulcano': red
         - 'mushroom': brown
         - 'ghost': blue
+        - 'indirect_source': green
+        - 'indirect_target': yellow
+        - 'intermediary': purple
 
-    The resulting plot is saved as 'graph_comparison.png' in the working directory.
+    The resulting plot is saved as 'graphs_comparison_by{centrality_str}.png' in the WORKING_DIR + '\plots directory.
     """
 
     # raise an error if the centralities tuple's length is not equal to number of nodes

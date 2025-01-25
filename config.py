@@ -24,10 +24,10 @@ RANDOM_FUNCTION = random.gauss
 MEAN, STD_DEV = 100, 1000
 
 # Number of nodes to perturbate
-NUM_NODES_TO_PERTURBATE = 10
+NUM_NODES_TO_PERTURBATE = 4
 
 # Number of links to perturbate
-NUM_LINKS_TO_PERTURBATE = 5
+NUM_LINKS_TO_PERTURBATE = 2
 
 # Number of nodes to add as intermediary nodes
 NUM_INTERMEDIARY_NODES = 5
