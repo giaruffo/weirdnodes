@@ -23,11 +23,11 @@ RANDOM_FUNCTION = random.gauss
 # Set the mean and standard deviation for the random function
 MEAN, STD_DEV = 100, 1000
 
-# Number of nodes to perturbate
-NUM_NODES_TO_PERTURBATE = 4
+# Number of nodes to perturb
+NUM_NODES_TO_PERTURB = 4
 
-# Number of links to perturbate
-NUM_LINKS_TO_PERTURBATE = 2
+# Number of links to perturb
+NUM_LINKS_TO_PERTURB = 2
 
 # Number of nodes to add as intermediary nodes
 NUM_INTERMEDIARY_NODES = 5
@@ -41,10 +41,10 @@ CENTRALITY_MEASURES = ["degree", "indegree", "outdegree", "strength", "instrengt
 # Set the minimum weight for the links
 MIN_WEIGHT = .1
 
-# Set the min and max fractions to significantly decrease incoming or outgoing edges of a node to be perturbated
+# Set the min and max fractions to significantly decrease incoming or outgoing edges of a node to be perturbd
 EDGE_MIN_FRACTION, EDGE_MAX_FRACTION = 0.5, 1
 
-# Set the min and max factors to significantly increase incoming or outgoing edges of a node to be perturbated
+# Set the min and max factors to significantly increase incoming or outgoing edges of a node to be perturbd
 EDGE_MIN_FACTOR, EDGE_MAX_FACTOR = 0.5, 1
 
 # set the min and max factors to decrease the links' weights of ghost nodes 
@@ -80,8 +80,8 @@ with open(config_file_path, "w") as config_file:
     config_file.write(f"Edges Min and Max Factors: {EDGE_MIN_FACTOR, EDGE_MAX_FACTOR}\n")
     config_file.write(f"Mushroom Link Min and Max Factors: {MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR}\n")
     config_file.write(f"Ghosting Link Min and Max Fractions: {GHOSTING_LINK_MIN_FRACTION, GHOSTING_LINK_MAX_FRACTION}\n")
-    config_file.write(f"Number of Nodes to Perturbate: {NUM_NODES_TO_PERTURBATE}\n")
-    config_file.write(f"Number of Links to Perturbate: {NUM_LINKS_TO_PERTURBATE}\n")
+    config_file.write(f"Number of Nodes to Perturb: {NUM_NODES_TO_PERTURB}\n")
+    config_file.write(f"Number of Links to Perturb: {NUM_LINKS_TO_PERTURB}\n")
     config_file.write(f"Number of Nodes to add as intermediary: {NUM_INTERMEDIARY_NODES}\n")
     config_file.write(f"Top K: {TOP_K}\n")
     

@@ -15,8 +15,8 @@ To install the required packages, run the following command: `pip install -r req
 The configuration file `config.py` contains the following parameters:
 - `RANDOM_FUNCTION`: The random function to use for perturbating the network.
 - `MEAN`, `STD_DEV`: The mean and standard deviation of the random function.
-- `NUM_NODES_TO_PERTURBATE`: The number of nodes to perturbate.
-- `NUM_LINKS_TO_PERTURBATE`: The number of links to perturbate.
+- `NUM_NODES_TO_PERTURB`: The number of nodes to perturb.
+- `NUM_LINKS_TO_PERTURB`: The number of links to perturb.
 - `NUM_INTERMEDIARY_NODES`: The number of nodes to add as intermediary nodes.   
 - `CENTRALITY_MEASURES`: The centrality measures to rank nodes and to use for the anomaly detection strategies
 - `MIN_WEIGHT`: The minimum weight of the links.
@@ -34,8 +34,8 @@ To run the code, run one of the test files in the main folder. For example, to r
 
 ## Description of functions that pertubates the network given as input in the `net_perturbation.py` file:
 
-- `perturbate_network_by_nodes(g0, n)`: 
-    Perturbates the network by adding `n` nodes.     
+- `perturb_network_by_nodes(g0, n)`: 
+    Perturbs the network by adding `n` nodes.     
 
     Parameters:
     g0 (networkx.DiGraph): The original directed graph to be perturbed.
@@ -55,33 +55,33 @@ To run the code, run one of the test files in the main folder. For example, to r
     - 'vulcano' nodes will have a significant decrease in the number of incoming transactions, 
         and a significant increase of outgoing transactions.
 
-- `perturbate_network_by_links(g0, n)`: 
-    Perturbates a given network by modifying the weights of a specified number of edges.
+- `perturb_network_by_links(g0, n)`: 
+    Perturbs a given network by modifying the weights of a specified number of edges.
 
     Parameters:
-    g0 (networkx.Graph): The original graph to be perturbated.
-    n (int): The number of edges to perturbate.
+    g0 (networkx.Graph): The original graph to be perturbd.
+    n (int): The number of edges to perturb.
     Returns:
-    networkx.Graph: A new graph with perturbated edges.
+    networkx.Graph: A new graph with perturbd edges.
     Raises:
     ValueError: If n is greater than the number of edges in the graph.
     Notes:
     - Each node in the graph is initialized with a 'type' attribute set to 'normal'.
-    - For each selected edge, there is a 50% chance to perturbate it as a 'ghost' link or a 'mushroom' link.
+    - For each selected edge, there is a 50% chance to perturb it as a 'ghost' link or a 'mushroom' link.
     - 'Ghost' link: The weight of the edge is reduced of a random fraction between GHOSTING_LINK_MIN_FRACTION and 
         GHOSTING_LINK_MAX_FRACTION, and the source and target nodes' types are set to 'ghost'.
     - 'Mushroom' link: The weight of the edge is increased by a random factor between MUSHROOM_LINK_MIN_FACTOR and 
         MUSHROOM_LINK_MAX_FACTOR, and the source and target nodes' types are set to 'mushroom'.
     - If an edge's weight is non-positive, it is either replaced with another random edge or set to a minimum weight value of 0.1.
 
-- `perturbate_network_with_intermediary_nodes(g, num_links_to_remove, num_intermediary_nodes)`: 
-    Perturbates a given network by removing a specified number of links and adding intermediary nodes between the source and target nodes.
+- `perturb_network_with_intermediary_nodes(g, num_links_to_remove, num_intermediary_nodes)`: 
+    Perturbs a given network by removing a specified number of links and adding intermediary nodes between the source and target nodes.
     The original source and target nodes of the removed links are set to 'indirect_source' and 'indirect_target', respectively.
     The intermediary nodes are set to 'intermediary'. The weights of the new links are set to a random value between MIN_WEIGHT and MAX_WEIGHT.
     The weights of the removed links are set to a minimum value of MIN_WEIGHT.
 
     Parameters:
-    g (networkx.Graph): The input graph to be perturbated.
+    g (networkx.Graph): The input graph to be perturbd.
     num_links_to_remove (int): The number of links to remove from the graph.
     num_intermediary_nodes (int): The number of intermediary nodes to add between the source and target nodes of the removed links.
     Returns:
@@ -91,11 +91,11 @@ To run the code, run one of the test files in the main folder. For example, to r
     ValueError: If the number of intermediary nodes is greater than the number of nodes in the graph minus 2.
 
 - `plot_graphs_comparison(g0, g1, centralities0, centralities1, centrality_str = 'degree')`:     
-    Plot the original and perturbated graphs side by side.
+    Plot the original and perturbd graphs side by side.
 
     Parameters:
     g0 (networkx.Graph): The original graph.
-    g1 (networkx.Graph): The perturbated graph.
+    g1 (networkx.Graph): The perturbd graph.
     centralities0 (tuple): A tuple containing the centrality values to use for ranking the nodes in g0.
     centralities1 (tuple): A tuple containing the centrality values to use for ranking the nodes in g1.
     centrality_str (str): The name of the centrality measure used for ranking the nodes.
