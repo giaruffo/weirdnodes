@@ -106,9 +106,10 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     g (networkx.Graph): The graph containing the nodes to be plotted.
     ranks1 (list): The first list of node rankings.
     ranks2 (list): The second list of node rankings.
-    title (str): The title of the plot.
+    title (str): The title of the plot, usually referring to the underlying centrality measure.
     Returns:
     list: A list of tuples containing the top K nodes with the highest absolute residuals and their residual values.
+    list: A list of tuples containing all nodes sorted by their residuals.
     The function performs the following steps:
     1. Initializes lists for x and y coordinates, colors, sizes, texts, markers, and residuals.
     2. Iterates through the nodes in the graph and assigns coordinates, colors, texts, and markers based on node types.
@@ -203,4 +204,4 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
     plt.savefig(os.path.join(WORKING_DIRECTORY+'/plots', 'rankcomparison_by'+title + '.png'))
     plt.close()
 
-    return top_k_nodes
+    return top_k_nodes, nodes_sorted_by_residuals

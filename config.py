@@ -28,7 +28,7 @@ class ExperimentType:
     ER_MIXED_ANOMALIES = "ER_MIXED_ANOMALIES"
 
 # Set the experiment type
-EXPERIMENT_TYPE = ExperimentType.ER_INTERMEDIARIES
+EXPERIMENT_TYPE = ExperimentType.ER_MIXED_ANOMALIES
 
 # Number of nodes in the original graph
 NUM_NODES = 212
@@ -45,10 +45,10 @@ RANDOM_FUNCTION = random.gauss
 MEAN, STD_DEV = 100, 1000
 
 # Number of nodes to perturb
-NUM_NODES_TO_PERTURB = 10
+NUM_NODES_TO_PERTURB = 4
 
 # Number of links to perturb
-NUM_LINKS_TO_PERTURB = 5
+NUM_LINKS_TO_PERTURB = 2
 
 # Number of nodes to add as intermediary nodes
 NUM_INTERMEDIARY_NODES = 5

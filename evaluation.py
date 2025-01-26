@@ -55,19 +55,20 @@ def avg_precision_at_k(g, top_nodes, k):
 
 def store_top_k_nodes_in_file(g, top_k_nodes, strategy):
     """
-    Store the top k nodes in a file.
+    Store the top k nodes in a csv file.
     Args:
         g (networkx.Graph): The graph containing the nodes.
         top_k_nodes (list): A list of tuples where each tuple contains a node and its score.
         strategy (str): The strategy used to rank the nodes.
     """
+    # we store the top k nodes in a csv file with the following columns: node_id, score, type
     top_k_nodes_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"topknodes_{strategy}.txt")
     with open(top_k_nodes_file_path, "w") as f:
-        f.write(f"Top {TOP_K} nodes sorted by the absolute value of the residuals of the ranks:\n")
+        f.write("node_id\tscore\ttype\n")
         for node in top_k_nodes:
-            f.write(f"{node}\t")
+            f.write(f"{node[0]}\t{node[1]}\t")
             # write node type to file
-            f.write(f"Type: {g.nodes[node[0]]['type']}\n")
+            f.write(f"{g.nodes[node[0]]['type']}\n")
 
 def mean_average_precision_at_k(g, top_nodes, k):   
     """
