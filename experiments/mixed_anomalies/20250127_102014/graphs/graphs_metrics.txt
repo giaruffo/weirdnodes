@@ -1,0 +1,26 @@
+Graph g0: Number of nodes: 212, Number of links: 2885
+Graph g0: Min, Max, Avg, Std of degree: 14, 48, 27.21698113207547, 5.145074062912171
+Graph g0: Min, Max, Avg, Std of in_degree: 3, 28, 13.608490566037736, 3.865976845105533
+Graph g0: Min, Max, Avg, Std of out_degree: 5, 25, 13.608490566037736, 3.5198257333719276
+Graph g0: Min, Max, Avg, Std of strength: 11348.086882567937, 36127.227274464596, 21821.863049328756, 4837.200791814069
+Graph g0: Min, Max, Avg, Std of in_strength: 1456.2206813110902, 20525.191659365148, 10910.931524664382, 3583.235332096546
+Graph g0: Min, Max, Avg, Std of out_strength: 3488.940627689178, 22903.325115344298, 10910.931524664382, 3561.9273889496103
+Graph g0: Min, Max, Avg, Std of edges' weights: (0.03639405032684806, 4250.731474777525, 801.7738243427548, 609.455258319436)
+Graph g0: Average clustering: 0.06414673514056805
+Graph g0: Average shortest path length: 2.330814629348118
+Graph g0: Diameter: 4
+Graph g0: Density: 0.06449521595278548
+-----------------------------------
+Graph g1: Number of nodes: 212, Number of links: 2932
+Graph g1: Min, Max, Avg, Std of degree: 14, 49, 27.660377358490567, 5.233936417615168
+Graph g1: Min, Max, Avg, Std of in_degree: 3, 29, 13.830188679245284, 4.152679739758884
+Graph g1: Min, Max, Avg, Std of out_degree: 4, 25, 13.830188679245284, 3.6805754731368774
+Graph g1: Min, Max, Avg, Std of strength: 10854.74612631785, 55617.665080674924, 22439.300502142763, 5668.652235891549
+Graph g1: Min, Max, Avg, Std of in_strength: 793.052299290579, 50867.562922484365, 11219.650251071385, 4700.93374595435
+Graph g1: Min, Max, Avg, Std of out_strength: 3099.19523136943, 48355.44014827747, 11219.650251071384, 4478.302640255897
+Graph g1: Min, Max, Avg, Std of edges' weights: (-2661.7857732238635, 38031.16988653438, 811.2434697227599, 927.1014414781592)
+Graph g1: Average clustering: 0.06569569735041274
+Graph g1: Average shortest path length: 2.323303228114102
+Graph g1: Diameter: 4
+Graph g1: Density: 0.06554591791111508
+-----------------------------------

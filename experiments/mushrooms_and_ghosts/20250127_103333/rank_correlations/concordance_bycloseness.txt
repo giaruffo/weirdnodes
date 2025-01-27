@@ -1,0 +1,4 @@
+Kendall's tau: 1.0
+Spearman's rho: 1.0
+Kendall's tau signal: Perfect
+Spearman's rho signal: Perfect

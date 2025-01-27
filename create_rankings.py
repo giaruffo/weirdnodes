@@ -157,8 +157,11 @@ def plot_ranked_nodes_comparison(g, ranks1, ranks2, title):
         elif node_type == 'intermediary':
             colors.append('purple')
             texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
-        else:
+        elif node_type == 'normal':
             colors.append('cyan')
+        else:   # it takes into account otherwise labeled nodes
+            colors.append('darkred')
+            texts.append((ranks2[node] + 1, ranks1[node] + 1, str(node)))
 
         # calculate the residuals for the nodes
         residual = (ranks1[node] + 1) - (ranks2[node] + 1)
