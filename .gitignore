@@ -3,3 +3,7 @@
 old_main.py
 pickles/bic_degree_weights.pkl
 pickles/country_degree_weights.pkl
+experiments/black_holes_and_volcanoes/find_minimal_optimal_union.py
+experiments/black_holes_and_volcanoes/merge_results.py
+experiments/black_holes_and_volcanoes/merged_results.txt
+experiments/black_holes_and_volcanoes/anomalies_strategies.txt
