@@ -1,5 +1,5 @@
 
-from config import TOP_K
+from globals import TOP_K
 
 # rank_nodes_by_summation_strategy gets a dictionary whose key is a centrality measure
 # and the value is a list of nodes sorted by the rank's residuals defined by the centrality measure.

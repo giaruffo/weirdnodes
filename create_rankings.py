@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 import networkx as nx
 import pandas as pd
-from config import WORKING_DIRECTORY, TOP_K  # Import working_directory and TOP_K from config.py
+from globals import WORKING_DIRECTORY, TOP_K  # Import working_directory and TOP_K from globals.py
 
 def rank_nodes_by_centrality(g, centrality_measure):
     """

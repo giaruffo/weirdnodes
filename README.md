@@ -8,7 +8,7 @@ Crime Domain" by Salvatore Vilella, Arthur T. E. C. Lupi, Marco Fornasiero, Dari
 
 ## Configuration
 
-The configuration file `config.py` contains the following parameters:
+The configuration file `globals.py` contains the following parameters:
 - `RANDOM_FUNCTION`: The random function to use for perturbating the network.
 - `MEAN`, `STD_DEV`: The mean and standard deviation of the random function.
 - `NUM_NODES_TO_PERTURB`: The number of nodes to perturb.
@@ -26,7 +26,7 @@ You can change these parameters to fit your needs.
 
 ## Usage
 
-To run the code, run main.py, after you set the experiment type in config.py. For example, to run an experiment that perturates the network with volcanoes and blackholes nodes, set EXPERIMENT_TYPE = ExperimentType.ER_VOLCANOES_AND_BLACKHOLES in config.py, and then run command: `python main.py`
+To run the code, run main.py, after you set the experiment type in globals.py. For example, to run an experiment that perturates the network with volcanoes and blackholes nodes, set EXPERIMENT_TYPE = ExperimentType.ER_VOLCANOES_AND_BLACKHOLES in globals.py, and then run command: `python main.py`
 
 ## File `net_perturbation.py` contains functions that perturb the network given as input 
 
@@ -146,5 +146,6 @@ To run the code, run main.py, after you set the experiment type in config.py. Fo
     The plots are arranged in a 3x3 grid and saved as a PNG file in the 'plots' directory
     within the working directory, with the filename format 'distributions_<graph_name>.png'.
 
-
+## LICENSE
+This project is licensed under the BSD-3 License. See the LICENSE file for more details.
 

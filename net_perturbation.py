@@ -2,7 +2,7 @@ import networkx as nx
 import random
 import matplotlib.pyplot as plt
 import numpy as np
-from config import *
+from globals import *
 
 def perturb_network_by_nodes(g0, n):
     """

@@ -78,7 +78,7 @@ MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR = 10, 100
 TOP_K = 30
 
 # Save the configuration to a file
-config_file_path = os.path.join(WORKING_DIRECTORY, "config.txt")
+config_file_path = os.path.join(WORKING_DIRECTORY, "globals.txt")
 with open(config_file_path, "w") as config_file:
     config_file.write(f"Working Directory: {WORKING_DIRECTORY}\n")
     config_file.write(f"Expertiment type: {EXPERIMENT_TYPE}\n")

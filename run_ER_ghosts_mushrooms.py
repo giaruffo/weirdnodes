@@ -46,7 +46,7 @@ Functions:
 
 import net_perturbation as nper
 import networkx as nx
-from config import *
+from globals import *
 from outliers_detection_proc import weirdnodes
 
 def run():
@@ -55,7 +55,7 @@ def run():
 
     # Add weights to the edges
     for u, v, d in g0.edges(data=True):
-        d['weight'] = abs(RANDOM_FUNCTION(MEAN, STD_DEV))  # select random weights from a the distribution set in config.py
+        d['weight'] = abs(RANDOM_FUNCTION(MEAN, STD_DEV))  # select random weights from a the distribution set in globals.py
        
     # Create the perturbation by nodes 
     print("Perturbating the network by perturbating some edges' weights...")

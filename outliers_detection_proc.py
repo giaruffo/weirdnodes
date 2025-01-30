@@ -1,4 +1,4 @@
-from config import *
+from globals import *
 import concordance_check as cc
 import create_rankings as cr
 import net_perturbation as nper
@@ -41,7 +41,7 @@ def weirdnodes(g0,g1):
         kendallSignal, kendall = cc.concordance_check(ranks['g0'], ranks['g1'])
         spearmanSignal, spearman = cc.concordance_check(ranks['g0'], ranks['g1'], spearmanr)
 
-        # store the concordance results in a file in the working directory as defined in config.py
+        # store the concordance results in a file in the working directory as defined in globals.py
         concordance_file_path = os.path.join(WORKING_DIRECTORY+f'/rank_correlations', f"concordance_by{centrality_measure}.txt")
         with open(concordance_file_path, "w") as f:
             f.write(f"Kendall's tau: {kendall}\n")
@@ -49,6 +49,9 @@ def weirdnodes(g0,g1):
             f.write(f"Kendall's tau signal: {kendallSignal}\n")
             f.write(f"Spearman's rho signal: {spearmanSignal}\n")
 
+        # uncomment the following line if you accept a moderate signal
+        # if (0.26 < kendall < 0.9999 and 0.38 < spearman < 0.9999):
+        # comment the following line if you accept a moderate signal
         if (0.49 < kendall < 0.9999 and 0.68 < spearman < 0.9999):
             # plot the ranked nodes comparison and get the top k nodes sorted by the 
             # absolute value of the residuals of the ranks
@@ -66,12 +69,12 @@ def weirdnodes(g0,g1):
     evaluation_bloc(g1, top_k_nodes_sorted_by_summation_strategy, 'summation_strategy')
     evaluation_bloc(g1, top_k_nodes_sorted_by_strict_summation_strategy, 'strict_summation_strategy')
 
-    # store graphs in files in the working directory as defined in config.py
+    # store graphs in files in the working directory as defined in globals.py
     print("Storing graphs in gml files...")
     nx.write_gml(g0, os.path.join(WORKING_DIRECTORY+'/graphs', 'g0.gml'))
     nx.write_gml(g1, os.path.join(WORKING_DIRECTORY+'/graphs', 'g1.gml'))
 
-    # store nodes ranks and other attributes in files in the working directory as defined in config.py as csv files
+    # store nodes ranks and other attributes in files in the working directory as defined in globals.py as csv files
     print("Storing nodes ranks and other attributes in csv files...")
     for graph_name in ['g0', 'g1']:
         cr.store_nodes_ranks(locals()[graph_name], graph_name, CENTRALITY_MEASURES)
@@ -94,7 +97,7 @@ def weirdnodes(g0,g1):
 
 
 def evaluation_bloc(g, top_k_nodes, strategy):
-    # store the top k nodes in a file in the working directory as defined in config.py
+    # store the top k nodes in a file in the working directory as defined in globals.py
     print(f"Storing top k nodes (sorted by the mixed strategy in a file...")
     ev.store_top_k_nodes_in_file(g, top_k_nodes, strategy)
 
@@ -103,7 +106,7 @@ def evaluation_bloc(g, top_k_nodes, strategy):
     print(f"Calculating evaluation results (strategy: {strategy})...")
     precisions, recalls, avg_precisions = ev.evaluate_results(g, top_k_nodes)
 
-    # store and plot the results in a file in the working directory as defined in config.py
+    # store and plot the results in a file in the working directory as defined in globals.py
     ev.store_and_plot_evaluation_results(strategy, precisions, recalls, avg_precisions)
 
     # save evaluation summary in a latex file

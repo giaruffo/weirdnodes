@@ -1,4 +1,4 @@
-from config import ConcordanceSignal
+from globals import ConcordanceSignal
 from scipy.stats import spearmanr, kendalltau
 
 
@@ -20,7 +20,7 @@ def concordance_check(rank1: List[float], rank2: List[float], correlation_func: 
     tuple: A tuple containing a ConcordanceSignal and the correlation value.
     """
     correlation = correlation_func(rank1, rank2)[0]
-    if correlation == 1:
+    if correlation > .9999999:
         return ConcordanceSignal.PERFECT, correlation
     elif correlation > .9:
         return ConcordanceSignal.VERYSTRONG, correlation

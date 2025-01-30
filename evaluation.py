@@ -2,7 +2,7 @@
 
 import os
 import matplotlib.pyplot as plt
-from config import *
+from globals import *
 
 def precision_at_k(g,top_nodes, k):
     """
@@ -123,10 +123,10 @@ def store_and_plot_evaluation_results(strategy, precisions, recalls, avg_precisi
     The function performs the following steps:
     1. Stores precision, recall, and average precision values in separate text files.
     2. Plots the precision, recall, and average precision values against k and saves the plot as a PNG file.
-    The files are saved in directories specified by the WORKING_DIRECTORY variable defined in config.py.
+    The files are saved in directories specified by the WORKING_DIRECTORY variable defined in globals.py.
     """
     
-    # store the results in a file in the working directory as defined in config.py
+    # store the results in a file in the working directory as defined in globals.py
     print(f"Storing evaluation results (by {strategy}) in files...")
     precision_at_k_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"precision_at_k_{strategy}.txt")
     recall_at_k_file_path = os.path.join(WORKING_DIRECTORY+'/evaluation_results', f"recall_at_k_{strategy}.txt")
