@@ -6,6 +6,12 @@ This repository contains the code for the paper "WeirdNodes: Centrality Based An
 on Temporal Networks for the Anti-Financial
 Crime Domain" by Salvatore Vilella, Arthur T. E. C. Lupi, Marco Fornasiero, Dario Moncalvo, Valeria Ricci, Silvia Ronchiadin, and Giancarlo Ruffo.
 
+This software is NOT the code that we used to analyze the real data on the 80 million cross-country wire transfers described in the paper, and all the information connected with that data structure is omitted here. **The code we used for that analysis is not available, and as for the related data we are not allowed to share it**. However, we provide the code that we used to analyze the synthetic data, which is described in the paper. It is also possible to use this code with other datasets, once edgelists are properly provided. 
+
+## Installation
+
+The code is written in Python and it is based on the NetworkX library. 
+
 ## Configuration
 
 The configuration file `globals.py` contains the following parameters:
