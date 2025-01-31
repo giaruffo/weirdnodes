@@ -1,4 +1,0 @@
-Kendall's tau: 0.9643208441384246
-Spearman's rho: 0.958999638535856
-Kendall's tau signal: Very Strong
-Spearman's rho signal: Very Strong

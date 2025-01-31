@@ -163,6 +163,19 @@ def perturb_network_by_links(g0, n):
             g1[edge[0]][edge[1]]['weight'] *= random.uniform(MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR)         
     return g1
 
+def add_node_type(g, path='/Users/acapozzi/Desktop/ISP/weirdFlowsEnron/data_enron/'):
+    import pandas as pd
+    poi = pd.read_csv(path+"enron_poi.csv")
+    poi = poi.rename(columns={'Unnamed: 0': 'name'})
+    poi_email = poi.set_index('email_address')['poi'].to_dict()
+    poi_email = {p: 'POI' if poi_email[p] else 'normal' for p in poi_email}
+    for node in g.nodes:
+        if node not in poi_email:
+            g.nodes[node]['type'] = 'normal'
+        else:
+            g.nodes[node]['type'] = 'POI'
+    return g
+
 # Create a function to perturb the network selecting a random number of links to remove, 
 # and for each removed link, we select a random number of nodes to be used as new intermediary nodes between 
 # the source and target nodes.
@@ -320,8 +333,11 @@ def store_graph_metrics_infile(f, g, graph_name):
 
     # clustering coefficient, average shortest path length, diameter, and density
     f.write(f"Graph {graph_name}: Average clustering: {nx.average_clustering(g)}\n")
-    f.write(f"Graph {graph_name}: Average shortest path length: {nx.average_shortest_path_length(g)}\n")
-    f.write(f"Graph {graph_name}: Diameter: {nx.diameter(g)}\n")
+    if nx.is_strongly_connected(g):
+        f.write(f"Graph {graph_name}: Average shortest path length: {nx.average_shortest_path_length(g)}\n")
+        f.write(f"Graph {graph_name}: Diameter: {nx.diameter(g)}\n")
+    else:
+        print('The graph is not strongly connected, the average shortest path length and diameter are not calculated.')
     f.write(f"Graph {graph_name}: Density: {nx.density(g)}\n")
     f.write("-----------------------------------\n")
 

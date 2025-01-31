@@ -13,6 +13,7 @@ from config import TOP_K
 # The normalization is done by dividing the rank of the node by the number of nodes in the graph
 # The sum of the normalized ranks is the mixed strategy rank of the node
 def rank_nodes_by_summation_strategy(nodes_sorted_dict):
+    print(nodes_sorted_dict)
     # get the number of nodes in the graph
     num_nodes = len(nodes_sorted_dict[list(nodes_sorted_dict.keys())[0]])
     # create a dictionary to store the sum of the normalized ranks of each node

@@ -33,8 +33,8 @@ def weirdnodes(g0,g1):
         centralities_g1 = g1.nodes(data=centrality_measure)
 
         # plot graphs with the same layout and save them to files
-        print("Plotting graphs...")
-        nper.plot_graphs_comparison(g0, g1, centralities_g0, centralities_g1, centrality_measure)
+        # print("Plotting graphs...")
+        # nper.plot_graphs_comparison(g0, g1, centralities_g0, centralities_g1, centrality_measure)
 
         # Calculate the concordance between the two rankings
         print(f"Calculating concordance between the two rankings (by {centrality_measure})...")
@@ -49,7 +49,7 @@ def weirdnodes(g0,g1):
             f.write(f"Kendall's tau signal: {kendallSignal}\n")
             f.write(f"Spearman's rho signal: {spearmanSignal}\n")
 
-        if (0.49 < kendall < 0.9999 and 0.68 < spearman < 0.9999):
+        if (kendall_lowerbound < kendall < kendall_upperbound and spearman_lowerbound < spearman < spearman_upperbound):
             # plot the ranked nodes comparison and get the top k nodes sorted by the 
             # absolute value of the residuals of the ranks
             print(f"Plotting ranked nodes (by {centrality_measure}) comparison...")

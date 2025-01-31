@@ -1,0 +1,22 @@
+Graph g0: Number of nodes: 7708, Number of links: 5973
+Graph g0: Min, Max, Avg, Std of degree: 0, 191, 1.5498183705241309, 6.275315825198221
+Graph g0: Min, Max, Avg, Std of in_degree: 0, 70, 0.7749091852620654, 2.6906415741402006
+Graph g0: Min, Max, Avg, Std of out_degree: 0, 131, 0.7749091852620654, 4.2905090016279
+Graph g0: Min, Max, Avg, Std of strength: 0, 8787, 9.281785158277115, 113.33421372815847
+Graph g0: Min, Max, Avg, Std of in_strength: 0, 4394, 4.640892579138558, 53.995197165110916
+Graph g0: Min, Max, Avg, Std of out_strength: 0, 4393, 4.640892579138558, 64.51942216789023
+Graph g0: Min, Max, Avg, Std of edges' weights: (1, 4392, 5.988950276243094, 58.18167691808311)
+Graph g0: Average clustering: 0.017090539915232985
+Graph g0: Density: 0.00010054615093578116
+-----------------------------------
+Graph g1: Number of nodes: 7708, Number of links: 8179
+Graph g1: Min, Max, Avg, Std of degree: 0, 178, 2.1222106901920084, 7.033031244120724
+Graph g1: Min, Max, Avg, Std of in_degree: 0, 125, 1.0611053450960042, 3.788352047105027
+Graph g1: Min, Max, Avg, Std of out_degree: 0, 103, 1.0611053450960042, 4.274722340398411
+Graph g1: Min, Max, Avg, Std of strength: 0, 2374, 9.252983912817852, 50.22234770291174
+Graph g1: Min, Max, Avg, Std of in_strength: 0, 929, 4.626491956408926, 24.512876609252082
+Graph g1: Min, Max, Avg, Std of out_strength: 0, 1519, 4.626491956408926, 33.02089978039694
+Graph g1: Min, Max, Avg, Std of edges' weights: (1, 508, 4.360068468027876, 11.898892420372587)
+Graph g1: Average clustering: 0.01926427102729346
+Graph g1: Density: 0.0001376807246783449
+-----------------------------------
