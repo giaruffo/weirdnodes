@@ -13,5 +13,8 @@ elif globals.EXPERIMENT_TYPE == "ER_INTERMEDIARIES":
 elif globals.EXPERIMENT_TYPE == "ER_MIXED_ANOMALIES":
     import run_ER_mixed_anomalies
     run_ER_mixed_anomalies.run()
+elif globals.EXPERIMENT_TYPE == "FROM_EDGELISTS":
+    import run_from_edgelists
+    run_from_edgelists.run()
 else:
     print("Invalid EXPERIMENT_TYPE")

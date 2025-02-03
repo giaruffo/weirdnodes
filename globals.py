@@ -26,9 +26,10 @@ class ExperimentType:
     ER_GHOSTS_MUSHROOMS = "ER_GHOSTS_MUSHROOMS"
     ER_INTERMEDIARIES = "ER_INTERMEDIARIES"
     ER_MIXED_ANOMALIES = "ER_MIXED_ANOMALIES"
+    FROM_EDGELISTS = "FROM_EDGELISTS"
 
 # Set the experiment type
-EXPERIMENT_TYPE = ExperimentType.ER_VOLCANOES_AND_BLACKHOLES
+EXPERIMENT_TYPE = ExperimentType.ER_MIXED_ANOMALIES
 
 # Number of nodes in the original graph
 NUM_NODES = 212
@@ -76,6 +77,10 @@ MUSHROOM_LINK_MIN_FACTOR, MUSHROOM_LINK_MAX_FACTOR = 10, 100
 
 # set the top k nodes to be returned in the outlier identification task 
 TOP_K = 30
+
+# set lowerbound and upperbound for kendall and spearman concordance coefficients
+kendall_lowerbound, kendall_upperbound = 0.29, 0.9999
+spearman_lowerbound, spearman_upperbound = 0.48, 0.9999
 
 # Save the configuration to a file
 config_file_path = os.path.join(WORKING_DIRECTORY, "globals.txt")
