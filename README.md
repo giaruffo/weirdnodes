@@ -2,9 +2,17 @@
 
 ## Description
 
-This repository contains the code for the paper "WeirdNodes: Centrality Based Anomaly Detection
-on Temporal Networks for the Anti-Financial
-Crime Domain" by Salvatore Vilella, Arthur T. E. C. Lupi, Marco Fornasiero, Dario Moncalvo, Valeria Ricci, Silvia Ronchiadin, and Giancarlo Ruffo.
+This repository contains the code for the paper "Weirdnodes: centrality based anomaly detection on temporal networks for the anti-financial crime domain" by Salvatore Vilella, Arthur T. E. C. Lupi, Marco Fornasiero, Dario Moncalvo, Valeria Ricci, Silvia Ronchiadin, and Giancarlo Ruffo.
+
+The code is designed to analyze the structure of directed and weighted graphs, specifically focusing on the detection of anomalies in financial transaction networks. The code includes functions for perturbing networks, calculating centrality measures, and visualizing the results.
+
+## Reference to paper
+
+We would be pleased if you add a reference to the following paper if you use this code in your analyses. The paper also contains some illustrative experiments that can be useful to better understand the scope and the limitations of the software.
+
+Vilella, S., Capozzi, A., Fornasiero, M. et al. Weirdnodes: centrality based anomaly detection on temporal networks for the anti-financial crime domain. *Appl Netw Sci* 10, 14 (2025).[https://doi.org/10.1007/s41109-025-00702-1](https://doi.org/10.1007/s41109-025-00702-1)
+
+## Disclaimer
 
 This software is NOT the code that we used to analyze the real data on the 80 million cross-country wire transfers described in the paper, and all the information connected with that data structure is omitted here. **The code we used for that analysis is not available, and as for the related data we are not allowed to share it**. However, we provide the code that we used to analyze the synthetic data, which is described in the paper. It is also possible to use this code with other datasets, once edgelists are properly provided. 
 
